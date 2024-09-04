@@ -1,2 +1,2 @@
-# lol_dictionary_wordpress
-LOLのアイテム、キャラ性能の一覧を眺めるためのサイト
+# local_labo_wordpress
+ローカル環境でwordpressの実験をするためのプロジェクトです。
