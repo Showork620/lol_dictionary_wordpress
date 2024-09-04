@@ -54,4 +54,8 @@
 	const nomalItems = getItems(ITEMDATA, mapNumber['Summoners Rift']);
 	console.log("Nomal Items: ", nomalItems);
 
+	// JSON文字列に変換
+	const jsonString = JSON.stringify(nomalItems, null, 2);
+
+	console.log("JSON: ", jsonString);
 })();
