@@ -22,9 +22,10 @@
 	// 不要なアイテムやプロパティを削除
 	Object.keys(ITEMDATA).forEach(key => {
 		const item = ITEMDATA[key];
-		if (item.description === "" && item.inStore === false) {
+		if (item.description === "" && item.inStore === false || item.requiredChampion) {
 			delete ITEMDATA[key];
 		}
+		item.id = key;
 		item.gold = item.gold.total;
 		item.image = item.image.full;
 		delete item.effect;
@@ -33,16 +34,11 @@
 		delete item.consumed;
 	});
 
-	// サモりフとARAMを表す番号
-	const mapNumber = {
-		'Summoners Rift': 11,
-		'Howling Abyss': 12
-	}
-
-	function getItems( itemOriginData, mapNumber ) {
+	function getItems( itemOriginData ) {
 		const newItemData = Object.keys(itemOriginData).reduce((object, key) => {
 			const item = itemOriginData[key];
-			if (item.maps[mapNumber]) {
+			// サモリフかARAMのアイテムのみを取得
+			if (item.maps[11] || item.maps[12]) {
 				object[key] = item;
 			}
 			return object;
@@ -51,8 +47,7 @@
 		return newItemData;
 	}
 
-	const nomalItems = getItems(ITEMDATA, mapNumber['Summoners Rift']);
-	console.log("Nomal Items: ", nomalItems);
+	const nomalItems = getItems(ITEMDATA);
 
 	// JSON文字列に変換
 	const jsonString = JSON.stringify(nomalItems, null, 2);
