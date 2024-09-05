@@ -1,6 +1,6 @@
 <?php
 /**
- *  カスタム投稿を追加
+ *  カスタム投稿タイプの作成
  *
  * @return void
  */
@@ -35,9 +35,15 @@ function create_custom_post_types() {
 }
 add_action('init', 'create_custom_post_types');
 
+
+/**
+ *  カスタム投稿タイプにカスタムフィールドを追加
+ *
+ * @return void
+ */
 function register_custom_fields() {
 	add_action('add_meta_boxes', function() {
-			add_meta_box('custom_fields', 'Custom Fields', 'custom_fields_callback', array('nomal_item', 'aram_item'), 'normal', 'high');
+        add_meta_box('custom_fields', 'Custom Fields', 'custom_fields_callback', array('nomal_item', 'aram_item'), 'normal', 'high');
 	});
 
 	function custom_fields_callback($post) {
@@ -64,6 +70,12 @@ function register_custom_fields() {
 }
 add_action('init', 'register_custom_fields');
 
+
+/**
+ * JSONファイルからカスタム投稿を自動作成
+ *
+ * @return void
+ */
 function create_custom_posts_from_json($json_file, $post_type) {
 
 	// JSONデータを読み込む
@@ -110,8 +122,8 @@ function create_custom_posts_from_json($json_file, $post_type) {
 				}
 			}
 		} else {
-				// JSONデータが正しくデコードされなかった場合の処理
-				echo 'Error: JSON data could not be decoded.';
+            // JSONデータが正しくデコードされなかった場合の処理
+            echo 'Error: JSON data could not be decoded.';
 		}
 	} else {
 		// ファイルが存在しない場合の処理
@@ -119,17 +131,68 @@ function create_custom_posts_from_json($json_file, $post_type) {
 	}
 }
 
+/**
+ * カスタム投稿を作成（json名と投稿タイプを指定）
+ *
+ * @return void
+ */
 // Nomal Items のカスタム投稿を作成
-add_action('init', function() {
-	create_custom_posts_from_json('nomal_items.json', 'nomal_item');
-});
+// add_action('init', function() {
+// 	create_custom_posts_from_json('nomal_items.json', 'nomal_item');
+// });
 
 // Aram Items のカスタム投稿を作成
 // add_action('init', function() {
 // 	create_custom_posts_from_json('aram_items.json', 'aram_item');
 // });
 
-// 投稿一覧の管理画面上の並び方を名前順で固定
+
+/**
+ * カスタム投稿のアイキャッチ画像を設定
+ *
+ * @return void
+ */
+function set_custom_post_thumbnail($post_id) {
+    // 投稿タイプをチェック（必要に応じてカスタム投稿タイプを指定）
+    $post_type = get_post_type($post_id);
+    if ($post_type !== 'nomal_item' && $post_type !== 'aram_item') {
+        return;
+    }
+
+    // カスタムフィールド「id」の値を取得
+    $custom_id = get_post_meta($post_id, 'id', true);
+    if (!$custom_id) {
+        return;
+    }
+
+    // メディアライブラリからファイル名が一致する画像を検索
+    $filename = $custom_id . '.png';
+    $args = array(
+        'post_type' => 'attachment',
+        'meta_query' => array(
+            array(
+                'key' => '_wp_attached_file',
+                'value' => $filename,
+                'compare' => 'LIKE'
+            )
+        )
+    );
+    $attachments = get_posts($args);
+
+    if ($attachments) {
+        // 最初の一致する画像をアイキャッチ画像として設定
+        $attachment_id = $attachments[0]->ID;
+        set_post_thumbnail($post_id, $attachment_id);
+    }
+}
+add_action('save_post', 'set_custom_post_thumbnail');
+
+
+/**
+ * 投稿一覧の並び順を名前順に変更
+ *
+ * @return void
+ */
 function set_custom_post_order($query) {
 	if (!is_admin() || !$query->is_main_query()) {
 		return;
@@ -143,20 +206,22 @@ function set_custom_post_order($query) {
 add_action('pre_get_posts', 'set_custom_post_order');
 
 
-// // 投稿を削除
-// function delete_all_custom_posts() {
-//     // カスタム投稿タイプ 'custom_item' の全ての投稿を取得
-//     $custom_posts = get_posts(array(
-//         'post_type' => 'nomal_item', // カスタム投稿タイプのスラッグ
-//         'numberposts' => -1, // 全ての投稿を取得
-//         'post_status' => 'any', // 全てのステータスの投稿を取得
-//     ));
+/**
+ * 投稿を全てリセットするための関数
+ *
+ * @return void
+ */
+function delete_all_custom_posts() {
+    // カスタム投稿タイプ 'custom_item' の全ての投稿を取得
+    $custom_posts = get_posts(array(
+        'post_type' => 'nomal_item', // カスタム投稿タイプのスラッグ
+        'numberposts' => -1, // 全ての投稿を取得
+        'post_status' => 'any', // 全てのステータスの投稿を取得
+    ));
 
-//     // 取得した投稿を削除
-//     foreach ($custom_posts as $post) {
-//         wp_delete_post($post->ID, true); // 第二引数を true にするとゴミ箱を経由せず完全に削除
-//     }
-// }
-
-// // この関数を適切なフックで呼び出します。例えば、管理画面での操作時に実行する場合：
+    // 取得した投稿を削除
+    foreach ($custom_posts as $post) {
+        wp_delete_post($post->ID, true); // 第二引数を true にするとゴミ箱を経由せず完全に削除
+    }
+}
 // add_action('admin_init', 'delete_all_custom_posts');
