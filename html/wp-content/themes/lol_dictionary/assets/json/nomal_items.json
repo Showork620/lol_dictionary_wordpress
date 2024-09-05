@@ -29,7 +29,8 @@
 	  },
 	  "stats": {
 		"FlatMovementSpeedMod": 25
-	  }
+	  },
+	  "id": "1001"
 	},
 	"1004": {
 	  "name": "フェアリー チャーム",
@@ -53,7 +54,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "1004"
 	},
 	"1006": {
 	  "name": "再生の珠",
@@ -77,7 +79,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "1006"
 	},
 	"1011": {
 	  "name": "ジャイアント ベルト",
@@ -113,7 +116,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 350
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "1011"
 	},
 	"1018": {
 	  "name": "アジリティ クローク",
@@ -143,7 +147,8 @@
 	  },
 	  "stats": {
 		"FlatCritChanceMod": 0.15
-	  }
+	  },
+	  "id": "1018"
 	},
 	"1026": {
 	  "name": "ブラスティング ワンド",
@@ -172,7 +177,8 @@
 	  },
 	  "stats": {
 		"FlatMagicDamageMod": 45
-	  }
+	  },
+	  "id": "1026"
 	},
 	"1027": {
 	  "name": "サファイア クリスタル",
@@ -198,7 +204,8 @@
 	  },
 	  "stats": {
 		"FlatMPPoolMod": 250
-	  }
+	  },
+	  "id": "1027"
 	},
 	"1028": {
 	  "name": "ルビー クリスタル",
@@ -245,7 +252,8 @@
 	  },
 	  "stats": {
 		"FlatHPPoolMod": 150
-	  }
+	  },
+	  "id": "1028"
 	},
 	"1029": {
 	  "name": "クロース アーマー",
@@ -280,7 +288,8 @@
 	  },
 	  "stats": {
 		"FlatArmorMod": 15
-	  }
+	  },
+	  "id": "1029"
 	},
 	"1031": {
 	  "name": "チェイン ベスト",
@@ -314,7 +323,8 @@
 	  "stats": {
 		"FlatArmorMod": 40
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "1031"
 	},
 	"1033": {
 	  "name": "ヌルマジック マント",
@@ -348,7 +358,8 @@
 	  },
 	  "stats": {
 		"FlatSpellBlockMod": 20
-	  }
+	  },
+	  "id": "1033"
 	},
 	"1036": {
 	  "name": "ロング ソード",
@@ -391,7 +402,8 @@
 	  },
 	  "stats": {
 		"FlatPhysicalDamageMod": 10
-	  }
+	  },
+	  "id": "1036"
 	},
 	"1037": {
 	  "name": "ピッケル",
@@ -432,7 +444,8 @@
 	  },
 	  "stats": {
 		"FlatPhysicalDamageMod": 25
-	  }
+	  },
+	  "id": "1037"
 	},
 	"1038": {
 	  "name": "B. F. ソード",
@@ -463,7 +476,8 @@
 	  },
 	  "stats": {
 		"FlatPhysicalDamageMod": 40
-	  }
+	  },
+	  "id": "1038"
 	},
 	"1040": {
 	  "name": "オブシディアン エッジ",
@@ -484,7 +498,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "1040"
 	},
 	"1042": {
 	  "name": "ダガー",
@@ -517,7 +532,8 @@
 	  },
 	  "stats": {
 		"PercentAttackSpeedMod": 0.1
-	  }
+	  },
+	  "id": "1042"
 	},
 	"1043": {
 	  "name": "リカーブ ボウ",
@@ -551,7 +567,8 @@
 	  "stats": {
 		"PercentAttackSpeedMod": 0.15
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "1043"
 	},
 	"1052": {
 	  "name": "増魔の書",
@@ -591,7 +608,8 @@
 	  },
 	  "stats": {
 		"FlatMagicDamageMod": 20
-	  }
+	  },
+	  "id": "1052"
 	},
 	"1053": {
 	  "name": "ヴァンパイア セプター",
@@ -625,7 +643,8 @@
 		"FlatPhysicalDamageMod": 15,
 		"PercentLifeStealMod": 0.07
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "1053"
 	},
 	"1054": {
 	  "name": "ドラン シールド",
@@ -649,7 +668,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 110,
 		"FlatHPRegenMod": 0.8
-	  }
+	  },
+	  "id": "1054"
 	},
 	"1055": {
 	  "name": "ドラン ブレード",
@@ -675,7 +695,8 @@
 		"FlatHPPoolMod": 80,
 		"FlatPhysicalDamageMod": 10,
 		"PercentLifeStealMod": 0.03
-	  }
+	  },
+	  "id": "1055"
 	},
 	"1056": {
 	  "name": "ドラン リング",
@@ -700,7 +721,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 90,
 		"FlatMagicDamageMod": 18
-	  }
+	  },
+	  "id": "1056"
 	},
 	"1057": {
 	  "name": "ネガトロン クローク",
@@ -732,7 +754,8 @@
 	  "stats": {
 		"FlatSpellBlockMod": 50
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "1057"
 	},
 	"1058": {
 	  "name": "ムダニ デカイ ロッド",
@@ -762,7 +785,8 @@
 	  },
 	  "stats": {
 		"FlatMagicDamageMod": 70
-	  }
+	  },
+	  "id": "1058"
 	},
 	"1082": {
 	  "name": "ダーク シール",
@@ -789,7 +813,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 50,
 		"FlatMagicDamageMod": 15
-	  }
+	  },
+	  "id": "1082"
 	},
 	"1083": {
 	  "name": "カル",
@@ -812,7 +837,8 @@
 	  },
 	  "stats": {
 		"FlatPhysicalDamageMod": 7
-	  }
+	  },
+	  "id": "1083"
 	},
 	"1101": {
 	  "name": "スコーチクロウの幼体",
@@ -831,7 +857,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "1101"
 	},
 	"1102": {
 	  "name": "ガストウォーカーの幼体",
@@ -850,7 +877,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "1102"
 	},
 	"1103": {
 	  "name": "モスストンパーの幼体",
@@ -869,7 +897,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "1103"
 	},
 	"1502": {
 	  "name": "強化装甲",
@@ -891,7 +920,8 @@
 		"30": true,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "1502"
 	},
 	"1506": {
 	  "name": "強化装甲",
@@ -913,7 +943,8 @@
 		"30": true,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "1506"
 	},
 	"2003": {
 	  "name": "体力ポーション",
@@ -936,7 +967,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2003"
 	},
 	"2010": {
 	  "name": "英気満点ビスケット",
@@ -955,7 +987,8 @@
 		"30": true,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2010"
 	},
 	"2019": {
 	  "name": "スチール シジル",
@@ -989,7 +1022,8 @@
 		"FlatArmorMod": 30,
 		"FlatPhysicalDamageMod": 15
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "2019"
 	},
 	"2020": {
 	  "name": "ブルータライザー",
@@ -1023,7 +1057,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 25
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "2020"
 	},
 	"2021": {
 	  "name": "トンネル掘り",
@@ -1060,7 +1095,8 @@
 		"FlatHPPoolMod": 250,
 		"FlatPhysicalDamageMod": 15
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "2021"
 	},
 	"2022": {
 	  "name": "輝きのモート",
@@ -1092,7 +1128,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2022"
 	},
 	"2031": {
 	  "name": "詰め替えポーション",
@@ -1118,7 +1155,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2031"
 	},
 	"2033": {
 	  "name": "コラプト ポーション",
@@ -1146,7 +1184,8 @@
 		"33": false
 	  },
 	  "stats": {},
-	  "depth": 2
+	  "depth": 2,
+	  "id": "2033"
 	},
 	"2052": {
 	  "name": "ポロのおやつ",
@@ -1165,7 +1204,8 @@
 		"30": true,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2052"
 	},
 	"2055": {
 	  "name": "コントロール ワード",
@@ -1189,7 +1229,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2055"
 	},
 	"2065": {
 	  "name": "シュレリアの戦歌",
@@ -1221,7 +1262,8 @@
 		"FlatMagicDamageMod": 50,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "2065"
 	},
 	"2138": {
 	  "name": "アイアン エリクサー",
@@ -1244,7 +1286,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2138"
 	},
 	"2139": {
 	  "name": "ソーサリー エリクサー",
@@ -1266,7 +1309,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2139"
 	},
 	"2140": {
 	  "name": "ラース エリクサー",
@@ -1289,7 +1333,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2140"
 	},
 	"2150": {
 	  "name": "スキル エリクサー",
@@ -1309,7 +1354,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2150"
 	},
 	"2151": {
 	  "name": "強欲のエリクサー",
@@ -1331,7 +1377,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2151"
 	},
 	"2152": {
 	  "name": "力のエリクサー",
@@ -1352,7 +1399,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2152"
 	},
 	"2403": {
 	  "name": "ミニオン吸収装置",
@@ -1371,7 +1419,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "2403"
 	},
 	"2420": {
 	  "name": "シーカー アームガード",
@@ -1405,7 +1454,8 @@
 		"FlatMagicDamageMod": 45,
 		"FlatArmorMod": 25
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "2420"
 	},
 	"2421": {
 	  "name": "砕けたアームガード",
@@ -1428,7 +1478,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 45,
 		"FlatArmorMod": 25
-	  }
+	  },
+	  "id": "2421"
 	},
 	"2422": {
 	  "name": "ちょっとだけ魔法がかった靴",
@@ -1459,7 +1510,8 @@
 	  },
 	  "stats": {
 		"FlatMovementSpeedMod": 25
-	  }
+	  },
+	  "id": "2422"
 	},
 	"2501": {
 	  "name": "覇王のブラッドメイル",
@@ -1487,7 +1539,8 @@
 		"FlatHPPoolMod": 500,
 		"FlatPhysicalDamageMod": 40
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "2501"
 	},
 	"2502": {
 	  "name": "終わりなき絶望",
@@ -1518,7 +1571,8 @@
 		"FlatHPPoolMod": 400,
 		"FlatArmorMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "2502"
 	},
 	"2503": {
 	  "name": "黒炎のトーチ",
@@ -1548,7 +1602,8 @@
 		"FlatMPPoolMod": 600,
 		"FlatMagicDamageMod": 90
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "2503"
 	},
 	"2504": {
 	  "name": "ケイニック ルーケルン",
@@ -1577,7 +1632,8 @@
 		"FlatSpellBlockMod": 80,
 		"FlatHPPoolMod": 400
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "2504"
 	},
 	"2508": {
 	  "name": "運命の灰",
@@ -1606,7 +1662,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 30
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "2508"
 	},
 	"3002": {
 	  "name": "先人の道標",
@@ -1636,7 +1693,8 @@
 		"FlatArmorMod": 40,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3002"
 	},
 	"3003": {
 	  "name": "アークエンジェル スタッフ",
@@ -1666,7 +1724,8 @@
 		"FlatMPPoolMod": 600,
 		"FlatMagicDamageMod": 80
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3003"
 	},
 	"3004": {
 	  "name": "マナムネ",
@@ -1698,7 +1757,8 @@
 		"FlatMPPoolMod": 500,
 		"FlatPhysicalDamageMod": 35
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3004"
 	},
 	"3006": {
 	  "name": "バーサーカー ブーツ",
@@ -1729,7 +1789,8 @@
 		"FlatMovementSpeedMod": 45,
 		"PercentAttackSpeedMod": 0.3
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3006"
 	},
 	"3009": {
 	  "name": "スイフトネス ブーツ",
@@ -1754,7 +1815,8 @@
 	  "stats": {
 		"FlatMovementSpeedMod": 60
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3009"
 	},
 	"3010": {
 	  "name": "共生靴底",
@@ -1782,7 +1844,8 @@
 	  "stats": {
 		"FlatMovementSpeedMod": 35
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3010"
 	},
 	"3011": {
 	  "name": "ケミテック ピュートリファイアー",
@@ -1811,7 +1874,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 35
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3011"
 	},
 	"3013": {
 	  "name": "シンクロナイズド ソウル",
@@ -1837,7 +1901,8 @@
 	  "stats": {
 		"FlatMovementSpeedMod": 45
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3013"
 	},
 	"3020": {
 	  "name": "ソーサラー シューズ",
@@ -1863,7 +1928,8 @@
 	  "stats": {
 		"FlatMovementSpeedMod": 45
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3020"
 	},
 	"3024": {
 	  "name": "グレイシャル バックラー",
@@ -1897,7 +1963,8 @@
 		"FlatMPPoolMod": 250,
 		"FlatArmorMod": 20
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3024"
 	},
 	"3026": {
 	  "name": "ガーディアン エンジェル",
@@ -1925,7 +1992,8 @@
 		"FlatArmorMod": 45,
 		"FlatPhysicalDamageMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3026"
 	},
 	"3031": {
 	  "name": "インフィニティ エッジ",
@@ -1954,7 +2022,8 @@
 		"FlatCritChanceMod": 0.25,
 		"FlatPhysicalDamageMod": 80
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3031"
 	},
 	"3032": {
 	  "name": "ユン・タル ワイルドアロー",
@@ -1982,7 +2051,8 @@
 		"FlatCritChanceMod": 0.25,
 		"FlatPhysicalDamageMod": 65
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3032"
 	},
 	"3033": {
 	  "name": "モータル リマインダー",
@@ -2012,7 +2082,8 @@
 		"FlatCritChanceMod": 0.25,
 		"FlatPhysicalDamageMod": 35
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3033"
 	},
 	"3035": {
 	  "name": "ラスト ウィスパー",
@@ -2044,7 +2115,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 20
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3035"
 	},
 	"3036": {
 	  "name": "ドミニク リガード",
@@ -2073,7 +2145,8 @@
 		"FlatCritChanceMod": 0.25,
 		"FlatPhysicalDamageMod": 45
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3036"
 	},
 	"3040": {
 	  "name": "セラフ エンブレイス",
@@ -2099,7 +2172,8 @@
 	  "stats": {
 		"FlatMPPoolMod": 1000,
 		"FlatMagicDamageMod": 80
-	  }
+	  },
+	  "id": "3040"
 	},
 	"3041": {
 	  "name": "メジャイ ソウルスティーラー",
@@ -2127,7 +2201,8 @@
 		"FlatHPPoolMod": 100,
 		"FlatMagicDamageMod": 20
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3041"
 	},
 	"3042": {
 	  "name": "ムラマナ",
@@ -2155,7 +2230,8 @@
 	  "stats": {
 		"FlatMPPoolMod": 860,
 		"FlatPhysicalDamageMod": 35
-	  }
+	  },
+	  "id": "3042"
 	},
 	"3044": {
 	  "name": "ファージ",
@@ -2190,7 +2266,8 @@
 		"FlatHPPoolMod": 200,
 		"FlatPhysicalDamageMod": 15
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3044"
 	},
 	"3046": {
 	  "name": "ファントム ダンサー",
@@ -2221,7 +2298,8 @@
 		"PercentAttackSpeedMod": 0.6,
 		"PercentMovementSpeedMod": 0.12
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3046"
 	},
 	"3047": {
 	  "name": "プレート スチールキャップ",
@@ -2249,7 +2327,8 @@
 		"FlatMovementSpeedMod": 45,
 		"FlatArmorMod": 25
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3047"
 	},
 	"3050": {
 	  "name": "ジーク コンバージェンス",
@@ -2281,7 +2360,8 @@
 		"FlatHPPoolMod": 300,
 		"FlatArmorMod": 25
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3050"
 	},
 	"3051": {
 	  "name": "ハースバウンド アックス",
@@ -2316,7 +2396,8 @@
 		"FlatPhysicalDamageMod": 20,
 		"PercentAttackSpeedMod": 0.2
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3051"
 	},
 	"3053": {
 	  "name": "ステラックの篭手",
@@ -2345,7 +2426,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 400
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3053"
 	},
 	"3057": {
 	  "name": "シーン",
@@ -2375,7 +2457,8 @@
 		"33": false
 	  },
 	  "stats": {},
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3057"
 	},
 	"3065": {
 	  "name": "スピリット ビサージュ",
@@ -2406,7 +2489,8 @@
 		"FlatSpellBlockMod": 60,
 		"FlatHPPoolMod": 450
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3065"
 	},
 	"3066": {
 	  "name": "翼のムーンプレート",
@@ -2439,7 +2523,8 @@
 		"FlatHPPoolMod": 150,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3066"
 	},
 	"3067": {
 	  "name": "キンドルジェム",
@@ -2489,7 +2574,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3067"
 	},
 	"3068": {
 	  "name": "サンファイア イージス",
@@ -2519,7 +2605,8 @@
 		"FlatHPPoolMod": 350,
 		"FlatArmorMod": 50
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3068"
 	},
 	"3070": {
 	  "name": "女神の涙",
@@ -2546,7 +2633,8 @@
 	  },
 	  "stats": {
 		"FlatMPPoolMod": 240
-	  }
+	  },
+	  "id": "3070"
 	},
 	"3071": {
 	  "name": "ブラック クリーバー",
@@ -2580,7 +2668,8 @@
 		"FlatHPPoolMod": 400,
 		"FlatPhysicalDamageMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3071"
 	},
 	"3072": {
 	  "name": "ブラッドサースター",
@@ -2609,7 +2698,8 @@
 		"FlatPhysicalDamageMod": 80,
 		"PercentLifeStealMod": 0.18
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3072"
 	},
 	"3073": {
 	  "name": "実験的へクスプレート",
@@ -2642,7 +2732,8 @@
 		"FlatPhysicalDamageMod": 55,
 		"PercentAttackSpeedMod": 0.25
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3073"
 	},
 	"3074": {
 	  "name": "ラヴァナス ハイドラ",
@@ -2674,7 +2765,8 @@
 		"FlatPhysicalDamageMod": 70,
 		"PercentLifeStealMod": 0.12
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3074"
 	},
 	"3075": {
 	  "name": "ソーンメイル",
@@ -2702,7 +2794,8 @@
 		"FlatHPPoolMod": 350,
 		"FlatArmorMod": 70
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3075"
 	},
 	"3076": {
 	  "name": "ブランブル ベスト",
@@ -2731,7 +2824,8 @@
 	  "stats": {
 		"FlatArmorMod": 30
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3076"
 	},
 	"3077": {
 	  "name": "ティアマット",
@@ -2764,7 +2858,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 20
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3077"
 	},
 	"3078": {
 	  "name": "トリニティ フォース",
@@ -2799,7 +2894,8 @@
 		"FlatPhysicalDamageMod": 45,
 		"PercentAttackSpeedMod": 0.33
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3078"
 	},
 	"3082": {
 	  "name": "ワーデン メイル",
@@ -2829,7 +2925,8 @@
 	  "stats": {
 		"FlatArmorMod": 40
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3082"
 	},
 	"3083": {
 	  "name": "ワーモグ アーマー",
@@ -2859,7 +2956,8 @@
 		"FlatHPPoolMod": 1000,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3083"
 	},
 	"3084": {
 	  "name": "心の鋼",
@@ -2887,7 +2985,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 900
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3084"
 	},
 	"3085": {
 	  "name": "ルナーン ハリケーン",
@@ -2918,7 +3017,8 @@
 		"PercentAttackSpeedMod": 0.4,
 		"PercentMovementSpeedMod": 0.07
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3085"
 	},
 	"3086": {
 	  "name": "ジール",
@@ -2956,7 +3056,8 @@
 		"PercentAttackSpeedMod": 0.15,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3086"
 	},
 	"3087": {
 	  "name": "スタティック シヴ",
@@ -2988,7 +3089,8 @@
 		"PercentAttackSpeedMod": 0.45,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3087"
 	},
 	"3089": {
 	  "name": "ラバドン デスキャップ",
@@ -3014,7 +3116,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 140
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3089"
 	},
 	"3091": {
 	  "name": "ウィッツ エンド",
@@ -3045,7 +3148,8 @@
 		"FlatSpellBlockMod": 50,
 		"PercentAttackSpeedMod": 0.55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3091"
 	},
 	"3094": {
 	  "name": "ラピッド ファイアキャノン",
@@ -3075,7 +3179,8 @@
 		"PercentAttackSpeedMod": 0.35,
 		"PercentMovementSpeedMod": 0.07
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3094"
 	},
 	"3100": {
 	  "name": "リッチ ベイン",
@@ -3106,7 +3211,8 @@
 		"FlatMagicDamageMod": 100,
 		"PercentMovementSpeedMod": 0.08
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3100"
 	},
 	"3102": {
 	  "name": "バンシー ヴェール",
@@ -3134,7 +3240,8 @@
 		"FlatSpellBlockMod": 50,
 		"FlatMagicDamageMod": 120
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3102"
 	},
 	"3107": {
 	  "name": "リデンプション",
@@ -3163,7 +3270,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3107"
 	},
 	"3108": {
 	  "name": "フィンディッシュの古書",
@@ -3205,7 +3313,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 25
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3108"
 	},
 	"3109": {
 	  "name": "騎士の誓い",
@@ -3239,7 +3348,8 @@
 		"FlatHPPoolMod": 200,
 		"FlatArmorMod": 40
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3109"
 	},
 	"3110": {
 	  "name": "フローズン ハート",
@@ -3270,7 +3380,8 @@
 		"FlatMPPoolMod": 400,
 		"FlatArmorMod": 65
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3110"
 	},
 	"3111": {
 	  "name": "マーキュリー ブーツ",
@@ -3299,7 +3410,8 @@
 		"FlatSpellBlockMod": 20,
 		"FlatMovementSpeedMod": 45
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3111"
 	},
 	"3113": {
 	  "name": "エーテル ウィスプ",
@@ -3333,7 +3445,8 @@
 		"FlatMagicDamageMod": 30,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3113"
 	},
 	"3114": {
 	  "name": "フォビドゥン アイドル",
@@ -3364,7 +3477,8 @@
 		"33": false
 	  },
 	  "stats": {},
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3114"
 	},
 	"3115": {
 	  "name": "ナッシャー トゥース",
@@ -3395,7 +3509,8 @@
 		"FlatMagicDamageMod": 90,
 		"PercentAttackSpeedMod": 0.5
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3115"
 	},
 	"3116": {
 	  "name": "リーライ クリスタル セプター",
@@ -3425,7 +3540,8 @@
 		"FlatHPPoolMod": 400,
 		"FlatMagicDamageMod": 75
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3116"
 	},
 	"3117": {
 	  "name": "モビリティ ブーツ",
@@ -3451,7 +3567,8 @@
 	  "stats": {
 		"FlatMovementSpeedMod": 45
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3117"
 	},
 	"3118": {
 	  "name": "マリグナンス",
@@ -3480,7 +3597,8 @@
 		"FlatMPPoolMod": 600,
 		"FlatMagicDamageMod": 80
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3118"
 	},
 	"3119": {
 	  "name": "冬の訪れ",
@@ -3510,7 +3628,8 @@
 		"FlatMPPoolMod": 500,
 		"FlatHPPoolMod": 550
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3119"
 	},
 	"3121": {
 	  "name": "フィンブルウィンター",
@@ -3536,7 +3655,8 @@
 	  "stats": {
 		"FlatMPPoolMod": 860,
 		"FlatHPPoolMod": 550
-	  }
+	  },
+	  "id": "3121"
 	},
 	"3123": {
 	  "name": "エクスキューショナー コーリング",
@@ -3565,7 +3685,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 15
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3123"
 	},
 	"3124": {
 	  "name": "グインソー レイジブレード",
@@ -3597,7 +3718,8 @@
 		"FlatPhysicalDamageMod": 35,
 		"PercentAttackSpeedMod": 0.25
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3124"
 	},
 	"3133": {
 	  "name": "コールフィールド ウォーハンマー",
@@ -3647,7 +3769,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 20
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3133"
 	},
 	"3134": {
 	  "name": "セレイテッド ダーク",
@@ -3689,7 +3812,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 20
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3134"
 	},
 	"3135": {
 	  "name": "ヴォイド スタッフ",
@@ -3716,7 +3840,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 95
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3135"
 	},
 	"3137": {
 	  "name": "クリプトブルーム",
@@ -3744,7 +3869,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 70
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3137"
 	},
 	"3139": {
 	  "name": "マーキュリアル シミター",
@@ -3778,7 +3904,8 @@
 		"FlatPhysicalDamageMod": 40,
 		"PercentLifeStealMod": 0.1
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3139"
 	},
 	"3140": {
 	  "name": "クイックシルバー サッシュ",
@@ -3808,7 +3935,8 @@
 	  "stats": {
 		"FlatSpellBlockMod": 30
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3140"
 	},
 	"3142": {
 	  "name": "妖夢の霊剣",
@@ -3837,7 +3965,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 60
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3142"
 	},
 	"3143": {
 	  "name": "ランデュイン オーメン",
@@ -3867,7 +3996,8 @@
 		"FlatHPPoolMod": 350,
 		"FlatArmorMod": 75
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3143"
 	},
 	"3144": {
 	  "name": "偵察兵のパチンコ",
@@ -3898,7 +4028,8 @@
 	  "stats": {
 		"PercentAttackSpeedMod": 0.2
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3144"
 	},
 	"3145": {
 	  "name": "ヘクステック オルタネーター",
@@ -3933,7 +4064,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 45
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3145"
 	},
 	"3147": {
 	  "name": "悲愴な仮面",
@@ -3965,7 +4097,8 @@
 		"FlatHPPoolMod": 200,
 		"FlatMagicDamageMod": 30
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3147"
 	},
 	"3152": {
 	  "name": "ヘクステック ロケットベルト",
@@ -3997,7 +4130,8 @@
 		"FlatHPPoolMod": 400,
 		"FlatMagicDamageMod": 70
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3152"
 	},
 	"3153": {
 	  "name": "ルインドキング ブレード",
@@ -4030,7 +4164,8 @@
 		"PercentAttackSpeedMod": 0.25,
 		"PercentLifeStealMod": 0.1
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3153"
 	},
 	"3155": {
 	  "name": "ヘクスドリンカー",
@@ -4063,7 +4198,8 @@
 		"FlatSpellBlockMod": 30,
 		"FlatPhysicalDamageMod": 25
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3155"
 	},
 	"3156": {
 	  "name": "マルモティウスの胃袋",
@@ -4095,7 +4231,8 @@
 		"FlatSpellBlockMod": 40,
 		"FlatPhysicalDamageMod": 70
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3156"
 	},
 	"3157": {
 	  "name": "ゾーニャの砂時計",
@@ -4124,7 +4261,8 @@
 		"FlatMagicDamageMod": 120,
 		"FlatArmorMod": 50
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3157"
 	},
 	"3158": {
 	  "name": "アイオニア ブーツ",
@@ -4151,7 +4289,8 @@
 	  "stats": {
 		"FlatMovementSpeedMod": 45
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3158"
 	},
 	"3161": {
 	  "name": "ショウジンの矛",
@@ -4181,7 +4320,8 @@
 		"FlatHPPoolMod": 300,
 		"FlatPhysicalDamageMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3161"
 	},
 	"3165": {
 	  "name": "モレロノミコン",
@@ -4209,7 +4349,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 90
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3165"
 	},
 	"3172": {
 	  "name": "ゼファー",
@@ -4236,7 +4377,8 @@
 		"FlatMovementSpeedMod": 45,
 		"PercentAttackSpeedMod": 0.45
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3172"
 	},
 	"3179": {
 	  "name": "アンブラル グレイブ",
@@ -4266,7 +4408,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 50
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3179"
 	},
 	"3181": {
 	  "name": "ハルブレイカー",
@@ -4297,7 +4440,8 @@
 		"FlatPhysicalDamageMod": 65,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3181"
 	},
 	"3190": {
 	  "name": "ソラリのロケット",
@@ -4332,7 +4476,8 @@
 		"FlatHPPoolMod": 200,
 		"FlatArmorMod": 30
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3190"
 	},
 	"3211": {
 	  "name": "スペクター カウル",
@@ -4367,7 +4512,8 @@
 		"FlatSpellBlockMod": 25,
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3211"
 	},
 	"3222": {
 	  "name": "ミカエルの祝福",
@@ -4398,7 +4544,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 250
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3222"
 	},
 	"3302": {
 	  "name": "テルミヌス",
@@ -4429,31 +4576,8 @@
 		"FlatPhysicalDamageMod": 35,
 		"PercentAttackSpeedMod": 0.35
 	  },
-	  "depth": 3
-	},
-	"3330": {
-	  "name": "身代わり人形",
-	  "description": "<mainText><stats></stats><br><br><br><active>発動効果 - トリンケット:</active> 敵からはフィドルスティックスとまったく同じ姿に見える「身代わり人形」を設置する。最大2チャージまで溜めておける。<br><br>敵チャンピオンが近づくと人形が発動してランダムな偽のアクションを行い、その後人形はバラバラになる。</mainText>",
-	  "colloq": ";Warding Totem (Trinket);yellow;イエロー;き;黄;とりんけっと;わーど;ワード;トリンケット;trinket;わーどとーてむ（とりんけっと）;ワードトーテム（トリンケット）;わーどとーてむとりんけっと;ワードトーテムトリンケット;wa-doto-temu;wadototemu",
-	  "requiredChampion": "FiddleSticks",
-	  "image": "3330.png",
-	  "gold": 0,
-	  "tags": [
-		"Active",
-		"Jungle",
-		"Lane",
-		"Trinket",
-		"Vision"
-	  ],
-	  "maps": {
-		"11": true,
-		"12": true,
-		"21": true,
-		"22": false,
-		"30": true,
-		"33": false
-	  },
-	  "stats": {}
+	  "depth": 3,
+	  "id": "3302"
 	},
 	"3340": {
 	  "name": "ステルス ワード",
@@ -4476,7 +4600,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "3340"
 	},
 	"3363": {
 	  "name": "ファーサイト オルタレーション",
@@ -4497,7 +4622,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "3363"
 	},
 	"3364": {
 	  "name": "オラクル レンズ",
@@ -4518,7 +4644,8 @@
 		"30": false,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "3364"
 	},
 	"3400": {
 	  "name": "お前の取り分",
@@ -4539,7 +4666,8 @@
 		"30": true,
 		"33": false
 	  },
-	  "stats": {}
+	  "stats": {},
+	  "id": "3400"
 	},
 	"3504": {
 	  "name": "アーデント センサー",
@@ -4569,7 +4697,8 @@
 		"FlatMagicDamageMod": 50,
 		"PercentMovementSpeedMod": 0.08
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3504"
 	},
 	"3508": {
 	  "name": "エッセンス リーバー",
@@ -4602,47 +4731,8 @@
 		"FlatCritChanceMod": 0.25,
 		"FlatPhysicalDamageMod": 70
 	  },
-	  "depth": 3
-	},
-	"3599": {
-	  "name": "カリスタの復讐の黒槍",
-	  "description": "<mainText><stats></stats><br><br><active>発動効果 - 消費:</active> 味方1体と現在のゲーム終了まで続く誓いを結び「魂盟の同志」となる。「魂盟の同志」がお互いの近くにいると、両者とも能力が強化される。</mainText>",
-	  "colloq": ";The Black Spear;spear;ふくしゅうのこくそう;くろやり;クロヤリ;ぶらっく;ブラック;すぴあ;スピア;復讐の黒槍;fukushuunokokusou;hukusyuunokokusou",
-	  "requiredChampion": "Kalista",
-	  "image": "3599.png",
-	  "gold": 0,
-	  "tags": [
-		"Consumable"
-	  ],
-	  "maps": {
-		"11": true,
-		"12": true,
-		"21": true,
-		"22": false,
-		"30": true,
-		"33": false
-	  },
-	  "stats": {}
-	},
-	"3600": {
-	  "name": "カリスタの復讐の黒槍",
-	  "description": "<mainText><stats></stats><br><br><active>発動効果 - 消費:</active> 味方1体と現在のゲーム終了まで続く誓いを結び「魂盟の同志」となる。「魂盟の同志」がお互いの近くにいると、両者とも能力が強化される。<br><br><rules><attention>カリスタ</attention>のアルティメットスキルを使用する必要がある。</rules></mainText>",
-	  "colloq": ";The Black Spear;spear;ふくしゅうのこくそう;くろやり;クロヤリ;ぶらっく;ブラック;すぴあ;スピア;復讐の黒槍;fukushuunokokusou;hukusyuunokokusou",
-	  "requiredChampion": "Sylas",
-	  "image": "3600.png",
-	  "gold": 0,
-	  "tags": [
-		"Consumable"
-	  ],
-	  "maps": {
-		"11": true,
-		"12": true,
-		"21": true,
-		"22": false,
-		"30": true,
-		"33": false
-	  },
-	  "stats": {}
+	  "depth": 3,
+	  "id": "3508"
 	},
 	"3742": {
 	  "name": "デッド マン プレート",
@@ -4674,7 +4764,8 @@
 		"FlatArmorMod": 45,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3742"
 	},
 	"3748": {
 	  "name": "タイタン ハイドラ",
@@ -4705,7 +4796,8 @@
 		"FlatHPPoolMod": 550,
 		"FlatPhysicalDamageMod": 50
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3748"
 	},
 	"3801": {
 	  "name": "クリスタル ブレーサー",
@@ -4736,7 +4828,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3801"
 	},
 	"3802": {
 	  "name": "ロスト チャプター",
@@ -4776,7 +4869,8 @@
 		"FlatMPPoolMod": 300,
 		"FlatMagicDamageMod": 40
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3802"
 	},
 	"3803": {
 	  "name": "久遠のカタリスト",
@@ -4810,7 +4904,8 @@
 		"FlatMPPoolMod": 300,
 		"FlatHPPoolMod": 350
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3803"
 	},
 	"3814": {
 	  "name": "ナイト エッジ",
@@ -4840,7 +4935,8 @@
 		"FlatHPPoolMod": 250,
 		"FlatPhysicalDamageMod": 50
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "3814"
 	},
 	"3865": {
 	  "name": "ワールド アトラス",
@@ -4866,7 +4962,8 @@
 	  },
 	  "stats": {
 		"FlatHPPoolMod": 30
-	  }
+	  },
+	  "id": "3865"
 	},
 	"3866": {
 	  "name": "ルーニック コンパス",
@@ -4892,7 +4989,8 @@
 	  },
 	  "stats": {
 		"FlatHPPoolMod": 100
-	  }
+	  },
+	  "id": "3866"
 	},
 	"3867": {
 	  "name": "世界の恵み",
@@ -4925,7 +5023,8 @@
 	  },
 	  "stats": {
 		"FlatHPPoolMod": 200
-	  }
+	  },
+	  "id": "3867"
 	},
 	"3869": {
 	  "name": "セレスティアル オポジション",
@@ -4954,7 +5053,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3869"
 	},
 	"3870": {
 	  "name": "ドリーム メーカー",
@@ -4983,7 +5083,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3870"
 	},
 	"3871": {
 	  "name": "ザズ＝ザクのレルムスパイク",
@@ -5012,7 +5113,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3871"
 	},
 	"3876": {
 	  "name": "至点のソリ",
@@ -5041,7 +5143,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3876"
 	},
 	"3877": {
 	  "name": "ブラッドソング",
@@ -5070,47 +5173,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 2
-	},
-	"3902": {
-	  "name": "<rarityLegendary>死の女神</rarityLegendary><br><subtitleLeft><silver>500シルバーサーペント</silver></subtitleLeft>",
-	  "description": "<mainText><stats></stats><br><br><mainText>「一斉砲撃」の砲撃範囲の中心に巨大な砲弾が追加で放たれ、<trueDamage>追加確定ダメージ</trueDamage>と<status>スロウ効果</status>を与える。</mainText></mainText>",
-	  "colloq": ";Death's Daughter;しのめがみ;シノメガミ;SS;死の女神;しるばーさーぺんと;シルバーサーペント;shinomegami;sinomegami",
-	  "consumeOnFull": true,
-	  "inStore": false,
-	  "requiredChampion": "Gangplank",
-	  "image": "3902.png",
-	  "gold": 0,
-	  "tags": [],
-	  "maps": {
-		"11": true,
-		"12": true,
-		"21": true,
-		"22": false,
-		"30": true,
-		"33": false
-	  },
-	  "stats": {}
-	},
-	"3903": {
-	  "name": "<rarityLegendary>士気上昇</rarityLegendary><br><subtitleLeft><silver>500シルバーサーペント</silver></subtitleLeft>",
-	  "description": "<mainText><stats></stats><br><br>「一斉砲撃」の砲撃範囲内の味方は、<speed>移動速度が増加</speed>する。</mainText>",
-	  "colloq": ";Raise Morale;しきじょうしょう;シキジョウショウ;SS;士気上昇;しるばーさーぺんと;シルバーサーペント;sikizyousyou;sikijousyou;sikizyoushou;sikijoushou",
-	  "consumeOnFull": true,
-	  "inStore": false,
-	  "requiredChampion": "Gangplank",
-	  "image": "3903.png",
-	  "gold": 0,
-	  "tags": [],
-	  "maps": {
-		"11": true,
-		"12": true,
-		"21": true,
-		"22": false,
-		"30": true,
-		"33": false
-	  },
-	  "stats": {}
+	  "depth": 2,
+	  "id": "3877"
 	},
 	"3916": {
 	  "name": "忘却のオーブ",
@@ -5140,7 +5204,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 30
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "3916"
 	},
 	"4005": {
 	  "name": "帝国の指令",
@@ -5169,7 +5234,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 60
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "4005"
 	},
 	"4401": {
 	  "name": "自然の力",
@@ -5200,7 +5266,8 @@
 		"FlatHPPoolMod": 400,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "4401"
 	},
 	"4628": {
 	  "name": "ホライゾン フォーカス",
@@ -5227,7 +5294,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 90
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "4628"
 	},
 	"4629": {
 	  "name": "コズミック ドライブ",
@@ -5259,7 +5327,8 @@
 		"FlatMagicDamageMod": 80,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "4629"
 	},
 	"4630": {
 	  "name": "枯死の宝石",
@@ -5289,7 +5358,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 25
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "4630"
 	},
 	"4632": {
 	  "name": "ヴァーダント バリア",
@@ -5321,7 +5391,8 @@
 		"FlatSpellBlockMod": 30,
 		"FlatMagicDamageMod": 40
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "4632"
 	},
 	"4633": {
 	  "name": "リフトメーカー",
@@ -5351,7 +5422,8 @@
 		"FlatHPPoolMod": 350,
 		"FlatMagicDamageMod": 80
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "4633"
 	},
 	"4635": {
 	  "name": "リーチング リア",
@@ -5381,7 +5453,8 @@
 		"FlatHPPoolMod": 250,
 		"FlatMagicDamageMod": 20
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "4635"
 	},
 	"4636": {
 	  "name": "ナイト ハーベスター",
@@ -5413,7 +5486,8 @@
 		"FlatHPPoolMod": 300,
 		"FlatMagicDamageMod": 90
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "4636"
 	},
 	"4637": {
 	  "name": "悪魔の抱擁",
@@ -5443,7 +5517,8 @@
 		"FlatHPPoolMod": 350,
 		"FlatMagicDamageMod": 75
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "4637"
 	},
 	"4638": {
 	  "name": "ウォッチフル ワードストーン",
@@ -5476,7 +5551,8 @@
 		"FlatSpellBlockMod": 15,
 		"FlatHPPoolMod": 150,
 		"FlatArmorMod": 10
-	  }
+	  },
+	  "id": "4638"
 	},
 	"4641": {
 	  "name": "スターリング ワードストーン",
@@ -5506,7 +5582,8 @@
 	  },
 	  "stats": {
 		"FlatHPPoolMod": 80
-	  }
+	  },
+	  "id": "4641"
 	},
 	"4642": {
 	  "name": "バンドルグラスの鏡",
@@ -5542,7 +5619,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 20
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "4642"
 	},
 	"4643": {
 	  "name": "ビジラント ワードストーン",
@@ -5576,7 +5654,8 @@
 		"FlatHPPoolMod": 250,
 		"FlatArmorMod": 25
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "4643"
 	},
 	"4645": {
 	  "name": "シャドウフレイム",
@@ -5603,7 +5682,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 120
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "4645"
 	},
 	"4646": {
 	  "name": "ストームサージ",
@@ -5633,7 +5713,8 @@
 		"FlatMagicDamageMod": 95,
 		"PercentMovementSpeedMod": 0.08
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "4646"
 	},
 	"6333": {
 	  "name": "デス ダンス",
@@ -5664,7 +5745,8 @@
 		"FlatArmorMod": 50,
 		"FlatPhysicalDamageMod": 60
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6333"
 	},
 	"6609": {
 	  "name": "ケミパンク チェーンソード",
@@ -5695,7 +5777,8 @@
 		"FlatHPPoolMod": 250,
 		"FlatPhysicalDamageMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6609"
 	},
 	"6610": {
 	  "name": "サンダード スカイ",
@@ -5725,7 +5808,8 @@
 		"FlatHPPoolMod": 450,
 		"FlatPhysicalDamageMod": 45
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6610"
 	},
 	"6616": {
 	  "name": "フロー ウォーター スタッフ",
@@ -5754,7 +5838,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 40
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6616"
 	},
 	"6617": {
 	  "name": "ムーンストーンの再生",
@@ -5785,7 +5870,8 @@
 		"FlatHPPoolMod": 250,
 		"FlatMagicDamageMod": 30
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6617"
 	},
 	"6620": {
 	  "name": "ヘリアの残響",
@@ -5816,7 +5902,8 @@
 		"FlatHPPoolMod": 200,
 		"FlatMagicDamageMod": 40
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6620"
 	},
 	"6621": {
 	  "name": "ドーンコア",
@@ -5844,7 +5931,8 @@
 	  "stats": {
 		"FlatMagicDamageMod": 60
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6621"
 	},
 	"6631": {
 	  "name": "ストライドブレイカー",
@@ -5877,7 +5965,8 @@
 		"FlatPhysicalDamageMod": 50,
 		"PercentAttackSpeedMod": 0.3
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6631"
 	},
 	"6653": {
 	  "name": "ライアンドリーの仮面",
@@ -5905,7 +5994,8 @@
 		"FlatHPPoolMod": 300,
 		"FlatMagicDamageMod": 90
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6653"
 	},
 	"6655": {
 	  "name": "ルーデン コンパニオン",
@@ -5935,7 +6025,8 @@
 		"FlatMPPoolMod": 600,
 		"FlatMagicDamageMod": 95
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6655"
 	},
 	"6657": {
 	  "name": "ロッド オブ エイジス",
@@ -5967,7 +6058,8 @@
 		"FlatHPPoolMod": 400,
 		"FlatMagicDamageMod": 50
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6657"
 	},
 	"6660": {
 	  "name": "バミ シンダー",
@@ -5998,7 +6090,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 200
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "6660"
 	},
 	"6662": {
 	  "name": "アイスボーン ガントレット",
@@ -6031,7 +6124,8 @@
 		"FlatHPPoolMod": 300,
 		"FlatArmorMod": 50
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6662"
 	},
 	"6664": {
 	  "name": "ホロウ レディアンス",
@@ -6063,7 +6157,8 @@
 		"FlatSpellBlockMod": 40,
 		"FlatHPPoolMod": 450
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6664"
 	},
 	"6665": {
 	  "name": "変幻自在のジャック＝ショー",
@@ -6095,7 +6190,8 @@
 		"FlatHPPoolMod": 300,
 		"FlatArmorMod": 50
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6665"
 	},
 	"6670": {
 	  "name": "ヌーンクィヴァー",
@@ -6130,7 +6226,8 @@
 		"FlatCritChanceMod": 0.2,
 		"FlatPhysicalDamageMod": 20
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "6670"
 	},
 	"6672": {
 	  "name": "クラーケン スレイヤー",
@@ -6162,7 +6259,8 @@
 		"PercentAttackSpeedMod": 0.4,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6672"
 	},
 	"6673": {
 	  "name": "イモータル シールドボウ",
@@ -6190,7 +6288,8 @@
 		"FlatCritChanceMod": 0.25,
 		"FlatPhysicalDamageMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6673"
 	},
 	"6675": {
 	  "name": "ナヴォリ フリッカーブレード",
@@ -6221,7 +6320,8 @@
 		"PercentAttackSpeedMod": 0.4,
 		"PercentMovementSpeedMod": 0.07
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6675"
 	},
 	"6676": {
 	  "name": "コレクター",
@@ -6251,7 +6351,8 @@
 		"FlatCritChanceMod": 0.25,
 		"FlatPhysicalDamageMod": 60
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6676"
 	},
 	"6690": {
 	  "name": "レクトリクス",
@@ -6286,7 +6387,8 @@
 		"FlatPhysicalDamageMod": 20,
 		"PercentMovementSpeedMod": 0.04
 	  },
-	  "depth": 2
+	  "depth": 2,
+	  "id": "6690"
 	},
 	"6692": {
 	  "name": "赤月の刃",
@@ -6315,7 +6417,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 70
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6692"
 	},
 	"6693": {
 	  "name": "プローラー クロウ",
@@ -6345,7 +6448,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6693"
 	},
 	"6694": {
 	  "name": "セリルダの怨恨",
@@ -6374,7 +6478,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 45
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6694"
 	},
 	"6695": {
 	  "name": "毒蛇の牙",
@@ -6401,7 +6506,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6695"
 	},
 	"6696": {
 	  "name": "アクシオム アーク",
@@ -6429,7 +6535,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6696"
 	},
 	"6697": {
 	  "name": "ヒュブリス",
@@ -6459,7 +6566,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 60
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6697"
 	},
 	"6698": {
 	  "name": "プロフェイン ハイドラ",
@@ -6489,7 +6597,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 60
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6698"
 	},
 	"6699": {
 	  "name": "ボルテイク サイクロソード",
@@ -6520,7 +6629,8 @@
 	  "stats": {
 		"FlatPhysicalDamageMod": 55
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6699"
 	},
 	"6701": {
 	  "name": "オポチュニティー",
@@ -6550,7 +6660,8 @@
 		"FlatPhysicalDamageMod": 55,
 		"PercentMovementSpeedMod": 0.05
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "6701"
 	},
 	"8001": {
 	  "name": "アナセマ チェイン",
@@ -6580,7 +6691,8 @@
 	  "stats": {
 		"FlatHPPoolMod": 650
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "8001"
 	},
 	"8020": {
 	  "name": "アビサル マスク",
@@ -6612,6 +6724,7 @@
 		"FlatSpellBlockMod": 50,
 		"FlatHPPoolMod": 300
 	  },
-	  "depth": 3
+	  "depth": 3,
+	  "id": "8020"
 	}
   }
