@@ -5,7 +5,9 @@
  * @return void
  */
 
-// function get_new_version() {
+
+//  // 最新バージョンを取得
+//  function get_new_version() {
 //     $version_url = "https://ddragon.leagueoflegends.com/api/versions.json";
 
 //     // cURLを使用してAPIからデータを取得
@@ -27,29 +29,31 @@
 
 
 // // JSONファイルからデータを取得
-// $json_file_path = get_template_directory() . 'assets/json/all_items.json';
+// $json_file_path = get_template_directory() . '/assets/json/all_items.json';
 // $json_data = file_get_contents($json_file_path);
 // $items = json_decode($json_data, true);
 
-// // 画像をURLからアップロードし、添付ファイルIDを返す関数
+
+// // 画像をURLからアップロードし、添付ファイルIDと新規アップロードフラグを返す関数
 // function upload_image_from_url($image_url) {
 //     $upload_dir = wp_upload_dir();
 //     $filename = basename($image_url);
+//     $file_path = $upload_dir['path'] . '/' . $filename;
 
-//     // 画像が既に存在するかチェック
+//     // 画像が既に存在するかチェック、画像名が一致するファイルがあればスキップする
 //     $existing_attachment = get_posts(array(
 //         'post_type' => 'attachment',
 //         'meta_query' => array(
 //             array(
 //                 'key' => '_wp_attached_file',
-//                 'value' => $upload_dir['subdir'] . '/' . $filename,
-//                 'compare' => 'LIKE'
+//                 'value' => ltrim($upload_dir['subdir'] . '/' . $filename, '/'),
+//                 'compare' => '='
 //             )
 //         )
 //     ));
 
 //     if ($existing_attachment) {
-//         return $existing_attachment[0]->ID;
+//         return array('id' => $existing_attachment[0]->ID, 'new' => false);
 //     }
 
 //     // 画像をアップロード
@@ -73,15 +77,15 @@
 //     $attach_data = wp_generate_attachment_metadata($attach_id, $file);
 //     wp_update_attachment_metadata($attach_id, $attach_data);
 
-//     return $attach_id;
+//     return array('id' => $attach_id, 'new' => true);
 // }
 
 // // 各アイテムの画像URLを生成し、画像をアップロード
 // foreach ($items as $item) {
 //     $imageUrl = $URL . $item['id'] . ".png";
-//     $image_id = upload_image_from_url($imageUrl);
-//     if ($image_id) {
-//         echo "Uploaded: " . $imageUrl . "\n"; // アップロードされた画像URLを表示
+//     $result = upload_image_from_url($imageUrl);
+//     if ($result['new']) {
+//         echo "Uploaded: " . $imageUrl . "\n"; // 新しくアップロードされた画像URLを表示
 //     } else {
 //         echo "Skipped: " . $imageUrl . "\n"; // スキップされた画像URLを表示
 //     }

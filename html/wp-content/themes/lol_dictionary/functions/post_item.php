@@ -119,12 +119,12 @@ function create_custom_posts_from_json($json_file, $post_type) {
 	}
 }
 
-// // Nomal Items のカスタム投稿を作成
-// add_action('init', function() {
-// 	create_custom_posts_from_json('nomal_items.json', 'nomal_item');
-// });
+// Nomal Items のカスタム投稿を作成
+add_action('init', function() {
+	create_custom_posts_from_json('nomal_items.json', 'nomal_item');
+});
 
-// // Aram Items のカスタム投稿を作成
+// Aram Items のカスタム投稿を作成
 // add_action('init', function() {
 // 	create_custom_posts_from_json('aram_items.json', 'aram_item');
 // });
@@ -143,20 +143,20 @@ function set_custom_post_order($query) {
 add_action('pre_get_posts', 'set_custom_post_order');
 
 
-// 投稿を削除
-function delete_all_custom_posts() {
-    // カスタム投稿タイプ 'custom_item' の全ての投稿を取得
-    $custom_posts = get_posts(array(
-        'post_type' => 'aram_item', // カスタム投稿タイプのスラッグ
-        'numberposts' => -1, // 全ての投稿を取得
-        'post_status' => 'any', // 全てのステータスの投稿を取得
-    ));
+// // 投稿を削除
+// function delete_all_custom_posts() {
+//     // カスタム投稿タイプ 'custom_item' の全ての投稿を取得
+//     $custom_posts = get_posts(array(
+//         'post_type' => 'nomal_item', // カスタム投稿タイプのスラッグ
+//         'numberposts' => -1, // 全ての投稿を取得
+//         'post_status' => 'any', // 全てのステータスの投稿を取得
+//     ));
 
-    // 取得した投稿を削除
-    foreach ($custom_posts as $post) {
-        wp_delete_post($post->ID, true); // 第二引数を true にするとゴミ箱を経由せず完全に削除
-    }
-}
+//     // 取得した投稿を削除
+//     foreach ($custom_posts as $post) {
+//         wp_delete_post($post->ID, true); // 第二引数を true にするとゴミ箱を経由せず完全に削除
+//     }
+// }
 
-// この関数を適切なフックで呼び出します。例えば、管理画面での操作時に実行する場合：
-add_action('admin_init', 'delete_all_custom_posts');
+// // この関数を適切なフックで呼び出します。例えば、管理画面での操作時に実行する場合：
+// add_action('admin_init', 'delete_all_custom_posts');
