@@ -34,11 +34,14 @@ foreach ($ITEMDATA as $key => &$item) {
 		continue;
 	}
 
-	// プロパティの整形
+	// プロパティの整形・追加
 	$item['id'] = $key;
 	$item['gold'] = $item['gold']['total'];
 	$item['nomal_item'] = $item['maps']['11'];
 	$item['aram_item'] = $item['maps']['12'];
+
+	// item['description']に<passive>が含まれているかどうか
+	$item['has_passive'] = is_numeric(strpos($item['description'], '<passive>'));
 
 	// 不要なプロパティを削除
 	unset($item['image']);
@@ -54,3 +57,5 @@ foreach ($ITEMDATA as $key => &$item) {
 $outputDir = get_template_directory() . '/assets/json/';
 $outputFile = $outputDir . 'item_data.json';
 file_put_contents($outputFile, json_encode($ITEMDATA, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
+
+echo 'item_data.json を出力しました: ' . date('Y-m-d H:i:s');

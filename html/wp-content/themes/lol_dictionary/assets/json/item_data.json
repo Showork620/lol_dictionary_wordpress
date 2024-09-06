@@ -20,7 +20,8 @@
         ],
         "id": 1001,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1004": {
         "name": "フェアリー チャーム",
@@ -37,7 +38,8 @@
         ],
         "id": 1004,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1006": {
         "name": "再生の珠",
@@ -54,7 +56,8 @@
         ],
         "id": 1006,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1011": {
         "name": "ジャイアント ベルト",
@@ -81,7 +84,8 @@
         "depth": 2,
         "id": 1011,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1018": {
         "name": "アジリティ クローク",
@@ -102,7 +106,8 @@
         ],
         "id": 1018,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1026": {
         "name": "ブラスティング ワンド",
@@ -122,7 +127,8 @@
         ],
         "id": 1026,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1027": {
         "name": "サファイア クリスタル",
@@ -139,7 +145,8 @@
         ],
         "id": 1027,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1028": {
         "name": "ルビー クリスタル",
@@ -177,7 +184,8 @@
         ],
         "id": 1028,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1029": {
         "name": "クロース アーマー",
@@ -203,7 +211,8 @@
         ],
         "id": 1029,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1031": {
         "name": "チェイン ベスト",
@@ -228,7 +237,8 @@
         "depth": 2,
         "id": 1031,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1033": {
         "name": "ヌルマジック マント",
@@ -253,7 +263,8 @@
         ],
         "id": 1033,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1035": {
         "name": "残炎のナイフ",
@@ -268,7 +279,8 @@
         ],
         "id": 1035,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "1036": {
         "name": "ロング ソード",
@@ -302,7 +314,8 @@
         ],
         "id": 1036,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1037": {
         "name": "ピッケル",
@@ -334,7 +347,8 @@
         ],
         "id": 1037,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1038": {
         "name": "B. F. ソード",
@@ -356,7 +370,8 @@
         ],
         "id": 1038,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1039": {
         "name": "氷雨の刃",
@@ -371,7 +386,8 @@
         ],
         "id": 1039,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "1040": {
         "name": "オブシディアン エッジ",
@@ -385,7 +401,8 @@
         ],
         "id": 1040,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "1042": {
         "name": "ダガー",
@@ -409,7 +426,8 @@
         ],
         "id": 1042,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1043": {
         "name": "リカーブ ボウ",
@@ -434,7 +452,8 @@
         "depth": 2,
         "id": 1043,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1052": {
         "name": "増魔の書",
@@ -465,7 +484,8 @@
         ],
         "id": 1052,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1053": {
         "name": "ヴァンパイア セプター",
@@ -489,7 +509,8 @@
         "depth": 2,
         "id": 1053,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1054": {
         "name": "ドラン シールド",
@@ -503,7 +524,8 @@
         ],
         "id": 1054,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "1055": {
         "name": "ドラン ブレード",
@@ -518,7 +540,8 @@
         ],
         "id": 1055,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1056": {
         "name": "ドラン リング",
@@ -533,7 +556,8 @@
         ],
         "id": 1056,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "1057": {
         "name": "ネガトロン クローク",
@@ -556,7 +580,8 @@
         "depth": 2,
         "id": 1057,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1058": {
         "name": "ムダニ デカイ ロッド",
@@ -577,7 +602,8 @@
         ],
         "id": 1058,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1082": {
         "name": "ダーク シール",
@@ -594,7 +620,8 @@
         ],
         "id": 1082,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "1083": {
         "name": "カル",
@@ -608,7 +635,8 @@
         ],
         "id": 1083,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "1101": {
         "name": "スコーチクロウの幼体",
@@ -620,7 +648,8 @@
         ],
         "id": 1101,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "1102": {
         "name": "ガストウォーカーの幼体",
@@ -632,7 +661,8 @@
         ],
         "id": 1102,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "1103": {
         "name": "モスストンパーの幼体",
@@ -644,7 +674,8 @@
         ],
         "id": 1103,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "1104": {
         "name": "ヘラルドの瞳",
@@ -658,7 +689,8 @@
         ],
         "id": 1104,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "126697": {
         "name": "ヒュブリス<br>",
@@ -679,7 +711,8 @@
         "depth": 3,
         "id": 126697,
         "nomal_item": false,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "1502": {
         "name": "強化装甲",
@@ -694,7 +727,8 @@
         ],
         "id": 1502,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "1506": {
         "name": "強化装甲",
@@ -709,7 +743,8 @@
         ],
         "id": 1506,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2003": {
         "name": "体力ポーション",
@@ -725,7 +760,8 @@
         ],
         "id": 2003,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2010": {
         "name": "英気満点ビスケット",
@@ -737,7 +773,8 @@
         "tags": [],
         "id": 2010,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2015": {
         "name": "キルヒアイス シャード",
@@ -758,7 +795,8 @@
         "depth": 2,
         "id": 2015,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "2019": {
         "name": "スチール シジル",
@@ -782,7 +820,8 @@
         "depth": 2,
         "id": 2019,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2020": {
         "name": "ブルータライザー",
@@ -807,7 +846,8 @@
         "depth": 2,
         "id": 2020,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2021": {
         "name": "トンネル掘り",
@@ -834,7 +874,8 @@
         "depth": 2,
         "id": 2021,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2022": {
         "name": "輝きのモート",
@@ -859,7 +900,8 @@
         ],
         "id": 2022,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2031": {
         "name": "詰め替えポーション",
@@ -878,7 +920,8 @@
         ],
         "id": 2031,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2033": {
         "name": "コラプト ポーション",
@@ -899,7 +942,8 @@
         "depth": 2,
         "id": 2033,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "2049": {
         "name": "ガーディアン アミュレット",
@@ -915,7 +959,8 @@
         ],
         "id": 2049,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "2050": {
         "name": "ガーディアン シュラウド",
@@ -931,7 +976,8 @@
         ],
         "id": 2050,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "2051": {
         "name": "ガーディアン ホーン",
@@ -945,7 +991,8 @@
         ],
         "id": 2051,
         "nomal_item": false,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "2052": {
         "name": "ポロのおやつ",
@@ -957,7 +1004,8 @@
         "tags": [],
         "id": 2052,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2055": {
         "name": "コントロール ワード",
@@ -974,7 +1022,8 @@
         ],
         "id": 2055,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "2056": {
         "name": "ステルス ワード",
@@ -992,7 +1041,8 @@
         ],
         "id": 2056,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "2065": {
         "name": "シュレリアの戦歌",
@@ -1014,7 +1064,8 @@
         "depth": 3,
         "id": 2065,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2138": {
         "name": "アイアン エリクサー",
@@ -1030,7 +1081,8 @@
         ],
         "id": 2138,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2139": {
         "name": "ソーサリー エリクサー",
@@ -1045,7 +1097,8 @@
         ],
         "id": 2139,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2140": {
         "name": "ラース エリクサー",
@@ -1061,7 +1114,8 @@
         ],
         "id": 2140,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2141": {
         "name": "帽子ジュース",
@@ -1075,7 +1129,8 @@
         ],
         "id": 2141,
         "nomal_item": false,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2142": {
         "name": "知力のジュース",
@@ -1089,7 +1144,8 @@
         ],
         "id": 2142,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "2143": {
         "name": "生命力のジュース",
@@ -1103,7 +1159,8 @@
         ],
         "id": 2143,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "2144": {
         "name": "ヘイストジュース",
@@ -1117,7 +1174,8 @@
         ],
         "id": 2144,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "2145": {
         "name": "幸運のダイス",
@@ -1130,7 +1188,8 @@
         ],
         "id": 2145,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "2150": {
         "name": "スキル エリクサー",
@@ -1143,7 +1202,8 @@
         ],
         "id": 2150,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2151": {
         "name": "強欲のエリクサー",
@@ -1158,7 +1218,8 @@
         ],
         "id": 2151,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2152": {
         "name": "力のエリクサー",
@@ -1172,7 +1233,8 @@
         ],
         "id": 2152,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "220000": {
         "name": "ステータスボーナス",
@@ -1201,7 +1263,8 @@
         ],
         "id": 220000,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "220001": {
         "name": "レジェンダリーファイターアイテム",
@@ -1229,7 +1292,8 @@
         ],
         "id": 220001,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "220002": {
         "name": "レジェンダリーマークスマンアイテム",
@@ -1254,7 +1318,8 @@
         ],
         "id": 220002,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "220003": {
         "name": "レジェンダリーアサシンアイテム",
@@ -1277,7 +1342,8 @@
         ],
         "id": 220003,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "220004": {
         "name": "レジェンダリーメイジアイテム",
@@ -1307,7 +1373,8 @@
         ],
         "id": 220004,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "220005": {
         "name": "レジェンダリータンクアイテム",
@@ -1332,7 +1399,8 @@
         ],
         "id": 220005,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "220006": {
         "name": "レジェンダリーサポートアイテム",
@@ -1358,7 +1426,8 @@
         ],
         "id": 220006,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "220007": {
         "name": "プリズムアイテム",
@@ -1393,7 +1462,8 @@
         ],
         "id": 220007,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "221011": {
         "name": "ジャイアント ベルト",
@@ -1406,7 +1476,8 @@
         ],
         "id": 221011,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "221026": {
         "name": "ブラスティング ワンド",
@@ -1419,7 +1490,8 @@
         ],
         "id": 221026,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "221031": {
         "name": "チェイン ベスト",
@@ -1432,7 +1504,8 @@
         ],
         "id": 221031,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "221038": {
         "name": "B. F. ソード",
@@ -1445,7 +1518,8 @@
         ],
         "id": 221038,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "221043": {
         "name": "リカーブ ボウ",
@@ -1458,7 +1532,8 @@
         ],
         "id": 221043,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "221053": {
         "name": "ヴァンパイア セプター",
@@ -1472,7 +1547,8 @@
         ],
         "id": 221053,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "221057": {
         "name": "ネガトロン クローク",
@@ -1485,7 +1561,8 @@
         ],
         "id": 221057,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "221058": {
         "name": "ムダニ デカイ ロッド",
@@ -1498,7 +1575,8 @@
         ],
         "id": 221058,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "222022": {
         "name": "輝きのモート",
@@ -1511,7 +1589,8 @@
         ],
         "id": 222022,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "222051": {
         "name": "ガーディアン ホーン",
@@ -1525,7 +1604,8 @@
         ],
         "id": 222051,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "222065": {
         "name": "シュレリアの戦歌",
@@ -1542,7 +1622,8 @@
         ],
         "id": 222065,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "222141": {
         "name": "帽子ジュース",
@@ -1556,7 +1637,8 @@
         ],
         "id": 222141,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "222502": {
         "name": "終わりなき絶望",
@@ -1571,7 +1653,8 @@
         ],
         "id": 222502,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "222503": {
         "name": "黒炎のトーチ",
@@ -1586,7 +1669,8 @@
         ],
         "id": 222503,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "222504": {
         "name": "ケイニック ルーケルン",
@@ -1600,7 +1684,8 @@
         ],
         "id": 222504,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223001": {
         "name": "イーブンシュラウド",
@@ -1615,7 +1700,8 @@
         ],
         "id": 223001,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223002": {
         "name": "先人の道標",
@@ -1629,7 +1715,8 @@
         ],
         "id": 223002,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223003": {
         "name": "アークエンジェル スタッフ",
@@ -1643,7 +1730,8 @@
         ],
         "id": 223003,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223004": {
         "name": "マナムネ",
@@ -1659,7 +1747,8 @@
         ],
         "id": 223004,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223005": {
         "name": "ゴーストクローラー",
@@ -1671,7 +1760,8 @@
         ],
         "id": 223005,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223006": {
         "name": "バーサーカー ブーツ",
@@ -1684,7 +1774,8 @@
         ],
         "id": 223006,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223009": {
         "name": "スイフトネス ブーツ",
@@ -1696,7 +1787,8 @@
         ],
         "id": 223009,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223011": {
         "name": "ケミテック ピュートリファイアー",
@@ -1710,7 +1802,8 @@
         ],
         "id": 223011,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223020": {
         "name": "ソーサラー シューズ",
@@ -1723,7 +1816,8 @@
         ],
         "id": 223020,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223026": {
         "name": "ガーディアン エンジェル",
@@ -1736,7 +1830,8 @@
         ],
         "id": 223026,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223031": {
         "name": "インフィニティ エッジ",
@@ -1749,7 +1844,8 @@
         ],
         "id": 223031,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223032": {
         "name": "ユン・タル ワイルドアロー",
@@ -1763,7 +1859,8 @@
         ],
         "id": 223032,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223033": {
         "name": "モータル リマインダー",
@@ -1777,7 +1874,8 @@
         ],
         "id": 223033,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223036": {
         "name": "ドミニク リガード",
@@ -1791,7 +1889,8 @@
         ],
         "id": 223036,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223039": {
         "name": "アトマの報い",
@@ -1805,7 +1904,8 @@
         ],
         "id": 223039,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223040": {
         "name": "セラフ エンブレイス",
@@ -1821,7 +1921,8 @@
         ],
         "id": 223040,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223042": {
         "name": "ムラマナ",
@@ -1839,7 +1940,8 @@
         ],
         "id": 223042,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223046": {
         "name": "ファントム ダンサー",
@@ -1853,7 +1955,8 @@
         ],
         "id": 223046,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223047": {
         "name": "プレート スチールキャップ",
@@ -1866,7 +1969,8 @@
         ],
         "id": 223047,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223050": {
         "name": "ジーク コンバージェンス",
@@ -1881,7 +1985,8 @@
         ],
         "id": 223050,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223053": {
         "name": "ステラックの篭手",
@@ -1895,7 +2000,8 @@
         ],
         "id": 223053,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223057": {
         "name": "シーン",
@@ -1913,7 +2019,8 @@
         "depth": 2,
         "id": 223057,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223065": {
         "name": "スピリット ビサージュ",
@@ -1929,7 +2036,8 @@
         ],
         "id": 223065,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223067": {
         "name": "キンドルジェム",
@@ -1944,7 +2052,8 @@
         ],
         "id": 223067,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223068": {
         "name": "サンファイア イージス",
@@ -1959,7 +2068,8 @@
         ],
         "id": 223068,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223071": {
         "name": "ブラック クリーバー",
@@ -1977,7 +2087,8 @@
         ],
         "id": 223071,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223072": {
         "name": "ブラッドサースター",
@@ -1990,7 +2101,8 @@
         ],
         "id": 223072,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223073": {
         "name": "実験的へクスプレート",
@@ -2007,7 +2119,8 @@
         ],
         "id": 223073,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223074": {
         "name": "ラヴァナス ハイドラ",
@@ -2023,7 +2136,8 @@
         ],
         "id": 223074,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223075": {
         "name": "ソーンメイル",
@@ -2036,7 +2150,8 @@
         ],
         "id": 223075,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223078": {
         "name": "トリニティ フォース",
@@ -2054,7 +2169,8 @@
         ],
         "id": 223078,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223084": {
         "name": "心の鋼",
@@ -2067,7 +2183,8 @@
         ],
         "id": 223084,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223085": {
         "name": "ルナーン ハリケーン",
@@ -2082,7 +2199,8 @@
         ],
         "id": 223085,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223087": {
         "name": "スタティック シヴ",
@@ -2096,7 +2214,8 @@
         ],
         "id": 223087,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223089": {
         "name": "ラバドン デスキャップ",
@@ -2108,7 +2227,8 @@
         ],
         "id": 223089,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223091": {
         "name": "ウィッツ エンド",
@@ -2123,7 +2243,8 @@
         ],
         "id": 223091,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223094": {
         "name": "ラピッド ファイアキャノン",
@@ -2137,7 +2258,8 @@
         ],
         "id": 223094,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223095": {
         "name": "ストームレイザー",
@@ -2150,7 +2272,8 @@
         ],
         "id": 223095,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223100": {
         "name": "リッチ ベイン",
@@ -2165,7 +2288,8 @@
         ],
         "id": 223100,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223102": {
         "name": "バンシー ヴェール",
@@ -2178,7 +2302,8 @@
         ],
         "id": 223102,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223105": {
         "name": "イージスの盾",
@@ -2194,7 +2319,8 @@
         ],
         "id": 223105,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223107": {
         "name": "リデンプション",
@@ -2209,7 +2335,8 @@
         ],
         "id": 223107,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223109": {
         "name": "騎士の誓い",
@@ -2227,7 +2354,8 @@
         ],
         "id": 223109,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223110": {
         "name": "フローズン ハート",
@@ -2243,7 +2371,8 @@
         ],
         "id": 223110,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223111": {
         "name": "マーキュリー ブーツ",
@@ -2257,7 +2386,8 @@
         ],
         "id": 223111,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223112": {
         "name": "ガーディアン オーブ",
@@ -2273,7 +2403,8 @@
         ],
         "id": 223112,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223115": {
         "name": "ナッシャー トゥース",
@@ -2288,7 +2419,8 @@
         ],
         "id": 223115,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223116": {
         "name": "リーライ クリスタル セプター",
@@ -2302,7 +2434,8 @@
         ],
         "id": 223116,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223118": {
         "name": "マリグナンス",
@@ -2316,7 +2449,8 @@
         ],
         "id": 223118,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223119": {
         "name": "冬の訪れ",
@@ -2330,7 +2464,8 @@
         ],
         "id": 223119,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223121": {
         "name": "フィンブルウィンター",
@@ -2346,7 +2481,8 @@
         ],
         "id": 223121,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223124": {
         "name": "グインソー レイジブレード",
@@ -2361,7 +2497,8 @@
         ],
         "id": 223124,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223135": {
         "name": "ヴォイド スタッフ",
@@ -2374,7 +2511,8 @@
         ],
         "id": 223135,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223137": {
         "name": "クリプトブルーム",
@@ -2388,7 +2526,8 @@
         ],
         "id": 223137,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223139": {
         "name": "マーキュリアル シミター",
@@ -2405,7 +2544,8 @@
         ],
         "id": 223139,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223142": {
         "name": "妖夢の霊剣",
@@ -2420,7 +2560,8 @@
         ],
         "id": 223142,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223143": {
         "name": "ランデュイン オーメン",
@@ -2435,7 +2576,8 @@
         ],
         "id": 223143,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223146": {
         "name": "ヘクステック ガンブレード",
@@ -2451,7 +2593,8 @@
         ],
         "id": 223146,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223152": {
         "name": "ヘクステック ロケットベルト",
@@ -2468,7 +2611,8 @@
         ],
         "id": 223152,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223153": {
         "name": "ルインドキング ブレード",
@@ -2484,7 +2628,8 @@
         ],
         "id": 223153,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223156": {
         "name": "マルモティウスの胃袋",
@@ -2501,7 +2646,8 @@
         ],
         "id": 223156,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223157": {
         "name": "ゾーニャの砂時計",
@@ -2515,7 +2661,8 @@
         ],
         "id": 223157,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223158": {
         "name": "アイオニア ブーツ",
@@ -2528,7 +2675,8 @@
         ],
         "id": 223158,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223161": {
         "name": "ショウジンの矛",
@@ -2542,7 +2690,8 @@
         ],
         "id": 223161,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223165": {
         "name": "モレロノミコン",
@@ -2556,7 +2705,8 @@
         ],
         "id": 223165,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223172": {
         "name": "ゼファー",
@@ -2573,7 +2723,8 @@
         ],
         "id": 223172,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223177": {
         "name": "ガーディアン ブレード",
@@ -2588,7 +2739,8 @@
         ],
         "id": 223177,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223181": {
         "name": "ハルブレイカー",
@@ -2605,7 +2757,8 @@
         ],
         "id": 223181,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223184": {
         "name": "ガーディアン ハンマー",
@@ -2621,7 +2774,8 @@
         ],
         "id": 223184,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223185": {
         "name": "ガーディアン ダーク",
@@ -2635,7 +2789,8 @@
         ],
         "id": 223185,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223190": {
         "name": "ソラリのロケット",
@@ -2653,7 +2808,8 @@
         ],
         "id": 223190,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223193": {
         "name": "ガーゴイル ストーンプレート",
@@ -2669,7 +2825,8 @@
         ],
         "id": 223193,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223222": {
         "name": "ミカエルの祝福",
@@ -2686,7 +2843,8 @@
         ],
         "id": 223222,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "223302": {
         "name": "テルミヌス",
@@ -2702,7 +2860,8 @@
         ],
         "id": 223302,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223504": {
         "name": "アーデント センサー",
@@ -2717,7 +2876,8 @@
         ],
         "id": 223504,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223508": {
         "name": "エッセンス リーバー",
@@ -2734,7 +2894,8 @@
         ],
         "id": 223508,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223742": {
         "name": "デッド マン プレート",
@@ -2749,7 +2910,8 @@
         ],
         "id": 223742,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223748": {
         "name": "タイタン ハイドラ",
@@ -2764,7 +2926,8 @@
         ],
         "id": 223748,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "223814": {
         "name": "ナイト エッジ",
@@ -2779,7 +2942,8 @@
         ],
         "id": 223814,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224004": {
         "name": "スペクトラル カトラス",
@@ -2792,7 +2956,8 @@
         ],
         "id": 224004,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "224005": {
         "name": "帝国の指令",
@@ -2807,7 +2972,8 @@
         ],
         "id": 224005,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224401": {
         "name": "自然の力",
@@ -2821,7 +2987,8 @@
         ],
         "id": 224401,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224403": {
         "name": "ザ・金のへら",
@@ -2845,7 +3012,8 @@
         ],
         "id": 224403,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224628": {
         "name": "ホライゾン フォーカス",
@@ -2858,7 +3026,8 @@
         ],
         "id": 224628,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224629": {
         "name": "コズミック ドライブ",
@@ -2873,7 +3042,8 @@
         ],
         "id": 224629,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224633": {
         "name": "リフトメーカー",
@@ -2888,7 +3058,8 @@
         ],
         "id": 224633,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224636": {
         "name": "ナイト ハーベスター",
@@ -2904,7 +3075,8 @@
         ],
         "id": 224636,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224637": {
         "name": "悪魔の抱擁",
@@ -2917,7 +3089,8 @@
         ],
         "id": 224637,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224644": {
         "name": "シャッタードクイーン クラウン",
@@ -2933,7 +3106,8 @@
         ],
         "id": 224644,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224645": {
         "name": "シャドウフレイム",
@@ -2946,7 +3120,8 @@
         ],
         "id": 224645,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "224646": {
         "name": "ストームサージ",
@@ -2961,7 +3136,8 @@
         ],
         "id": 224646,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226035": {
         "name": "シルバーミアの夜明け",
@@ -2978,7 +3154,8 @@
         ],
         "id": 226035,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "226333": {
         "name": "デス ダンス",
@@ -2993,7 +3170,8 @@
         ],
         "id": 226333,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226609": {
         "name": "ケミパンク チェーンソード",
@@ -3008,7 +3186,8 @@
         ],
         "id": 226609,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226610": {
         "name": "サンダード スカイ",
@@ -3023,7 +3202,8 @@
         ],
         "id": 226610,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226616": {
         "name": "フロー ウォーター スタッフ",
@@ -3038,7 +3218,8 @@
         ],
         "id": 226616,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226617": {
         "name": "ムーンストーンの再生",
@@ -3054,7 +3235,8 @@
         ],
         "id": 226617,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226620": {
         "name": "ヘリアの残響",
@@ -3070,7 +3252,8 @@
         ],
         "id": 226620,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226621": {
         "name": "ドーンコア",
@@ -3083,7 +3266,8 @@
         ],
         "id": 226621,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226630": {
         "name": "ゴアドリンカー",
@@ -3102,7 +3286,8 @@
         ],
         "id": 226630,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "226631": {
         "name": "ストライドブレイカー",
@@ -3118,7 +3303,8 @@
         ],
         "id": 226631,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226632": {
         "name": "ディヴァイン サンダラー",
@@ -3136,7 +3322,8 @@
         ],
         "id": 226632,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226653": {
         "name": "ライアンドリーの仮面",
@@ -3149,7 +3336,8 @@
         ],
         "id": 226653,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226655": {
         "name": "ルーデン コンパニオン",
@@ -3164,7 +3352,8 @@
         ],
         "id": 226655,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226656": {
         "name": "エバーフロスト",
@@ -3182,7 +3371,8 @@
         ],
         "id": 226656,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "226657": {
         "name": "ロッド オブ エイジス",
@@ -3198,7 +3388,8 @@
         ],
         "id": 226657,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226662": {
         "name": "アイスボーン ガントレット",
@@ -3215,7 +3406,8 @@
         ],
         "id": 226662,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226664": {
         "name": "ホロウ レディアンス",
@@ -3232,7 +3424,8 @@
         ],
         "id": 226664,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226665": {
         "name": "変幻自在のジャック＝ショー",
@@ -3247,7 +3440,8 @@
         ],
         "id": 226665,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226667": {
         "name": "レディアント ヴァーチュ",
@@ -3264,7 +3458,8 @@
         ],
         "id": 226667,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226671": {
         "name": "ゲイルフォース",
@@ -3280,7 +3475,8 @@
         ],
         "id": 226671,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "226672": {
         "name": "クラーケン スレイヤー",
@@ -3295,7 +3491,8 @@
         ],
         "id": 226672,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226673": {
         "name": "イモータル シールドボウ",
@@ -3308,7 +3505,8 @@
         ],
         "id": 226673,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226675": {
         "name": "ナヴォリ フリッカーブレード",
@@ -3322,7 +3520,8 @@
         ],
         "id": 226675,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226676": {
         "name": "コレクター",
@@ -3336,7 +3535,8 @@
         ],
         "id": 226676,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226691": {
         "name": "ドラクサー ダスクブレード",
@@ -3354,7 +3554,8 @@
         ],
         "id": 226691,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226692": {
         "name": "赤月の刃",
@@ -3368,7 +3569,8 @@
         ],
         "id": 226692,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226693": {
         "name": "プローラー クロウ",
@@ -3383,7 +3585,8 @@
         ],
         "id": 226693,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226694": {
         "name": "セリルダの怨恨",
@@ -3398,7 +3601,8 @@
         ],
         "id": 226694,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226695": {
         "name": "毒蛇の牙",
@@ -3411,7 +3615,8 @@
         ],
         "id": 226695,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226696": {
         "name": "アクシオム アーク",
@@ -3425,7 +3630,8 @@
         ],
         "id": 226696,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226697": {
         "name": "ヒュブリス",
@@ -3441,7 +3647,8 @@
         ],
         "id": 226697,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226698": {
         "name": "プロフェイン ハイドラ",
@@ -3457,7 +3664,8 @@
         ],
         "id": 226698,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226699": {
         "name": "ボルテイク サイクロソード",
@@ -3473,7 +3681,8 @@
         ],
         "id": 226699,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "226701": {
         "name": "オポチュニティー",
@@ -3488,7 +3697,8 @@
         ],
         "id": 226701,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "228001": {
         "name": "アナセマ チェイン",
@@ -3503,7 +3713,8 @@
         ],
         "id": 228001,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "228002": {
         "name": "ウーグレット ウィッチキャップ",
@@ -3517,7 +3728,8 @@
         ],
         "id": 228002,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "228003": {
         "name": "デスブレード",
@@ -3532,7 +3744,8 @@
         ],
         "id": 228003,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "228004": {
         "name": "アダプティブ ヘルム",
@@ -3548,7 +3761,8 @@
         ],
         "id": 228004,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "228005": {
         "name": "オブシディアン クリーバー",
@@ -3567,7 +3781,8 @@
         ],
         "id": 228005,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "228006": {
         "name": "サングイン ブレード",
@@ -3584,7 +3799,8 @@
         ],
         "id": 228006,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "228008": {
         "name": "ルーングレイブ",
@@ -3603,7 +3819,8 @@
         ],
         "id": 228008,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "228020": {
         "name": "アビサル マスク",
@@ -3620,7 +3837,8 @@
         ],
         "id": 228020,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "2403": {
         "name": "ミニオン吸収装置",
@@ -3632,7 +3850,8 @@
         "tags": [],
         "id": 2403,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2420": {
         "name": "シーカー アームガード",
@@ -3656,7 +3875,8 @@
         "depth": 2,
         "id": 2420,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2421": {
         "name": "砕けたアームガード",
@@ -3669,7 +3889,8 @@
         "tags": [],
         "id": 2421,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "2422": {
         "name": "ちょっとだけ魔法がかった靴",
@@ -3691,7 +3912,8 @@
         ],
         "id": 2422,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "2501": {
         "name": "覇王のブラッドメイル",
@@ -3709,7 +3931,8 @@
         "depth": 3,
         "id": 2501,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "2502": {
         "name": "終わりなき絶望",
@@ -3730,7 +3953,8 @@
         "depth": 3,
         "id": 2502,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "2503": {
         "name": "黒炎のトーチ",
@@ -3750,7 +3974,8 @@
         "depth": 3,
         "id": 2503,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "2504": {
         "name": "ケイニック ルーケルン",
@@ -3769,7 +3994,8 @@
         "depth": 3,
         "id": 2504,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "2508": {
         "name": "運命の灰",
@@ -3789,7 +4015,8 @@
         "depth": 2,
         "id": 2508,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3001": {
         "name": "イーブンシュラウド",
@@ -3810,7 +4037,8 @@
         "depth": 3,
         "id": 3001,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3002": {
         "name": "先人の道標",
@@ -3829,7 +4057,8 @@
         "depth": 3,
         "id": 3002,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3003": {
         "name": "アークエンジェル スタッフ",
@@ -3849,7 +4078,8 @@
         "depth": 3,
         "id": 3003,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3004": {
         "name": "マナムネ",
@@ -3871,7 +4101,8 @@
         "depth": 3,
         "id": 3004,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3005": {
         "name": "ゴーストクローラー",
@@ -3887,7 +4118,8 @@
         "depth": 2,
         "id": 3005,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3006": {
         "name": "バーサーカー ブーツ",
@@ -3908,7 +4140,8 @@
         "depth": 2,
         "id": 3006,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3009": {
         "name": "スイフトネス ブーツ",
@@ -3924,7 +4157,8 @@
         "depth": 2,
         "id": 3009,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3010": {
         "name": "共生靴底",
@@ -3943,7 +4177,8 @@
         "depth": 2,
         "id": 3010,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3011": {
         "name": "ケミテック ピュートリファイアー",
@@ -3963,7 +4198,8 @@
         "depth": 3,
         "id": 3011,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3012": {
         "name": "祝福の聖杯",
@@ -3982,7 +4218,8 @@
         "depth": 2,
         "id": 3012,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3013": {
         "name": "シンクロナイズド ソウル",
@@ -3999,7 +4236,8 @@
         "depth": 3,
         "id": 3013,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3020": {
         "name": "ソーサラー シューズ",
@@ -4016,7 +4254,8 @@
         "depth": 2,
         "id": 3020,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3023": {
         "name": "生命泉のペンダント",
@@ -4039,7 +4278,8 @@
         "depth": 2,
         "id": 3023,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3024": {
         "name": "グレイシャル バックラー",
@@ -4063,7 +4303,8 @@
         "depth": 2,
         "id": 3024,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3026": {
         "name": "ガーディアン エンジェル",
@@ -4081,7 +4322,8 @@
         "depth": 3,
         "id": 3026,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3031": {
         "name": "インフィニティ エッジ",
@@ -4100,7 +4342,8 @@
         "depth": 2,
         "id": 3031,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3032": {
         "name": "ユン・タル ワイルドアロー",
@@ -4118,7 +4361,8 @@
         "depth": 3,
         "id": 3032,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3033": {
         "name": "モータル リマインダー",
@@ -4138,7 +4382,8 @@
         "depth": 3,
         "id": 3033,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3035": {
         "name": "ラスト ウィスパー",
@@ -4161,7 +4406,8 @@
         "depth": 2,
         "id": 3035,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3036": {
         "name": "ドミニク リガード",
@@ -4180,7 +4426,8 @@
         "depth": 3,
         "id": 3036,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3039": {
         "name": "アトマの報い",
@@ -4200,7 +4447,8 @@
         "depth": 3,
         "id": 3039,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3040": {
         "name": "セラフ エンブレイス",
@@ -4216,7 +4464,8 @@
         ],
         "id": 3040,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3041": {
         "name": "メジャイ ソウルスティーラー",
@@ -4234,7 +4483,8 @@
         "depth": 2,
         "id": 3041,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3042": {
         "name": "ムラマナ",
@@ -4252,7 +4502,8 @@
         ],
         "id": 3042,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3044": {
         "name": "ファージ",
@@ -4277,7 +4528,8 @@
         "depth": 2,
         "id": 3044,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3046": {
         "name": "ファントム ダンサー",
@@ -4297,7 +4549,8 @@
         "depth": 3,
         "id": 3046,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3047": {
         "name": "プレート スチールキャップ",
@@ -4315,7 +4568,8 @@
         "depth": 2,
         "id": 3047,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3050": {
         "name": "ジーク コンバージェンス",
@@ -4336,7 +4590,8 @@
         "depth": 3,
         "id": 3050,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3051": {
         "name": "ハースバウンド アックス",
@@ -4361,7 +4616,8 @@
         "depth": 2,
         "id": 3051,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3053": {
         "name": "ステラックの篭手",
@@ -4381,7 +4637,8 @@
         "depth": 3,
         "id": 3053,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3057": {
         "name": "シーン",
@@ -4404,7 +4661,8 @@
         "depth": 2,
         "id": 3057,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3065": {
         "name": "スピリット ビサージュ",
@@ -4425,7 +4683,8 @@
         "depth": 3,
         "id": 3065,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3066": {
         "name": "翼のムーンプレート",
@@ -4448,7 +4707,8 @@
         "depth": 2,
         "id": 3066,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3067": {
         "name": "キンドルジェム",
@@ -4489,7 +4749,8 @@
         "depth": 2,
         "id": 3067,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3068": {
         "name": "サンファイア イージス",
@@ -4509,7 +4770,8 @@
         "depth": 3,
         "id": 3068,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3070": {
         "name": "女神の涙",
@@ -4527,7 +4789,8 @@
         ],
         "id": 3070,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3071": {
         "name": "ブラック クリーバー",
@@ -4551,7 +4814,8 @@
         "depth": 3,
         "id": 3071,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3072": {
         "name": "ブラッドサースター",
@@ -4570,7 +4834,8 @@
         "depth": 3,
         "id": 3072,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3073": {
         "name": "実験的へクスプレート",
@@ -4592,7 +4857,8 @@
         "depth": 3,
         "id": 3073,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3074": {
         "name": "ラヴァナス ハイドラ",
@@ -4614,7 +4880,8 @@
         "depth": 3,
         "id": 3074,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3075": {
         "name": "ソーンメイル",
@@ -4632,7 +4899,8 @@
         "depth": 3,
         "id": 3075,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3076": {
         "name": "ブランブル ベスト",
@@ -4652,7 +4920,8 @@
         "depth": 2,
         "id": 3076,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3077": {
         "name": "ティアマット",
@@ -4676,7 +4945,8 @@
         "depth": 2,
         "id": 3077,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3078": {
         "name": "トリニティ フォース",
@@ -4700,7 +4970,8 @@
         "depth": 3,
         "id": 3078,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3082": {
         "name": "ワーデン メイル",
@@ -4721,7 +4992,8 @@
         "depth": 2,
         "id": 3082,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3083": {
         "name": "ワーモグ アーマー",
@@ -4741,7 +5013,8 @@
         "depth": 3,
         "id": 3083,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3084": {
         "name": "心の鋼",
@@ -4760,7 +5033,8 @@
         "depth": 3,
         "id": 3084,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3085": {
         "name": "ルナーン ハリケーン",
@@ -4780,7 +5054,8 @@
         "depth": 3,
         "id": 3085,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3086": {
         "name": "ジール",
@@ -4807,7 +5082,8 @@
         "depth": 2,
         "id": 3086,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3087": {
         "name": "スタティック シヴ",
@@ -4828,7 +5104,8 @@
         "depth": 3,
         "id": 3087,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3089": {
         "name": "ラバドン デスキャップ",
@@ -4845,7 +5122,8 @@
         "depth": 2,
         "id": 3089,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3091": {
         "name": "ウィッツ エンド",
@@ -4866,7 +5144,8 @@
         "depth": 3,
         "id": 3091,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3094": {
         "name": "ラピッド ファイアキャノン",
@@ -4885,7 +5164,8 @@
         "depth": 3,
         "id": 3094,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3095": {
         "name": "ストームレイザー",
@@ -4904,7 +5184,8 @@
         "depth": 3,
         "id": 3095,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3100": {
         "name": "リッチ ベイン",
@@ -4925,7 +5206,8 @@
         "depth": 3,
         "id": 3100,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3102": {
         "name": "バンシー ヴェール",
@@ -4943,7 +5225,8 @@
         "depth": 3,
         "id": 3102,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3105": {
         "name": "イージスの盾",
@@ -4969,7 +5252,8 @@
         "depth": 2,
         "id": 3105,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3107": {
         "name": "リデンプション",
@@ -4989,7 +5273,8 @@
         "depth": 3,
         "id": 3107,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3108": {
         "name": "フィンディッシュの古書",
@@ -5022,7 +5307,8 @@
         "depth": 2,
         "id": 3108,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3109": {
         "name": "騎士の誓い",
@@ -5046,7 +5332,8 @@
         "depth": 3,
         "id": 3109,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3110": {
         "name": "フローズン ハート",
@@ -5067,7 +5354,8 @@
         "depth": 3,
         "id": 3110,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3111": {
         "name": "マーキュリー ブーツ",
@@ -5086,7 +5374,8 @@
         "depth": 2,
         "id": 3111,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3112": {
         "name": "ガーディアン オーブ",
@@ -5101,7 +5390,8 @@
         ],
         "id": 3112,
         "nomal_item": false,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3113": {
         "name": "エーテル ウィスプ",
@@ -5125,7 +5415,8 @@
         "depth": 2,
         "id": 3113,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3114": {
         "name": "フォビドゥン アイドル",
@@ -5149,7 +5440,8 @@
         "depth": 2,
         "id": 3114,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3115": {
         "name": "ナッシャー トゥース",
@@ -5170,7 +5462,8 @@
         "depth": 3,
         "id": 3115,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3116": {
         "name": "リーライ クリスタル セプター",
@@ -5190,7 +5483,8 @@
         "depth": 3,
         "id": 3116,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3117": {
         "name": "モビリティ ブーツ",
@@ -5207,7 +5501,8 @@
         "depth": 2,
         "id": 3117,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3118": {
         "name": "マリグナンス",
@@ -5226,7 +5521,8 @@
         "depth": 3,
         "id": 3118,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3119": {
         "name": "冬の訪れ",
@@ -5246,7 +5542,8 @@
         "depth": 3,
         "id": 3119,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3121": {
         "name": "フィンブルウィンター",
@@ -5262,7 +5559,8 @@
         ],
         "id": 3121,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3123": {
         "name": "エクスキューショナー コーリング",
@@ -5282,7 +5580,8 @@
         "depth": 2,
         "id": 3123,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3124": {
         "name": "グインソー レイジブレード",
@@ -5303,7 +5602,8 @@
         "depth": 3,
         "id": 3124,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3128": {
         "name": "デスファイア グラスプ",
@@ -5321,7 +5621,8 @@
         "depth": 3,
         "id": 3128,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3131": {
         "name": "天帝の剣",
@@ -5341,7 +5642,8 @@
         "depth": 3,
         "id": 3131,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3133": {
         "name": "コールフィールド ウォーハンマー",
@@ -5382,7 +5684,8 @@
         "depth": 2,
         "id": 3133,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3134": {
         "name": "セレイテッド ダーク",
@@ -5415,7 +5718,8 @@
         "depth": 2,
         "id": 3134,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3135": {
         "name": "ヴォイド スタッフ",
@@ -5433,7 +5737,8 @@
         "depth": 3,
         "id": 3135,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3137": {
         "name": "クリプトブルーム",
@@ -5452,7 +5757,8 @@
         "depth": 3,
         "id": 3137,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3139": {
         "name": "マーキュリアル シミター",
@@ -5475,7 +5781,8 @@
         "depth": 3,
         "id": 3139,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3140": {
         "name": "クイックシルバー サッシュ",
@@ -5496,7 +5803,8 @@
         "depth": 2,
         "id": 3140,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3142": {
         "name": "妖夢の霊剣",
@@ -5516,7 +5824,8 @@
         "depth": 3,
         "id": 3142,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3143": {
         "name": "ランデュイン オーメン",
@@ -5536,7 +5845,8 @@
         "depth": 3,
         "id": 3143,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3144": {
         "name": "偵察兵のパチンコ",
@@ -5558,7 +5868,8 @@
         "depth": 2,
         "id": 3144,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3145": {
         "name": "ヘクステック オルタネーター",
@@ -5584,7 +5895,8 @@
         "depth": 2,
         "id": 3145,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3146": {
         "name": "ヘクステック ガンブレード",
@@ -5605,7 +5917,8 @@
         "depth": 2,
         "id": 3146,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3147": {
         "name": "悲愴な仮面",
@@ -5627,7 +5940,8 @@
         "depth": 2,
         "id": 3147,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3152": {
         "name": "ヘクステック ロケットベルト",
@@ -5649,7 +5963,8 @@
         "depth": 3,
         "id": 3152,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3153": {
         "name": "ルインドキング ブレード",
@@ -5671,7 +5986,8 @@
         "depth": 3,
         "id": 3153,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3155": {
         "name": "ヘクスドリンカー",
@@ -5694,7 +6010,8 @@
         "depth": 2,
         "id": 3155,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3156": {
         "name": "マルモティウスの胃袋",
@@ -5716,7 +6033,8 @@
         "depth": 3,
         "id": 3156,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3157": {
         "name": "ゾーニャの砂時計",
@@ -5735,7 +6053,8 @@
         "depth": 3,
         "id": 3157,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3158": {
         "name": "アイオニア ブーツ",
@@ -5753,7 +6072,8 @@
         "depth": 2,
         "id": 3158,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3161": {
         "name": "ショウジンの矛",
@@ -5773,7 +6093,8 @@
         "depth": 3,
         "id": 3161,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3165": {
         "name": "モレロノミコン",
@@ -5792,7 +6113,8 @@
         "depth": 3,
         "id": 3165,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3172": {
         "name": "ゼファー",
@@ -5809,7 +6131,8 @@
         "depth": 3,
         "id": 3172,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3177": {
         "name": "ガーディアン ブレード",
@@ -5824,7 +6147,8 @@
         ],
         "id": 3177,
         "nomal_item": false,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3179": {
         "name": "アンブラル グレイブ",
@@ -5845,7 +6169,8 @@
         "depth": 3,
         "id": 3179,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3181": {
         "name": "ハルブレイカー",
@@ -5865,7 +6190,8 @@
         "depth": 3,
         "id": 3181,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3184": {
         "name": "ガーディアン ハンマー",
@@ -5880,7 +6206,8 @@
         ],
         "id": 3184,
         "nomal_item": false,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3190": {
         "name": "ソラリのロケット",
@@ -5904,7 +6231,8 @@
         "depth": 3,
         "id": 3190,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3193": {
         "name": "ガーゴイル ストーンプレート",
@@ -5927,7 +6255,8 @@
         "depth": 3,
         "id": 3193,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3211": {
         "name": "スペクター カウル",
@@ -5952,7 +6281,8 @@
         "depth": 2,
         "id": 3211,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3222": {
         "name": "ミカエルの祝福",
@@ -5974,7 +6304,8 @@
         "depth": 3,
         "id": 3222,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3302": {
         "name": "テルミヌス",
@@ -5995,7 +6326,8 @@
         "depth": 3,
         "id": 3302,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3340": {
         "name": "ステルス ワード",
@@ -6011,7 +6343,8 @@
         ],
         "id": 3340,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3348": {
         "name": "アーケイン スイーパー",
@@ -6028,7 +6361,8 @@
         ],
         "id": 3348,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3349": {
         "name": "シンギュラリティ",
@@ -6045,7 +6379,8 @@
         ],
         "id": 3349,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3363": {
         "name": "ファーサイト オルタレーション",
@@ -6059,7 +6394,8 @@
         ],
         "id": 3363,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3364": {
         "name": "オラクル レンズ",
@@ -6073,7 +6409,8 @@
         ],
         "id": 3364,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3400": {
         "name": "お前の取り分",
@@ -6087,7 +6424,8 @@
         ],
         "id": 3400,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3430": {
         "name": "破滅の儀式",
@@ -6101,7 +6439,8 @@
         ],
         "id": 3430,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3504": {
         "name": "アーデント センサー",
@@ -6121,7 +6460,8 @@
         "depth": 3,
         "id": 3504,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3508": {
         "name": "エッセンス リーバー",
@@ -6144,7 +6484,8 @@
         "depth": 3,
         "id": 3508,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3513": {
         "name": "ヘラルドの瞳",
@@ -6158,7 +6499,8 @@
         ],
         "id": 3513,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3742": {
         "name": "デッド マン プレート",
@@ -6179,7 +6521,8 @@
         "depth": 3,
         "id": 3742,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3748": {
         "name": "タイタン ハイドラ",
@@ -6200,7 +6543,8 @@
         "depth": 3,
         "id": 3748,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3801": {
         "name": "クリスタル ブレーサー",
@@ -6222,7 +6566,8 @@
         "depth": 2,
         "id": 3801,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "3802": {
         "name": "ロスト チャプター",
@@ -6252,7 +6597,8 @@
         "depth": 2,
         "id": 3802,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3803": {
         "name": "久遠のカタリスト",
@@ -6276,7 +6622,8 @@
         "depth": 2,
         "id": 3803,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3814": {
         "name": "ナイト エッジ",
@@ -6296,7 +6643,8 @@
         "depth": 3,
         "id": 3814,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "3850": {
         "name": "スペルシーフ エッジ",
@@ -6313,7 +6661,8 @@
         ],
         "id": 3850,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3851": {
         "name": "フロストファング",
@@ -6330,7 +6679,8 @@
         ],
         "id": 3851,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3853": {
         "name": "真なる氷のかけら",
@@ -6347,7 +6697,8 @@
         ],
         "id": 3853,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3854": {
         "name": "鋼のショルダーガード",
@@ -6364,7 +6715,8 @@
         ],
         "id": 3854,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3855": {
         "name": "ルーン鋼の肩当て",
@@ -6381,7 +6733,8 @@
         ],
         "id": 3855,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3857": {
         "name": "ホワイトロックの肩鎧",
@@ -6398,7 +6751,8 @@
         ],
         "id": 3857,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3858": {
         "name": "レリック シールド",
@@ -6415,7 +6769,8 @@
         ],
         "id": 3858,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3859": {
         "name": "ターゴンの盾",
@@ -6432,7 +6787,8 @@
         ],
         "id": 3859,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3860": {
         "name": "霊峰の砦",
@@ -6449,7 +6805,8 @@
         ],
         "id": 3860,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3862": {
         "name": "霊者の鎌",
@@ -6466,7 +6823,8 @@
         ],
         "id": 3862,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3863": {
         "name": "暗黒の刻の三日月鎌",
@@ -6483,7 +6841,8 @@
         ],
         "id": 3863,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3864": {
         "name": "黒き霧の大鎌",
@@ -6500,7 +6859,8 @@
         ],
         "id": 3864,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3865": {
         "name": "ワールド アトラス",
@@ -6517,7 +6877,8 @@
         ],
         "id": 3865,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "3866": {
         "name": "ルーニック コンパス",
@@ -6534,7 +6895,8 @@
         ],
         "id": 3866,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3867": {
         "name": "世界の恵み",
@@ -6558,7 +6920,8 @@
         ],
         "id": 3867,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3869": {
         "name": "セレスティアル オポジション",
@@ -6578,7 +6941,8 @@
         "depth": 2,
         "id": 3869,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3870": {
         "name": "ドリーム メーカー",
@@ -6598,7 +6962,8 @@
         "depth": 2,
         "id": 3870,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3871": {
         "name": "ザズ＝ザクのレルムスパイク",
@@ -6618,7 +6983,8 @@
         "depth": 2,
         "id": 3871,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3876": {
         "name": "至点のソリ",
@@ -6638,7 +7004,8 @@
         "depth": 2,
         "id": 3876,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3877": {
         "name": "ブラッドソング",
@@ -6658,7 +7025,8 @@
         "depth": 2,
         "id": 3877,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "3916": {
         "name": "忘却のオーブ",
@@ -6679,7 +7047,8 @@
         "depth": 2,
         "id": 3916,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4003": {
         "name": "ライフライン",
@@ -6700,7 +7069,8 @@
         "depth": 3,
         "id": 4003,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "4004": {
         "name": "スペクトラル カトラス",
@@ -6718,7 +7088,8 @@
         "depth": 4,
         "id": 4004,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "4005": {
         "name": "帝国の指令",
@@ -6738,7 +7109,8 @@
         "depth": 3,
         "id": 4005,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4010": {
         "name": "ブラッドレターの呪い",
@@ -6753,7 +7125,8 @@
         ],
         "id": 4010,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4011": {
         "name": "花咲く夜明けの剣",
@@ -6769,7 +7142,8 @@
         ],
         "id": 4011,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4012": {
         "name": "罪喰人",
@@ -6784,7 +7158,8 @@
         ],
         "id": 4012,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4013": {
         "name": "稲妻の鎖",
@@ -6799,7 +7174,8 @@
         ],
         "id": 4013,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4014": {
         "name": "フローズン マレット",
@@ -6814,7 +7190,8 @@
         ],
         "id": 4014,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4015": {
         "name": "混乱",
@@ -6831,7 +7208,8 @@
         ],
         "id": 4015,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4016": {
         "name": "無言の約束",
@@ -6845,7 +7223,8 @@
         ],
         "id": 4016,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4017": {
         "name": "獄炎のハチェット",
@@ -6862,7 +7241,8 @@
         ],
         "id": 4017,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4401": {
         "name": "自然の力",
@@ -6882,7 +7262,8 @@
         "depth": 3,
         "id": 4401,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4402": {
         "name": "心身統御のペンダント",
@@ -6903,7 +7284,8 @@
         "depth": 3,
         "id": 4402,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4403": {
         "name": "ザ・金のへら",
@@ -6936,7 +7318,8 @@
         "depth": 3,
         "id": 4403,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443054": {
         "name": "ダークスティール タロン",
@@ -6951,7 +7334,8 @@
         ],
         "id": 443054,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443055": {
         "name": "起爆",
@@ -6966,7 +7350,8 @@
         ],
         "id": 443055,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443056": {
         "name": "不死身の大王の王冠",
@@ -6985,7 +7370,8 @@
         ],
         "id": 443056,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443058": {
         "name": "モルテンストーン シールド",
@@ -6999,7 +7385,8 @@
         ],
         "id": 443058,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443059": {
         "name": "星空のマント",
@@ -7013,7 +7400,8 @@
         ],
         "id": 443059,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443060": {
         "name": "天帝の剣",
@@ -7028,7 +7416,8 @@
         ],
         "id": 443060,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443061": {
         "name": "エントロピーの力",
@@ -7045,7 +7434,8 @@
         ],
         "id": 443061,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443062": {
         "name": "紅血の賜物",
@@ -7060,7 +7450,8 @@
         ],
         "id": 443062,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443063": {
         "name": "エリーサの奇跡",
@@ -7075,7 +7466,8 @@
         ],
         "id": 443063,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443064": {
         "name": "超越のタリスマン",
@@ -7106,7 +7498,8 @@
         ],
         "id": 443064,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "443069": {
         "name": "ハムストリンガー",
@@ -7121,7 +7514,8 @@
         ],
         "id": 443069,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443079": {
         "name": "ターボ ケミタンク",
@@ -7136,7 +7530,8 @@
         ],
         "id": 443079,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443080": {
         "name": "ツインマスク",
@@ -7155,7 +7550,8 @@
         ],
         "id": 443080,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443081": {
         "name": "ヘクスボルト・コンパニオン",
@@ -7169,7 +7565,8 @@
         ],
         "id": 443081,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443090": {
         "name": "リーパーズ・トール",
@@ -7185,7 +7582,8 @@
         ],
         "id": 443090,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "443193": {
         "name": "ガーゴイル ストーンプレート",
@@ -7202,7 +7600,8 @@
         ],
         "id": 443193,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "444636": {
         "name": "ナイト ハーベスター",
@@ -7219,7 +7618,8 @@
         ],
         "id": 444636,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "444637": {
         "name": "悪魔の抱擁",
@@ -7235,7 +7635,8 @@
         ],
         "id": 444637,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "444644": {
         "name": "シャッタードクイーン クラウン",
@@ -7252,7 +7653,8 @@
         ],
         "id": 444644,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "446632": {
         "name": "ディヴァイン サンダラー",
@@ -7271,7 +7673,8 @@
         ],
         "id": 446632,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "446656": {
         "name": "エバーフロスト",
@@ -7290,7 +7693,8 @@
         ],
         "id": 446656,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "446667": {
         "name": "レディアント ヴァーチュ",
@@ -7308,7 +7712,8 @@
         ],
         "id": 446667,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "446671": {
         "name": "ゲイルフォース",
@@ -7325,7 +7730,8 @@
         ],
         "id": 446671,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "446691": {
         "name": "ドラクサー ダスクブレード",
@@ -7344,7 +7750,8 @@
         ],
         "id": 446691,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "446693": {
         "name": "プローラー クロウ",
@@ -7360,7 +7767,8 @@
         ],
         "id": 446693,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447100": {
         "name": "ミラージュ ブレード",
@@ -7377,7 +7785,8 @@
         ],
         "id": 447100,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447101": {
         "name": "ギャンブラーの剣",
@@ -7392,7 +7801,8 @@
         ],
         "id": 447101,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447102": {
         "name": "現実の崩壊",
@@ -7407,7 +7817,8 @@
         ],
         "id": 447102,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447103": {
         "name": "操血術師のヘルム",
@@ -7422,7 +7833,8 @@
         ],
         "id": 447103,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447104": {
         "name": "心身統御のペンダント",
@@ -7437,7 +7849,8 @@
         ],
         "id": 447104,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447105": {
         "name": "荘厳の天球の約束",
@@ -7452,7 +7865,8 @@
         ],
         "id": 447105,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "447106": {
         "name": "ドラゴンハート",
@@ -7471,7 +7885,8 @@
         ],
         "id": 447106,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447107": {
         "name": "デキャピテーター",
@@ -7487,7 +7902,8 @@
         ],
         "id": 447107,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "447108": {
         "name": "ルーン職人",
@@ -7501,7 +7917,8 @@
         ],
         "id": 447108,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447109": {
         "name": "冷酷な一撃",
@@ -7516,7 +7933,8 @@
         ],
         "id": 447109,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447110": {
         "name": "ムーンフレア スペルブレード",
@@ -7531,7 +7949,8 @@
         ],
         "id": 447110,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447111": {
         "name": "覇王のブラッドメイル",
@@ -7545,7 +7964,8 @@
         ],
         "id": 447111,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447112": {
         "name": "肉喰らう者",
@@ -7561,7 +7981,8 @@
         ],
         "id": 447112,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447113": {
         "name": "爆発オーブ",
@@ -7576,7 +7997,8 @@
         ],
         "id": 447113,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447114": {
         "name": "残響",
@@ -7593,7 +8015,8 @@
         ],
         "id": 447114,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447115": {
         "name": "レジサイド",
@@ -7608,7 +8031,8 @@
         ],
         "id": 447115,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447116": {
         "name": "均衡の守人ジッテ",
@@ -7625,7 +8049,8 @@
         ],
         "id": 447116,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447118": {
         "name": "パイロマンサーのマント",
@@ -7641,7 +8066,8 @@
         ],
         "id": 447118,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447119": {
         "name": "雷撃の杖",
@@ -7655,7 +8081,8 @@
         ],
         "id": 447119,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447120": {
         "name": "ダイヤモンドチップスピア",
@@ -7669,7 +8096,8 @@
         ],
         "id": 447120,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447121": {
         "name": "トワイライト・エッジ",
@@ -7688,7 +8116,8 @@
         ],
         "id": 447121,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447122": {
         "name": "ブラックホールガントレット",
@@ -7704,7 +8133,8 @@
         ],
         "id": 447122,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "447123": {
         "name": "人形使い",
@@ -7719,7 +8149,8 @@
         ],
         "id": 447123,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4628": {
         "name": "ホライゾン フォーカス",
@@ -7737,7 +8168,8 @@
         "depth": 3,
         "id": 4628,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4629": {
         "name": "コズミック ドライブ",
@@ -7758,7 +8190,8 @@
         "depth": 3,
         "id": 4629,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4630": {
         "name": "枯死の宝石",
@@ -7779,7 +8212,8 @@
         "depth": 2,
         "id": 4630,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "4632": {
         "name": "ヴァーダント バリア",
@@ -7801,7 +8235,8 @@
         "depth": 2,
         "id": 4632,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4633": {
         "name": "リフトメーカー",
@@ -7821,7 +8256,8 @@
         "depth": 3,
         "id": 4633,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4635": {
         "name": "リーチング リア",
@@ -7841,7 +8277,8 @@
         "depth": 2,
         "id": 4635,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "4636": {
         "name": "ナイト ハーベスター",
@@ -7863,7 +8300,8 @@
         "depth": 3,
         "id": 4636,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4637": {
         "name": "悪魔の抱擁",
@@ -7883,7 +8321,8 @@
         "depth": 3,
         "id": 4637,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4638": {
         "name": "ウォッチフル ワードストーン",
@@ -7905,7 +8344,8 @@
         ],
         "id": 4638,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4641": {
         "name": "スターリング ワードストーン",
@@ -7926,7 +8366,8 @@
         ],
         "id": 4641,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4642": {
         "name": "バンドルグラスの鏡",
@@ -7953,7 +8394,8 @@
         "depth": 2,
         "id": 4642,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "4643": {
         "name": "ビジラント ワードストーン",
@@ -7976,7 +8418,8 @@
         "depth": 2,
         "id": 4643,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4644": {
         "name": "シャッタードクイーン クラウン",
@@ -7999,7 +8442,8 @@
         "depth": 3,
         "id": 4644,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "4645": {
         "name": "シャドウフレイム",
@@ -8017,7 +8461,8 @@
         "depth": 3,
         "id": 4645,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "4646": {
         "name": "ストームサージ",
@@ -8037,7 +8482,8 @@
         "depth": 3,
         "id": 4646,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6029": {
         "name": "アイアンスパイク ウィップ",
@@ -8058,7 +8504,8 @@
         "depth": 2,
         "id": 6029,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "6035": {
         "name": "シルバーミアの夜明け",
@@ -8081,7 +8528,8 @@
         "depth": 3,
         "id": 6035,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "6333": {
         "name": "デス ダンス",
@@ -8102,7 +8550,8 @@
         "depth": 3,
         "id": 6333,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6609": {
         "name": "ケミパンク チェーンソード",
@@ -8123,7 +8572,8 @@
         "depth": 3,
         "id": 6609,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6610": {
         "name": "サンダード スカイ",
@@ -8143,7 +8593,8 @@
         "depth": 3,
         "id": 6610,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6616": {
         "name": "フロー ウォーター スタッフ",
@@ -8163,7 +8614,8 @@
         "depth": 3,
         "id": 6616,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6617": {
         "name": "ムーンストーンの再生",
@@ -8184,7 +8636,8 @@
         "depth": 3,
         "id": 6617,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6620": {
         "name": "ヘリアの残響",
@@ -8205,7 +8658,8 @@
         "depth": 3,
         "id": 6620,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6621": {
         "name": "ドーンコア",
@@ -8224,7 +8678,8 @@
         "depth": 3,
         "id": 6621,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6630": {
         "name": "ゴアドリンカー",
@@ -8249,7 +8704,8 @@
         "depth": 3,
         "id": 6630,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "6631": {
         "name": "ストライドブレイカー",
@@ -8271,7 +8727,8 @@
         "depth": 3,
         "id": 6631,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6632": {
         "name": "ディヴァイン サンダラー",
@@ -8296,7 +8753,8 @@
         "depth": 3,
         "id": 6632,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "6653": {
         "name": "ライアンドリーの仮面",
@@ -8314,7 +8772,8 @@
         "depth": 3,
         "id": 6653,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6655": {
         "name": "ルーデン コンパニオン",
@@ -8334,7 +8793,8 @@
         "depth": 3,
         "id": 6655,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6656": {
         "name": "エバーフロスト",
@@ -8359,7 +8819,8 @@
         "depth": 3,
         "id": 6656,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "6657": {
         "name": "ロッド オブ エイジス",
@@ -8380,7 +8841,8 @@
         "depth": 3,
         "id": 6657,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6660": {
         "name": "バミ シンダー",
@@ -8402,7 +8864,8 @@
         "depth": 2,
         "id": 6660,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6662": {
         "name": "アイスボーン ガントレット",
@@ -8425,7 +8888,8 @@
         "depth": 3,
         "id": 6662,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6664": {
         "name": "ホロウ レディアンス",
@@ -8447,7 +8911,8 @@
         "depth": 3,
         "id": 6664,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6665": {
         "name": "変幻自在のジャック＝ショー",
@@ -8468,7 +8933,8 @@
         "depth": 3,
         "id": 6665,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6667": {
         "name": "レディアント ヴァーチュ",
@@ -8491,7 +8957,8 @@
         "depth": 3,
         "id": 6667,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "6670": {
         "name": "ヌーンクィヴァー",
@@ -8516,7 +8983,8 @@
         "depth": 2,
         "id": 6670,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "6671": {
         "name": "ゲイルフォース",
@@ -8539,7 +9007,8 @@
         "depth": 3,
         "id": 6671,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "6672": {
         "name": "クラーケン スレイヤー",
@@ -8560,7 +9029,8 @@
         "depth": 3,
         "id": 6672,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6673": {
         "name": "イモータル シールドボウ",
@@ -8578,7 +9048,8 @@
         "depth": 3,
         "id": 6673,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6675": {
         "name": "ナヴォリ フリッカーブレード",
@@ -8598,7 +9069,8 @@
         "depth": 3,
         "id": 6675,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6676": {
         "name": "コレクター",
@@ -8618,7 +9090,8 @@
         "depth": 3,
         "id": 6676,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6677": {
         "name": "レイジナイフ",
@@ -8637,7 +9110,8 @@
         "depth": 2,
         "id": 6677,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "6690": {
         "name": "レクトリクス",
@@ -8662,7 +9136,8 @@
         "depth": 2,
         "id": 6690,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": false
     },
     "6691": {
         "name": "ドラクサー ダスクブレード",
@@ -8686,7 +9161,8 @@
         "depth": 3,
         "id": 6691,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "6692": {
         "name": "赤月の刃",
@@ -8706,7 +9182,8 @@
         "depth": 3,
         "id": 6692,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6693": {
         "name": "プローラー クロウ",
@@ -8727,7 +9204,8 @@
         "depth": 3,
         "id": 6693,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6694": {
         "name": "セリルダの怨恨",
@@ -8747,7 +9225,8 @@
         "depth": 3,
         "id": 6694,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6695": {
         "name": "毒蛇の牙",
@@ -8765,7 +9244,8 @@
         "depth": 3,
         "id": 6695,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6696": {
         "name": "アクシオム アーク",
@@ -8784,7 +9264,8 @@
         "depth": 3,
         "id": 6696,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6697": {
         "name": "ヒュブリス",
@@ -8805,7 +9286,8 @@
         "depth": 3,
         "id": 6697,
         "nomal_item": true,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "6698": {
         "name": "プロフェイン ハイドラ",
@@ -8826,7 +9308,8 @@
         "depth": 3,
         "id": 6698,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6699": {
         "name": "ボルテイク サイクロソード",
@@ -8848,7 +9331,8 @@
         "depth": 3,
         "id": 6699,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "6700": {
         "name": "ラッコールの盾",
@@ -8871,7 +9355,8 @@
         "depth": 3,
         "id": 6700,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": true
     },
     "6701": {
         "name": "オポチュニティー",
@@ -8891,7 +9376,8 @@
         "depth": 3,
         "id": 6701,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "8001": {
         "name": "アナセマ チェイン",
@@ -8912,7 +9398,8 @@
         "depth": 3,
         "id": 8001,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "8020": {
         "name": "アビサル マスク",
@@ -8934,7 +9421,8 @@
         "depth": 3,
         "id": 8020,
         "nomal_item": true,
-        "aram_item": true
+        "aram_item": true,
+        "has_passive": true
     },
     "9168": {
         "name": "ロックされた武器スロット",
@@ -8944,7 +9432,8 @@
         "tags": [],
         "id": 9168,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9171": {
         "name": "サイクロニック スライサー",
@@ -8954,7 +9443,8 @@
         "tags": [],
         "id": 9171,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9172": {
         "name": "ユーミボット",
@@ -8964,7 +9454,8 @@
         "tags": [],
         "id": 9172,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9173": {
         "name": "レディアント フィールド",
@@ -8974,7 +9465,8 @@
         "tags": [],
         "id": 9173,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9174": {
         "name": "スタティック ソード",
@@ -8984,7 +9476,8 @@
         "tags": [],
         "id": 9174,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9175": {
         "name": "ライオネスの悲嘆",
@@ -8994,7 +9487,8 @@
         "tags": [],
         "id": 9175,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9176": {
         "name": "ガトリング バニーガン",
@@ -9004,7 +9498,8 @@
         "tags": [],
         "id": 9176,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9177": {
         "name": "灼熱のショートボウ",
@@ -9014,7 +9509,8 @@
         "tags": [],
         "id": 9177,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9178": {
         "name": "アナイアレーター",
@@ -9024,7 +9520,8 @@
         "tags": [],
         "id": 9178,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9179": {
         "name": "バトルバニー クロスボウ",
@@ -9034,7 +9531,8 @@
         "tags": [],
         "id": 9179,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9180": {
         "name": "UwU ブラスター",
@@ -9044,7 +9542,8 @@
         "tags": [],
         "id": 9180,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9181": {
         "name": "ボルテックス グローブ",
@@ -9054,7 +9553,8 @@
         "tags": [],
         "id": 9181,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9183": {
         "name": "ブレードブーメラン",
@@ -9064,7 +9564,8 @@
         "tags": [],
         "id": 9183,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9184": {
         "name": "バニー メガブラスト",
@@ -9074,7 +9575,8 @@
         "tags": [],
         "id": 9184,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9185": {
         "name": "対シャーク海中地雷",
@@ -9084,7 +9586,8 @@
         "tags": [],
         "id": 9185,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9187": {
         "name": "T.I.B.B.E.R.S",
@@ -9094,7 +9597,8 @@
         "tags": [],
         "id": 9187,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9188": {
         "name": "アニマイン",
@@ -9104,7 +9608,8 @@
         "tags": [],
         "id": 9188,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9189": {
         "name": "ファイナルシティ交通",
@@ -9114,7 +9619,8 @@
         "tags": [],
         "id": 9189,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9190": {
         "name": "エコー バットブレード",
@@ -9124,7 +9630,8 @@
         "tags": [],
         "id": 9190,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9192": {
         "name": "毒の足跡",
@@ -9134,7 +9641,8 @@
         "tags": [],
         "id": 9192,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9193": {
         "name": "アイスブラスト アーマー",
@@ -9144,7 +9652,8 @@
         "tags": [],
         "id": 9193,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9271": {
         "name": "終わりなき旋風",
@@ -9154,7 +9663,8 @@
         "tags": [],
         "id": 9271,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9272": {
         "name": "YuumiBot_Final_FINAL",
@@ -9164,7 +9674,8 @@
         "tags": [],
         "id": 9272,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9273": {
         "name": "爆発の抱擁",
@@ -9174,7 +9685,8 @@
         "tags": [],
         "id": 9273,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9274": {
         "name": "プランビス エレクトロカーバー",
@@ -9184,7 +9696,8 @@
         "tags": [],
         "id": 9274,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9275": {
         "name": "包みこむ光",
@@ -9194,7 +9707,8 @@
         "tags": [],
         "id": 9275,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9276": {
         "name": "ダブルバンバン砲",
@@ -9204,7 +9718,8 @@
         "tags": [],
         "id": 9276,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9277": {
         "name": "進化したエンバーショット",
@@ -9214,7 +9729,8 @@
         "tags": [],
         "id": 9277,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9278": {
         "name": "アニマポカリプス",
@@ -9224,7 +9740,8 @@
         "tags": [],
         "id": 9278,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9279": {
         "name": "バニープライム バリスタ",
@@ -9234,7 +9751,8 @@
         "tags": [],
         "id": 9279,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9280": {
         "name": "OwO ブラスター",
@@ -9244,7 +9762,8 @@
         "tags": [],
         "id": 9280,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9281": {
         "name": "テンペスト ガントレット",
@@ -9254,7 +9773,8 @@
         "tags": [],
         "id": 9281,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9283": {
         "name": "クアッドブーメラン",
@@ -9264,7 +9784,8 @@
         "tags": [],
         "id": 9283,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9284": {
         "name": "ラピッド ラビット レインダウン",
@@ -9274,7 +9795,8 @@
         "tags": [],
         "id": 9284,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9285": {
         "name": "終わりなきモブストンパー",
@@ -9284,7 +9806,8 @@
         "tags": [],
         "id": 9285,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9287": {
         "name": "T.I.B.B.E.R.S (B.E.E.Gエディション)",
@@ -9294,7 +9817,8 @@
         "tags": [],
         "id": 9287,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9288": {
         "name": "ジンクスのトライナマイト",
@@ -9304,7 +9828,8 @@
         "tags": [],
         "id": 9288,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9289": {
         "name": "ファイナルシティ特急",
@@ -9314,7 +9839,8 @@
         "tags": [],
         "id": 9289,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9290": {
         "name": "ヴェインのクロマブレード",
@@ -9324,7 +9850,8 @@
         "tags": [],
         "id": 9290,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9292": {
         "name": "ベアフット ケムディスペンサー",
@@ -9334,7 +9861,8 @@
         "tags": [],
         "id": 9292,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9293": {
         "name": "急速冷凍",
@@ -9344,7 +9872,8 @@
         "tags": [],
         "id": 9293,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9300": {
         "name": "にゃおにゃお",
@@ -9354,7 +9883,8 @@
         "tags": [],
         "id": 9300,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9301": {
         "name": "シールドスラム",
@@ -9364,7 +9894,8 @@
         "tags": [],
         "id": 9301,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9302": {
         "name": "サウンドウェーブ",
@@ -9374,7 +9905,8 @@
         "tags": [],
         "id": 9302,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9303": {
         "name": "ピロリースワイプ",
@@ -9384,7 +9916,8 @@
         "tags": [],
         "id": 9303,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9304": {
         "name": "抜刀",
@@ -9394,7 +9927,8 @@
         "tags": [],
         "id": 9304,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9305": {
         "name": "触手スラム",
@@ -9404,7 +9938,8 @@
         "tags": [],
         "id": 9305,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9306": {
         "name": "ウィングダガー",
@@ -9414,7 +9949,8 @@
         "tags": [],
         "id": 9306,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9307": {
         "name": "ガイディング ヘックス",
@@ -9424,7 +9960,8 @@
         "tags": [],
         "id": 9307,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9308": {
         "name": "バニーホップ",
@@ -9434,7 +9971,8 @@
         "tags": [],
         "id": 9308,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9400": {
         "name": "バトルキャット バラージ",
@@ -9444,7 +9982,8 @@
         "tags": [],
         "id": 9400,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9401": {
         "name": "獅子の光",
@@ -9454,7 +9993,8 @@
         "tags": [],
         "id": 9401,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9402": {
         "name": "アニマ エコー",
@@ -9464,7 +10004,8 @@
         "tags": [],
         "id": 9402,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9403": {
         "name": "獰猛な斬撃",
@@ -9474,7 +10015,8 @@
         "tags": [],
         "id": 9403,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9404": {
         "name": "流浪の嵐",
@@ -9484,7 +10026,8 @@
         "tags": [],
         "id": 9404,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9405": {
         "name": "グリズリーの打撃",
@@ -9494,7 +10037,8 @@
         "tags": [],
         "id": 9405,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9406": {
         "name": "恋人たちのリコシェ",
@@ -9504,7 +10048,8 @@
         "tags": [],
         "id": 9406,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9407": {
         "name": "ホップアップ ヘックス",
@@ -9514,7 +10059,8 @@
         "tags": [],
         "id": 9407,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     },
     "9408": {
         "name": "キャロット クラッシュ",
@@ -9524,6 +10070,7 @@
         "tags": [],
         "id": 9408,
         "nomal_item": false,
-        "aram_item": false
+        "aram_item": false,
+        "has_passive": false
     }
 }
