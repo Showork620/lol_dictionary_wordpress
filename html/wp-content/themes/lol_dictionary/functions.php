@@ -22,6 +22,6 @@ get_template_part( 'functions/other' );
 
 get_template_part( 'functions/utils' );
 
-get_template_part( 'functions/post_item' );
+get_template_part( 'functions/exection' );
 
 get_template_part( 'functions/set_image' );
