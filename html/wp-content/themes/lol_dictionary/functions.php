@@ -25,3 +25,5 @@ get_template_part( 'functions/utils' );
 get_template_part( 'functions/exection' );
 
 get_template_part( 'functions/set_image' );
+
+get_template_part( 'functions/custom_post_init/items' );

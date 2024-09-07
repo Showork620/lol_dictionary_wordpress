@@ -17,13 +17,13 @@ function add_custom_menu_page() {
 	);
 
     // アイテム投稿出力
-    // add_menu_page(
-	// 	'Output Item Post', // ページタイトル
-	// 	'Item Post 出力', // メニュータイトル
-	// 	'manage_options',   // 権限
-	// 	'output-item-post', // メニューのスラッグ
-	// 	'output-item-post_callback' // コールバック関数
-	// );
+    add_menu_page(
+		'Output Item Post', // ページタイトル
+		'Item Post 出力', // メニュータイトル
+		'manage_options',   // 権限
+		'output-item-post', // メニューのスラッグ
+		'output_item_post_callback' // コールバック関数
+	);
 
     // item_detail.json 出力
     add_menu_page(
@@ -33,6 +33,15 @@ function add_custom_menu_page() {
         'output-item-detail-json', // メニューのスラッグ
         'output_item_detail_json_callback' // コールバック関数
     );
+
+    // item_post をリセット
+    add_menu_page(
+        'Reset Item Post', // ページタイトル
+        'Items Post リセット', // メニュータイトル
+        'manage_options',   // 権限
+        'reset-item-post', // メニューのスラッグ
+        'reset_item_post_callback' // コールバック関数
+    );
 }
 add_action('admin_menu', 'add_custom_menu_page');
 function update_item_data_callback() {
@@ -40,5 +49,11 @@ function update_item_data_callback() {
 }
 function output_item_detail_json_callback() {
     include get_template_directory() . '/functions/exection/output_item_detail_json.php';
+}
+function output_item_post_callback() {
+    include get_template_directory() . '/functions/exection/output_item_post.php';
+}
+function reset_item_post_callback() {
+    include get_template_directory() . '/functions/exection/reset_item_post.php';
 }
 
