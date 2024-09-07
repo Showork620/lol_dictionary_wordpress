@@ -1,10 +1,40 @@
 <?php
+ /**
+ * カスタム投稿のアイキャッチ画像を設定
+ *
+ * @return void
+ */
+function set_custom_post_thumbnail($post_id) {
+
+	// カスタムフィールド「id」の値を取得
+	$item_id = get_post_meta($post_id, 'id', true);
+
+	// メディアライブラリからファイル名が一致する画像を検索
+	$filename = $item_id . '.png';
+	$args = array(
+		'post_type' => 'attachment',
+		'meta_query' => array(
+			array(
+				'key' => '_wp_attached_file',
+				'value' => $filename,
+				'compare' => 'LIKE'
+			)
+		)
+	);
+	$attachments = get_posts($args);
+
+	if ($attachments) {
+		// 最初の一致する画像をアイキャッチ画像として設定
+		$attachment_id = $attachments[0]->ID;
+		set_post_thumbnail($post_id, $attachment_id);
+	}
+}
+
 /**
  *  Items カスタム投稿タイプの出力
  *
  * @return void
  */
-
 function create_custom_posts_from_json() {
 
 	// JSONデータを読み込む
@@ -72,6 +102,9 @@ function create_custom_posts_from_json() {
 				if (isset($item['tags']) && is_array($item['tags'])) {
 					wp_set_post_terms($post_id, $item['tags'], 'post_tag');
 				}
+
+				// アイキャッチ画像を設定
+				set_custom_post_thumbnail($post_id);
 			}
 		}
 	} else {
@@ -81,44 +114,3 @@ function create_custom_posts_from_json() {
 }
 create_custom_posts_from_json();
 echo 'item_data.json を出力しました: ' . date('Y-m-d H:i:s');
-
-
-/**
- * カスタム投稿のアイキャッチ画像を設定
- *
- * @return void
- */
-function set_custom_post_thumbnail($post_id) {
-	// 投稿タイプをチェック（必要に応じてカスタム投稿タイプを指定）
-	$post_type = get_post_type($post_id);
-	if ($post_type !== 'nomal_item' && $post_type !== 'aram_item') {
-		return;
-	}
-
-	// カスタムフィールド「id」の値を取得
-	$custom_id = get_post_meta($post_id, 'id', true);
-	if (!$custom_id) {
-		return;
-	}
-
-	// メディアライブラリからファイル名が一致する画像を検索
-	$filename = $custom_id . '.png';
-	$args = array(
-		'post_type' => 'attachment',
-		'meta_query' => array(
-			array(
-				'key' => '_wp_attached_file',
-				'value' => $filename,
-				'compare' => 'LIKE'
-			)
-		)
-	);
-	$attachments = get_posts($args);
-
-	if ($attachments) {
-		// 最初の一致する画像をアイキャッチ画像として設定
-		$attachment_id = $attachments[0]->ID;
-		set_post_thumbnail($post_id, $attachment_id);
-	}
-}
-add_action('save_post', 'set_custom_post_thumbnail');
