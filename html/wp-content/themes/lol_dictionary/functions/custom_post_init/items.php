@@ -39,9 +39,14 @@ function register_custom_fields() {
 		echo '<ul>';
 		foreach ($fields as $field) {
 			$value = get_post_meta($post->ID, $field, true);
-			echo '<li style="list-style: none">';
-			echo '<label for="' . $field . '">' . ucfirst($field) . '</label>';
-			echo '<input type="text" id="' . $field . '" name="' . $field . '" value="' . esc_attr($value) . '" size="25" />';
+			echo '<li>';
+			if('colloq' === $field || 'aram_detail' === $field) {
+				echo '<label for="' . $field . '">' . ucfirst($field) . '</label>';
+				echo '<textarea id="' . $field . '" name="' . $field . '">' . esc_textarea($value) . '</textarea>';
+			} else {
+				echo '<label for="' . $field . '">' . ucfirst($field) . '</label>';
+				echo '<input type="text" id="' . $field . '" name="' . $field . '" value="' . esc_attr($value) . '" />';
+			}
 			echo '</li>';
 		}
 		echo '</ul>';
@@ -84,3 +89,19 @@ function flush_rewrite_rules_on_activation() {
     flush_rewrite_rules();
 }
 register_activation_hook(__FILE__, 'flush_rewrite_rules_on_activation');
+
+/**
+ * カスタム投降タイプ "items" 管理画面用のcssを設定
+ */
+function add_custom_post_type_admin_css() {
+    global $post_type;
+    if ($post_type == 'items') {
+        echo '<style>
+            #item_fields li {
+				display: grid;
+				grid-template-columns: 100px 1fr;
+			}
+        </style>';
+    }
+}
+add_action('admin_head', 'add_custom_post_type_admin_css');
