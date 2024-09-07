@@ -65,7 +65,7 @@ foreach ($ITEMDATA as $key => &$item) {
 	$item['aram_item'] = $item['maps']['12'];
 
 	// item['description']に<passive>が含まれているかどうか
-	$item['has_passive'] = is_numeric(strpos($item['description'], '<passive>'));
+	$item['has_detail'] = is_numeric(strpos($item['description'], '<passive>')) || is_numeric(strpos($item['description'], '<active>'));
 
 	// 不要なプロパティを削除
 	unset($item['image']);

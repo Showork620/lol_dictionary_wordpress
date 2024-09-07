@@ -11,21 +11,21 @@
    ・aram,サモリフに未登場のアイテム
    ・チャンピョン専用アイテム
  ・不要なプロパティを削除
- ・passiveがあるアイテムにフラグ追加
+ ・passive,activeがあるアイテムにフラグ追加
  ・管理しやすいようプロパティを整形
    → items.jsonを作成
    → これをgit管理
 
-→ passiveリストについて
-上記の items.json から item_passive.json 作成
-item_passive.json は
-keyをidに、normal_passive と aram_passive を持つ
+→ detail リストについて
+上記の items.json から item_detail.json 作成
+この json は
+keyをidに、normal_detail と aram_detail を持つ
 
 ・カスタム投稿
  ・タイトル: string
  ・コンテント: string
- ・normal_passive: string or null
- ・aram_passive: string or null
+ ・normal_detail: string or null
+ ・aram_detail: string or null
  ・タグ: タグ
  ・アイキャッチ: アイキャッチ画像
  ・id: int
@@ -36,7 +36,8 @@ keyをidに、normal_passive と aram_passive を持つ
  ・normal_item: bool
  ・aram_item: bool
 
-→ normal_passive,aram_passive のみ別jsonから取得
+→ normal_detail,aram_detail のみ別jsonから取得
+→ normal
 
 
 // 削除リスト（UNAVAILABLE_ITEMS）
