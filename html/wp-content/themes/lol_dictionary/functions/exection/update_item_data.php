@@ -34,6 +34,13 @@ $UNAVAILABLE_ITEMS = [
     "8001" // アナセマ チェイン
 ];
 
+// シンクロナイズドソウル対応
+$SYNCHRONIZED_SOUL_ID = 3013;
+$SYMBIOTIC_SOLES_ID = 3010;
+
+// アイテム分類
+// $ITEMS_CATEGORY = {};
+
 // アイテムデータを取得
 function getOriginItemData($preUrl) {
 	$url = "{$preUrl}item.json";
@@ -56,6 +63,11 @@ foreach ($ITEMDATA as $key => &$item) {
 	if (! $item['maps']['11'] && ! $item['maps']['12'] || isset($item['requiredChampion'])) {
 		unset($ITEMDATA[$key]);
 		continue;
+	}
+	
+	// シンクロナイズドソウル対応
+	if ($key === $SYNCHRONIZED_SOUL_ID) {
+		$item['Specialrecipe'] = $SYMBIOTIC_SOLES_ID;
 	}
 
 	// プロパティの整形・追加

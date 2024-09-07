@@ -55,3 +55,8 @@ keyをidに、normal_detail と aram_detail を持つ
 4641: スターリング ワードストーン
 6693: プローラー クロウ
 8001: アナセマ チェイン
+
+// 特別処理（SPECIAL_HANDING）
+3013: シンクロナイズド ソウル
+　他のアイテムと鑑みて以下を追記する
+　Specialrecipe: 3010
