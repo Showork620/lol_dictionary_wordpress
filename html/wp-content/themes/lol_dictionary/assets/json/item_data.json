@@ -19,9 +19,9 @@
             "Boots"
         ],
         "id": 1001,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1004": {
         "name": "フェアリー チャーム",
@@ -37,9 +37,9 @@
             "ManaRegen"
         ],
         "id": 1004,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1006": {
         "name": "再生の珠",
@@ -55,9 +55,9 @@
             "HealthRegen"
         ],
         "id": 1006,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1011": {
         "name": "ジャイアント ベルト",
@@ -83,9 +83,9 @@
         ],
         "depth": 2,
         "id": 1011,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1018": {
         "name": "アジリティ クローク",
@@ -105,9 +105,9 @@
             "CriticalStrike"
         ],
         "id": 1018,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1026": {
         "name": "ブラスティング ワンド",
@@ -126,9 +126,9 @@
             "SpellDamage"
         ],
         "id": 1026,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1027": {
         "name": "サファイア クリスタル",
@@ -144,9 +144,9 @@
             "Mana"
         ],
         "id": 1027,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1028": {
         "name": "ルビー クリスタル",
@@ -183,9 +183,9 @@
             "Health"
         ],
         "id": 1028,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1029": {
         "name": "クロース アーマー",
@@ -210,9 +210,9 @@
             "Armor"
         ],
         "id": 1029,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1031": {
         "name": "チェイン ベスト",
@@ -236,9 +236,9 @@
         ],
         "depth": 2,
         "id": 1031,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1033": {
         "name": "ヌルマジック マント",
@@ -262,9 +262,9 @@
             "SpellBlock"
         ],
         "id": 1033,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1036": {
         "name": "ロング ソード",
@@ -297,9 +297,9 @@
             "Lane"
         ],
         "id": 1036,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1037": {
         "name": "ピッケル",
@@ -330,9 +330,9 @@
             "Damage"
         ],
         "id": 1037,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1038": {
         "name": "B. F. ソード",
@@ -353,9 +353,9 @@
             "Damage"
         ],
         "id": 1038,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1042": {
         "name": "ダガー",
@@ -378,9 +378,9 @@
             "AttackSpeed"
         ],
         "id": 1042,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1043": {
         "name": "リカーブ ボウ",
@@ -404,9 +404,9 @@
         ],
         "depth": 2,
         "id": 1043,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1052": {
         "name": "増魔の書",
@@ -436,9 +436,9 @@
             "SpellDamage"
         ],
         "id": 1052,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1053": {
         "name": "ヴァンパイア セプター",
@@ -461,9 +461,9 @@
         ],
         "depth": 2,
         "id": 1053,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1054": {
         "name": "ドラン シールド",
@@ -476,9 +476,9 @@
             "Lane"
         ],
         "id": 1054,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "1055": {
         "name": "ドラン ブレード",
@@ -492,9 +492,9 @@
             "Lane"
         ],
         "id": 1055,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1056": {
         "name": "ドラン リング",
@@ -508,9 +508,9 @@
             "SpellDamage"
         ],
         "id": 1056,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "1057": {
         "name": "ネガトロン クローク",
@@ -532,9 +532,9 @@
         ],
         "depth": 2,
         "id": 1057,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1058": {
         "name": "ムダニ デカイ ロッド",
@@ -554,9 +554,9 @@
             "SpellDamage"
         ],
         "id": 1058,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "1082": {
         "name": "ダーク シール",
@@ -572,9 +572,9 @@
             "Lane"
         ],
         "id": 1082,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "1083": {
         "name": "カル",
@@ -587,9 +587,9 @@
             "Lane"
         ],
         "id": 1083,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "1101": {
         "name": "スコーチクロウの幼体",
@@ -600,9 +600,9 @@
             "Jungle"
         ],
         "id": 1101,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "1102": {
         "name": "ガストウォーカーの幼体",
@@ -613,9 +613,9 @@
             "Jungle"
         ],
         "id": 1102,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "1103": {
         "name": "モスストンパーの幼体",
@@ -626,9 +626,9 @@
             "Jungle"
         ],
         "id": 1103,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "2003": {
         "name": "体力ポーション",
@@ -643,9 +643,9 @@
             "Jungle"
         ],
         "id": 2003,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2010": {
         "name": "英気満点ビスケット",
@@ -656,9 +656,9 @@
         "gold": 50,
         "tags": [],
         "id": 2010,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2019": {
         "name": "スチール シジル",
@@ -681,9 +681,9 @@
         ],
         "depth": 2,
         "id": 2019,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "2020": {
         "name": "ブルータライザー",
@@ -707,9 +707,9 @@
         ],
         "depth": 2,
         "id": 2020,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "2021": {
         "name": "トンネル掘り",
@@ -735,9 +735,9 @@
         ],
         "depth": 2,
         "id": 2021,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "2022": {
         "name": "輝きのモート",
@@ -761,9 +761,9 @@
             "CooldownReduction"
         ],
         "id": 2022,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "2031": {
         "name": "詰め替えポーション",
@@ -781,9 +781,9 @@
             "Jungle"
         ],
         "id": 2031,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2051": {
         "name": "ガーディアン ホーン",
@@ -796,9 +796,9 @@
             "Lane"
         ],
         "id": 2051,
+        "has_detail": true,
         "nomal_item": false,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2052": {
         "name": "ポロのおやつ",
@@ -809,9 +809,9 @@
         "gold": 0,
         "tags": [],
         "id": 2052,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2055": {
         "name": "コントロール ワード",
@@ -827,9 +827,9 @@
             "Vision"
         ],
         "id": 2055,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "2065": {
         "name": "シュレリアの戦歌",
@@ -850,9 +850,12 @@
         ],
         "depth": 3,
         "id": 2065,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2138": {
         "name": "アイアン エリクサー",
@@ -867,9 +870,9 @@
             "Tenacity"
         ],
         "id": 2138,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2139": {
         "name": "ソーサリー エリクサー",
@@ -883,9 +886,9 @@
             "SpellDamage"
         ],
         "id": 2139,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2140": {
         "name": "ラース エリクサー",
@@ -900,9 +903,9 @@
             "SpellVamp"
         ],
         "id": 2140,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2141": {
         "name": "帽子ジュース",
@@ -915,9 +918,9 @@
             "Consumable"
         ],
         "id": 2141,
+        "has_detail": true,
         "nomal_item": false,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2150": {
         "name": "スキル エリクサー",
@@ -929,9 +932,9 @@
             "Consumable"
         ],
         "id": 2150,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2151": {
         "name": "強欲のエリクサー",
@@ -945,9 +948,9 @@
             "Tenacity"
         ],
         "id": 2151,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2152": {
         "name": "力のエリクサー",
@@ -960,9 +963,9 @@
             "Tenacity"
         ],
         "id": 2152,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2420": {
         "name": "シーカー アームガード",
@@ -985,9 +988,9 @@
         ],
         "depth": 2,
         "id": 2420,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2421": {
         "name": "砕けたアームガード",
@@ -999,9 +1002,9 @@
         "gold": 1600,
         "tags": [],
         "id": 2421,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2422": {
         "name": "ちょっとだけ魔法がかった靴",
@@ -1022,9 +1025,9 @@
             "Boots"
         ],
         "id": 2422,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "2501": {
         "name": "覇王のブラッドメイル",
@@ -1041,9 +1044,13 @@
         ],
         "depth": 3,
         "id": 2501,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2502": {
         "name": "終わりなき絶望",
@@ -1063,9 +1070,12 @@
         ],
         "depth": 3,
         "id": 2502,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2503": {
         "name": "黒炎のトーチ",
@@ -1084,9 +1094,12 @@
         ],
         "depth": 3,
         "id": 2503,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2504": {
         "name": "ケイニック ルーケルン",
@@ -1104,9 +1117,12 @@
         ],
         "depth": 3,
         "id": 2504,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "2508": {
         "name": "運命の灰",
@@ -1125,9 +1141,9 @@
         ],
         "depth": 2,
         "id": 2508,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3002": {
         "name": "先人の道標",
@@ -1145,9 +1161,13 @@
         ],
         "depth": 3,
         "id": 3002,
+        "has_detail": true,
+        "role": [
+            "Tank",
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3003": {
         "name": "アークエンジェル スタッフ",
@@ -1166,9 +1186,13 @@
         ],
         "depth": 3,
         "id": 3003,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
         "aram_item": true,
-        "has_detail": true
+        "destination": 3040
     },
     "3004": {
         "name": "マナムネ",
@@ -1189,9 +1213,15 @@
         ],
         "depth": 3,
         "id": 3004,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Marksman",
+            "Assassin"
+        ],
         "nomal_item": true,
         "aram_item": true,
-        "has_detail": true
+        "destination": 3042
     },
     "3006": {
         "name": "バーサーカー ブーツ",
@@ -1211,9 +1241,9 @@
         ],
         "depth": 2,
         "id": 3006,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3009": {
         "name": "スイフトネス ブーツ",
@@ -1228,9 +1258,9 @@
         ],
         "depth": 2,
         "id": 3009,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3010": {
         "name": "共生靴底",
@@ -1248,9 +1278,10 @@
         ],
         "depth": 2,
         "id": 3010,
+        "has_detail": true,
         "nomal_item": true,
         "aram_item": false,
-        "has_detail": true
+        "destination": 3013
     },
     "3013": {
         "name": "シンクロナイズド ソウル",
@@ -1265,10 +1296,11 @@
             "Boots"
         ],
         "depth": 3,
+        "specialRecipe": 3010,
         "id": 3013,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3020": {
         "name": "ソーサラー シューズ",
@@ -1284,9 +1316,9 @@
         ],
         "depth": 2,
         "id": 3020,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3024": {
         "name": "グレイシャル バックラー",
@@ -1309,9 +1341,9 @@
         ],
         "depth": 2,
         "id": 3024,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3026": {
         "name": "ガーディアン エンジェル",
@@ -1328,9 +1360,14 @@
         ],
         "depth": 3,
         "id": 3026,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Marksman",
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3031": {
         "name": "インフィニティ エッジ",
@@ -1348,9 +1385,12 @@
         ],
         "depth": 2,
         "id": 3031,
+        "has_detail": false,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3032": {
         "name": "ユン・タル ワイルドアロー",
@@ -1367,9 +1407,12 @@
         ],
         "depth": 3,
         "id": 3032,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3033": {
         "name": "モータル リマインダー",
@@ -1388,9 +1431,12 @@
         ],
         "depth": 3,
         "id": 3033,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3035": {
         "name": "ラスト ウィスパー",
@@ -1412,9 +1458,9 @@
         ],
         "depth": 2,
         "id": 3035,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3036": {
         "name": "ドミニク リガード",
@@ -1432,9 +1478,12 @@
         ],
         "depth": 3,
         "id": 3036,
+        "has_detail": false,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3040": {
         "name": "セラフ エンブレイス",
@@ -1449,9 +1498,9 @@
             "AbilityHaste"
         ],
         "id": 3040,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3041": {
         "name": "メジャイ ソウルスティーラー",
@@ -1468,9 +1517,12 @@
         ],
         "depth": 2,
         "id": 3041,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3042": {
         "name": "ムラマナ",
@@ -1487,9 +1539,9 @@
             "ArmorPenetration"
         ],
         "id": 3042,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3044": {
         "name": "ファージ",
@@ -1513,9 +1565,9 @@
         ],
         "depth": 2,
         "id": 3044,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3046": {
         "name": "ファントム ダンサー",
@@ -1534,9 +1586,12 @@
         ],
         "depth": 3,
         "id": 3046,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3047": {
         "name": "プレート スチールキャップ",
@@ -1553,9 +1608,9 @@
         ],
         "depth": 2,
         "id": 3047,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3050": {
         "name": "ジーク コンバージェンス",
@@ -1575,9 +1630,13 @@
         ],
         "depth": 3,
         "id": 3050,
+        "has_detail": true,
+        "role": [
+            "Tank",
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3051": {
         "name": "ハースバウンド アックス",
@@ -1601,9 +1660,9 @@
         ],
         "depth": 2,
         "id": 3051,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3053": {
         "name": "ステラックの篭手",
@@ -1622,9 +1681,12 @@
         ],
         "depth": 3,
         "id": 3053,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3057": {
         "name": "シーン",
@@ -1646,9 +1708,9 @@
         ],
         "depth": 2,
         "id": 3057,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3065": {
         "name": "スピリット ビサージュ",
@@ -1668,9 +1730,12 @@
         ],
         "depth": 3,
         "id": 3065,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3066": {
         "name": "翼のムーンプレート",
@@ -1692,9 +1757,9 @@
         ],
         "depth": 2,
         "id": 3066,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3067": {
         "name": "キンドルジェム",
@@ -1734,9 +1799,9 @@
         ],
         "depth": 2,
         "id": 3067,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3068": {
         "name": "サンファイア イージス",
@@ -1755,9 +1820,12 @@
         ],
         "depth": 3,
         "id": 3068,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3070": {
         "name": "女神の涙",
@@ -1774,9 +1842,9 @@
             "ManaRegen"
         ],
         "id": 3070,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3071": {
         "name": "ブラック クリーバー",
@@ -1799,9 +1867,12 @@
         ],
         "depth": 3,
         "id": 3071,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3072": {
         "name": "ブラッドサースター",
@@ -1819,9 +1890,12 @@
         ],
         "depth": 3,
         "id": 3072,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3073": {
         "name": "実験的へクスプレート",
@@ -1842,9 +1916,12 @@
         ],
         "depth": 3,
         "id": 3073,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3074": {
         "name": "ラヴァナス ハイドラ",
@@ -1865,9 +1942,12 @@
         ],
         "depth": 3,
         "id": 3074,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3075": {
         "name": "ソーンメイル",
@@ -1884,9 +1964,13 @@
         ],
         "depth": 3,
         "id": 3075,
+        "has_detail": true,
+        "role": [
+            "Tank",
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3076": {
         "name": "ブランブル ベスト",
@@ -1905,9 +1989,9 @@
         ],
         "depth": 2,
         "id": 3076,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3077": {
         "name": "ティアマット",
@@ -1930,9 +2014,9 @@
         ],
         "depth": 2,
         "id": 3077,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3078": {
         "name": "トリニティ フォース",
@@ -1955,9 +2039,12 @@
         ],
         "depth": 3,
         "id": 3078,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3082": {
         "name": "ワーデン メイル",
@@ -1977,9 +2064,9 @@
         ],
         "depth": 2,
         "id": 3082,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3083": {
         "name": "ワーモグ アーマー",
@@ -1998,9 +2085,12 @@
         ],
         "depth": 3,
         "id": 3083,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3084": {
         "name": "心の鋼",
@@ -2018,9 +2108,12 @@
         ],
         "depth": 3,
         "id": 3084,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3085": {
         "name": "ルナーン ハリケーン",
@@ -2039,9 +2132,12 @@
         ],
         "depth": 3,
         "id": 3085,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3086": {
         "name": "ジール",
@@ -2067,9 +2163,9 @@
         ],
         "depth": 2,
         "id": 3086,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3087": {
         "name": "スタティック シヴ",
@@ -2089,9 +2185,12 @@
         ],
         "depth": 3,
         "id": 3087,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3089": {
         "name": "ラバドン デスキャップ",
@@ -2107,9 +2206,12 @@
         ],
         "depth": 2,
         "id": 3089,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3091": {
         "name": "ウィッツ エンド",
@@ -2129,9 +2231,12 @@
         ],
         "depth": 3,
         "id": 3091,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3094": {
         "name": "ラピッド ファイアキャノン",
@@ -2149,9 +2254,12 @@
         ],
         "depth": 3,
         "id": 3094,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3100": {
         "name": "リッチ ベイン",
@@ -2171,9 +2279,12 @@
         ],
         "depth": 3,
         "id": 3100,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3102": {
         "name": "バンシー ヴェール",
@@ -2190,9 +2301,12 @@
         ],
         "depth": 3,
         "id": 3102,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3107": {
         "name": "リデンプション",
@@ -2211,9 +2325,12 @@
         ],
         "depth": 3,
         "id": 3107,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3108": {
         "name": "フィンディッシュの古書",
@@ -2245,9 +2362,9 @@
         ],
         "depth": 2,
         "id": 3108,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3109": {
         "name": "騎士の誓い",
@@ -2270,9 +2387,9 @@
         ],
         "depth": 3,
         "id": 3109,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3110": {
         "name": "フローズン ハート",
@@ -2292,9 +2409,13 @@
         ],
         "depth": 3,
         "id": 3110,
+        "has_detail": true,
+        "role": [
+            "Tank",
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3111": {
         "name": "マーキュリー ブーツ",
@@ -2312,9 +2433,9 @@
         ],
         "depth": 2,
         "id": 3111,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3112": {
         "name": "ガーディアン オーブ",
@@ -2328,9 +2449,9 @@
             "Lane"
         ],
         "id": 3112,
+        "has_detail": true,
         "nomal_item": false,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3113": {
         "name": "エーテル ウィスプ",
@@ -2353,9 +2474,9 @@
         ],
         "depth": 2,
         "id": 3113,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3114": {
         "name": "フォビドゥン アイドル",
@@ -2378,9 +2499,9 @@
         ],
         "depth": 2,
         "id": 3114,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3115": {
         "name": "ナッシャー トゥース",
@@ -2400,9 +2521,13 @@
         ],
         "depth": 3,
         "id": 3115,
+        "has_detail": true,
+        "role": [
+            "Marksman",
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3116": {
         "name": "リーライ クリスタル セプター",
@@ -2421,9 +2546,12 @@
         ],
         "depth": 3,
         "id": 3116,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3117": {
         "name": "モビリティ ブーツ",
@@ -2439,9 +2567,9 @@
         ],
         "depth": 2,
         "id": 3117,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3118": {
         "name": "マリグナンス",
@@ -2459,9 +2587,12 @@
         ],
         "depth": 3,
         "id": 3118,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3119": {
         "name": "冬の訪れ",
@@ -2480,9 +2611,13 @@
         ],
         "depth": 3,
         "id": 3119,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
         "aram_item": true,
-        "has_detail": true
+        "destination": 3121
     },
     "3121": {
         "name": "フィンブルウィンター",
@@ -2497,9 +2632,9 @@
             "AbilityHaste"
         ],
         "id": 3121,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3123": {
         "name": "エクスキューショナー コーリング",
@@ -2518,9 +2653,9 @@
         ],
         "depth": 2,
         "id": 3123,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3124": {
         "name": "グインソー レイジブレード",
@@ -2540,9 +2675,12 @@
         ],
         "depth": 3,
         "id": 3124,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3133": {
         "name": "コールフィールド ウォーハンマー",
@@ -2582,9 +2720,9 @@
         ],
         "depth": 2,
         "id": 3133,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3134": {
         "name": "セレイテッド ダーク",
@@ -2616,9 +2754,9 @@
         ],
         "depth": 2,
         "id": 3134,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3135": {
         "name": "ヴォイド スタッフ",
@@ -2635,9 +2773,12 @@
         ],
         "depth": 3,
         "id": 3135,
+        "has_detail": false,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3137": {
         "name": "クリプトブルーム",
@@ -2655,9 +2796,12 @@
         ],
         "depth": 3,
         "id": 3137,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3139": {
         "name": "マーキュリアル シミター",
@@ -2679,9 +2823,12 @@
         ],
         "depth": 3,
         "id": 3139,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3140": {
         "name": "クイックシルバー サッシュ",
@@ -2701,9 +2848,9 @@
         ],
         "depth": 2,
         "id": 3140,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3142": {
         "name": "妖夢の霊剣",
@@ -2722,9 +2869,12 @@
         ],
         "depth": 3,
         "id": 3142,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3143": {
         "name": "ランデュイン オーメン",
@@ -2743,9 +2893,12 @@
         ],
         "depth": 3,
         "id": 3143,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3144": {
         "name": "偵察兵のパチンコ",
@@ -2766,9 +2919,9 @@
         ],
         "depth": 2,
         "id": 3144,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3145": {
         "name": "ヘクステック オルタネーター",
@@ -2793,9 +2946,9 @@
         ],
         "depth": 2,
         "id": 3145,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3147": {
         "name": "悲愴な仮面",
@@ -2816,9 +2969,9 @@
         ],
         "depth": 2,
         "id": 3147,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3152": {
         "name": "ヘクステック ロケットベルト",
@@ -2839,9 +2992,12 @@
         ],
         "depth": 3,
         "id": 3152,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3153": {
         "name": "ルインドキング ブレード",
@@ -2862,9 +3018,13 @@
         ],
         "depth": 3,
         "id": 3153,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3155": {
         "name": "ヘクスドリンカー",
@@ -2886,9 +3046,9 @@
         ],
         "depth": 2,
         "id": 3155,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3156": {
         "name": "マルモティウスの胃袋",
@@ -2909,9 +3069,14 @@
         ],
         "depth": 3,
         "id": 3156,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Marksman",
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3157": {
         "name": "ゾーニャの砂時計",
@@ -2929,9 +3094,12 @@
         ],
         "depth": 3,
         "id": 3157,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3158": {
         "name": "アイオニア ブーツ",
@@ -2948,9 +3116,9 @@
         ],
         "depth": 2,
         "id": 3158,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3161": {
         "name": "ショウジンの矛",
@@ -2969,9 +3137,12 @@
         ],
         "depth": 3,
         "id": 3161,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3165": {
         "name": "モレロノミコン",
@@ -2989,9 +3160,13 @@
         ],
         "depth": 3,
         "id": 3165,
+        "has_detail": true,
+        "role": [
+            "Mage",
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3172": {
         "name": "ゼファー",
@@ -3007,9 +3182,9 @@
         ],
         "depth": 3,
         "id": 3172,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3177": {
         "name": "ガーディアン ブレード",
@@ -3023,9 +3198,9 @@
             "AbilityHaste"
         ],
         "id": 3177,
+        "has_detail": false,
         "nomal_item": false,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3179": {
         "name": "アンブラル グレイブ",
@@ -3045,9 +3220,12 @@
         ],
         "depth": 3,
         "id": 3179,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3181": {
         "name": "ハルブレイカー",
@@ -3066,9 +3244,12 @@
         ],
         "depth": 3,
         "id": 3181,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3184": {
         "name": "ガーディアン ハンマー",
@@ -3082,9 +3263,9 @@
             "Lane"
         ],
         "id": 3184,
+        "has_detail": false,
         "nomal_item": false,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3190": {
         "name": "ソラリのロケット",
@@ -3107,9 +3288,13 @@
         ],
         "depth": 3,
         "id": 3190,
+        "has_detail": true,
+        "role": [
+            "Tank",
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3211": {
         "name": "スペクター カウル",
@@ -3133,9 +3318,9 @@
         ],
         "depth": 2,
         "id": 3211,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3222": {
         "name": "ミカエルの祝福",
@@ -3156,9 +3341,12 @@
         ],
         "depth": 3,
         "id": 3222,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3302": {
         "name": "テルミヌス",
@@ -3178,9 +3366,13 @@
         ],
         "depth": 3,
         "id": 3302,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3340": {
         "name": "ステルス ワード",
@@ -3195,9 +3387,9 @@
             "Vision"
         ],
         "id": 3340,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3363": {
         "name": "ファーサイト オルタレーション",
@@ -3210,9 +3402,9 @@
             "Vision"
         ],
         "id": 3363,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3364": {
         "name": "オラクル レンズ",
@@ -3225,9 +3417,9 @@
             "Vision"
         ],
         "id": 3364,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3504": {
         "name": "アーデント センサー",
@@ -3246,9 +3438,12 @@
         ],
         "depth": 3,
         "id": 3504,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3508": {
         "name": "エッセンス リーバー",
@@ -3270,9 +3465,12 @@
         ],
         "depth": 3,
         "id": 3508,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3742": {
         "name": "デッド マン プレート",
@@ -3292,9 +3490,13 @@
         ],
         "depth": 3,
         "id": 3742,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3748": {
         "name": "タイタン ハイドラ",
@@ -3314,9 +3516,13 @@
         ],
         "depth": 3,
         "id": 3748,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3801": {
         "name": "クリスタル ブレーサー",
@@ -3337,9 +3543,9 @@
         ],
         "depth": 2,
         "id": 3801,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "3802": {
         "name": "ロスト チャプター",
@@ -3368,9 +3574,9 @@
         ],
         "depth": 2,
         "id": 3802,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3803": {
         "name": "久遠のカタリスト",
@@ -3393,9 +3599,9 @@
         ],
         "depth": 2,
         "id": 3803,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3814": {
         "name": "ナイト エッジ",
@@ -3414,9 +3620,12 @@
         ],
         "depth": 3,
         "id": 3814,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "3865": {
         "name": "ワールド アトラス",
@@ -3432,9 +3641,10 @@
             "Lane"
         ],
         "id": 3865,
+        "has_detail": false,
         "nomal_item": true,
         "aram_item": false,
-        "has_detail": false
+        "destination": 3866
     },
     "3866": {
         "name": "ルーニック コンパス",
@@ -3450,9 +3660,10 @@
             "SpellDamage"
         ],
         "id": 3866,
+        "has_detail": true,
         "nomal_item": true,
         "aram_item": false,
-        "has_detail": true
+        "destination": 3867
     },
     "3867": {
         "name": "世界の恵み",
@@ -3475,9 +3686,9 @@
             "SpellDamage"
         ],
         "id": 3867,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3869": {
         "name": "セレスティアル オポジション",
@@ -3496,9 +3707,9 @@
         ],
         "depth": 2,
         "id": 3869,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3870": {
         "name": "ドリーム メーカー",
@@ -3517,9 +3728,9 @@
         ],
         "depth": 2,
         "id": 3870,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3871": {
         "name": "ザズ＝ザクのレルムスパイク",
@@ -3538,9 +3749,9 @@
         ],
         "depth": 2,
         "id": 3871,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3876": {
         "name": "至点のソリ",
@@ -3559,9 +3770,9 @@
         ],
         "depth": 2,
         "id": 3876,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3877": {
         "name": "ブラッドソング",
@@ -3580,9 +3791,9 @@
         ],
         "depth": 2,
         "id": 3877,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "3916": {
         "name": "忘却のオーブ",
@@ -3602,9 +3813,9 @@
         ],
         "depth": 2,
         "id": 3916,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "4005": {
         "name": "帝国の指令",
@@ -3623,9 +3834,12 @@
         ],
         "depth": 3,
         "id": 4005,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "4401": {
         "name": "自然の力",
@@ -3644,9 +3858,12 @@
         ],
         "depth": 3,
         "id": 4401,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "4628": {
         "name": "ホライゾン フォーカス",
@@ -3663,9 +3880,12 @@
         ],
         "depth": 3,
         "id": 4628,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "4629": {
         "name": "コズミック ドライブ",
@@ -3685,9 +3905,12 @@
         ],
         "depth": 3,
         "id": 4629,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "4630": {
         "name": "枯死の宝石",
@@ -3707,9 +3930,9 @@
         ],
         "depth": 2,
         "id": 4630,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "4632": {
         "name": "ヴァーダント バリア",
@@ -3730,9 +3953,9 @@
         ],
         "depth": 2,
         "id": 4632,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "4633": {
         "name": "リフトメーカー",
@@ -3751,9 +3974,12 @@
         ],
         "depth": 3,
         "id": 4633,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "4638": {
         "name": "ウォッチフル ワードストーン",
@@ -3774,9 +4000,9 @@
             "AbilityHaste"
         ],
         "id": 4638,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "4642": {
         "name": "バンドルグラスの鏡",
@@ -3802,9 +4028,9 @@
         ],
         "depth": 2,
         "id": 4642,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "4643": {
         "name": "ビジラント ワードストーン",
@@ -3826,9 +4052,12 @@
         ],
         "depth": 2,
         "id": 4643,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "4645": {
         "name": "シャドウフレイム",
@@ -3845,9 +4074,12 @@
         ],
         "depth": 3,
         "id": 4645,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "4646": {
         "name": "ストームサージ",
@@ -3866,9 +4098,12 @@
         ],
         "depth": 3,
         "id": 4646,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6333": {
         "name": "デス ダンス",
@@ -3888,9 +4123,9 @@
         ],
         "depth": 3,
         "id": 6333,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6609": {
         "name": "ケミパンク チェーンソード",
@@ -3910,9 +4145,13 @@
         ],
         "depth": 3,
         "id": 6609,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6610": {
         "name": "サンダード スカイ",
@@ -3931,9 +4170,12 @@
         ],
         "depth": 3,
         "id": 6610,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6616": {
         "name": "フロー ウォーター スタッフ",
@@ -3952,9 +4194,12 @@
         ],
         "depth": 3,
         "id": 6616,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6617": {
         "name": "ムーンストーンの再生",
@@ -3974,9 +4219,12 @@
         ],
         "depth": 3,
         "id": 6617,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6620": {
         "name": "ヘリアの残響",
@@ -3996,9 +4244,12 @@
         ],
         "depth": 3,
         "id": 6620,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6621": {
         "name": "ドーンコア",
@@ -4016,9 +4267,12 @@
         ],
         "depth": 3,
         "id": 6621,
+        "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6631": {
         "name": "ストライドブレイカー",
@@ -4039,9 +4293,12 @@
         ],
         "depth": 3,
         "id": 6631,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6653": {
         "name": "ライアンドリーの仮面",
@@ -4058,9 +4315,12 @@
         ],
         "depth": 3,
         "id": 6653,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6655": {
         "name": "ルーデン コンパニオン",
@@ -4079,9 +4339,12 @@
         ],
         "depth": 3,
         "id": 6655,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6657": {
         "name": "ロッド オブ エイジス",
@@ -4101,9 +4364,12 @@
         ],
         "depth": 3,
         "id": 6657,
+        "has_detail": true,
+        "role": [
+            "Mage"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6660": {
         "name": "バミ シンダー",
@@ -4124,9 +4390,9 @@
         ],
         "depth": 2,
         "id": 6660,
+        "has_detail": true,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6662": {
         "name": "アイスボーン ガントレット",
@@ -4148,9 +4414,13 @@
         ],
         "depth": 3,
         "id": 6662,
+        "has_detail": true,
+        "role": [
+            "Fighter",
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6664": {
         "name": "ホロウ レディアンス",
@@ -4171,9 +4441,12 @@
         ],
         "depth": 3,
         "id": 6664,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6665": {
         "name": "変幻自在のジャック＝ショー",
@@ -4193,9 +4466,12 @@
         ],
         "depth": 3,
         "id": 6665,
+        "has_detail": true,
+        "role": [
+            "Tank"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6670": {
         "name": "ヌーンクィヴァー",
@@ -4219,9 +4495,9 @@
         ],
         "depth": 2,
         "id": 6670,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "6672": {
         "name": "クラーケン スレイヤー",
@@ -4241,9 +4517,12 @@
         ],
         "depth": 3,
         "id": 6672,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6673": {
         "name": "イモータル シールドボウ",
@@ -4260,9 +4539,12 @@
         ],
         "depth": 3,
         "id": 6673,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6675": {
         "name": "ナヴォリ フリッカーブレード",
@@ -4281,9 +4563,12 @@
         ],
         "depth": 3,
         "id": 6675,
+        "has_detail": true,
+        "role": [
+            "Marksman"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6676": {
         "name": "コレクター",
@@ -4302,9 +4587,13 @@
         ],
         "depth": 3,
         "id": 6676,
+        "has_detail": true,
+        "role": [
+            "Marksman",
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6690": {
         "name": "レクトリクス",
@@ -4328,9 +4617,9 @@
         ],
         "depth": 2,
         "id": 6690,
+        "has_detail": false,
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": false
+        "aram_item": true
     },
     "6692": {
         "name": "赤月の刃",
@@ -4349,9 +4638,12 @@
         ],
         "depth": 3,
         "id": 6692,
+        "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6694": {
         "name": "セリルダの怨恨",
@@ -4370,9 +4662,12 @@
         ],
         "depth": 3,
         "id": 6694,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6695": {
         "name": "毒蛇の牙",
@@ -4389,9 +4684,12 @@
         ],
         "depth": 3,
         "id": 6695,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6696": {
         "name": "アクシオム アーク",
@@ -4409,9 +4707,12 @@
         ],
         "depth": 3,
         "id": 6696,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6697": {
         "name": "ヒュブリス",
@@ -4431,9 +4732,12 @@
         ],
         "depth": 3,
         "id": 6697,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": false,
-        "has_detail": true
+        "aram_item": false
     },
     "6698": {
         "name": "プロフェイン ハイドラ",
@@ -4453,9 +4757,12 @@
         ],
         "depth": 3,
         "id": 6698,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6699": {
         "name": "ボルテイク サイクロソード",
@@ -4476,9 +4783,12 @@
         ],
         "depth": 3,
         "id": 6699,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "6701": {
         "name": "オポチュニティー",
@@ -4497,9 +4807,12 @@
         ],
         "depth": 3,
         "id": 6701,
+        "has_detail": true,
+        "role": [
+            "Assassin"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     },
     "8020": {
         "name": "アビサル マスク",
@@ -4520,8 +4833,12 @@
         ],
         "depth": 3,
         "id": 8020,
+        "has_detail": true,
+        "role": [
+            "Tank",
+            "Support"
+        ],
         "nomal_item": true,
-        "aram_item": true,
-        "has_detail": true
+        "aram_item": true
     }
 }
