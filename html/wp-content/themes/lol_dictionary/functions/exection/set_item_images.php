@@ -89,18 +89,11 @@ if (is_media_library_empty()) {
     $json_data = file_get_contents($json_file_path);
     $items = json_decode($json_data, true);
 
-    // 上位3件のアイテムに対して処理を行う
-    $counter = 0;
     foreach ($items as $item) {
         $imageUrl = $URL . $item['id'] . ".png";
         $result = upload_image_from_url($imageUrl);
         if ($result['new']) {
             echo "Uploaded: " . $imageUrl . "\n"; // 新しくアップロードされた画像URLを表示
-        } else {
-            echo "Skipped: " . $imageUrl . "\n"; // スキップされた画像URLを表示
         }
-        $counter++;
     }
-
-    echo "Total: " . $counter . " images processed.\n"; // 処理された画像の総数を表示
 }
