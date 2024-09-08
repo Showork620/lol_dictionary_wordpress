@@ -1,0 +1,13 @@
+@charset "utf-8";
+
+// ============================================================
+//  object/layout/_page.scss
+// ============================================================
+
+.l-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 80px calc(100vh - 80px) 0;
+    width: 100vw;
+    background-color: #f0f0f0;
+}
