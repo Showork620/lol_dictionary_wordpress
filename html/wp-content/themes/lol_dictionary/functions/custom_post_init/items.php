@@ -30,16 +30,21 @@ add_action('init', 'create_custom_post_types');
  */
 function register_custom_fields() {
 	add_action('add_meta_boxes', function() {
-		add_meta_box('item_fields', 'アイテム投稿フィールド', 'item_fields_callback', 'items', 'normal', 'high');
+		add_meta_box('item_fields', 'アイテム情報フィールド', 'item_fields_callback', 'items', 'normal', 'high');
 	});
 
 	function item_fields_callback($post) {
-		$fields = array('id', 'colloq', 'from', 'into', 'gold', 'aram_detail');
+		$fields = array('id', 'gold', 'from', 'into', 'specialRecipe', 'destination', 'nomal_item', 'aram_item', 'colloq', 'aram_detail');
 
 		echo '<ul>';
 		foreach ($fields as $field) {
+
 			$value = get_post_meta($post->ID, $field, true);
 			echo '<li>';
+			if('nomal_item' === $field || 'aram_item' === $field) {
+				echo '<label for="' . $field . '">' . ucfirst($field) . '</label>';
+				echo '<input type="checkbox" id="' . $field . '" name="' . $field . '" ' . ($value ? 'checked' : '') . '/>';
+			} else
 			if('colloq' === $field || 'aram_detail' === $field) {
 				echo '<label for="' . $field . '">' . ucfirst($field) . '</label>';
 				echo '<textarea id="' . $field . '" name="' . $field . '">' . esc_textarea($value) . '</textarea>';
@@ -56,7 +61,7 @@ function register_custom_fields() {
 		if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
 		if (!current_user_can('edit_post', $post_id)) return;
 
-		$fields = array('id', 'colloq', 'from', 'into', 'gold', 'aram_detail');
+		$fields = array('id', 'gold', 'from', 'into', 'specialRecipe', 'destination', 'colloq', 'aram_detail');
 		foreach ($fields as $field) {
 			if (isset($_POST[$field])) {
 				update_post_meta($post_id, $field, sanitize_text_field($_POST[$field]));

@@ -90,10 +90,14 @@ function create_custom_posts_from_json() {
 					'post_status' => 'publish',
 					'meta_input' => array(
 						'id' => isset($item['id']) ? $item['id'] : '',
-						'colloq' => isset($item['colloq']) ? $item['colloq'] : '',
+						'gold' => isset($item['gold']) ? $item['gold'] : '',
 						'from' => isset($item['from']) ? implode(', ', $item['from']) : '',
 						'into' => isset($item['into']) ? implode(', ', $item['into']) : '',
-						'gold' => isset($item['gold']) ? $item['gold'] : '',
+						'specialRecipe' => isset($item['specialRecipe']) ? $item['specialRecipe'] : '',
+						'destination' => isset($item['destination']) ? $item['destination'] : '',
+						'nomal_item' => isset($item['nomal_item']) ? $item['nomal_item'] : '',
+						'aram_item' => isset($item['aram_item']) ? $item['aram_item'] : '',
+						'colloq' => isset($item['colloq']) ? $item['colloq'] : '',
 						'aram_detail' => isset($details[$item['id']]['aram']) ? $details[$item['id']]['aram'] : '',
 					),
 				));
