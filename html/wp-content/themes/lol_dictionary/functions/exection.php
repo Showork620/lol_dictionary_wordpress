@@ -7,6 +7,9 @@
 
 // アイテムデータ（item_data.json）更新.
 function add_custom_menu_page() {
+    // TODO: アイテム画像をセット
+    // add_menu_page{};
+
     // アイテムデータ更新
 	add_menu_page(
 		'Update Item Data', // ページタイトル
@@ -44,15 +47,22 @@ function add_custom_menu_page() {
     );
 }
 add_action('admin_menu', 'add_custom_menu_page');
+
+// TODO: アイテム画像をセット
+// function set_item_images_callback() {}
+
 function update_item_data_callback() {
 	include get_template_directory() . '/functions/exection/update_item_data.php';
 }
+
 function output_item_detail_json_callback() {
     include get_template_directory() . '/functions/exection/output_item_detail_json.php';
 }
+
 function output_item_post_callback() {
     include get_template_directory() . '/functions/exection/output_item_post.php';
 }
+
 function reset_item_post_callback() {
     include get_template_directory() . '/functions/exection/reset_item_post.php';
 }

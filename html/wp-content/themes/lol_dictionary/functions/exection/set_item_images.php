@@ -101,4 +101,6 @@ if (is_media_library_empty()) {
         }
         $counter++;
     }
+
+    echo "Total: " . $counter . " images processed.\n"; // 処理された画像の総数を表示
 }
