@@ -21,3 +21,7 @@ get_template_part( 'functions/query' );
 get_template_part( 'functions/other' );
 
 get_template_part( 'functions/utils' );
+
+get_template_part( 'functions/exection' );
+
+get_template_part( 'functions/custom_post_init/items' );
