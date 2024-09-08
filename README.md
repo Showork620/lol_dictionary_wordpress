@@ -60,3 +60,6 @@ keyをidに、normal_detail と aram_detail を持つ
 3013: シンクロナイズド ソウル
 　他のアイテムと鑑みて以下を追記する
 　Specialrecipe: 3010
+
+// TODO: カテゴリ追加
+タンク、サポート、アサシン、などの role 区分

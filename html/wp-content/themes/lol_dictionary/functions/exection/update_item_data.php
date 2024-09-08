@@ -38,7 +38,7 @@ $UNAVAILABLE_ITEMS = [
 $SYNCHRONIZED_SOUL_ID = 3013;
 $SYMBIOTIC_SOLES_ID = 3010;
 
-// アイテム分類
+// TODO: アイテム role（タンク、サポート、アサシンなど）
 // $ITEMS_CATEGORY = {};
 
 // アイテムデータを取得
