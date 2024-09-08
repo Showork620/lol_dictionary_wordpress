@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+// ============================================================
+//  object/project/_item.scss
+// ============================================================
+
+.p-item-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-inline: auto;
+    width: 85vw;
+    max-width: 800px;
+
+    &__item {
+        width: 65px;
+        overflow: hidden;
+    }
+}
