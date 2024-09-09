@@ -7,7 +7,7 @@ module.exports = {
     main: './src/js/index.js'  // メインのJavaScriptファイル
   },
   output: {
-    path: path.resolve(__dirname, 'html/wp-content/themes/lol_dictionary/assets'),
+    path: path.resolve(__dirname, 'html/wp-content/uploads/2024/09'),
     filename: 'js/[name].js',  // JavaScript出力先
   },
   module: {
