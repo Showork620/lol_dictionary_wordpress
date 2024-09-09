@@ -1,99 +1,70 @@
 <?php
 /**
- * 画像の設定
+ * 画像をメディアライブラリに登録
  *
- * @return void
+ * @param string $file_path 画像ファイルのパス
+ * @param int $post_id 添付ファイルを関連付ける投稿 ID
+ * @return int|WP_Error 添付ファイル ID または WP_Error オブジェクト
  */
+function upload_image_to_media_library($file_path, $post_id = 0) {
+    // ファイルの情報を取得
+    $filetype = wp_check_filetype(basename($file_path), null);
+    $wp_upload_dir = wp_upload_dir();
 
-// メディアライブラリが空かどうかをチェックする関数
-function is_media_library_empty() {
-    $attachments = get_posts(array(
-        'post_type' => 'attachment',
-        'posts_per_page' => 1,
-        'fields' => 'ids'
-    ));
-    return empty($attachments);
-}
+    // アップロードディレクトリに移動するファイルのパスを設定
+    $target_file = $wp_upload_dir['path'] . '/' . basename($file_path);
 
-// 最新バージョンを取得
-function get_new_version() {
-    $version_url = "https://ddragon.leagueoflegends.com/api/versions.json";
-
-    // cURLを使用してAPIからデータを取得
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $version_url);
-    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-    $response = curl_exec($ch);
-    curl_close($ch);
-
-    // JSONデータをデコード
-    $data = json_decode($response, true);
-
-    // 最新バージョンを返す
-    return $data[0];
-}
-
-// 画像をURLからアップロードし、添付ファイルIDと新規アップロードフラグを返す関数
-function upload_image_from_url($image_url) {
-    $upload_dir = wp_upload_dir();
-    $filename = basename($image_url);
-    $file_path = $upload_dir['path'] . '/' . $filename;
-
-    // 画像が既に存在するかチェック、画像名が一致するファイルがあればスキップする
-    $existing_attachment = get_posts(array(
-        'post_type' => 'attachment',
-        'meta_query' => array(
-            array(
-                'key' => '_wp_attached_file',
-                'value' => ltrim($upload_dir['subdir'] . '/' . $filename, '/'),
-                'compare' => '='
-            )
-        )
-    ));
-
-    if ($existing_attachment) {
-        return array('id' => $existing_attachment[0]->ID, 'new' => false);
+    // ファイルをアップロードディレクトリに移動
+    if (!copy($file_path, $target_file)) {
+        return new WP_Error('upload_error', 'ファイルのアップロードに失敗しました。');
     }
 
-    // 画像をアップロード
-    $image_data = file_get_contents($image_url);
-    if (wp_mkdir_p($upload_dir['path'])) {
-        $file = $upload_dir['path'] . '/' . $filename;
-    } else {
-        $file = $upload_dir['basedir'] . '/' . $filename;
-    }
-    file_put_contents($file, $image_data);
-
-    $wp_filetype = wp_check_filetype($filename, null);
+    // 添付ファイルの配列を準備
     $attachment = array(
-        'post_mime_type' => $wp_filetype['type'],
-        'post_title' => sanitize_file_name($filename),
+        'guid' => $wp_upload_dir['url'] . '/' . basename($file_path),
+        'post_mime_type' => $filetype['type'],
+        'post_title' => preg_replace('/\.[^.]+$/', '', basename($file_path)),
         'post_content' => '',
         'post_status' => 'inherit'
     );
-    $attach_id = wp_insert_attachment($attachment, $file);
-    require_once(ABSPATH . 'wp-admin/includes/image.php');
-    $attach_data = wp_generate_attachment_metadata($attach_id, $file);
-    wp_update_attachment_metadata($attach_id, $attach_data);
 
-    return array('id' => $attach_id, 'new' => true);
+    // 添付ファイルを登録
+    $attachment_id = wp_insert_attachment($attachment, $target_file, $post_id);
+
+    // 添付ファイルのメタデータを生成
+    require_once(ABSPATH . 'wp-admin/includes/image.php');
+    $attachment_data = wp_generate_attachment_metadata($attachment_id, $target_file);
+    wp_update_attachment_metadata($attachment_id, $attachment_data);
+
+    return $attachment_id;
 }
 
-// メイン処理
-if (is_media_library_empty()) {
-    $VERSION = get_new_version();
-    $URL = "http://ddragon.leagueoflegends.com/cdn/" . $VERSION . "/img/item/";
+/**
+ * ディレクトリ内のすべての画像をメディアライブラリに登録
+ *
+ * @param string $directory 画像ファイルが格納されているディレクトリのパス
+ * @return void
+ */
+function register_images_in_directory($directory) {
+    if (!is_dir($directory)) {
+        return;
+    }
 
-    // JSONファイルからデータを取得
-    $json_file_path = get_template_directory() . '/assets/json/all_items.json';
-    $json_data = file_get_contents($json_file_path);
-    $items = json_decode($json_data, true);
+    $files = scandir($directory);
+    foreach ($files as $file) {
+        if ($file === '.' || $file === '..') {
+            continue;
+        }
 
-    foreach ($items as $item) {
-        $imageUrl = $URL . $item['id'] . ".png";
-        $result = upload_image_from_url($imageUrl);
-        if ($result['new']) {
-            echo "Uploaded: " . $imageUrl . "\n"; // 新しくアップロードされた画像URLを表示
+        $file_path = $directory . '/' . $file;
+        if (is_file($file_path)) {
+            upload_image_to_media_library($file_path);
         }
     }
 }
+
+// 画像が格納されているディレクトリのパス
+$directory = get_template_directory() . '/assets/img/items';
+
+// ディレクトリ内のすべての画像をメディアライブラリに登録
+register_images_in_directory($directory);

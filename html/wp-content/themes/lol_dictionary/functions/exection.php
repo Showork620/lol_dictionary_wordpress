@@ -10,6 +10,15 @@ function add_custom_menu_page() {
     // TODO: アイテム画像をセット
     // add_menu_page{};
 
+    // アイテム画像をメディアライブラリに登録
+    add_menu_page(
+        'Set Item Images', // ページタイトル
+        'item 画像をメディアに登録', // メニュータイトル
+        'manage_options',   // 権限
+        'set-item-images', // メニューのスラッグ
+        'set_item_images_callback' // コールバック関数
+    );
+
     // アイテムデータ更新
 	add_menu_page(
 		'Update Item Data', // ページタイトル
@@ -51,6 +60,9 @@ add_action('admin_menu', 'add_custom_menu_page');
 // TODO: アイテム画像をセット
 // function set_item_images_callback() {}
 
+function set_item_images_callback() {
+    include get_template_directory() . '/functions/exection/set_item_images.php';
+}
 function update_item_data_callback() {
 	include get_template_directory() . '/functions/exection/update_item_data.php';
 }
