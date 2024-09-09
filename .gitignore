@@ -47,5 +47,6 @@ wp-config.php
 # uncomment the next line
 #/wp-content/themes
 
-/wp-content/themes/lol_dictionary/assets/css/
-/wp-content/themes/lol_dictionary/assets/js/
+# 出力後のjsとcssファイルを無視
+html/wp-content/themes/lol_dictionary/assets/js
+html/wp-content/themes/lol_dictionary/assets/css

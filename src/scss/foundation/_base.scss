@@ -1,0 +1,10 @@
+// ============================================================
+//  object/foundation/_base.scss
+// ============================================================
+@use "../global/mediaquery" as mixin;
+@use "../global/variables" as var;
+
+body {
+    background-color: var(--color-navy);
+    color: var(--color-white);
+}

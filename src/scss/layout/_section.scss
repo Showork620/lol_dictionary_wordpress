@@ -1,7 +1,12 @@
 @charset "utf-8";
 
 // ============================================================
-//  object/project/_index.scss
+//  object/layout/_section.scss
 // ============================================================
 
-@forward "item";
+.l-section {
+    padding-inline: 2vw;
+    padding-block: 15px;
+    max-width: 640px;
+    margin-inline: auto;
+}
