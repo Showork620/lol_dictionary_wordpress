@@ -111,7 +111,7 @@ foreach ($ITEMDATA as $key => &$item) {
 
 	// プロパティの整形
 	$item['gold'] = $item['gold']['total'];
-	$item['nomal_item'] = $item['maps']['11'];
+	$item['normal_item'] = $item['maps']['11'];
 	$item['aram_item'] = $item['maps']['12'];
 
 	// 不要なプロパティを削除

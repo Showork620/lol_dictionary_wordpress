@@ -55,14 +55,14 @@ function register_custom_fields() {
 	});
 
 	function item_fields_callback($post) {
-		$fields = array('id', 'gold', 'from', 'into', 'specialRecipe', 'destination', 'nomal_item', 'aram_item', 'colloq', 'aram_detail');
+		$fields = array('id', 'gold', 'from', 'into', 'specialRecipe', 'destination', 'normal_item', 'aram_item', 'colloq', 'aram_detail');
 
 		echo '<ul>';
 		foreach ($fields as $field) {
 
 			$value = get_post_meta($post->ID, $field, true);
 			echo '<li>';
-			if('nomal_item' === $field || 'aram_item' === $field) {
+			if('normal_item' === $field || 'aram_item' === $field) {
 				echo '<label for="' . $field . '">' . ucfirst($field) . '</label>';
 				echo '<input type="checkbox" id="' . $field . '" name="' . $field . '" ' . ($value ? 'checked' : '') . '/>';
 			} else

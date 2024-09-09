@@ -95,7 +95,7 @@ function create_custom_posts_from_json() {
 						'into' => isset($item['into']) ? implode(', ', $item['into']) : '',
 						'specialRecipe' => isset($item['specialRecipe']) ? $item['specialRecipe'] : '',
 						'destination' => isset($item['destination']) ? $item['destination'] : '',
-						'nomal_item' => isset($item['nomal_item']) ? $item['nomal_item'] : '',
+						'normal_item' => isset($item['normal_item']) ? $item['normal_item'] : '',
 						'aram_item' => isset($item['aram_item']) ? $item['aram_item'] : '',
 						'colloq' => isset($item['colloq']) ? $item['colloq'] : '',
 						'aram_detail' => isset($details[$item['id']]['aram']) ? $details[$item['id']]['aram'] : '',

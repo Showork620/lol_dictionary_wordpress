@@ -20,7 +20,7 @@
         ],
         "id": 1001,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1004": {
@@ -38,7 +38,7 @@
         ],
         "id": 1004,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1006": {
@@ -56,7 +56,7 @@
         ],
         "id": 1006,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1011": {
@@ -84,7 +84,7 @@
         "depth": 2,
         "id": 1011,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1018": {
@@ -106,7 +106,7 @@
         ],
         "id": 1018,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1026": {
@@ -127,7 +127,7 @@
         ],
         "id": 1026,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1027": {
@@ -145,7 +145,7 @@
         ],
         "id": 1027,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1028": {
@@ -184,7 +184,7 @@
         ],
         "id": 1028,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1029": {
@@ -211,7 +211,7 @@
         ],
         "id": 1029,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1031": {
@@ -237,7 +237,7 @@
         "depth": 2,
         "id": 1031,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1033": {
@@ -263,7 +263,7 @@
         ],
         "id": 1033,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1036": {
@@ -298,7 +298,7 @@
         ],
         "id": 1036,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1037": {
@@ -331,7 +331,7 @@
         ],
         "id": 1037,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1038": {
@@ -354,7 +354,7 @@
         ],
         "id": 1038,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1042": {
@@ -379,7 +379,7 @@
         ],
         "id": 1042,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1043": {
@@ -405,7 +405,7 @@
         "depth": 2,
         "id": 1043,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1052": {
@@ -437,7 +437,7 @@
         ],
         "id": 1052,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1053": {
@@ -462,7 +462,7 @@
         "depth": 2,
         "id": 1053,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1054": {
@@ -477,7 +477,7 @@
         ],
         "id": 1054,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1055": {
@@ -493,7 +493,7 @@
         ],
         "id": 1055,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1056": {
@@ -509,7 +509,7 @@
         ],
         "id": 1056,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1057": {
@@ -533,7 +533,7 @@
         "depth": 2,
         "id": 1057,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1058": {
@@ -555,7 +555,7 @@
         ],
         "id": 1058,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "1082": {
@@ -573,7 +573,7 @@
         ],
         "id": 1082,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "1083": {
@@ -588,7 +588,7 @@
         ],
         "id": 1083,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "1101": {
@@ -601,7 +601,7 @@
         ],
         "id": 1101,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "1102": {
@@ -614,7 +614,7 @@
         ],
         "id": 1102,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "1103": {
@@ -627,7 +627,7 @@
         ],
         "id": 1103,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "2003": {
@@ -644,7 +644,7 @@
         ],
         "id": 2003,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2010": {
@@ -657,7 +657,7 @@
         "tags": [],
         "id": 2010,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2019": {
@@ -682,7 +682,7 @@
         "depth": 2,
         "id": 2019,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2020": {
@@ -708,7 +708,7 @@
         "depth": 2,
         "id": 2020,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2021": {
@@ -736,7 +736,7 @@
         "depth": 2,
         "id": 2021,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2022": {
@@ -762,7 +762,7 @@
         ],
         "id": 2022,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2031": {
@@ -782,7 +782,7 @@
         ],
         "id": 2031,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2051": {
@@ -797,7 +797,7 @@
         ],
         "id": 2051,
         "has_detail": true,
-        "nomal_item": false,
+        "normal_item": false,
         "aram_item": true
     },
     "2052": {
@@ -810,7 +810,7 @@
         "tags": [],
         "id": 2052,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2055": {
@@ -828,7 +828,7 @@
         ],
         "id": 2055,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "2065": {
@@ -854,7 +854,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2138": {
@@ -871,7 +871,7 @@
         ],
         "id": 2138,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2139": {
@@ -887,7 +887,7 @@
         ],
         "id": 2139,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2140": {
@@ -904,7 +904,7 @@
         ],
         "id": 2140,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2141": {
@@ -919,7 +919,7 @@
         ],
         "id": 2141,
         "has_detail": true,
-        "nomal_item": false,
+        "normal_item": false,
         "aram_item": true
     },
     "2150": {
@@ -933,7 +933,7 @@
         ],
         "id": 2150,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2151": {
@@ -949,7 +949,7 @@
         ],
         "id": 2151,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2152": {
@@ -964,7 +964,7 @@
         ],
         "id": 2152,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2420": {
@@ -989,7 +989,7 @@
         "depth": 2,
         "id": 2420,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2421": {
@@ -1003,7 +1003,7 @@
         "tags": [],
         "id": 2421,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2422": {
@@ -1026,7 +1026,7 @@
         ],
         "id": 2422,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2501": {
@@ -1049,7 +1049,7 @@
             "Fighter",
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2502": {
@@ -1074,7 +1074,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2503": {
@@ -1098,7 +1098,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2504": {
@@ -1121,7 +1121,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "2508": {
@@ -1142,7 +1142,7 @@
         "depth": 2,
         "id": 2508,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3002": {
@@ -1166,7 +1166,7 @@
             "Tank",
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3003": {
@@ -1190,7 +1190,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true,
         "destination": 3040
     },
@@ -1219,7 +1219,7 @@
             "Marksman",
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true,
         "destination": 3042
     },
@@ -1242,7 +1242,7 @@
         "depth": 2,
         "id": 3006,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3009": {
@@ -1259,7 +1259,7 @@
         "depth": 2,
         "id": 3009,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3010": {
@@ -1279,7 +1279,7 @@
         "depth": 2,
         "id": 3010,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false,
         "destination": 3013
     },
@@ -1299,7 +1299,7 @@
         "specialRecipe": 3010,
         "id": 3013,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3020": {
@@ -1317,7 +1317,7 @@
         "depth": 2,
         "id": 3020,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3024": {
@@ -1342,7 +1342,7 @@
         "depth": 2,
         "id": 3024,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3026": {
@@ -1366,7 +1366,7 @@
             "Marksman",
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3031": {
@@ -1389,7 +1389,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3032": {
@@ -1411,7 +1411,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3033": {
@@ -1435,7 +1435,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3035": {
@@ -1459,7 +1459,7 @@
         "depth": 2,
         "id": 3035,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3036": {
@@ -1482,7 +1482,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3040": {
@@ -1499,7 +1499,7 @@
         ],
         "id": 3040,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3041": {
@@ -1521,7 +1521,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3042": {
@@ -1540,7 +1540,7 @@
         ],
         "id": 3042,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3044": {
@@ -1566,7 +1566,7 @@
         "depth": 2,
         "id": 3044,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3046": {
@@ -1590,7 +1590,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3047": {
@@ -1609,7 +1609,7 @@
         "depth": 2,
         "id": 3047,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3050": {
@@ -1635,7 +1635,7 @@
             "Tank",
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3051": {
@@ -1661,7 +1661,7 @@
         "depth": 2,
         "id": 3051,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3053": {
@@ -1685,7 +1685,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3057": {
@@ -1709,7 +1709,7 @@
         "depth": 2,
         "id": 3057,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3065": {
@@ -1734,7 +1734,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3066": {
@@ -1758,7 +1758,7 @@
         "depth": 2,
         "id": 3066,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3067": {
@@ -1800,7 +1800,7 @@
         "depth": 2,
         "id": 3067,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3068": {
@@ -1824,7 +1824,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3070": {
@@ -1843,7 +1843,7 @@
         ],
         "id": 3070,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3071": {
@@ -1871,7 +1871,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3072": {
@@ -1894,7 +1894,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3073": {
@@ -1920,7 +1920,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3074": {
@@ -1946,7 +1946,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3075": {
@@ -1969,7 +1969,7 @@
             "Tank",
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3076": {
@@ -1990,7 +1990,7 @@
         "depth": 2,
         "id": 3076,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3077": {
@@ -2015,7 +2015,7 @@
         "depth": 2,
         "id": 3077,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3078": {
@@ -2043,7 +2043,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3082": {
@@ -2065,7 +2065,7 @@
         "depth": 2,
         "id": 3082,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3083": {
@@ -2089,7 +2089,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3084": {
@@ -2112,7 +2112,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3085": {
@@ -2136,7 +2136,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3086": {
@@ -2164,7 +2164,7 @@
         "depth": 2,
         "id": 3086,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3087": {
@@ -2189,7 +2189,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3089": {
@@ -2210,7 +2210,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3091": {
@@ -2235,7 +2235,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3094": {
@@ -2258,7 +2258,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3100": {
@@ -2283,7 +2283,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3102": {
@@ -2305,7 +2305,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3107": {
@@ -2329,7 +2329,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3108": {
@@ -2363,7 +2363,7 @@
         "depth": 2,
         "id": 3108,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3109": {
@@ -2388,7 +2388,7 @@
         "depth": 3,
         "id": 3109,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3110": {
@@ -2414,7 +2414,7 @@
             "Tank",
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3111": {
@@ -2434,7 +2434,7 @@
         "depth": 2,
         "id": 3111,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3112": {
@@ -2450,7 +2450,7 @@
         ],
         "id": 3112,
         "has_detail": true,
-        "nomal_item": false,
+        "normal_item": false,
         "aram_item": true
     },
     "3113": {
@@ -2475,7 +2475,7 @@
         "depth": 2,
         "id": 3113,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3114": {
@@ -2500,7 +2500,7 @@
         "depth": 2,
         "id": 3114,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3115": {
@@ -2526,7 +2526,7 @@
             "Marksman",
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3116": {
@@ -2550,7 +2550,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3117": {
@@ -2568,7 +2568,7 @@
         "depth": 2,
         "id": 3117,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3118": {
@@ -2591,7 +2591,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3119": {
@@ -2615,7 +2615,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true,
         "destination": 3121
     },
@@ -2633,7 +2633,7 @@
         ],
         "id": 3121,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3123": {
@@ -2654,7 +2654,7 @@
         "depth": 2,
         "id": 3123,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3124": {
@@ -2679,7 +2679,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3133": {
@@ -2721,7 +2721,7 @@
         "depth": 2,
         "id": 3133,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3134": {
@@ -2755,7 +2755,7 @@
         "depth": 2,
         "id": 3134,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3135": {
@@ -2777,7 +2777,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3137": {
@@ -2800,7 +2800,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3139": {
@@ -2827,7 +2827,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3140": {
@@ -2849,7 +2849,7 @@
         "depth": 2,
         "id": 3140,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3142": {
@@ -2873,7 +2873,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3143": {
@@ -2897,7 +2897,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3144": {
@@ -2920,7 +2920,7 @@
         "depth": 2,
         "id": 3144,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3145": {
@@ -2947,7 +2947,7 @@
         "depth": 2,
         "id": 3145,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3147": {
@@ -2970,7 +2970,7 @@
         "depth": 2,
         "id": 3147,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3152": {
@@ -2996,7 +2996,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3153": {
@@ -3023,7 +3023,7 @@
             "Fighter",
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3155": {
@@ -3047,7 +3047,7 @@
         "depth": 2,
         "id": 3155,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3156": {
@@ -3075,7 +3075,7 @@
             "Marksman",
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3157": {
@@ -3098,7 +3098,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3158": {
@@ -3117,7 +3117,7 @@
         "depth": 2,
         "id": 3158,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3161": {
@@ -3141,7 +3141,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3165": {
@@ -3165,7 +3165,7 @@
             "Mage",
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3172": {
@@ -3183,7 +3183,7 @@
         "depth": 3,
         "id": 3172,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3177": {
@@ -3199,7 +3199,7 @@
         ],
         "id": 3177,
         "has_detail": false,
-        "nomal_item": false,
+        "normal_item": false,
         "aram_item": true
     },
     "3179": {
@@ -3224,7 +3224,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3181": {
@@ -3248,7 +3248,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3184": {
@@ -3264,7 +3264,7 @@
         ],
         "id": 3184,
         "has_detail": false,
-        "nomal_item": false,
+        "normal_item": false,
         "aram_item": true
     },
     "3190": {
@@ -3293,7 +3293,7 @@
             "Tank",
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3211": {
@@ -3319,7 +3319,7 @@
         "depth": 2,
         "id": 3211,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3222": {
@@ -3345,7 +3345,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3302": {
@@ -3371,7 +3371,7 @@
             "Fighter",
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3340": {
@@ -3388,7 +3388,7 @@
         ],
         "id": 3340,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3363": {
@@ -3403,7 +3403,7 @@
         ],
         "id": 3363,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3364": {
@@ -3418,7 +3418,7 @@
         ],
         "id": 3364,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3504": {
@@ -3442,7 +3442,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3508": {
@@ -3469,7 +3469,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3742": {
@@ -3495,7 +3495,7 @@
             "Fighter",
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3748": {
@@ -3521,7 +3521,7 @@
             "Fighter",
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3801": {
@@ -3544,7 +3544,7 @@
         "depth": 2,
         "id": 3801,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3802": {
@@ -3575,7 +3575,7 @@
         "depth": 2,
         "id": 3802,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3803": {
@@ -3600,7 +3600,7 @@
         "depth": 2,
         "id": 3803,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3814": {
@@ -3624,7 +3624,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "3865": {
@@ -3642,7 +3642,7 @@
         ],
         "id": 3865,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false,
         "destination": 3866
     },
@@ -3661,7 +3661,7 @@
         ],
         "id": 3866,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false,
         "destination": 3867
     },
@@ -3687,7 +3687,7 @@
         ],
         "id": 3867,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3869": {
@@ -3708,7 +3708,7 @@
         "depth": 2,
         "id": 3869,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3870": {
@@ -3729,7 +3729,7 @@
         "depth": 2,
         "id": 3870,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3871": {
@@ -3750,7 +3750,7 @@
         "depth": 2,
         "id": 3871,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3876": {
@@ -3771,7 +3771,7 @@
         "depth": 2,
         "id": 3876,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3877": {
@@ -3792,7 +3792,7 @@
         "depth": 2,
         "id": 3877,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "3916": {
@@ -3814,7 +3814,7 @@
         "depth": 2,
         "id": 3916,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4005": {
@@ -3838,7 +3838,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4401": {
@@ -3862,7 +3862,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4628": {
@@ -3884,7 +3884,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4629": {
@@ -3909,7 +3909,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4630": {
@@ -3931,7 +3931,7 @@
         "depth": 2,
         "id": 4630,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4632": {
@@ -3954,7 +3954,7 @@
         "depth": 2,
         "id": 4632,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4633": {
@@ -3978,7 +3978,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4638": {
@@ -4001,7 +4001,7 @@
         ],
         "id": 4638,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "4642": {
@@ -4029,7 +4029,7 @@
         "depth": 2,
         "id": 4642,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4643": {
@@ -4056,7 +4056,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "4645": {
@@ -4078,7 +4078,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "4646": {
@@ -4102,7 +4102,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6333": {
@@ -4124,7 +4124,7 @@
         "depth": 3,
         "id": 6333,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6609": {
@@ -4150,7 +4150,7 @@
             "Fighter",
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6610": {
@@ -4174,7 +4174,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6616": {
@@ -4198,7 +4198,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6617": {
@@ -4223,7 +4223,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6620": {
@@ -4248,7 +4248,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6621": {
@@ -4271,7 +4271,7 @@
         "role": [
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6631": {
@@ -4297,7 +4297,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6653": {
@@ -4319,7 +4319,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6655": {
@@ -4343,7 +4343,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6657": {
@@ -4368,7 +4368,7 @@
         "role": [
             "Mage"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6660": {
@@ -4391,7 +4391,7 @@
         "depth": 2,
         "id": 6660,
         "has_detail": true,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6662": {
@@ -4419,7 +4419,7 @@
             "Fighter",
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6664": {
@@ -4445,7 +4445,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6665": {
@@ -4470,7 +4470,7 @@
         "role": [
             "Tank"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6670": {
@@ -4496,7 +4496,7 @@
         "depth": 2,
         "id": 6670,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6672": {
@@ -4521,7 +4521,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6673": {
@@ -4543,7 +4543,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6675": {
@@ -4567,7 +4567,7 @@
         "role": [
             "Marksman"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6676": {
@@ -4592,7 +4592,7 @@
             "Marksman",
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6690": {
@@ -4618,7 +4618,7 @@
         "depth": 2,
         "id": 6690,
         "has_detail": false,
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6692": {
@@ -4642,7 +4642,7 @@
         "role": [
             "Fighter"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6694": {
@@ -4666,7 +4666,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6695": {
@@ -4688,7 +4688,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6696": {
@@ -4711,7 +4711,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6697": {
@@ -4736,7 +4736,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": false
     },
     "6698": {
@@ -4761,7 +4761,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6699": {
@@ -4787,7 +4787,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "6701": {
@@ -4811,7 +4811,7 @@
         "role": [
             "Assassin"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     },
     "8020": {
@@ -4838,7 +4838,7 @@
             "Tank",
             "Support"
         ],
-        "nomal_item": true,
+        "normal_item": true,
         "aram_item": true
     }
 }
