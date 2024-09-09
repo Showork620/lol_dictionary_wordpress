@@ -90,10 +90,14 @@ function create_custom_posts_from_json() {
 					'post_status' => 'publish',
 					'meta_input' => array(
 						'id' => isset($item['id']) ? $item['id'] : '',
-						'colloq' => isset($item['colloq']) ? $item['colloq'] : '',
+						'gold' => isset($item['gold']) ? $item['gold'] : '',
 						'from' => isset($item['from']) ? implode(', ', $item['from']) : '',
 						'into' => isset($item['into']) ? implode(', ', $item['into']) : '',
-						'gold' => isset($item['gold']) ? $item['gold'] : '',
+						'specialRecipe' => isset($item['specialRecipe']) ? $item['specialRecipe'] : '',
+						'destination' => isset($item['destination']) ? $item['destination'] : '',
+						'normal_item' => isset($item['normal_item']) ? $item['normal_item'] : '',
+						'aram_item' => isset($item['aram_item']) ? $item['aram_item'] : '',
+						'colloq' => isset($item['colloq']) ? $item['colloq'] : '',
 						'aram_detail' => isset($details[$item['id']]['aram']) ? $details[$item['id']]['aram'] : '',
 					),
 				));
@@ -101,6 +105,11 @@ function create_custom_posts_from_json() {
 				// タグを設定
 				if (isset($item['tags']) && is_array($item['tags'])) {
 					wp_set_post_terms($post_id, $item['tags'], 'post_tag');
+				}
+
+				// roleを設定
+				if (isset($item['role']) && is_array($item['role'])) {
+					wp_set_post_terms($post_id, $item['role'], 'role');
 				}
 
 				// アイキャッチ画像を設定
@@ -113,4 +122,4 @@ function create_custom_posts_from_json() {
 	}
 }
 create_custom_posts_from_json();
-echo 'item_data.json を出力しました: ' . date('Y-m-d H:i:s');
+echo 'items 投稿を出力しました: ' . date('Y-m-d H:i:s');
