@@ -3708,6 +3708,9 @@
         "depth": 2,
         "id": 3869,
         "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "normal_item": true,
         "aram_item": false
     },
@@ -3729,6 +3732,9 @@
         "depth": 2,
         "id": 3870,
         "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "normal_item": true,
         "aram_item": false
     },
@@ -3750,6 +3756,9 @@
         "depth": 2,
         "id": 3871,
         "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "normal_item": true,
         "aram_item": false
     },
@@ -3771,6 +3780,9 @@
         "depth": 2,
         "id": 3876,
         "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "normal_item": true,
         "aram_item": false
     },
@@ -3792,6 +3804,9 @@
         "depth": 2,
         "id": 3877,
         "has_detail": true,
+        "role": [
+            "Support"
+        ],
         "normal_item": true,
         "aram_item": false
     },
@@ -4124,6 +4139,9 @@
         "depth": 3,
         "id": 6333,
         "has_detail": true,
+        "role": [
+            "Fighter"
+        ],
         "normal_item": true,
         "aram_item": true
     },
