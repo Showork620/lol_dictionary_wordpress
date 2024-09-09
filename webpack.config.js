@@ -29,6 +29,45 @@ module.exports = {
             presets: ['@babel/preset-env']
           }
         }
+      },
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+            {
+                loader: 'file-loader',
+                options: {
+                    name: '[path][name].[ext]',
+                },
+            },
+            {
+                loader: 'webp-loader',
+                options: {
+                    quality: 75,
+                },
+            },
+            {
+                loader: 'image-webpack-loader',
+                options: {
+                    mozjpeg: {
+                        progressive: true,
+                        quality: 75,
+                    },
+                    optipng: {
+                        enabled: true,
+                    },
+                    pngquant: {
+                        quality: [0.65, 0.90],
+                        speed: 4,
+                    },
+                    gifsicle: {
+                        interlaced: false,
+                    },
+                    webp: {
+                        quality: 75,
+                    },
+                },
+            },
+        ],
       }
     ],
   },
