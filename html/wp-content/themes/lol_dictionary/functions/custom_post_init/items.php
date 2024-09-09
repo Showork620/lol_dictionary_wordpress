@@ -5,8 +5,29 @@
  * @return void
  */
 
+ /**
+ * カスタムタクソノミー "role" の登録
+ */
+function create_custom_taxonomies() {
+    // カスタムタクソノミー "role" を登録
+    register_taxonomy(
+        'role',
+        'items',
+        array(
+            'label' => __('ロール種別'),
+            'rewrite' => array('slug' => 'role'),
+            'hierarchical' => false,
+        )
+    );
+}
+add_action('init', 'create_custom_taxonomies');
+
+/**
+ * カスタム投稿タイプ "items" の登録
+ *
+ * @return void
+ */
 function create_custom_post_types() {
-	// Nomal Items カスタム投稿タイプ
 	register_post_type(
 		'items',
 		array(
@@ -17,7 +38,7 @@ function create_custom_post_types() {
 			'public' => true,
 			'has_archive' => true,
 			'supports' => array('title', 'editor', 'custom-fields', 'thumbnail'),
-			'taxonomies' => array('post_tag', 'tag', 'role'),
+			'taxonomies' => array('post_tag', 'role'),
 		)
 	);
 }

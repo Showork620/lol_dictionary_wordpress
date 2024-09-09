@@ -107,6 +107,11 @@ function create_custom_posts_from_json() {
 					wp_set_post_terms($post_id, $item['tags'], 'post_tag');
 				}
 
+				// roleを設定
+				if (isset($item['role']) && is_array($item['role'])) {
+					wp_set_post_terms($post_id, $item['role'], 'role');
+				}
+
 				// アイキャッチ画像を設定
 				set_custom_post_thumbnail($post_id);
 			}
@@ -117,4 +122,4 @@ function create_custom_posts_from_json() {
 	}
 }
 create_custom_posts_from_json();
-echo 'item_data.json を出力しました: ' . date('Y-m-d H:i:s');
+echo 'items 投稿を出力しました: ' . date('Y-m-d H:i:s');
