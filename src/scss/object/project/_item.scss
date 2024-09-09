@@ -3,17 +3,77 @@
 // ============================================================
 //  object/project/_item.scss
 // ============================================================
+@use "../../global/mediaquery" as mixin;
+@use "../../global/variables" as var;
 
 .p-item-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 5px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 7px;
     margin-inline: auto;
-    width: 85vw;
-    max-width: 800px;
+    width: 100%;
+    padding-block: 15px;
+
+    @include mixin.md {
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    @include mixin.sm {
+        grid-template-columns: repeat(4, 1fr);
+    }
 
     &__item {
-        width: 65px;
-        overflow: hidden;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    &__item > .wp-post-image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    &__item > .name {
+        text-align: justify;
+        font-size: 16px;
+        height: 3lh;
+
+        @include mixin.md {
+            font-size: 14px;
+        }
+    }
+}
+
+.p-item-role-nav {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: space-around;
+    gap: 3px;
+
+    &__item {
+        width: 80%;
+        margin-inline: auto;
+        --bottom-line-height: 4px;
+        padding-bottom: var(--bottom-line-height);
+        opacity: 0.5;
+
+        &.is-choiced {
+            background-image: linear-gradient(to top, var(--color-gold) var(--bottom-line-height), var(--color-navy) var(--bottom-line-height));
+            opacity: 1;
+        }
+
+        .button {
+            width: 100%;
+            display: grid;
+            place-items: center;
+
+            padding-block: 5px;
+        }
+        .icon {
+            width: 30px;
+            height: auto;
+        }
     }
 }
