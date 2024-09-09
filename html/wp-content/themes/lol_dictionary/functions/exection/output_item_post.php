@@ -10,7 +10,7 @@ function set_custom_post_thumbnail($post_id) {
 	$item_id = get_post_meta($post_id, 'id', true);
 
 	// メディアライブラリからファイル名が一致する画像を検索
-	$filename = $item_id . '.png';
+	$filename = $item_id . '.webp';
 	$args = array(
 		'post_type' => 'attachment',
 		'meta_query' => array(
