@@ -57,19 +57,19 @@
         margin-inline: auto;
         --bottom-line-height: 4px;
         padding-bottom: var(--bottom-line-height);
-        opacity: 0.5;
-
-        &.is-choiced {
-            background-image: linear-gradient(to top, var(--color-gold) var(--bottom-line-height), var(--color-navy) var(--bottom-line-height));
-            opacity: 1;
-        }
 
         .button {
             width: 100%;
             display: grid;
             place-items: center;
-
             padding-block: 5px;
+            opacity: 0.5;
+            transition: all 0.3s;
+
+            &.is-choiced {
+                border-bottom: var(--bottom-line-height) solid var(--color-gold);
+                opacity: 1;
+            }
         }
         .icon {
             width: 30px;

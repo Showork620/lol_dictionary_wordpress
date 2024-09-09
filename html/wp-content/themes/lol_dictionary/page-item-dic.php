@@ -17,8 +17,8 @@ get_header(); ?>
 			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support'];
 			foreach ($ROLES as $role) : ?>
 				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
-				<li class="p-item-role-nav__item <?php echo 'Fighter' === $role ? 'is-choiced' : '' ?>">
-					<button class="button js-role-button" data-role="<?php echo esc_attr($role); ?>">
+				<li class="p-item-role-nav__item">
+					<button class="button js-role-button <?php echo 'Fighter' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
 						<img class="icon" src="<?php echo esc_url($image_path); ?>">
 					</button>
 				</li>
@@ -44,7 +44,7 @@ get_header(); ?>
 						$roles = wp_get_post_terms(get_the_ID(), 'role', array('fields' => 'names'));
 						$roles_list = implode(',', $roles);
 					?>
-					<li class="p-item-list__item" data-role="<?php echo esc_attr($roles_list); ?>">
+					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>">
 						<?php if (has_post_thumbnail()) : ?>
 							<?php the_post_thumbnail('thumbnail'); ?>
 							<p class="name"><?php the_title(); ?></p>
