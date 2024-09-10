@@ -62,6 +62,41 @@ $ITEMS_ROLE = array(
     )
 );
 
+// tagsを翻訳
+$TAGS_TRANSLATE = array(
+	"AbilityHaste" => "スキルヘイスト",
+	"Active" => "発動効果あり",
+	"Armor" => "物理防御",
+	"ArmorPenetration" => "物理防御貫通",
+	"AttackSpeed" => "攻撃速度",
+	"Aura" => "周囲効果",
+	"Boots" => "ブーツ",
+	"Consumable" => "消費アイテム",
+	"CooldownReduction" => "スキルヘイスト",
+	"CriticalStrike" => "クリティカル",
+	"Damage" => "攻撃力",
+	"GoldPer" => "獲得ゴールド",
+	"Health" => "体力",
+	"HealthRegen" => "体力回復効果",
+	"Jungle" => "ジャングル用アイテム",
+	"Lane" => "初期購入アイテム",
+	"LifeSteal" => "ライフスティール",
+	"MagicPenetration" => "魔法防御貫通",
+	"MagicResist" => "魔法防御",
+	"Mana" => "マナ",
+	"ManaRegen" => "マナ回復効果",
+	"NonbootsMovement" => "移動速度（ブーツ以外）",
+	"OnHit" => "通常攻撃時効果",
+	"Slow" => "スロウ効果",
+	"SpellBlock" => "スペルブロック",
+	"SpellDamage" => "魔力",
+	"SpellVamp" => "オムニヴァンプ",
+	"Stealth" => "ステルス",
+	"Tenacity" => "行動妨害耐性",
+	"Trinket" => "トリンケット",
+	"Vision" => "視界"
+);
+
 // アイテムデータを取得
 function getOriginItemData($preUrl) {
 	$url = "{$preUrl}item.json";
@@ -114,6 +149,18 @@ foreach ($ITEMDATA as $key => &$item) {
 	$item['normal_item'] = $item['maps']['11'];
 	$item['aram_item'] = $item['maps']['12'];
 
+	$tags = $item['tags'];
+	$translated_tags = [];
+	foreach ($tags as $tag) {
+		if (isset($TAGS_TRANSLATE[$tag])) {
+			$translated_tags[] = $TAGS_TRANSLATE[$tag];
+		} else {
+			// 翻訳が見つからない場合は元のタグを使用
+			$translated_tags[] = $tag;
+		}
+	}
+	$item['tags'] = $translated_tags;
+	
 	// 不要なプロパティを削除
 	unset($item['image']);
 	unset($item['maps']);
