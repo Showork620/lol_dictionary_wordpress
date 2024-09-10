@@ -46,6 +46,62 @@
     }
 }
 
+.p-item-search-group {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.p-item-tags-select {
+    position: relative;
+    display: grid;
+    grid-template-columns: 5em 1fr;
+    align-items: center;
+
+    
+    &::after {
+        // プルダウンの三角形を作成
+        content: "";
+        display: block;
+        width: 1.1em;
+        height: 1.1em;
+        border-right: 3px solid var(--color-gold);
+        border-bottom: 3px solid var(--color-gold);
+        position: absolute;
+        right: 20px;
+        top: 40%;
+        transform: translateY(-50%) rotate(45deg);
+        
+        @include mixin.sm {
+            width: 0.9em;
+            height: 0.9em;
+            border-right: 2px solid var(--color-gold);
+            border-bottom: 2px solid var(--color-gold);
+            right: 15px;
+        }
+    }
+
+    &__label {
+        font-size: 14px;
+        color: var(--color-white);
+    }
+
+    &__dropdown {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid var(--color-gold);
+        border-radius: 3px;
+        background-color: rgb(from var(--color-white) r g b / 0.1);
+        color: var(--color-white);
+        font-size: 16px;
+    
+        @include mixin.sm {
+            border: 1px solid var(--color-gold);
+            font-size: 16px;
+        }
+    }
+}
+
 .p-item-role-nav {
     display: grid;
     grid-template-columns: repeat(7, 1fr);

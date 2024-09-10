@@ -10,7 +10,37 @@ get_header(); ?>
 
 <main id="main" class="l-main">
 	<section class="l-section">
-		<nav>
+		<div class="p-item-search-group">
+			<div class="p-item-tags-select">
+				<label class="p-item-tags-select__label" for="tags">絞り込み：</label>
+				<select class="p-item-tags-select__dropdown" id="tags">
+					<option value="体力">体力</option>
+					<option value="マナ">マナ</option>
+					<option value="攻撃力">攻撃力</option>
+					<option value="魔力">魔力</option>
+					<option value="物理防御">物理防御</option>
+					<option value="魔法防御">魔法防御</option>
+					<hr>
+					<option value="移動速度（ブーツ以外）">移動速度（ブーツ以外）</option>
+					<option value="ブーツ">ブーツ</option>
+					<option value="攻撃速度">攻撃速度</option>
+					<option value="スキルヘイスト">スキルヘイスト</option>
+					<option value="クリティカル">クリティカル</option>
+					<hr>
+					<option value="物理防御貫通">物理防御貫通</option>
+					<option value="魔法防御貫通">魔法防御貫通</option>
+					<option value="体力回復効果">体力回復効果</option>
+					<option value="マナ回復効果">マナ回復効果</option>
+					<hr>
+					<option value="スロウ効果">スロウ効果</option>
+					<option value="行動妨害耐性">行動妨害耐性</option>
+					<option value="通常攻撃時効果">通常攻撃時効果</option>
+					<option value="ライフスティール">ライフスティール</option>
+					<option value="オムニヴァンプ">オムニヴァンプ</option>
+					<hr>
+					<option value="発動効果あり">発動効果あり</option>
+				</select>
+			</div>
 			<ul class="p-item-role-nav">
 			<?php
 			// TODO: 別ファイルから参照する（Role, TAGS の配列）
@@ -26,7 +56,7 @@ get_header(); ?>
 				</li>
 			<?php endforeach; ?>
 			</ul>
-		</nav>
+		</div>
 		<?php
 		// post_type が items の投稿を取得
 		$args = array(
