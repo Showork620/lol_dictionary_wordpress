@@ -16,7 +16,7 @@
         ],
         "gold": 300,
         "tags": [
-            "Boots"
+            "ブーツ"
         ],
         "id": 1001,
         "has_detail": false,
@@ -34,7 +34,7 @@
         ],
         "gold": 250,
         "tags": [
-            "ManaRegen"
+            "マナ回復効果"
         ],
         "id": 1004,
         "has_detail": false,
@@ -52,7 +52,7 @@
         ],
         "gold": 300,
         "tags": [
-            "HealthRegen"
+            "体力回復効果"
         ],
         "id": 1006,
         "has_detail": false,
@@ -79,7 +79,7 @@
         ],
         "gold": 900,
         "tags": [
-            "Health"
+            "体力"
         ],
         "depth": 2,
         "id": 1011,
@@ -102,7 +102,7 @@
         ],
         "gold": 600,
         "tags": [
-            "CriticalStrike"
+            "クリティカル"
         ],
         "id": 1018,
         "has_detail": false,
@@ -123,7 +123,7 @@
         ],
         "gold": 850,
         "tags": [
-            "SpellDamage"
+            "魔力"
         ],
         "id": 1026,
         "has_detail": false,
@@ -141,7 +141,7 @@
         ],
         "gold": 350,
         "tags": [
-            "Mana"
+            "マナ"
         ],
         "id": 1027,
         "has_detail": false,
@@ -180,7 +180,7 @@
         ],
         "gold": 400,
         "tags": [
-            "Health"
+            "体力"
         ],
         "id": 1028,
         "has_detail": false,
@@ -207,7 +207,7 @@
         ],
         "gold": 300,
         "tags": [
-            "Armor"
+            "物理防御"
         ],
         "id": 1029,
         "has_detail": false,
@@ -232,7 +232,7 @@
         ],
         "gold": 800,
         "tags": [
-            "Armor"
+            "物理防御"
         ],
         "depth": 2,
         "id": 1031,
@@ -259,7 +259,7 @@
         ],
         "gold": 400,
         "tags": [
-            "SpellBlock"
+            "スペルブロック"
         ],
         "id": 1033,
         "has_detail": false,
@@ -293,8 +293,8 @@
         ],
         "gold": 350,
         "tags": [
-            "Damage",
-            "Lane"
+            "攻撃力",
+            "初期購入アイテム"
         ],
         "id": 1036,
         "has_detail": false,
@@ -327,7 +327,7 @@
         ],
         "gold": 875,
         "tags": [
-            "Damage"
+            "攻撃力"
         ],
         "id": 1037,
         "has_detail": false,
@@ -350,7 +350,7 @@
         ],
         "gold": 1300,
         "tags": [
-            "Damage"
+            "攻撃力"
         ],
         "id": 1038,
         "has_detail": false,
@@ -375,7 +375,7 @@
         ],
         "gold": 300,
         "tags": [
-            "AttackSpeed"
+            "攻撃速度"
         ],
         "id": 1042,
         "has_detail": false,
@@ -399,8 +399,8 @@
         ],
         "gold": 700,
         "tags": [
-            "AttackSpeed",
-            "OnHit"
+            "攻撃速度",
+            "通常攻撃時効果"
         ],
         "depth": 2,
         "id": 1043,
@@ -433,7 +433,7 @@
         ],
         "gold": 400,
         "tags": [
-            "SpellDamage"
+            "魔力"
         ],
         "id": 1052,
         "has_detail": false,
@@ -456,8 +456,8 @@
         ],
         "gold": 900,
         "tags": [
-            "Damage",
-            "LifeSteal"
+            "攻撃力",
+            "ライフスティール"
         ],
         "depth": 2,
         "id": 1053,
@@ -471,9 +471,9 @@
         "colloq": ";Doran's Shield;dshield;どらし;どらんしーるど;ドラン シールド;dorannshi-rudo;dorannsi-rudo;doranshirudo;doransirudo",
         "gold": 450,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "Lane"
+            "体力",
+            "体力回復効果",
+            "初期購入アイテム"
         ],
         "id": 1054,
         "has_detail": true,
@@ -486,10 +486,10 @@
         "colloq": ";Doran's Blade;dblade;どらけん;どらんぶれいど;ドランブレイド;どらんぶれーど;ドラン ブレード;dorannbure-do;doranburedo",
         "gold": 450,
         "tags": [
-            "Health",
-            "Damage",
-            "SpellVamp",
-            "Lane"
+            "体力",
+            "攻撃力",
+            "オムニヴァンプ",
+            "初期購入アイテム"
         ],
         "id": 1055,
         "has_detail": false,
@@ -502,10 +502,10 @@
         "colloq": ";Doran's Ring;dring;どらりん;りんぐ;どらんりんぐ;ドラン リング;dorannrinngu;doranringu",
         "gold": 400,
         "tags": [
-            "Health",
-            "Lane",
-            "ManaRegen",
-            "SpellDamage"
+            "体力",
+            "初期購入アイテム",
+            "マナ回復効果",
+            "魔力"
         ],
         "id": 1056,
         "has_detail": true,
@@ -528,7 +528,7 @@
         ],
         "gold": 900,
         "tags": [
-            "SpellBlock"
+            "スペルブロック"
         ],
         "depth": 2,
         "id": 1057,
@@ -551,7 +551,7 @@
         ],
         "gold": 1250,
         "tags": [
-            "SpellDamage"
+            "魔力"
         ],
         "id": 1058,
         "has_detail": false,
@@ -567,9 +567,9 @@
         ],
         "gold": 350,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "Lane"
+            "体力",
+            "魔力",
+            "初期購入アイテム"
         ],
         "id": 1082,
         "has_detail": true,
@@ -582,9 +582,9 @@
         "colloq": ";dblade;Cull;かる;カル;karu",
         "gold": 450,
         "tags": [
-            "Damage",
-            "OnHit",
-            "Lane"
+            "攻撃力",
+            "通常攻撃時効果",
+            "初期購入アイテム"
         ],
         "id": 1083,
         "has_detail": true,
@@ -597,7 +597,7 @@
         "colloq": "",
         "gold": 450,
         "tags": [
-            "Jungle"
+            "ジャングル用アイテム"
         ],
         "id": 1101,
         "has_detail": true,
@@ -610,7 +610,7 @@
         "colloq": "",
         "gold": 450,
         "tags": [
-            "Jungle"
+            "ジャングル用アイテム"
         ],
         "id": 1102,
         "has_detail": true,
@@ -623,7 +623,7 @@
         "colloq": "",
         "gold": 450,
         "tags": [
-            "Jungle"
+            "ジャングル用アイテム"
         ],
         "id": 1103,
         "has_detail": true,
@@ -637,10 +637,10 @@
         "stacks": 5,
         "gold": 50,
         "tags": [
-            "HealthRegen",
-            "Consumable",
-            "Lane",
-            "Jungle"
+            "体力回復効果",
+            "消費アイテム",
+            "初期購入アイテム",
+            "ジャングル用アイテム"
         ],
         "id": 2003,
         "has_detail": true,
@@ -676,8 +676,8 @@
         ],
         "gold": 1100,
         "tags": [
-            "Armor",
-            "Damage"
+            "物理防御",
+            "攻撃力"
         ],
         "depth": 2,
         "id": 2019,
@@ -701,9 +701,9 @@
         ],
         "gold": 1337,
         "tags": [
-            "Damage",
-            "CooldownReduction",
-            "ArmorPenetration"
+            "攻撃力",
+            "スキルヘイスト",
+            "物理防御貫通"
         ],
         "depth": 2,
         "id": 2020,
@@ -730,8 +730,8 @@
         ],
         "gold": 1150,
         "tags": [
-            "Health",
-            "Damage"
+            "体力",
+            "攻撃力"
         ],
         "depth": 2,
         "id": 2021,
@@ -758,7 +758,7 @@
         ],
         "gold": 250,
         "tags": [
-            "CooldownReduction"
+            "スキルヘイスト"
         ],
         "id": 2022,
         "has_detail": false,
@@ -774,11 +774,11 @@
         ],
         "gold": 150,
         "tags": [
-            "HealthRegen",
-            "Consumable",
-            "Active",
-            "Lane",
-            "Jungle"
+            "体力回復効果",
+            "消費アイテム",
+            "発動効果あり",
+            "初期購入アイテム",
+            "ジャングル用アイテム"
         ],
         "id": 2031,
         "has_detail": true,
@@ -791,9 +791,9 @@
         "colloq": ";Guardian's Horn;Golden•Arm•of•Kobe;Golden•Bicep•of•Kobe;Horn;•Horn•of•the•ManWolf;•ManWolf;がーでぃあんほーん;ガーディアン ホーン;ga-dexiannho-nn;ga-deliann ho-nn;gadeian honn",
         "gold": 950,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "Lane"
+            "体力",
+            "体力回復効果",
+            "初期購入アイテム"
         ],
         "id": 2051,
         "has_detail": true,
@@ -821,10 +821,10 @@
         "consumeOnFull": true,
         "gold": 75,
         "tags": [
-            "Consumable",
-            "Lane",
-            "Stealth",
-            "Vision"
+            "消費アイテム",
+            "初期購入アイテム",
+            "ステルス",
+            "視界"
         ],
         "id": 2055,
         "has_detail": true,
@@ -841,12 +841,12 @@
         ],
         "gold": 2200,
         "tags": [
-            "SpellDamage",
-            "ManaRegen",
-            "Active",
-            "CooldownReduction",
-            "NonbootsMovement",
-            "AbilityHaste"
+            "魔力",
+            "マナ回復効果",
+            "発動効果あり",
+            "スキルヘイスト",
+            "移動速度（ブーツ以外）",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 2065,
@@ -864,10 +864,10 @@
         "consumeOnFull": true,
         "gold": 500,
         "tags": [
-            "Health",
-            "Consumable",
-            "NonbootsMovement",
-            "Tenacity"
+            "体力",
+            "消費アイテム",
+            "移動速度（ブーツ以外）",
+            "行動妨害耐性"
         ],
         "id": 2138,
         "has_detail": true,
@@ -881,9 +881,9 @@
         "consumeOnFull": true,
         "gold": 500,
         "tags": [
-            "Consumable",
-            "ManaRegen",
-            "SpellDamage"
+            "消費アイテム",
+            "マナ回復効果",
+            "魔力"
         ],
         "id": 2139,
         "has_detail": true,
@@ -897,10 +897,10 @@
         "consumeOnFull": true,
         "gold": 500,
         "tags": [
-            "Consumable",
-            "Damage",
-            "LifeSteal",
-            "SpellVamp"
+            "消費アイテム",
+            "攻撃力",
+            "ライフスティール",
+            "オムニヴァンプ"
         ],
         "id": 2140,
         "has_detail": true,
@@ -914,8 +914,8 @@
         "consumeOnFull": true,
         "gold": 500,
         "tags": [
-            "Damage",
-            "Consumable"
+            "攻撃力",
+            "消費アイテム"
         ],
         "id": 2141,
         "has_detail": true,
@@ -929,7 +929,7 @@
         "inStore": false,
         "gold": 0,
         "tags": [
-            "Consumable"
+            "消費アイテム"
         ],
         "id": 2150,
         "has_detail": true,
@@ -943,9 +943,9 @@
         "inStore": false,
         "gold": 50,
         "tags": [
-            "Health",
-            "Consumable",
-            "Tenacity"
+            "体力",
+            "消費アイテム",
+            "行動妨害耐性"
         ],
         "id": 2151,
         "has_detail": true,
@@ -959,8 +959,8 @@
         "inStore": false,
         "gold": 50,
         "tags": [
-            "Consumable",
-            "Tenacity"
+            "消費アイテム",
+            "行動妨害耐性"
         ],
         "id": 2152,
         "has_detail": true,
@@ -982,9 +982,9 @@
         ],
         "gold": 1600,
         "tags": [
-            "Armor",
-            "SpellDamage",
-            "Active"
+            "物理防御",
+            "魔力",
+            "発動効果あり"
         ],
         "depth": 2,
         "id": 2420,
@@ -1022,7 +1022,7 @@
         ],
         "gold": 300,
         "tags": [
-            "Boots"
+            "ブーツ"
         ],
         "id": 2422,
         "has_detail": false,
@@ -1039,8 +1039,8 @@
         ],
         "gold": 3300,
         "tags": [
-            "Health",
-            "Damage"
+            "体力",
+            "攻撃力"
         ],
         "depth": 3,
         "id": 2501,
@@ -1063,10 +1063,10 @@
         ],
         "gold": 2800,
         "tags": [
-            "Health",
-            "Armor",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "物理防御",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 2502,
@@ -1087,10 +1087,10 @@
         ],
         "gold": 2800,
         "tags": [
-            "SpellDamage",
-            "Mana",
-            "CooldownReduction",
-            "AbilityHaste"
+            "魔力",
+            "マナ",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 2503,
@@ -1111,9 +1111,9 @@
         ],
         "gold": 2900,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "HealthRegen"
+            "体力",
+            "スペルブロック",
+            "体力回復効果"
         ],
         "depth": 3,
         "id": 2504,
@@ -1137,7 +1137,7 @@
         ],
         "gold": 900,
         "tags": [
-            "SpellDamage"
+            "魔力"
         ],
         "depth": 2,
         "id": 2508,
@@ -1155,9 +1155,9 @@
         ],
         "gold": 2500,
         "tags": [
-            "Health",
-            "Armor",
-            "NonbootsMovement"
+            "体力",
+            "物理防御",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3002,
@@ -1180,9 +1180,9 @@
         ],
         "gold": 2900,
         "tags": [
-            "SpellDamage",
-            "Mana",
-            "AbilityHaste"
+            "魔力",
+            "マナ",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3003,
@@ -1205,11 +1205,11 @@
         ],
         "gold": 2900,
         "tags": [
-            "Damage",
-            "Mana",
-            "CooldownReduction",
-            "OnHit",
-            "AbilityHaste"
+            "攻撃力",
+            "マナ",
+            "スキルヘイスト",
+            "通常攻撃時効果",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3004,
@@ -1236,8 +1236,8 @@
         ],
         "gold": 1100,
         "tags": [
-            "AttackSpeed",
-            "Boots"
+            "攻撃速度",
+            "ブーツ"
         ],
         "depth": 2,
         "id": 3006,
@@ -1254,7 +1254,7 @@
         ],
         "gold": 1000,
         "tags": [
-            "Boots"
+            "ブーツ"
         ],
         "depth": 2,
         "id": 3009,
@@ -1274,7 +1274,7 @@
         ],
         "gold": 900,
         "tags": [
-            "Boots"
+            "ブーツ"
         ],
         "depth": 2,
         "id": 3010,
@@ -1293,7 +1293,7 @@
         "inStore": false,
         "gold": 900,
         "tags": [
-            "Boots"
+            "ブーツ"
         ],
         "depth": 3,
         "specialRecipe": 3010,
@@ -1311,8 +1311,8 @@
         ],
         "gold": 1100,
         "tags": [
-            "Boots",
-            "MagicPenetration"
+            "ブーツ",
+            "魔法防御貫通"
         ],
         "depth": 2,
         "id": 3020,
@@ -1334,10 +1334,10 @@
         ],
         "gold": 950,
         "tags": [
-            "Armor",
-            "Mana",
-            "CooldownReduction",
-            "AbilityHaste"
+            "物理防御",
+            "マナ",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 3024,
@@ -1355,8 +1355,8 @@
         ],
         "gold": 3200,
         "tags": [
-            "Armor",
-            "Damage"
+            "物理防御",
+            "攻撃力"
         ],
         "depth": 3,
         "id": 3026,
@@ -1380,8 +1380,8 @@
         ],
         "gold": 3400,
         "tags": [
-            "CriticalStrike",
-            "Damage"
+            "クリティカル",
+            "攻撃力"
         ],
         "depth": 2,
         "id": 3031,
@@ -1402,8 +1402,8 @@
         ],
         "gold": 3200,
         "tags": [
-            "Damage",
-            "CriticalStrike"
+            "攻撃力",
+            "クリティカル"
         ],
         "depth": 3,
         "id": 3032,
@@ -1425,9 +1425,9 @@
         ],
         "gold": 3000,
         "tags": [
-            "Damage",
-            "CriticalStrike",
-            "ArmorPenetration"
+            "攻撃力",
+            "クリティカル",
+            "物理防御貫通"
         ],
         "depth": 3,
         "id": 3033,
@@ -1453,8 +1453,8 @@
         ],
         "gold": 1450,
         "tags": [
-            "ArmorPenetration",
-            "Damage"
+            "物理防御貫通",
+            "攻撃力"
         ],
         "depth": 2,
         "id": 3035,
@@ -1472,9 +1472,9 @@
         ],
         "gold": 3000,
         "tags": [
-            "Damage",
-            "CriticalStrike",
-            "ArmorPenetration"
+            "攻撃力",
+            "クリティカル",
+            "物理防御貫通"
         ],
         "depth": 3,
         "id": 3036,
@@ -1493,9 +1493,9 @@
         "inStore": false,
         "gold": 2900,
         "tags": [
-            "SpellDamage",
-            "Mana",
-            "AbilityHaste"
+            "魔力",
+            "マナ",
+            "スキルヘイスト"
         ],
         "id": 3040,
         "has_detail": true,
@@ -1511,9 +1511,9 @@
         ],
         "gold": 1500,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "NonbootsMovement"
+            "体力",
+            "魔力",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 2,
         "id": 3041,
@@ -1532,11 +1532,11 @@
         "inStore": false,
         "gold": 3000,
         "tags": [
-            "Damage",
-            "Mana",
-            "CooldownReduction",
-            "OnHit",
-            "ArmorPenetration"
+            "攻撃力",
+            "マナ",
+            "スキルヘイスト",
+            "通常攻撃時効果",
+            "物理防御貫通"
         ],
         "id": 3042,
         "has_detail": true,
@@ -1559,9 +1559,9 @@
         ],
         "gold": 1100,
         "tags": [
-            "Health",
-            "Damage",
-            "NonbootsMovement"
+            "体力",
+            "攻撃力",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 2,
         "id": 3044,
@@ -1580,9 +1580,9 @@
         ],
         "gold": 2600,
         "tags": [
-            "CriticalStrike",
-            "AttackSpeed",
-            "NonbootsMovement"
+            "クリティカル",
+            "攻撃速度",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3046,
@@ -1603,8 +1603,8 @@
         ],
         "gold": 1200,
         "tags": [
-            "Armor",
-            "Boots"
+            "物理防御",
+            "ブーツ"
         ],
         "depth": 2,
         "id": 3047,
@@ -1623,10 +1623,10 @@
         ],
         "gold": 2200,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "Armor",
-            "AbilityHaste"
+            "体力",
+            "スペルブロック",
+            "物理防御",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3050,
@@ -1655,8 +1655,8 @@
         ],
         "gold": 1300,
         "tags": [
-            "Damage",
-            "AttackSpeed"
+            "攻撃力",
+            "攻撃速度"
         ],
         "depth": 2,
         "id": 3051,
@@ -1675,9 +1675,9 @@
         ],
         "gold": 3200,
         "tags": [
-            "Health",
-            "Damage",
-            "Tenacity"
+            "体力",
+            "攻撃力",
+            "行動妨害耐性"
         ],
         "depth": 3,
         "id": 3053,
@@ -1703,8 +1703,8 @@
         ],
         "gold": 900,
         "tags": [
-            "OnHit",
-            "AbilityHaste"
+            "通常攻撃時効果",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 3057,
@@ -1722,11 +1722,11 @@
         ],
         "gold": 2900,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "HealthRegen",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "スペルブロック",
+            "体力回復効果",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3065,
@@ -1752,8 +1752,8 @@
         ],
         "gold": 800,
         "tags": [
-            "Health",
-            "NonbootsMovement"
+            "体力",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 2,
         "id": 3066,
@@ -1793,9 +1793,9 @@
         ],
         "gold": 800,
         "tags": [
-            "Health",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 3067,
@@ -1813,10 +1813,10 @@
         ],
         "gold": 2700,
         "tags": [
-            "Health",
-            "Armor",
-            "Aura",
-            "AbilityHaste"
+            "体力",
+            "物理防御",
+            "周囲効果",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3068,
@@ -1838,8 +1838,8 @@
         ],
         "gold": 400,
         "tags": [
-            "Mana",
-            "ManaRegen"
+            "マナ",
+            "マナ回復効果"
         ],
         "id": 3070,
         "has_detail": true,
@@ -1857,13 +1857,13 @@
         ],
         "gold": 3000,
         "tags": [
-            "Health",
-            "Damage",
-            "CooldownReduction",
-            "OnHit",
-            "NonbootsMovement",
-            "ArmorPenetration",
-            "AbilityHaste"
+            "体力",
+            "攻撃力",
+            "スキルヘイスト",
+            "通常攻撃時効果",
+            "移動速度（ブーツ以外）",
+            "物理防御貫通",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3071,
@@ -1885,8 +1885,8 @@
         ],
         "gold": 3400,
         "tags": [
-            "Damage",
-            "LifeSteal"
+            "攻撃力",
+            "ライフスティール"
         ],
         "depth": 3,
         "id": 3072,
@@ -1907,12 +1907,12 @@
         ],
         "gold": 3000,
         "tags": [
-            "Health",
-            "Damage",
-            "AttackSpeed",
-            "CooldownReduction",
-            "NonbootsMovement",
-            "AbilityHaste"
+            "体力",
+            "攻撃力",
+            "攻撃速度",
+            "スキルヘイスト",
+            "移動速度（ブーツ以外）",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3073,
@@ -1934,11 +1934,11 @@
         ],
         "gold": 3300,
         "tags": [
-            "Damage",
-            "LifeSteal",
-            "CooldownReduction",
-            "OnHit",
-            "AbilityHaste"
+            "攻撃力",
+            "ライフスティール",
+            "スキルヘイスト",
+            "通常攻撃時効果",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3074,
@@ -1959,8 +1959,8 @@
         ],
         "gold": 2700,
         "tags": [
-            "Health",
-            "Armor"
+            "体力",
+            "物理防御"
         ],
         "depth": 3,
         "id": 3075,
@@ -1985,7 +1985,7 @@
         ],
         "gold": 800,
         "tags": [
-            "Armor"
+            "物理防御"
         ],
         "depth": 2,
         "id": 3076,
@@ -2009,8 +2009,8 @@
         ],
         "gold": 1200,
         "tags": [
-            "Damage",
-            "OnHit"
+            "攻撃力",
+            "通常攻撃時効果"
         ],
         "depth": 2,
         "id": 3077,
@@ -2029,13 +2029,13 @@
         ],
         "gold": 3333,
         "tags": [
-            "Health",
-            "Damage",
-            "AttackSpeed",
-            "CooldownReduction",
-            "OnHit",
-            "NonbootsMovement",
-            "AbilityHaste"
+            "体力",
+            "攻撃力",
+            "攻撃速度",
+            "スキルヘイスト",
+            "通常攻撃時効果",
+            "移動速度（ブーツ以外）",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3078,
@@ -2060,7 +2060,7 @@
         ],
         "gold": 1000,
         "tags": [
-            "Armor"
+            "物理防御"
         ],
         "depth": 2,
         "id": 3082,
@@ -2079,9 +2079,9 @@
         ],
         "gold": 3300,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "NonbootsMovement"
+            "体力",
+            "体力回復効果",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3083,
@@ -2103,8 +2103,8 @@
         ],
         "gold": 3000,
         "tags": [
-            "Health",
-            "HealthRegen"
+            "体力",
+            "体力回復効果"
         ],
         "depth": 3,
         "id": 3084,
@@ -2125,10 +2125,10 @@
         ],
         "gold": 2600,
         "tags": [
-            "CriticalStrike",
-            "AttackSpeed",
-            "OnHit",
-            "NonbootsMovement"
+            "クリティカル",
+            "攻撃速度",
+            "通常攻撃時効果",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3085,
@@ -2157,9 +2157,9 @@
         ],
         "gold": 1100,
         "tags": [
-            "CriticalStrike",
-            "AttackSpeed",
-            "NonbootsMovement"
+            "クリティカル",
+            "攻撃速度",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 2,
         "id": 3086,
@@ -2178,10 +2178,10 @@
         ],
         "gold": 2900,
         "tags": [
-            "Damage",
-            "AttackSpeed",
-            "OnHit",
-            "NonbootsMovement"
+            "攻撃力",
+            "攻撃速度",
+            "通常攻撃時効果",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3087,
@@ -2202,7 +2202,7 @@
         ],
         "gold": 3600,
         "tags": [
-            "SpellDamage"
+            "魔力"
         ],
         "depth": 2,
         "id": 3089,
@@ -2224,15 +2224,16 @@
         ],
         "gold": 2800,
         "tags": [
-            "SpellBlock",
-            "AttackSpeed",
-            "OnHit",
-            "Tenacity"
+            "スペルブロック",
+            "攻撃速度",
+            "通常攻撃時効果",
+            "行動妨害耐性"
         ],
         "depth": 3,
         "id": 3091,
         "has_detail": true,
         "role": [
+            "Fighter",
             "Marksman"
         ],
         "normal_item": true,
@@ -2248,9 +2249,9 @@
         ],
         "gold": 2600,
         "tags": [
-            "CriticalStrike",
-            "AttackSpeed",
-            "NonbootsMovement"
+            "クリティカル",
+            "攻撃速度",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3094,
@@ -2272,10 +2273,10 @@
         ],
         "gold": 3100,
         "tags": [
-            "SpellDamage",
-            "OnHit",
-            "NonbootsMovement",
-            "AbilityHaste"
+            "魔力",
+            "通常攻撃時効果",
+            "移動速度（ブーツ以外）",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3100,
@@ -2296,8 +2297,8 @@
         ],
         "gold": 3100,
         "tags": [
-            "SpellBlock",
-            "SpellDamage"
+            "スペルブロック",
+            "魔力"
         ],
         "depth": 3,
         "id": 3102,
@@ -2318,10 +2319,10 @@
         ],
         "gold": 2300,
         "tags": [
-            "Health",
-            "ManaRegen",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "マナ回復効果",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3107,
@@ -2356,9 +2357,9 @@
         ],
         "gold": 900,
         "tags": [
-            "SpellDamage",
-            "CooldownReduction",
-            "AbilityHaste"
+            "魔力",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 3108,
@@ -2377,17 +2378,21 @@
         ],
         "gold": 2200,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "Armor",
-            "Aura",
-            "Active",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "体力回復効果",
+            "物理防御",
+            "周囲効果",
+            "発動効果あり",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3109,
         "has_detail": true,
+        "role": [
+            "Tank",
+            "Support"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -2401,11 +2406,11 @@
         ],
         "gold": 2500,
         "tags": [
-            "Armor",
-            "Mana",
-            "Aura",
-            "CooldownReduction",
-            "AbilityHaste"
+            "物理防御",
+            "マナ",
+            "周囲効果",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3110,
@@ -2427,9 +2432,9 @@
         ],
         "gold": 1200,
         "tags": [
-            "Boots",
-            "SpellBlock",
-            "Tenacity"
+            "ブーツ",
+            "スペルブロック",
+            "行動妨害耐性"
         ],
         "depth": 2,
         "id": 3111,
@@ -2443,10 +2448,10 @@
         "colloq": ";Guardian's Orb;Orb of Winter;がーでぃあん おーぶ;ガーディアン オーブ;ふゆ;フユ;うぃんたー おーぶ;ウィンター オーブ;uxinnta-o-bu;ulinnta-o-bu;uintaobu;ga-dexianno-bu;gadexiann obu;ga-deliann o-bu;gadeliann obu",
         "gold": 950,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "ManaRegen",
-            "Lane"
+            "体力",
+            "魔力",
+            "マナ回復効果",
+            "初期購入アイテム"
         ],
         "id": 3112,
         "has_detail": true,
@@ -2469,8 +2474,8 @@
         ],
         "gold": 850,
         "tags": [
-            "NonbootsMovement",
-            "SpellDamage"
+            "移動速度（ブーツ以外）",
+            "魔力"
         ],
         "depth": 2,
         "id": 3113,
@@ -2495,7 +2500,7 @@
         ],
         "gold": 800,
         "tags": [
-            "ManaRegen"
+            "マナ回復効果"
         ],
         "depth": 2,
         "id": 3114,
@@ -2514,10 +2519,10 @@
         ],
         "gold": 3000,
         "tags": [
-            "AttackSpeed",
-            "SpellDamage",
-            "OnHit",
-            "AbilityHaste"
+            "攻撃速度",
+            "魔力",
+            "通常攻撃時効果",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3115,
@@ -2540,9 +2545,9 @@
         ],
         "gold": 2600,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "Slow"
+            "体力",
+            "魔力",
+            "スロウ効果"
         ],
         "depth": 3,
         "id": 3116,
@@ -2563,7 +2568,7 @@
         "inStore": false,
         "gold": 1000,
         "tags": [
-            "Boots"
+            "ブーツ"
         ],
         "depth": 2,
         "id": 3117,
@@ -2581,9 +2586,9 @@
         ],
         "gold": 2700,
         "tags": [
-            "SpellDamage",
-            "Mana",
-            "AbilityHaste"
+            "魔力",
+            "マナ",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3118,
@@ -2605,9 +2610,9 @@
         ],
         "gold": 2400,
         "tags": [
-            "Health",
-            "Mana",
-            "AbilityHaste"
+            "体力",
+            "マナ",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3119,
@@ -2627,9 +2632,9 @@
         "inStore": false,
         "gold": 2400,
         "tags": [
-            "Health",
-            "Mana",
-            "AbilityHaste"
+            "体力",
+            "マナ",
+            "スキルヘイスト"
         ],
         "id": 3121,
         "has_detail": true,
@@ -2649,7 +2654,7 @@
         ],
         "gold": 800,
         "tags": [
-            "Damage"
+            "攻撃力"
         ],
         "depth": 2,
         "id": 3123,
@@ -2668,10 +2673,10 @@
         ],
         "gold": 3000,
         "tags": [
-            "Damage",
-            "AttackSpeed",
-            "SpellDamage",
-            "OnHit"
+            "攻撃力",
+            "攻撃速度",
+            "魔力",
+            "通常攻撃時効果"
         ],
         "depth": 3,
         "id": 3124,
@@ -2714,9 +2719,9 @@
         ],
         "gold": 1100,
         "tags": [
-            "Damage",
-            "CooldownReduction",
-            "AbilityHaste"
+            "攻撃力",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 3133,
@@ -2749,8 +2754,8 @@
         ],
         "gold": 1000,
         "tags": [
-            "Damage",
-            "ArmorPenetration"
+            "攻撃力",
+            "物理防御貫通"
         ],
         "depth": 2,
         "id": 3134,
@@ -2768,8 +2773,8 @@
         ],
         "gold": 3000,
         "tags": [
-            "MagicPenetration",
-            "SpellDamage"
+            "魔法防御貫通",
+            "魔力"
         ],
         "depth": 3,
         "id": 3135,
@@ -2790,9 +2795,9 @@
         ],
         "gold": 2850,
         "tags": [
-            "SpellDamage",
-            "MagicPenetration",
-            "AbilityHaste"
+            "魔力",
+            "魔法防御貫通",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3137,
@@ -2814,12 +2819,12 @@
         ],
         "gold": 3300,
         "tags": [
-            "SpellBlock",
-            "Damage",
-            "LifeSteal",
-            "Active",
-            "NonbootsMovement",
-            "Tenacity"
+            "スペルブロック",
+            "攻撃力",
+            "ライフスティール",
+            "発動効果あり",
+            "移動速度（ブーツ以外）",
+            "行動妨害耐性"
         ],
         "depth": 3,
         "id": 3139,
@@ -2843,8 +2848,8 @@
         ],
         "gold": 1300,
         "tags": [
-            "Active",
-            "SpellBlock"
+            "発動効果あり",
+            "スペルブロック"
         ],
         "depth": 2,
         "id": 3140,
@@ -2862,10 +2867,10 @@
         ],
         "gold": 2700,
         "tags": [
-            "Damage",
-            "Active",
-            "NonbootsMovement",
-            "ArmorPenetration"
+            "攻撃力",
+            "発動効果あり",
+            "移動速度（ブーツ以外）",
+            "物理防御貫通"
         ],
         "depth": 3,
         "id": 3142,
@@ -2886,10 +2891,10 @@
         ],
         "gold": 2700,
         "tags": [
-            "Health",
-            "Armor",
-            "Active",
-            "Slow"
+            "体力",
+            "物理防御",
+            "発動効果あり",
+            "スロウ効果"
         ],
         "depth": 3,
         "id": 3143,
@@ -2915,7 +2920,7 @@
         ],
         "gold": 800,
         "tags": [
-            "AttackSpeed"
+            "攻撃速度"
         ],
         "depth": 2,
         "id": 3144,
@@ -2942,7 +2947,7 @@
         ],
         "gold": 1100,
         "tags": [
-            "SpellDamage"
+            "魔力"
         ],
         "depth": 2,
         "id": 3145,
@@ -2964,8 +2969,8 @@
         ],
         "gold": 1300,
         "tags": [
-            "Health",
-            "SpellDamage"
+            "体力",
+            "魔力"
         ],
         "depth": 2,
         "id": 3147,
@@ -2983,12 +2988,12 @@
         ],
         "gold": 2600,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "Active",
-            "CooldownReduction",
-            "NonbootsMovement",
-            "AbilityHaste"
+            "体力",
+            "魔力",
+            "発動効果あり",
+            "スキルヘイスト",
+            "移動速度（ブーツ以外）",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3152,
@@ -3010,11 +3015,11 @@
         ],
         "gold": 3200,
         "tags": [
-            "Damage",
-            "AttackSpeed",
-            "LifeSteal",
-            "Slow",
-            "OnHit"
+            "攻撃力",
+            "攻撃速度",
+            "ライフスティール",
+            "スロウ効果",
+            "通常攻撃時効果"
         ],
         "depth": 3,
         "id": 3153,
@@ -3041,8 +3046,8 @@
         ],
         "gold": 1300,
         "tags": [
-            "Damage",
-            "SpellBlock"
+            "攻撃力",
+            "スペルブロック"
         ],
         "depth": 2,
         "id": 3155,
@@ -3061,11 +3066,11 @@
         ],
         "gold": 3100,
         "tags": [
-            "SpellBlock",
-            "Damage",
-            "LifeSteal",
-            "SpellVamp",
-            "AbilityHaste"
+            "スペルブロック",
+            "攻撃力",
+            "ライフスティール",
+            "オムニヴァンプ",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3156,
@@ -3088,9 +3093,9 @@
         ],
         "gold": 3250,
         "tags": [
-            "Armor",
-            "SpellDamage",
-            "Active"
+            "物理防御",
+            "魔力",
+            "発動効果あり"
         ],
         "depth": 3,
         "id": 3157,
@@ -3111,8 +3116,8 @@
         ],
         "gold": 1000,
         "tags": [
-            "Boots",
-            "CooldownReduction"
+            "ブーツ",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 3158,
@@ -3131,9 +3136,9 @@
         ],
         "gold": 3100,
         "tags": [
-            "Health",
-            "Damage",
-            "AbilityHaste"
+            "体力",
+            "攻撃力",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3161,
@@ -3154,9 +3159,9 @@
         ],
         "gold": 2200,
         "tags": [
-            "SpellDamage",
-            "CooldownReduction",
-            "AbilityHaste"
+            "魔力",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3165,
@@ -3177,8 +3182,8 @@
         ],
         "gold": 3100,
         "tags": [
-            "AttackSpeed",
-            "NonbootsMovement"
+            "攻撃速度",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3172,
@@ -3192,10 +3197,10 @@
         "colloq": ";dblade;Guardian's Blade;Guardian's Hammer;Doran's Lost Blade;がーでぃあん はんまー;ガーディアン ハンマー;どらん ろすと ぶれーど;ドラン ロスト ブレード;ガーディアン ブレード;がーでぃあん ぶれーど;dorannrosutobure-do;dorannrosutobure-do;doranrosutoburedo;doranrosutoburedo;ga-delianhanma-;ga-dexiannbure-do;gadexiann buredo;ga-delian nbure-do;gadeliann buredo",
         "gold": 950,
         "tags": [
-            "Health",
-            "Damage",
-            "Lane",
-            "AbilityHaste"
+            "体力",
+            "攻撃力",
+            "初期購入アイテム",
+            "スキルヘイスト"
         ],
         "id": 3177,
         "has_detail": false,
@@ -3212,11 +3217,11 @@
         ],
         "gold": 2600,
         "tags": [
-            "Damage",
-            "Vision",
-            "CooldownReduction",
-            "ArmorPenetration",
-            "AbilityHaste"
+            "攻撃力",
+            "視界",
+            "スキルヘイスト",
+            "物理防御貫通",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3179,
@@ -3238,9 +3243,9 @@
         ],
         "gold": 3000,
         "tags": [
-            "Health",
-            "Damage",
-            "NonbootsMovement"
+            "体力",
+            "攻撃力",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3181,
@@ -3257,10 +3262,10 @@
         "colloq": ";Guardian's Hammer;Doran's Blade;dblade;がーでぃあんはんまー;ガーディアン ハンマー;dorannbure-do;dorannbure-do;doranburedo;doranburedo;ga-delianhanma-",
         "gold": 950,
         "tags": [
-            "Health",
-            "Damage",
-            "LifeSteal",
-            "Lane"
+            "体力",
+            "攻撃力",
+            "ライフスティール",
+            "初期購入アイテム"
         ],
         "id": 3184,
         "has_detail": false,
@@ -3278,13 +3283,13 @@
         ],
         "gold": 2200,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "Armor",
-            "Aura",
-            "Active",
-            "MagicResist",
-            "AbilityHaste"
+            "体力",
+            "スペルブロック",
+            "物理防御",
+            "周囲効果",
+            "発動効果あり",
+            "魔法防御",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3190,
@@ -3312,9 +3317,9 @@
         ],
         "gold": 1250,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "SpellBlock"
+            "体力",
+            "体力回復効果",
+            "スペルブロック"
         ],
         "depth": 2,
         "id": 3211,
@@ -3332,12 +3337,12 @@
         ],
         "gold": 2300,
         "tags": [
-            "Health",
-            "ManaRegen",
-            "Active",
-            "CooldownReduction",
-            "Tenacity",
-            "AbilityHaste"
+            "体力",
+            "マナ回復効果",
+            "発動効果あり",
+            "スキルヘイスト",
+            "行動妨害耐性",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3222,
@@ -3358,11 +3363,11 @@
         ],
         "gold": 3000,
         "tags": [
-            "Damage",
-            "AttackSpeed",
-            "OnHit",
-            "MagicPenetration",
-            "ArmorPenetration"
+            "攻撃力",
+            "攻撃速度",
+            "通常攻撃時効果",
+            "魔法防御貫通",
+            "物理防御貫通"
         ],
         "depth": 3,
         "id": 3302,
@@ -3380,11 +3385,11 @@
         "colloq": ";Warding Totem (Trinket);yellow;イエロー;き;黄;とりんけっと;わーど;ワード;トリンケット;trinket;わーどとーてむ（とりんけっと）;ワードトーテム（トリンケット）;わーどとーてむとりんけっと;ワードトーテムトリンケット;wa-doto-temu;wadototemu",
         "gold": 0,
         "tags": [
-            "Active",
-            "Jungle",
-            "Lane",
-            "Trinket",
-            "Vision"
+            "発動効果あり",
+            "ジャングル用アイテム",
+            "初期購入アイテム",
+            "トリンケット",
+            "視界"
         ],
         "id": 3340,
         "has_detail": true,
@@ -3397,9 +3402,9 @@
         "colloq": ";blue;totem;trinket;Farsight Alteration;blue;てんがん;テンガン;ふぁーさいと おるたれーしょん;ファーサイト オルタレーション;とりんけっと;トリンケット;あお;アオ;ぶるー;ブルー;青;あおとり;アオトリ;青とり; 青トリ;buru-;blue;ao;aotori;trinket;wa-doto-temu;wadototemu;totem;fa-saitoorutare-syon",
         "gold": 0,
         "tags": [
-            "Active",
-            "Trinket",
-            "Vision"
+            "発動効果あり",
+            "トリンケット",
+            "視界"
         ],
         "id": 3363,
         "has_detail": true,
@@ -3412,9 +3417,9 @@
         "colloq": ";Oracle Alteration;red;かんぱ;カンパ;おらくる・おるたれーしょん;オラクル・オルタレーション;おらくるおるたれーしょん;オラクルオルタレーション;とりんけっと;トリンケット;レッド;れっど;あか;アカ;赤;わーど;ワード;レンズ;れんず;オラクル レンズ;あかとり;アカトリ;赤とり;赤トリ;aka;akatori;renzu;red;trinket;wa-doto-temu;wa-doto-temu;wadototemu;lens;orakuruorutare-syon;Oracle Lens;オラクル レンズ;orakururenzu",
         "gold": 0,
         "tags": [
-            "Active",
-            "Trinket",
-            "Vision"
+            "発動効果あり",
+            "トリンケット",
+            "視界"
         ],
         "id": 3364,
         "has_detail": true,
@@ -3431,10 +3436,10 @@
         ],
         "gold": 2300,
         "tags": [
-            "AttackSpeed",
-            "SpellDamage",
-            "ManaRegen",
-            "NonbootsMovement"
+            "攻撃速度",
+            "魔力",
+            "マナ回復効果",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3504,
@@ -3456,12 +3461,12 @@
         ],
         "gold": 3100,
         "tags": [
-            "Damage",
-            "CriticalStrike",
-            "ManaRegen",
-            "CooldownReduction",
-            "OnHit",
-            "AbilityHaste"
+            "攻撃力",
+            "クリティカル",
+            "マナ回復効果",
+            "スキルヘイスト",
+            "通常攻撃時効果",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 3508,
@@ -3483,10 +3488,10 @@
         ],
         "gold": 2900,
         "tags": [
-            "Health",
-            "Armor",
-            "Slow",
-            "NonbootsMovement"
+            "体力",
+            "物理防御",
+            "スロウ効果",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 3742,
@@ -3509,10 +3514,10 @@
         ],
         "gold": 3300,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "Damage",
-            "OnHit"
+            "体力",
+            "体力回復効果",
+            "攻撃力",
+            "通常攻撃時効果"
         ],
         "depth": 3,
         "id": 3748,
@@ -3538,8 +3543,8 @@
         ],
         "gold": 800,
         "tags": [
-            "Health",
-            "HealthRegen"
+            "体力",
+            "体力回復効果"
         ],
         "depth": 2,
         "id": 3801,
@@ -3566,11 +3571,11 @@
         ],
         "gold": 1200,
         "tags": [
-            "SpellDamage",
-            "Mana",
-            "ManaRegen",
-            "CooldownReduction",
-            "AbilityHaste"
+            "魔力",
+            "マナ",
+            "マナ回復効果",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 3802,
@@ -3592,10 +3597,10 @@
         ],
         "gold": 1300,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "Mana",
-            "ManaRegen"
+            "体力",
+            "体力回復効果",
+            "マナ",
+            "マナ回復効果"
         ],
         "depth": 2,
         "id": 3803,
@@ -3614,9 +3619,9 @@
         ],
         "gold": 2800,
         "tags": [
-            "Health",
-            "Damage",
-            "ArmorPenetration"
+            "体力",
+            "攻撃力",
+            "物理防御貫通"
         ],
         "depth": 3,
         "id": 3814,
@@ -3633,12 +3638,12 @@
         "colloq": "",
         "gold": 400,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "ManaRegen",
-            "Vision",
-            "GoldPer",
-            "Lane"
+            "体力",
+            "魔力",
+            "マナ回復効果",
+            "視界",
+            "獲得ゴールド",
+            "初期購入アイテム"
         ],
         "id": 3865,
         "has_detail": false,
@@ -3654,10 +3659,10 @@
         "inStore": false,
         "gold": 400,
         "tags": [
-            "GoldPer",
-            "Lane",
-            "ManaRegen",
-            "SpellDamage"
+            "獲得ゴールド",
+            "初期購入アイテム",
+            "マナ回復効果",
+            "魔力"
         ],
         "id": 3866,
         "has_detail": true,
@@ -3680,10 +3685,10 @@
         ],
         "gold": 400,
         "tags": [
-            "GoldPer",
-            "Lane",
-            "ManaRegen",
-            "SpellDamage"
+            "獲得ゴールド",
+            "初期購入アイテム",
+            "マナ回復効果",
+            "魔力"
         ],
         "id": 3867,
         "has_detail": true,
@@ -3699,11 +3704,11 @@
         ],
         "gold": 400,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "ManaRegen",
-            "GoldPer",
-            "Lane"
+            "体力",
+            "体力回復効果",
+            "マナ回復効果",
+            "獲得ゴールド",
+            "初期購入アイテム"
         ],
         "depth": 2,
         "id": 3869,
@@ -3723,11 +3728,11 @@
         ],
         "gold": 400,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "ManaRegen",
-            "GoldPer",
-            "Lane"
+            "体力",
+            "体力回復効果",
+            "マナ回復効果",
+            "獲得ゴールド",
+            "初期購入アイテム"
         ],
         "depth": 2,
         "id": 3870,
@@ -3747,11 +3752,11 @@
         ],
         "gold": 400,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "ManaRegen",
-            "GoldPer",
-            "Lane"
+            "体力",
+            "体力回復効果",
+            "マナ回復効果",
+            "獲得ゴールド",
+            "初期購入アイテム"
         ],
         "depth": 2,
         "id": 3871,
@@ -3771,11 +3776,11 @@
         ],
         "gold": 400,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "ManaRegen",
-            "GoldPer",
-            "Lane"
+            "体力",
+            "体力回復効果",
+            "マナ回復効果",
+            "獲得ゴールド",
+            "初期購入アイテム"
         ],
         "depth": 2,
         "id": 3876,
@@ -3795,11 +3800,11 @@
         ],
         "gold": 400,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "ManaRegen",
-            "GoldPer",
-            "Lane"
+            "体力",
+            "体力回復効果",
+            "マナ回復効果",
+            "獲得ゴールド",
+            "初期購入アイテム"
         ],
         "depth": 2,
         "id": 3877,
@@ -3824,7 +3829,7 @@
         ],
         "gold": 800,
         "tags": [
-            "SpellDamage"
+            "魔力"
         ],
         "depth": 2,
         "id": 3916,
@@ -3842,10 +3847,10 @@
         ],
         "gold": 2300,
         "tags": [
-            "SpellDamage",
-            "ManaRegen",
-            "CooldownReduction",
-            "AbilityHaste"
+            "魔力",
+            "マナ回復効果",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 4005,
@@ -3867,9 +3872,9 @@
         ],
         "gold": 2800,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "NonbootsMovement"
+            "体力",
+            "スペルブロック",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 4401,
@@ -3890,8 +3895,8 @@
         ],
         "gold": 2700,
         "tags": [
-            "SpellDamage",
-            "AbilityHaste"
+            "魔力",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 4628,
@@ -3913,10 +3918,10 @@
         ],
         "gold": 3000,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "NonbootsMovement",
-            "AbilityHaste"
+            "体力",
+            "魔力",
+            "移動速度（ブーツ以外）",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 4629,
@@ -3940,8 +3945,8 @@
         ],
         "gold": 1100,
         "tags": [
-            "MagicPenetration",
-            "SpellDamage"
+            "魔法防御貫通",
+            "魔力"
         ],
         "depth": 2,
         "id": 4630,
@@ -3963,8 +3968,8 @@
         ],
         "gold": 1600,
         "tags": [
-            "SpellBlock",
-            "SpellDamage"
+            "スペルブロック",
+            "魔力"
         ],
         "depth": 2,
         "id": 4632,
@@ -3982,10 +3987,10 @@
         ],
         "gold": 3100,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "CooldownReduction",
-            "SpellVamp"
+            "体力",
+            "魔力",
+            "スキルヘイスト",
+            "オムニヴァンプ"
         ],
         "depth": 3,
         "id": 4633,
@@ -4006,13 +4011,13 @@
         ],
         "gold": 1100,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "Armor",
-            "Vision",
-            "Active",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "スペルブロック",
+            "物理防御",
+            "視界",
+            "発動効果あり",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "id": 4638,
         "has_detail": true,
@@ -4036,10 +4041,10 @@
         ],
         "gold": 1000,
         "tags": [
-            "SpellDamage",
-            "ManaRegen",
-            "CooldownReduction",
-            "AbilityHaste"
+            "魔力",
+            "マナ回復効果",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 4642,
@@ -4057,13 +4062,13 @@
         ],
         "gold": 2300,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "Armor",
-            "Vision",
-            "Active",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "スペルブロック",
+            "物理防御",
+            "視界",
+            "発動効果あり",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 4643,
@@ -4084,8 +4089,8 @@
         ],
         "gold": 3200,
         "tags": [
-            "SpellDamage",
-            "MagicPenetration"
+            "魔力",
+            "魔法防御貫通"
         ],
         "depth": 3,
         "id": 4645,
@@ -4106,10 +4111,10 @@
         ],
         "gold": 2900,
         "tags": [
-            "SpellDamage",
-            "GoldPer",
-            "NonbootsMovement",
-            "MagicPenetration"
+            "魔力",
+            "獲得ゴールド",
+            "移動速度（ブーツ以外）",
+            "魔法防御貫通"
         ],
         "depth": 3,
         "id": 4646,
@@ -4132,9 +4137,9 @@
         ],
         "gold": 3200,
         "tags": [
-            "Armor",
-            "Damage",
-            "AbilityHaste"
+            "物理防御",
+            "攻撃力",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6333,
@@ -4156,10 +4161,10 @@
         ],
         "gold": 2800,
         "tags": [
-            "Health",
-            "Damage",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "攻撃力",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6609,
@@ -4181,10 +4186,10 @@
         ],
         "gold": 3100,
         "tags": [
-            "Health",
-            "Damage",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "攻撃力",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6610,
@@ -4205,10 +4210,10 @@
         ],
         "gold": 2300,
         "tags": [
-            "SpellDamage",
-            "ManaRegen",
-            "CooldownReduction",
-            "AbilityHaste"
+            "魔力",
+            "マナ回復効果",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6616,
@@ -4229,11 +4234,11 @@
         ],
         "gold": 2200,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "ManaRegen",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "魔力",
+            "マナ回復効果",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6617,
@@ -4254,11 +4259,11 @@
         ],
         "gold": 2200,
         "tags": [
-            "Health",
-            "SpellDamage",
-            "ManaRegen",
-            "CooldownReduction",
-            "AbilityHaste"
+            "体力",
+            "魔力",
+            "マナ回復効果",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6620,
@@ -4280,8 +4285,8 @@
         ],
         "gold": 2700,
         "tags": [
-            "SpellDamage",
-            "ManaRegen"
+            "魔力",
+            "マナ回復効果"
         ],
         "depth": 3,
         "id": 6621,
@@ -4303,11 +4308,11 @@
         ],
         "gold": 3300,
         "tags": [
-            "Health",
-            "Damage",
-            "AttackSpeed",
-            "Slow",
-            "NonbootsMovement"
+            "体力",
+            "攻撃力",
+            "攻撃速度",
+            "スロウ効果",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 6631,
@@ -4328,8 +4333,8 @@
         ],
         "gold": 3000,
         "tags": [
-            "Health",
-            "SpellDamage"
+            "体力",
+            "魔力"
         ],
         "depth": 3,
         "id": 6653,
@@ -4350,10 +4355,10 @@
         ],
         "gold": 2900,
         "tags": [
-            "SpellDamage",
-            "Mana",
-            "CooldownReduction",
-            "AbilityHaste"
+            "魔力",
+            "マナ",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6655,
@@ -4374,11 +4379,11 @@
         ],
         "gold": 2600,
         "tags": [
-            "Health",
-            "HealthRegen",
-            "SpellDamage",
-            "Mana",
-            "ManaRegen"
+            "体力",
+            "体力回復効果",
+            "魔力",
+            "マナ",
+            "マナ回復効果"
         ],
         "depth": 3,
         "id": 6657,
@@ -4403,8 +4408,8 @@
         ],
         "gold": 900,
         "tags": [
-            "Health",
-            "AbilityHaste"
+            "体力",
+            "スキルヘイスト"
         ],
         "depth": 2,
         "id": 6660,
@@ -4423,12 +4428,12 @@
         ],
         "gold": 2600,
         "tags": [
-            "Health",
-            "Armor",
-            "CooldownReduction",
-            "Slow",
-            "OnHit",
-            "AbilityHaste"
+            "体力",
+            "物理防御",
+            "スキルヘイスト",
+            "スロウ効果",
+            "通常攻撃時効果",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6662,
@@ -4450,12 +4455,12 @@
         ],
         "gold": 2800,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "HealthRegen",
-            "Aura",
-            "MagicResist",
-            "AbilityHaste"
+            "体力",
+            "スペルブロック",
+            "体力回復効果",
+            "周囲効果",
+            "魔法防御",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6664,
@@ -4477,10 +4482,10 @@
         ],
         "gold": 3200,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "Armor",
-            "MagicResist"
+            "体力",
+            "スペルブロック",
+            "物理防御",
+            "魔法防御"
         ],
         "depth": 3,
         "id": 6665,
@@ -4508,8 +4513,8 @@
         ],
         "gold": 1400,
         "tags": [
-            "Damage",
-            "CriticalStrike"
+            "攻撃力",
+            "クリティカル"
         ],
         "depth": 2,
         "id": 6670,
@@ -4528,10 +4533,10 @@
         ],
         "gold": 3100,
         "tags": [
-            "Damage",
-            "AttackSpeed",
-            "OnHit",
-            "NonbootsMovement"
+            "攻撃力",
+            "攻撃速度",
+            "通常攻撃時効果",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 6672,
@@ -4552,8 +4557,8 @@
         ],
         "gold": 3000,
         "tags": [
-            "Damage",
-            "CriticalStrike"
+            "攻撃力",
+            "クリティカル"
         ],
         "depth": 3,
         "id": 6673,
@@ -4575,9 +4580,9 @@
         ],
         "gold": 2600,
         "tags": [
-            "CriticalStrike",
-            "AttackSpeed",
-            "NonbootsMovement"
+            "クリティカル",
+            "攻撃速度",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 3,
         "id": 6675,
@@ -4599,9 +4604,9 @@
         ],
         "gold": 3200,
         "tags": [
-            "Damage",
-            "CriticalStrike",
-            "ArmorPenetration"
+            "攻撃力",
+            "クリティカル",
+            "物理防御貫通"
         ],
         "depth": 3,
         "id": 6676,
@@ -4630,8 +4635,8 @@
         ],
         "gold": 900,
         "tags": [
-            "Damage",
-            "NonbootsMovement"
+            "攻撃力",
+            "移動速度（ブーツ以外）"
         ],
         "depth": 2,
         "id": 6690,
@@ -4650,9 +4655,9 @@
         ],
         "gold": 2800,
         "tags": [
-            "Damage",
-            "CooldownReduction",
-            "AbilityHaste"
+            "攻撃力",
+            "スキルヘイスト",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6692,
@@ -4673,10 +4678,10 @@
         ],
         "gold": 3200,
         "tags": [
-            "Damage",
-            "CooldownReduction",
-            "ArmorPenetration",
-            "AbilityHaste"
+            "攻撃力",
+            "スキルヘイスト",
+            "物理防御貫通",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6694,
@@ -4697,8 +4702,8 @@
         ],
         "gold": 2500,
         "tags": [
-            "Damage",
-            "ArmorPenetration"
+            "攻撃力",
+            "物理防御貫通"
         ],
         "depth": 3,
         "id": 6695,
@@ -4719,9 +4724,9 @@
         ],
         "gold": 3000,
         "tags": [
-            "Damage",
-            "ArmorPenetration",
-            "AbilityHaste"
+            "攻撃力",
+            "物理防御貫通",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6696,
@@ -4742,11 +4747,11 @@
         ],
         "gold": 3000,
         "tags": [
-            "Damage",
-            "Active",
-            "CooldownReduction",
-            "ArmorPenetration",
-            "AbilityHaste"
+            "攻撃力",
+            "発動効果あり",
+            "スキルヘイスト",
+            "物理防御貫通",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6697,
@@ -4767,11 +4772,11 @@
         ],
         "gold": 3300,
         "tags": [
-            "Damage",
-            "Active",
-            "CooldownReduction",
-            "ArmorPenetration",
-            "AbilityHaste"
+            "攻撃力",
+            "発動効果あり",
+            "スキルヘイスト",
+            "物理防御貫通",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6698,
@@ -4793,11 +4798,11 @@
         ],
         "gold": 2900,
         "tags": [
-            "Damage",
-            "Active",
-            "CooldownReduction",
-            "ArmorPenetration",
-            "AbilityHaste"
+            "攻撃力",
+            "発動効果あり",
+            "スキルヘイスト",
+            "物理防御貫通",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 6699,
@@ -4818,10 +4823,10 @@
         ],
         "gold": 2700,
         "tags": [
-            "Damage",
-            "Active",
-            "NonbootsMovement",
-            "ArmorPenetration"
+            "攻撃力",
+            "発動効果あり",
+            "移動速度（ブーツ以外）",
+            "物理防御貫通"
         ],
         "depth": 3,
         "id": 6701,
@@ -4842,12 +4847,12 @@
         ],
         "gold": 2500,
         "tags": [
-            "Health",
-            "SpellBlock",
-            "CooldownReduction",
-            "MagicPenetration",
-            "MagicResist",
-            "AbilityHaste"
+            "体力",
+            "スペルブロック",
+            "スキルヘイスト",
+            "魔法防御貫通",
+            "魔法防御",
+            "スキルヘイスト"
         ],
         "depth": 3,
         "id": 8020,
