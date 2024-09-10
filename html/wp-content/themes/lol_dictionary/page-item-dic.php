@@ -13,8 +13,10 @@ get_header(); ?>
 		<nav>
 			<ul class="p-item-role-nav">
 			<?php
-			// Role の配列
+			// TODO: 別ファイルから参照する（Role, TAGS の配列）
 			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
+			$TAGS = ["abilityhaste","active","armor","armorpenetration","attackspeed","aura","boots","consumable","cooldownreduction","criticalstrike","damage","goldper","health","healthregen","jungle","lane","lifesteal","magicpenetration","magicresist","mana","ManaRegen","NonbootsMovement","OnHit","Slow","SpellBlock","SpellDamage","SpellVamp","Stealth","Tenacity","Trinket","Vision"];
+
 			foreach ($ROLES as $role) : ?>
 				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
 				<li class="p-item-role-nav__item">
@@ -40,11 +42,13 @@ get_header(); ?>
 					<?php
 					$into = get_post_meta(get_the_ID(), 'into', true);
 					if(empty($into) && has_term('', 'role', get_the_ID())) :
-						// 'role' タクソノミーのタームを取得
+						// タクソノミーのタームを取得
 						$roles = wp_get_post_terms(get_the_ID(), 'role', array('fields' => 'names'));
 						$roles_list = implode(',', $roles);
+						$tags = wp_get_post_terms(get_the_ID(), 'post_tag', array('fields' => 'names'));
+						$tags_list = implode(',', $tags);
 					?>
-					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>">
+					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
 						<?php if (has_post_thumbnail()) : ?>
 							<?php the_post_thumbnail('thumbnail'); ?>
 							<p class="name"><?php the_title(); ?></p>
