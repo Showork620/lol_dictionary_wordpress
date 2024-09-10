@@ -48,7 +48,7 @@
 
 .p-item-role-nav {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     justify-content: space-around;
     gap: 3px;
 
@@ -56,13 +56,13 @@
         width: 80%;
         margin-inline: auto;
         --bottom-line-height: 4px;
-        padding-bottom: var(--bottom-line-height);
+        padding-bottom: calc(var(--bottom-line-height) + 5px);
 
         .button {
             width: 100%;
             display: grid;
             place-items: center;
-            padding-block: 5px;
+            padding-block: 5px 10px;
             opacity: 0.5;
             transition: all 0.3s;
 
@@ -72,7 +72,7 @@
             }
         }
         .icon {
-            width: 30px;
+            width: 24px;
             height: auto;
         }
     }

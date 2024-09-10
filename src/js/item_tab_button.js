@@ -8,7 +8,7 @@ function choiceRole(buttonRole) {
     items.forEach(item => {
         const itemRoles = item.getAttribute('data-role').split(',');
 
-        if (itemRoles.includes(buttonRole)) {
+        if (itemRoles.includes(buttonRole) || buttonRole === 'All') {
             item.style.display = 'flex';
         } else {
             item.style.display = 'none';

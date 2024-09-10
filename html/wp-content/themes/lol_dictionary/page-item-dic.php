@@ -14,7 +14,7 @@ get_header(); ?>
 			<ul class="p-item-role-nav">
 			<?php
 			// Role の配列
-			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support'];
+			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
 			foreach ($ROLES as $role) : ?>
 				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
 				<li class="p-item-role-nav__item">
