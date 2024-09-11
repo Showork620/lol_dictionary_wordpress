@@ -11,36 +11,47 @@ get_header(); ?>
 <main id="main" class="l-main">
 	<section class="l-section">
 		<div class="p-item-search-group">
+			<?php 
+			$item_tags_option_html = '
+				<option value="All">すべて</option>
+				<hr>
+				<option value="体力">体力</option>
+				<option value="マナ">マナ</option>
+				<option value="攻撃力">攻撃力</option>
+				<option value="魔力">魔力</option>
+				<option value="物理防御">物理防御</option>
+				<option value="魔法防御">魔法防御</option>
+				<hr>
+				<option value="移動速度（ブーツ以外）">移動速度（ブーツ以外）</option>
+				<option value="ブーツ">ブーツ</option>
+				<option value="攻撃速度">攻撃速度</option>
+				<option value="スキルヘイスト">スキルヘイスト</option>
+				<option value="クリティカル">クリティカル</option>
+				<hr>
+				<option value="物理防御貫通">物理防御貫通</option>
+				<option value="魔法防御貫通">魔法防御貫通</option>
+				<option value="体力回復効果">体力回復効果</option>
+				<option value="マナ回復効果">マナ回復効果</option>
+				<hr>
+				<option value="スロウ効果">スロウ効果</option>
+				<option value="行動妨害耐性">行動妨害耐性</option>
+				<option value="通常攻撃時効果">通常攻撃時効果</option>
+				<option value="ライフスティール">ライフスティール</option>
+				<option value="オムニヴァンプ">オムニヴァンプ</option>
+				<hr>
+				<option value="発動効果あり">発動効果あり</option>
+			'; 
+			?>
 			<div class="p-item-tags-select">
-				<label class="p-item-tags-select__label" for="tags">絞り込み：</label>
-				<select class="p-item-tags-select__dropdown js-tag-dropdown" id="tags">
-					<option value="All">すべて</option>
-					<hr>
-					<option value="体力">体力</option>
-					<option value="マナ">マナ</option>
-					<option value="攻撃力">攻撃力</option>
-					<option value="魔力">魔力</option>
-					<option value="物理防御">物理防御</option>
-					<option value="魔法防御">魔法防御</option>
-					<hr>
-					<option value="移動速度（ブーツ以外）">移動速度（ブーツ以外）</option>
-					<option value="ブーツ">ブーツ</option>
-					<option value="攻撃速度">攻撃速度</option>
-					<option value="スキルヘイスト">スキルヘイスト</option>
-					<option value="クリティカル">クリティカル</option>
-					<hr>
-					<option value="物理防御貫通">物理防御貫通</option>
-					<option value="魔法防御貫通">魔法防御貫通</option>
-					<option value="体力回復効果">体力回復効果</option>
-					<option value="マナ回復効果">マナ回復効果</option>
-					<hr>
-					<option value="スロウ効果">スロウ効果</option>
-					<option value="行動妨害耐性">行動妨害耐性</option>
-					<option value="通常攻撃時効果">通常攻撃時効果</option>
-					<option value="ライフスティール">ライフスティール</option>
-					<option value="オムニヴァンプ">オムニヴァンプ</option>
-					<hr>
-					<option value="発動効果あり">発動効果あり</option>
+				<label class="p-item-tags-select__label" for="tags">絞り込み１：</label>
+				<select class="p-item-tags-select__dropdown js-tag-dropdown1" id="tags1">
+					<?php echo $item_tags_option_html; ?>
+				</select>
+			</div>
+			<div class="p-item-tags-select">
+				<label class="p-item-tags-select__label" for="tags">絞り込み２：</label>
+				<select class="p-item-tags-select__dropdown js-tag-dropdown2" id="tags2">
+					<?php echo $item_tags_option_html; ?>
 				</select>
 			</div>
 			<ul class="p-item-role-nav">

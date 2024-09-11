@@ -3,7 +3,8 @@
 // ============================================================
 
 let choicedRole = 'Fighter';
-let choicedTag = 'All';
+let choicedTag1 = 'All';
+let choicedTag2 = 'All';
 
 // アイテムが見つからない時に表示
 const itemNotfound = document.querySelector('.js-item-notfound');
@@ -11,7 +12,8 @@ const unfilterButton = document.querySelector('.js-unfilter-button');
 // フィルタ解除ボタンクリック
 unfilterButton.addEventListener('click', () => {
     choicedRole = 'All';
-    choicedTag = 'All';
+    choicedTag1 = 'All';
+    choicedTag2 = 'All';
 
     roleButtonList.forEach((roleButton) => {
         if (roleButton.dataset.role === 'All') {
@@ -20,7 +22,8 @@ unfilterButton.addEventListener('click', () => {
             roleButton.classList.remove('is-choiced');
         }
     });
-    tagSelect.value = 'All';
+    tagSelect1.value = 'All';
+    tagSelect2.value = 'All';
 
     itemNotfound.classList.remove('is-show');
     filterItems();
@@ -44,9 +47,14 @@ roleButtonList.forEach((roleButton) => {
 });
 
 // tag ドロップダウン選択
-const tagSelect = document.querySelector('.js-tag-dropdown');
-tagSelect.addEventListener('change', () => {
-    choicedTag = tagSelect.value;
+const tagSelect1 = document.querySelector('.js-tag-dropdown1');
+const tagSelect2 = document.querySelector('.js-tag-dropdown2');
+tagSelect1.addEventListener('change', () => {
+    choicedTag1 = tagSelect1.value;
+    filterItems();
+});
+tagSelect2.addEventListener('change', () => {
+    choicedTag2 = tagSelect2.value;
     filterItems();
 });
 
@@ -61,7 +69,8 @@ const filterItems = () => {
 
         if (
             (itemRoleList.includes(choicedRole) || choicedRole === 'All') &&
-            (itemTagList.includes(choicedTag) || choicedTag === 'All')
+            (itemTagList.includes(choicedTag1) || choicedTag1 === 'All') &&
+            (itemTagList.includes(choicedTag2) || choicedTag2 === 'All')
         ) {
             item.classList.add('is-show');
             itemShowCount++;
