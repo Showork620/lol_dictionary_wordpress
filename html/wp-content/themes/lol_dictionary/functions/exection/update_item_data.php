@@ -139,10 +139,11 @@ foreach ($ITEMDATA as $key => &$item) {
 	// プロパティの追加
 	$item['id'] = $key;
 
-	// statsの追加
+	// desctiption からの抽出 ==========
 	$description = $item['description'];
+
+	// statsの追加
 	$stats_list = [];
-	
 	foreach ($STATS_KEYWORD as $stats_key) {
 		$stats_value = null;
 		$first_split = explode($stats_key, $description);
@@ -159,9 +160,31 @@ foreach ($ITEMDATA as $key => &$item) {
 			$stats_list[$stats_key] = $stats_value;
 		}
 	}
-	
 	$item['stats'] = $stats_list;
 
+	// passive, active の追加
+	$passive_list = [];
+	$active_list = [];
+
+	// passiveとactiveを抽出
+	preg_match_all('/<passive>(.*?)<\/passive>(.*?)(?=<passive>|<active>|<\/mainText>)/s', $description, $matches);
+	if (!empty($matches[0])) {
+		foreach ($matches[0] as $match) {
+			$passive_list[] = $match;
+		}
+	}
+	preg_match_all('/<active>(.*?)<\/active>(.*?)(?=<passive>|<active>|<\/mainText>)/s', $description, $matches);
+	if (!empty($matches[0])) {
+		foreach ($matches[0] as $match) {
+			if (strpos($match, '<active>発動効果') === false) {
+				$active_list[] = $match;
+			}
+		}
+	}
+	$item['passives'] = $passive_list;
+	$item['actives'] = $active_list;
+
+	
 	// $ITEMS_ROLE に含まれる場合、role プロパティを追加 role プロパティは 数値の配列 で 複数持つことができる
 	foreach ($ITEMS_ROLE as $role => $items) {
 		if (in_array($key, $items)) {

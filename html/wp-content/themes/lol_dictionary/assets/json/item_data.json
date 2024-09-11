@@ -22,6 +22,8 @@
             "移動速度": "25"
         },
         "id": 1001,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -43,6 +45,8 @@
             "基本マナ自動回復": "50%"
         },
         "id": 1004,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -64,6 +68,8 @@
             "基本体力自動回復": "100%"
         },
         "id": 1006,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -94,6 +100,8 @@
         },
         "depth": 2,
         "id": 1011,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -118,6 +126,8 @@
             "クリティカル率": "15%"
         },
         "id": 1018,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -139,6 +149,8 @@
         ],
         "stats": [],
         "id": 1026,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -159,6 +171,8 @@
             "マナ": "250"
         },
         "id": 1027,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -200,6 +214,8 @@
             "体力": "150"
         },
         "id": 1028,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -229,6 +245,8 @@
             "物理防御": "15"
         },
         "id": 1029,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -257,6 +275,8 @@
         },
         "depth": 2,
         "id": 1031,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -285,6 +305,8 @@
             "魔法防御": "20"
         },
         "id": 1033,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -322,6 +344,8 @@
             "攻撃力": "10"
         },
         "id": 1036,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -357,6 +381,8 @@
             "攻撃力": "25"
         },
         "id": 1037,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -382,6 +408,8 @@
             "攻撃力": "40"
         },
         "id": 1038,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -409,6 +437,8 @@
             "攻撃速度": "10%"
         },
         "id": 1042,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -437,6 +467,8 @@
         },
         "depth": 2,
         "id": 1043,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -469,6 +501,8 @@
         ],
         "stats": [],
         "id": 1052,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -497,6 +531,8 @@
         },
         "depth": 2,
         "id": 1053,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -514,6 +550,10 @@
             "体力": "110"
         },
         "id": 1054,
+        "passives": [
+            "<passive>一点集中<\/passive><li>通常攻撃がミニオンに<physicalDamage>5の物理ダメージ<\/physicalDamage>を追加で与える。<li>5秒ごとに<healing>4の体力<\/healing>を自動回復する。チャンピオン、大型ジャングルモンスター、エピックジャングルモンスターからダメージを受けると、8秒かけて最大<healing>45の体力<\/healing>を回復する。自身の体力が低下していると回復量が増加する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -534,6 +574,8 @@
             "ライフ スティール": "3%"
         },
         "id": 1055,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -552,6 +594,10 @@
             "体力": "90"
         },
         "id": 1056,
+        "passives": [
+            "<passive>修復<\/passive><li>毎秒マナを回復する。マナを回復できない場合は、代わりに体力を自動回復する。<li>通常攻撃がミニオンに追加物理ダメージ与える。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -578,6 +624,8 @@
         },
         "depth": 2,
         "id": 1057,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -600,6 +648,8 @@
         ],
         "stats": [],
         "id": 1058,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -620,6 +670,10 @@
             "体力": "50"
         },
         "id": 1082,
+        "passives": [
+            "<passive>栄光<\/passive><br>キルまたはアシストするとスタックを獲得し、1スタックごとに魔力を獲得する。自身が死亡するとスタックを一部失う。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": false
     },
@@ -637,6 +691,10 @@
             "攻撃力": "7"
         },
         "id": 1083,
+        "passives": [
+            "<passive>収穫者<\/passive><li>通常攻撃が命中するたびに<healing>3の体力<\/healing>を回復する。<li>レーンミニオンをキルすると<goldGain>1<\/goldGain>ゴールドを追加で獲得する(最大100ゴールドまで)。レーンミニオンを100体キルすると追加で<goldGain>350<\/goldGain>ゴールドのボーナスを獲得する。<br>"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": false
     },
@@ -650,6 +708,12 @@
         ],
         "stats": [],
         "id": 1101,
+        "passives": [
+            "<passive>ジャングル コンパニオン:<\/passive> <font color='#DD2E2E'>スコーチクロウ<\/font>を召喚して、ジャングルで支援させる。<li>",
+            "<passive>スコーチクロウの爪:<\/passive> このコンパニオンを最大まで成長させると、定期的に次に与えるダメージ効果が強化され、敵チャンピオンに<status>スロウ効果<\/status>と",
+            "<passive>ダメージ<\/passive>を与える。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": false
     },
@@ -663,6 +727,11 @@
         ],
         "stats": [],
         "id": 1102,
+        "passives": [
+            "<passive>ジャングル コンパニオン:<\/passive> <font color='#38A8E8'>ガストウォーカー<\/font>を召喚して、ジャングルで支援させる。<li>",
+            "<passive>ガストウォーカーの歩み:<\/passive> このコンパニオンを最大まで成長させると、主人であるチャンピオンが茂みに入るかモンスターをキルすると<speed>移動速度<\/speed>が増加する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": false
     },
@@ -676,6 +745,11 @@
         ],
         "stats": [],
         "id": 1103,
+        "passives": [
+            "<passive>ジャングル コンパニオン:<\/passive> <font color='#1CA935'>モスストンパー<\/font>を召喚して、ジャングルで支援させる。<li>",
+            "<passive>モスストンパーの勇気:<\/passive> このコンパニオンを最大まで成長させると、主人であるチャンピオンは<shield>恒久的なシールド<\/shield>を獲得する。このシールドはモンスターをキルするか非戦闘状態になると自動的に回復する。シールド展開中は行動妨害耐性とスロウ耐性が0%増加する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": false
     },
@@ -693,6 +767,10 @@
         ],
         "stats": [],
         "id": 2003,
+        "passives": [],
+        "actives": [
+            "<active>使用<\/active><br><healing>体力<\/healing>を15秒間かけて120回復する。"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -706,6 +784,8 @@
         "tags": [],
         "stats": [],
         "id": 2010,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -734,6 +814,8 @@
         },
         "depth": 2,
         "id": 2019,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -764,6 +846,8 @@
         },
         "depth": 2,
         "id": 2020,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -795,6 +879,8 @@
         },
         "depth": 2,
         "id": 2021,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -823,6 +909,8 @@
             "スキルヘイスト": "5"
         },
         "id": 2022,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -843,6 +931,10 @@
         ],
         "stats": [],
         "id": 2031,
+        "passives": [],
+        "actives": [
+            "<active>使用<\/active><br><healing>体力<\/healing>を12秒間かけて100回復する。<br><br>2チャージまで保持可能で、ショップを訪れると補充される。"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -860,6 +952,11 @@
             "体力": "150"
         },
         "id": 2051,
+        "passives": [
+            "<passive>治癒: <\/passive>徐々に体力を回復する。<li>",
+            "<passive>屈強: <\/passive>チャンピオンによる通常攻撃とスキルのダメージを低減する。<br>"
+        ],
+        "actives": [],
         "normal_item": false,
         "aram_item": true
     },
@@ -873,6 +970,8 @@
         "tags": [],
         "stats": [],
         "id": 2052,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -891,6 +990,10 @@
         ],
         "stats": [],
         "id": 2055,
+        "passives": [],
+        "actives": [
+            "<active>コントロール ワード<\/active><br>「コントロール ワード」を設置する。この装置は敵のステルス ワードやトラップ、<keywordStealth>カモフラージュ<\/keywordStealth>状態の敵を可視化できる。"
+        ],
         "normal_item": true,
         "aram_item": false
     },
@@ -919,6 +1022,10 @@
         },
         "depth": 3,
         "id": 2065,
+        "passives": [],
+        "actives": [
+            "<active>感動的スピーチ<\/active><br>周囲の味方の移動速度を増加させる。<br><br>"
+        ],
         "role": [
             "Support"
         ],
@@ -939,6 +1046,10 @@
         ],
         "stats": [],
         "id": 2138,
+        "passives": [],
+        "actives": [
+            "<active>使用<\/active><br>3分間、<scaleHealth>体力を300<\/scaleHealth>、行動妨害耐性を25%増加させて、体が大きくなる。発動中、通過した場所は続く味方チャンピオンの<speed>移動速度を15%<\/speed>増加させる。"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -955,6 +1066,10 @@
         ],
         "stats": [],
         "id": 2139,
+        "passives": [],
+        "actives": [
+            "<active>使用<\/active><br>3分間、<scaleAP>魔力が50<\/scaleAP>、<scaleMana>マナ自動回復が15%<\/scaleMana>増加する。発動中、チャンピオンまたはタワーにダメージを与えると、<trueDamage>25の追加確定ダメージ<\/trueDamage>を与える(対チャンピオンは5秒)。"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -972,6 +1087,10 @@
         ],
         "stats": [],
         "id": 2140,
+        "passives": [],
+        "actives": [
+            "<active>使用<\/active><br>3分間、<scaleAD>攻撃力が30<\/scaleAD>、チャンピオンに対する<lifeSteal>物理ヴァンプが12%<\/lifeSteal>増加する。"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -987,6 +1106,8 @@
         ],
         "stats": [],
         "id": 2141,
+        "passives": [],
+        "actives": [],
         "normal_item": false,
         "aram_item": true
     },
@@ -1001,6 +1122,10 @@
         ],
         "stats": [],
         "id": 2150,
+        "passives": [],
+        "actives": [
+            "<active>使用<\/active><br>スキルポイントを1獲得する。<br><br><rules>このアイテムを使用してもチャンピオンレベルは上昇しない。また、通常のスキルレベル上限を越えてスキルポイントを割り振ることもできない。<\/rules>"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -1017,6 +1142,10 @@
         ],
         "stats": [],
         "id": 2151,
+        "passives": [],
+        "actives": [
+            "<active>使用<\/active><br>60秒間、ミニオンに対して通常攻撃時効果で<trueDamage>5の確定ダメージ<\/trueDamage>を与えるようになる。この効果が終了すると、40ゴールドを得る。 "
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -1032,6 +1161,10 @@
         ],
         "stats": [],
         "id": 2152,
+        "passives": [],
+        "actives": [
+            "<active>使用<\/active><br>60秒間、アダプティブフォース20を獲得する。 "
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -1059,6 +1192,10 @@
         },
         "depth": 2,
         "id": 2420,
+        "passives": [],
+        "actives": [
+            "<active>時間停止<\/active>(使用は一度のみ)<br>2.5秒間<keyword>固有時停止<\/keyword>状態になる。"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -1075,6 +1212,10 @@
             "物理防御": "25"
         },
         "id": 2421,
+        "passives": [
+            "<passive>砕けた時間<\/passive><br>「アームガード」は壊れているがアップグレードは可能。<br><br><rules>一度「アームガード」を使用して壊すと、その後<rarityGeneric>「砕けたアームガード」<\/rarityGeneric>しか買えなくなる。<\/rules><br><br>"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1100,6 +1241,8 @@
             "移動速度": "25"
         },
         "id": 2422,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1122,6 +1265,11 @@
         },
         "depth": 3,
         "id": 2501,
+        "passives": [
+            "<passive>暴君<\/passive><br><healing>増加体力<\/healing>の2%を<scaleAD>攻撃力<\/scaleAD>として獲得する。<br><br>",
+            "<passive>報復<\/passive><br>減少体力の割合に応じて、<scaleAD>攻撃力<\/scaleAD>が最大10%まで増加する。 "
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Tank"
@@ -1152,6 +1300,10 @@
         },
         "depth": 3,
         "id": 2502,
+        "passives": [
+            "<passive>苦辛<\/passive><br>チャンピオンと戦闘中は、数秒ごとに周囲の敵チャンピオンに魔法ダメージを与え、与えたダメージに応じて体力を回復する。"
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -1179,6 +1331,12 @@
         },
         "depth": 3,
         "id": 2503,
+        "passives": [
+            "<passive>悪意の炎<\/passive><br>スキルでダメージを与えると敵を燃やす。モンスターに対しては、このダメージが増加する。<br><br>",
+            "<passive>黒炎<\/passive><br>",
+            "<passive>「悪意の炎」<\/passive>の影響を受けた敵チャンピオン、エピックモンスター、大型モンスター1体ごとに、<scaleAP>魔力<\/scaleAP>が増加する。 "
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -1206,6 +1364,10 @@
         },
         "depth": 3,
         "id": 2504,
+        "passives": [
+            "<passive>メイジベイン<\/passive><br>15秒間<magicDamage>魔法ダメージ<\/magicDamage>を受けずにいると、<magicDamage>0の魔法ダメージを防ぐシールド<\/magicDamage>を獲得する。<br><br>"
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -1230,6 +1392,10 @@
         "stats": [],
         "depth": 2,
         "id": 2508,
+        "passives": [
+            "<passive>発火<\/passive><br>スキルでダメージを与えると敵を燃やす。このダメージはモンスターに対しては増加する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1254,6 +1420,10 @@
         },
         "depth": 3,
         "id": 3002,
+        "passives": [
+            "<passive>先導<\/passive><br>移動中に<speed>20の増加移動速度<\/speed>を獲得する。最大速度になると軌跡が発生し、軌跡に触れた味方チャンピオンの移動速度を自身の移動速度の15%分増加させる。次の通常攻撃で増加した移動速度を放出し、近接攻撃チャンピオンは対象に1秒間、50%の<keyword>スロウ効果<\/keyword>を与える。<br><br>"
+        ],
+        "actives": [],
         "role": [
             "Tank",
             "Support"
@@ -1282,6 +1452,11 @@
         },
         "depth": 3,
         "id": 3003,
+        "passives": [
+            "<passive>畏怖<\/passive><br>自身の増加マナに応じて魔力を獲得する。<br><br>",
+            "<passive>マナフロー<\/passive><br>スキルが対象に命中するとチャージを1つ消費して増加マナを獲得する。最大360まで増加マナを獲得でき、最大値に到達すると、このアイテムは<rarityLegendary>「セラフ エンブレイス」<\/rarityLegendary>に変化する。<br><br>"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -1313,6 +1488,11 @@
         },
         "depth": 3,
         "id": 3004,
+        "passives": [
+            "<passive>畏怖<\/passive><br>マナに応じて攻撃力が増加する。<br><br>",
+            "<passive>マナフロー<\/passive><br>スキルまたは通常攻撃が対象に命中すると増加マナを獲得する。最大までマナを獲得すると、このアイテムは<rarityLegendary>「ムラマナ」<\/rarityLegendary>に変化する。"
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Marksman",
@@ -1344,6 +1524,8 @@
         },
         "depth": 2,
         "id": 3006,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1363,6 +1545,10 @@
         },
         "depth": 2,
         "id": 3009,
+        "passives": [
+            "<passive>俊足<\/passive><br><keyword>スロウ効果<\/keyword>が25%低下する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1385,6 +1571,11 @@
         },
         "depth": 2,
         "id": 3010,
+        "passives": [
+            "<passive>ヴォイドの子ら<\/passive><br>リコール強化を獲得する。<br><br>",
+            "<passive>共生<\/passive><br>150000ユニット以上の距離を移動すると、<rarityLegendary>「シンクロナイズド ソウル」<\/rarityLegendary>に変化する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": false,
         "destination": 3013
@@ -1407,6 +1598,11 @@
         "depth": 3,
         "specialRecipe": 3010,
         "id": 3013,
+        "passives": [
+            "<passive>ヴォイドの子ら<\/passive><br>リコール強化を獲得する。<br><br>",
+            "<passive>シンクロニー<\/passive><br>非戦闘時の<speed>移動速度が45<\/speed>増加する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": false
     },
@@ -1429,6 +1625,8 @@
         },
         "depth": 2,
         "id": 3020,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1458,6 +1656,8 @@
         },
         "depth": 2,
         "id": 3024,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1480,6 +1680,10 @@
         },
         "depth": 3,
         "id": 3026,
+        "passives": [
+            "<passive>起死回生<\/passive><br>体力がゼロになった際、少し遅れて復活する。"
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Marksman",
@@ -1508,6 +1712,8 @@
         },
         "depth": 2,
         "id": 3031,
+        "passives": [],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -1533,6 +1739,10 @@
         },
         "depth": 3,
         "id": 3032,
+        "passives": [
+            "<passive>鋸刃<\/passive><br>クリティカルになった通常攻撃が、追加で継続ダメージを与える。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -1562,6 +1772,10 @@
         },
         "depth": 3,
         "id": 3033,
+        "passives": [
+            "<passive>重傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -1593,6 +1807,8 @@
         },
         "depth": 2,
         "id": 3035,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1618,6 +1834,8 @@
         },
         "depth": 3,
         "id": 3036,
+        "passives": [],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -1641,6 +1859,11 @@
             "スキルヘイスト": "25"
         },
         "id": 3040,
+        "passives": [
+            "<passive>畏怖<\/passive><scaleMana>増加マナの2%<\/scaleMana>にあたる魔力を獲得する。<br>",
+            "<passive>ライフライン<\/passive>(90(0秒))<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3秒間<shield>250 + 現在マナの20%の耐久値を持つシールド<\/shield>を得る。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1662,6 +1885,10 @@
         },
         "depth": 2,
         "id": 3041,
+        "passives": [
+            "<passive>栄光<\/passive><li>キルまたはアシストするとスタックを獲得し、1スタックごとに魔力を獲得する。自身が死亡するとスタックを一部失う。<li>10スタック以上保持している場合、移動速度が増加する。"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -1688,6 +1915,11 @@
             "スキルヘイスト": "15"
         },
         "id": 3042,
+        "passives": [
+            "<passive>畏怖<\/passive><br>マナに応じて攻撃力が増加する。<br><br>",
+            "<passive>ショック<\/passive><br>チャンピオンに対する通常攻撃と攻撃スキルが追加物理ダメージを与える。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1717,6 +1949,10 @@
         },
         "depth": 2,
         "id": 3044,
+        "passives": [
+            "<passive>逸る怒り<\/passive><br>ユニットに通常攻撃を行うと移動速度が増加する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1742,6 +1978,10 @@
         },
         "depth": 3,
         "id": 3046,
+        "passives": [
+            "<passive>幽霊のワルツ<\/passive><br><status>ゴースト化<\/status>する。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -1767,6 +2007,10 @@
         },
         "depth": 2,
         "id": 3047,
+        "passives": [
+            "<passive>プレート<\/passive><br>通常攻撃で受けるダメージを10%軽減する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1794,6 +2038,10 @@
         },
         "depth": 3,
         "id": 3050,
+        "passives": [
+            "<passive>氷炎のテンペスト<\/passive> <br>アルティメットスキルを使用すると、自身の周りに嵐を発生させる。この嵐は敵チャンピオンに魔法ダメージを与え、<keyword>スロウ効果<\/keyword>を付与する。"
+        ],
+        "actives": [],
         "role": [
             "Tank",
             "Support"
@@ -1827,6 +2075,8 @@
         },
         "depth": 2,
         "id": 3051,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1851,6 +2101,11 @@
         },
         "depth": 3,
         "id": 3053,
+        "passives": [
+            "<passive>獲物を狙う爪<\/passive><br>攻撃力が増加する。<br><br>",
+            "<passive>ライフライン<\/passive> (0秒)<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、シールドを得る。"
+        ],
+        "actives": [],
         "role": [
             "Fighter"
         ],
@@ -1880,6 +2135,10 @@
         },
         "depth": 2,
         "id": 3057,
+        "passives": [
+            "<passive>追撃<\/passive><br>スキルを使った後、次の通常攻撃が強化されて追加ダメージを与える。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1907,6 +2166,10 @@
         },
         "depth": 3,
         "id": 3065,
+        "passives": [
+            "<passive>無限の胆力<\/passive><br>自身が受けるすべての回復効果とシールド耐久値が25%増加する。"
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -1937,6 +2200,8 @@
         },
         "depth": 2,
         "id": 3066,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -1982,6 +2247,8 @@
         },
         "depth": 2,
         "id": 3067,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2007,6 +2274,11 @@
         },
         "depth": 3,
         "id": 3068,
+        "passives": [
+            "<passive>猛火:<\/passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(15 + 増加体力の1.75%)の魔法ダメージ<\/magicDamage>を与える(このダメージはミニオンに対しては25%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に",
+            "<passive>「猛火」<\/passive>で与えるダメージが5秒間10%増加する(最大スタック6)。<br>"
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -2031,6 +2303,12 @@
             "マナ": "240"
         },
         "id": 3070,
+        "passives": [
+            "<passive>一点集中:<\/passive> 通常攻撃がミニオンに追加物理ダメージを与える。<li>",
+            "<passive>マナフロー:<\/passive> スキルが対象に命中するとチャージを1つ消費して<scaleMana>増加マナ3<\/scaleMana>を獲得する。対象がチャンピオンだった場合は増加マナが2倍になる。最大360まで増加マナを獲得できる。<br><br><rules>8秒ごとに",
+            "<passive>「マナチャージ」<\/passive>を1つ獲得する(最大4)。<\/rules>"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2060,6 +2338,11 @@
         },
         "depth": 3,
         "id": 3071,
+        "passives": [
+            "<passive>カーブ<\/passive><br>チャンピオンに物理ダメージを与えると、対象に物理防御低下のスタックを付与する。<br><br>",
+            "<passive>熱情<\/passive><br>物理ダメージを与えると移動速度が増加する。"
+        ],
+        "actives": [],
         "role": [
             "Fighter"
         ],
@@ -2086,6 +2369,10 @@
         },
         "depth": 3,
         "id": 3072,
+        "passives": [
+            "<passive>イコルシールド<\/passive><br>ライフスティールで最大体力を超えて回復した余剰の体力が、最大での耐久値のシールドに変換される。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -2116,6 +2403,11 @@
         },
         "depth": 3,
         "id": 3073,
+        "passives": [
+            "<passive>へクスチャージ<\/passive><br>アルティメットスキルがスキルヘイストを獲得する。<br><br>",
+            "<passive>オーバードライブ<\/passive><br>アルティメットスキル発動から少しの間、攻撃速度と移動速度が増加する。<br>"
+        ],
+        "actives": [],
         "role": [
             "Fighter"
         ],
@@ -2146,6 +2438,12 @@
         },
         "depth": 3,
         "id": 3074,
+        "passives": [
+            "<passive>なぎ払い<\/passive><br>通常攻撃が周囲の敵にも物理ダメージを与える。<br><br>"
+        ],
+        "actives": [
+            "<active>貪欲な三日月<\/active><br>周囲の敵に物理ダメージを与えて、ライフスティールを適用する。"
+        ],
         "role": [
             "Fighter"
         ],
@@ -2171,6 +2469,10 @@
         },
         "depth": 3,
         "id": 3075,
+        "passives": [
+            "<passive>棘<\/passive><br>通常攻撃を受けると攻撃者にダメージを与え、対象がチャンピオンだった場合は40%の<keyword>「重傷」<\/keyword>を付与する。<br><br><rules><status>「重傷」<\/status>は体力回復および自動回復の効果を減少させる。<\/rules><br><br>"
+        ],
+        "actives": [],
         "role": [
             "Tank",
             "Support"
@@ -2198,6 +2500,10 @@
         },
         "depth": 2,
         "id": 3076,
+        "passives": [
+            "<passive>棘<\/passive><br>通常攻撃を受けると攻撃者にダメージを与え、対象がチャンピオンだった場合は40%の「重傷」を付与する。<br><br><rules><status>「重傷」<\/status>は体力回復および自動回復の効果を減少させる。<\/rules>"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2225,6 +2531,12 @@
         },
         "depth": 2,
         "id": 3077,
+        "passives": [
+            "<passive>なぎ払い<\/passive><br>通常攻撃が周囲の敵にも物理ダメージを与える。<br><br>近接攻撃チャンピオンか遠隔攻撃チャンピオンかに応じて、アイテムの効果は異なる。<br><br><br>"
+        ],
+        "actives": [
+            "<active>三日月<\/active><br>周囲の敵に<physicalDamage>0の物理ダメージ<\/physicalDamage>を与える。"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -2255,6 +2567,11 @@
         },
         "depth": 3,
         "id": 3078,
+        "passives": [
+            "<passive>追撃<\/passive><br>スキルを使った後、次の通常攻撃が強化されて追加物理ダメージを与える。<br><br>",
+            "<passive>加速<\/passive><br>通常攻撃を行うと移動速度が増加する。<br><br>"
+        ],
+        "actives": [],
         "role": [
             "Fighter"
         ],
@@ -2282,6 +2599,10 @@
         },
         "depth": 2,
         "id": 3082,
+        "passives": [
+            "<passive>岩より固く<\/passive><br>通常攻撃で受けるダメージを軽減する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2307,6 +2628,10 @@
         },
         "depth": 3,
         "id": 3083,
+        "passives": [
+            "<passive>ワーモグの心臓<\/passive><br>自身の増加体力が1500以上であれば、6秒間ダメージを受けずにいると、毎秒最大体力の一定割合を回復する。"
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -2333,6 +2658,11 @@
         },
         "depth": 3,
         "id": 3084,
+        "passives": [
+            "<passive>巨人の食欲<\/passive> 対象ごとに(0秒)<br>チャンピオンの近くにいると、そのチャンピオンに対し、強力な通常攻撃をチャージする。チャージした通常攻撃は追加物理ダメージを与え、最大体力が恒久的に増加する。<br><br>",
+            "<passive>ゴライアス<\/passive><br>合計体力に応じてサイズが増加する。 "
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -2361,6 +2691,10 @@
         },
         "depth": 3,
         "id": 3085,
+        "passives": [
+            "<passive>連撃の風<\/passive><br>通常攻撃時、対象の周囲にいる敵(最大2体)にも矢を放つ。矢には通常攻撃時効果が適用され、クリティカル判定がある。<br><br><rules>このアイテムは遠隔攻撃チャンピオン専用。<\/rules>"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -2396,6 +2730,8 @@
         },
         "depth": 2,
         "id": 3086,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2422,6 +2758,11 @@
         },
         "depth": 3,
         "id": 3087,
+        "passives": [
+            "<passive>電気スパーク<\/passive> <br>ミニオンまたはモンスターをキルすると連鎖する電撃を放ち、魔法ダメージを与える。<br><br>",
+            "<passive>電気ショック<\/passive> <br>チャンピオンからキルまたはアシストを奪うと連鎖する電撃を放ち、さらに多くの魔法ダメージを与える。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -2443,6 +2784,10 @@
         "stats": [],
         "depth": 2,
         "id": 3089,
+        "passives": [
+            "<passive>マジカルオーパス<\/passive><br>合計<scaleAP>魔力を35%<\/scaleAP>増加させる。"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -2472,6 +2817,10 @@
         },
         "depth": 3,
         "id": 3091,
+        "passives": [
+            "<passive>フレイ<\/passive><br>通常攻撃時効果で魔法ダメージを与える。"
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Marksman"
@@ -2500,6 +2849,10 @@
         },
         "depth": 3,
         "id": 3094,
+        "passives": [
+            "<passive>心眼<\/passive><br>エネルギー充填状態の通常攻撃が追加魔法ダメージを与え、その射程が増加する。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -2528,6 +2881,10 @@
         },
         "depth": 3,
         "id": 3100,
+        "passives": [
+            "<passive>追撃<\/passive><br>スキルを使った後、次の通常攻撃が強化されて追加魔法ダメージ<OnHit>通常攻撃時効果<\/OnHit>を与える。"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -2552,6 +2909,10 @@
         },
         "depth": 3,
         "id": 3102,
+        "passives": [
+            "<passive>破棄<\/passive><br>スペルシールドを獲得する。<br>"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -2582,6 +2943,10 @@
         },
         "depth": 3,
         "id": 3107,
+        "passives": [],
+        "actives": [
+            "<active>介入<\/active><br>一定範囲を指定し、味方チャンピオンの体力を回復して、敵チャンピオンに確定ダメージを与える。"
+        ],
         "role": [
             "Support"
         ],
@@ -2621,6 +2986,8 @@
         },
         "depth": 2,
         "id": 3108,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2651,6 +3018,12 @@
         },
         "depth": 3,
         "id": 3109,
+        "passives": [
+            "<passive>犠牲<\/passive><br>味方の<attention>同士<\/attention>が近くにいる間は、その味方が受けるダメージを代わりに受け、その<attention>同士<\/attention>がチャンピオンに与えたダメージに応じた体力を回復する。<br><br><br>"
+        ],
+        "actives": [
+            "<active>誓約<\/active><br>味方を<attention>同志<\/attention>に指定する。"
+        ],
         "role": [
             "Tank",
             "Support"
@@ -2681,6 +3054,11 @@
         },
         "depth": 3,
         "id": 3110,
+        "passives": [
+            "<passive>冬の抱擁<\/passive><br>周囲の敵の<attackSpeed>攻撃速度<\/attackSpeed>を20%低下させる。<br><br>",
+            "<passive>岩より固く<\/passive><br>通常攻撃で受けるダメージを最大0軽減する。通常攻撃のダメージの0%が上限。"
+        ],
+        "actives": [],
         "role": [
             "Tank",
             "Support"
@@ -2709,6 +3087,8 @@
         },
         "depth": 2,
         "id": 3111,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2727,6 +3107,10 @@
             "体力": "150"
         },
         "id": 3112,
+        "passives": [
+            "<passive>治癒: <\/passive>一定時間をかけてマナを回復する。マナを獲得できない場合は、代わりに体力を回復する。<br>"
+        ],
+        "actives": [],
         "normal_item": false,
         "aram_item": true
     },
@@ -2754,6 +3138,8 @@
         },
         "depth": 2,
         "id": 3113,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2783,6 +3169,8 @@
         },
         "depth": 2,
         "id": 3114,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2808,6 +3196,10 @@
         },
         "depth": 3,
         "id": 3115,
+        "passives": [
+            "<passive>イカシアの牙<\/passive><br>通常攻撃が<magicDamage>魔法ダメージ<\/magicDamage> <OnHit>通常攻撃時効果<\/OnHit>を与える。"
+        ],
+        "actives": [],
         "role": [
             "Marksman",
             "Mage"
@@ -2835,6 +3227,10 @@
         },
         "depth": 3,
         "id": 3116,
+        "passives": [
+            "<passive>ライムフロスト<\/passive><br>攻撃スキルが、敵に1秒間30%の<keyword>スロウ効果<\/keyword>を与える。"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -2858,6 +3254,8 @@
         },
         "depth": 2,
         "id": 3117,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2881,6 +3279,11 @@
         },
         "depth": 3,
         "id": 3118,
+        "passives": [
+            "<passive>嘲り<\/passive><br>アルティメットスキルがスキルヘイストを獲得する。<br><br>",
+            "<passive>憎悪の霧<\/passive><br>アルティメットスキルでチャンピオンにダメージを与えると、対象の足元の地面が燃え上がり、ダメージを与えて、対象の魔法防御を低下させる。<br>"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -2909,6 +3312,11 @@
         },
         "depth": 3,
         "id": 3119,
+        "passives": [
+            "<passive>畏怖<\/passive><br>追加で<scaleHealth>0にあたる体力<\/scaleHealth>を獲得する。<br><br>",
+            "<passive>マナフロー<\/passive><br>スキルまたは通常攻撃が対象に命中するとチャージを1つ消費して増加マナを獲得する。最大までマナを獲得すると、このアイテムは<rarityLegendary>「フィンブルウィンター」<\/rarityLegendary>に変化する。"
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -2934,6 +3342,11 @@
             "スキルヘイスト": "15"
         },
         "id": 3121,
+        "passives": [
+            "<passive>畏怖<\/passive><br>追加で<scaleHealth>0にあたる体力<\/scaleHealth>を獲得する。<br><br>",
+            "<passive>不朽<\/passive> (0秒)<br>敵チャンピオンに<status>移動不能効果<\/status>または<status>スロウ効果<\/status>(近接のみ)を与えると、3秒間、耐久値<scaleMana>0 + 現在マナの4.5%<\/scaleMana>のシールドを獲得する。周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が<attention>80%<\/attention>増加する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2957,6 +3370,10 @@
         },
         "depth": 2,
         "id": 3123,
+        "passives": [
+            "<passive>重傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -2982,6 +3399,11 @@
         },
         "depth": 3,
         "id": 3124,
+        "passives": [
+            "<passive>激憤<\/passive><br>通常攻撃が<magicDamage>30の魔法ダメージ <OnHit>通常攻撃時効果<\/OnHit><\/magicDamage>を与える。<br><br>",
+            "<passive>シージングストライク<\/passive><br>通常攻撃によって<attackSpeed>攻撃速度が8%<\/attackSpeed>増加する。この効果は4回までスタックし、最大で<attackSpeed>攻撃速度が0<\/attackSpeed>増加する。スタックが最大の間は、通常攻撃3回ごとに<OnHit>通常攻撃時効果<\/OnHit>を2回適用する。<br><br>"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -3030,6 +3452,8 @@
         },
         "depth": 2,
         "id": 3133,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3067,6 +3491,8 @@
         },
         "depth": 2,
         "id": 3134,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3089,6 +3515,8 @@
         },
         "depth": 3,
         "id": 3135,
+        "passives": [],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -3116,6 +3544,10 @@
         },
         "depth": 3,
         "id": 3137,
+        "passives": [
+            "<passive>死から命へ<\/passive> <br>敵チャンピオンからキルまたはアシストを獲得すると、その位置に味方の体力を回復する新星が発生する。"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -3147,6 +3579,10 @@
         },
         "depth": 3,
         "id": 3139,
+        "passives": [],
+        "actives": [
+            "<active>水銀<\/active><br>すべての行動妨害系デバフ(<keyword>ノックアップ<\/keyword>を除く)を除去し、移動速度が増加する。"
+        ],
         "role": [
             "Marksman"
         ],
@@ -3174,6 +3610,10 @@
         },
         "depth": 2,
         "id": 3140,
+        "passives": [],
+        "actives": [
+            "<active>水銀<\/active><br>すべての行動妨害系デバフを除去する(<keyword>ノックアップ<\/keyword>を除く)。"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -3198,6 +3638,12 @@
         },
         "depth": 3,
         "id": 3142,
+        "passives": [
+            "<passive>幽鬼<\/passive> <br>非戦闘時に<speed>移動速度<\/speed>が増加する。<br><br><br>"
+        ],
+        "actives": [
+            "<active>幽霊の歩み<\/active><br><speed>移動速度<\/speed>が増加して<keyword>ゴースト化<\/keyword>する。"
+        ],
         "role": [
             "Assassin"
         ],
@@ -3225,6 +3671,12 @@
         },
         "depth": 3,
         "id": 3143,
+        "passives": [
+            "<passive>クリティカル耐性<\/passive><br>クリティカルで受けるダメージが軽減される。<br><br>"
+        ],
+        "actives": [
+            "<active>卑下<\/active><br>周囲の敵に<keyword>スロウ効果<\/keyword>を付与する。"
+        ],
         "role": [
             "Tank"
         ],
@@ -3253,6 +3705,10 @@
         },
         "depth": 2,
         "id": 3144,
+        "passives": [
+            "<passive>ブルズアイ<\/passive> <br>チャンピオンにダメージを与えると、追加で魔法ダメージを与える。通常攻撃でこのクールダウンが短縮される。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3280,6 +3736,10 @@
         "stats": [],
         "depth": 2,
         "id": 3145,
+        "passives": [
+            "<passive>レヴド<\/passive><br>チャンピオンにダメージを与えると追加ダメージを与える。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3305,6 +3765,10 @@
         },
         "depth": 2,
         "id": 3147,
+        "passives": [
+            "<passive>狂気<\/passive><br>敵チャンピオンと戦闘状態の間、毎秒追加ダメージを与える。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3331,6 +3795,10 @@
         },
         "depth": 3,
         "id": 3152,
+        "passives": [],
+        "actives": [
+            "<active>超音速<\/active><br>指定方向にダッシュして扇状に魔弾を放ち、魔法ダメージを与える。"
+        ],
         "role": [
             "Mage"
         ],
@@ -3361,6 +3829,11 @@
         },
         "depth": 3,
         "id": 3153,
+        "passives": [
+            "<passive>ミストエッジ<\/passive><br>通常攻撃が敵の現在体力にあたる物理ダメージ <OnHit>通常攻撃時効果<\/OnHit>を追加で与える。<br><br>",
+            "<passive>引き裂く影<\/passive> <br>チャンピオンに3回通常攻撃を行うと、対象にスロウ効果を与える。"
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Marksman"
@@ -3392,6 +3865,10 @@
         },
         "depth": 2,
         "id": 3155,
+        "passives": [
+            "<passive>ライフライン<\/passive><br>体力が残り少ない状態で魔法ダメージを受けると、魔法ダメージを防ぐシールドを獲得する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3419,6 +3896,11 @@
         },
         "depth": 3,
         "id": 3156,
+        "passives": [
+            "<passive>ライフライン<\/passive><br>魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、魔法ダメージを防ぐシールドを得る。",
+            "<passive>「ライフライン」<\/passive>が発動すると、戦闘終了までオムニヴァンプを獲得する。"
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Marksman",
@@ -3446,6 +3928,10 @@
         },
         "depth": 3,
         "id": 3157,
+        "passives": [],
+        "actives": [
+            "<active>時間停止<\/active><br>2.5秒間<keyword>固有時停止<\/keyword>状態になる。"
+        ],
         "role": [
             "Mage"
         ],
@@ -3471,6 +3957,10 @@
         },
         "depth": 2,
         "id": 3158,
+        "passives": [
+            "<passive>アイオニアン・インサイト<\/passive><br>10のサモナースペルヘイストを獲得する。<br><br>"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3496,6 +3986,11 @@
         },
         "depth": 3,
         "id": 3161,
+        "passives": [
+            "<passive>ドラゴンフォース<\/passive><br>アルティメット以外のスキルがスキルヘイストを獲得する。<br><br>",
+            "<passive>研ぎ澄ました意志<\/passive><br>スキルが命中するごとにスタックを獲得する。保持しているスタックごとに、スキルで与えるダメージが増加する。"
+        ],
+        "actives": [],
         "role": [
             "Fighter"
         ],
@@ -3521,6 +4016,10 @@
         },
         "depth": 3,
         "id": 3165,
+        "passives": [
+            "<passive>重傷<\/passive><br>敵チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。"
+        ],
+        "actives": [],
         "role": [
             "Mage",
             "Support"
@@ -3546,6 +4045,10 @@
         },
         "depth": 3,
         "id": 3172,
+        "passives": [
+            "<passive>風が如く<\/passive><br><speed>移動速度<\/speed><OnHit>通常攻撃時効果<\/OnHit>が6秒間5%増加する(最大で<speed>移動速度<\/speed>15%まで)。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3566,6 +4069,8 @@
             "スキルヘイスト": "15"
         },
         "id": 3177,
+        "passives": [],
+        "actives": [],
         "normal_item": false,
         "aram_item": true
     },
@@ -3592,6 +4097,10 @@
         },
         "depth": 3,
         "id": 3179,
+        "passives": [
+            "<passive>ブラックアウト<\/passive><br>周囲にある罠を可視化してワードを無効化する。通常攻撃でワードに与えるダメージが増加する。"
+        ],
+        "actives": [],
         "role": [
             "Assassin"
         ],
@@ -3620,6 +4129,11 @@
         },
         "depth": 3,
         "id": 3181,
+        "passives": [
+            "<passive>艦長<\/passive><br>チャンピオンまたはエピックモンスターに対する通常攻撃5回ごとに追加物理ダメージを与える。対象が建造物の場合はこのダメージが増加する。<br><br>",
+            "<passive>乗船部隊<\/passive><br>周囲にいる味方の砲撃ミニオンおよびスーパーミニオンが、物理\/魔法防御を獲得する。 "
+        ],
+        "actives": [],
         "role": [
             "Fighter"
         ],
@@ -3643,6 +4157,8 @@
             "ライフ スティール": "5%"
         },
         "id": 3184,
+        "passives": [],
+        "actives": [],
         "normal_item": false,
         "aram_item": true
     },
@@ -3673,6 +4189,10 @@
         },
         "depth": 3,
         "id": 3190,
+        "passives": [],
+        "actives": [
+            "<active>献身<\/active><br>周囲の味方に<shield>シールド<\/shield>を付与する。シールドは一定時間かけて減衰する。"
+        ],
         "role": [
             "Tank",
             "Support"
@@ -3707,6 +4227,8 @@
         },
         "depth": 2,
         "id": 3211,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3736,6 +4258,10 @@
         },
         "depth": 3,
         "id": 3222,
+        "passives": [],
+        "actives": [
+            "<active>浄化<\/active> (0秒)<br>味方チャンピオンからすべての行動妨害系デバフを除去し、体力を回復させる。"
+        ],
         "role": [
             "Support"
         ],
@@ -3764,6 +4290,11 @@
         },
         "depth": 3,
         "id": 3302,
+        "passives": [
+            "<passive>シャドウ<\/passive><br>通常攻撃が魔法ダメージ<OnHit>通常攻撃時効果<\/OnHit>を与える。<br><br>",
+            "<passive>ジャクスタポジション<\/passive><br>チャンピオンに対する通常攻撃時に、通常攻撃時効果を<keywordMajor>「ライト」<\/keywordMajor>と<keywordMajor>「ダーク」<\/keywordMajor>の間で切り替える。<li><keywordMajor>「ライト」<\/keywordMajor>の通常攻撃は<scaleArmor>物理防御<\/scaleArmor>と<scaleMR>魔法防御<\/scaleMR>を増加させる。<li><keywordMajor>「ダーク」<\/keywordMajor>の通常攻撃は、<scaleArmor>物理防御貫通<\/scaleArmor>と<scaleMR>魔法防御貫通<\/scaleMR>を増加させる。"
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Marksman"
@@ -3785,6 +4316,10 @@
         ],
         "stats": [],
         "id": 3340,
+        "passives": [],
+        "actives": [
+            "<active>ワード設置<\/active><br>視界を付与する<keyword>インビジブル<\/keyword>状態の「ステルス ワード」を設置する。<br><br>2チャージまで保持でき、 一定間隔おきに1チャージ生成される。 "
+        ],
         "normal_item": true,
         "aram_item": false
     },
@@ -3800,6 +4335,10 @@
         ],
         "stats": [],
         "id": 3363,
+        "passives": [],
+        "actives": [
+            "<active>水晶占い<\/active><br>遠くのエリアを可視化し、敵チャンピオンが視界に入ると効果が切れるワードを設置する。"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -3815,6 +4354,10 @@
         ],
         "stats": [],
         "id": 3364,
+        "passives": [],
+        "actives": [
+            "<active>一掃<\/active><br>6秒間、周囲にある敵のステルス ワードとトラップを可視化する。<br><br>2チャージまで保持でき、一定間隔おきに1チャージ生成される。"
+        ],
         "normal_item": true,
         "aram_item": false
     },
@@ -3841,6 +4384,10 @@
         },
         "depth": 3,
         "id": 3504,
+        "passives": [
+            "<passive>サンクティファイ<\/passive><br>味方に体力回復効果またはシールドを付与すると、6秒間、自身とその味方の両方が強化され、攻撃速度が<attackSpeed>25%<\/attackSpeed>増加して、<magicDamage>20の魔法ダメージ<\/magicDamage> <OnHit>通常攻撃時効果<\/OnHit>を与える。"
+        ],
+        "actives": [],
         "role": [
             "Support"
         ],
@@ -3872,6 +4419,10 @@
         },
         "depth": 3,
         "id": 3508,
+        "passives": [
+            "<passive>エッセンスドレイン<\/passive><br>通常攻撃で<scaleMana>マナ<\/scaleMana> <OnHit>通常攻撃時効果<\/OnHit>が回復する。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -3901,6 +4452,11 @@
         },
         "depth": 3,
         "id": 3742,
+        "passives": [
+            "<passive>シップレッカー<\/passive><br>移動中に増加移動速度を獲得する。次の通常攻撃が増加した移動速度のエネルギーを放出して物理ダメージを与える。<br><br>",
+            "<passive>不沈<\/passive><br>スロウ効果の移動速度低下量が軽減される。"
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Tank"
@@ -3930,6 +4486,13 @@
         },
         "depth": 3,
         "id": 3748,
+        "passives": [
+            "<passive>なぎ払い<\/passive><br>通常攻撃が追加で<physicalDamage>0の物理ダメージ<\/physicalDamage> <OnHit>通常攻撃時効果<\/OnHit>を与え、対象の背後にいる敵に<physicalDamage>0の物理ダメージ<\/physicalDamage>を与える。<br><br>",
+            "<passive>「なぎ払い」<\/passive>が対象および衝撃波が当たった周囲の敵に追加物理ダメージを与える。"
+        ],
+        "actives": [
+            "<active>巨大な三日月<\/active><br>次の通常攻撃時、"
+        ],
         "role": [
             "Fighter",
             "Tank"
@@ -3960,6 +4523,8 @@
         },
         "depth": 2,
         "id": 3801,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -3994,6 +4559,10 @@
         },
         "depth": 2,
         "id": 3802,
+        "passives": [
+            "<passive>啓発<\/passive><br>レベルアップ時に<scaleMana>最大マナの20%<\/scaleMana>を3秒かけて回復する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -4022,6 +4591,10 @@
         },
         "depth": 2,
         "id": 3803,
+        "passives": [
+            "<passive>久遠<\/passive><br>チャンピオンからダメージを受けるとマナを回復する。スキルを発動すると時間をかけて体力を回復する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -4047,6 +4620,10 @@
         },
         "depth": 3,
         "id": 3814,
+        "passives": [
+            "<passive>破棄<\/passive><br>スペルシールドを獲得する。"
+        ],
+        "actives": [],
         "role": [
             "Assassin"
         ],
@@ -4068,6 +4645,8 @@
         ],
         "stats": [],
         "id": 3865,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": false,
         "destination": 3866
@@ -4092,6 +4671,15 @@
             "基本マナ自動回復": "50%"
         },
         "id": 3866,
+        "passives": [
+            "<passive>クエスト<\/passive><br>このアイテムで800ゴールドを獲得すると<rarityGeneric>「ルーニック コンパス」<\/rarityGeneric>にアップグレードされる。",
+            "<passive>20<\/passive>秒ごとにチャージを1つ獲得する(最大",
+            "<passive>3<\/passive>チャージ)。味方チャンピオンが近くにいる場合、チャージを消費してゴールドを獲得できる:<br><li>攻撃スキルまたは通常攻撃でチャンピオンか建造物にダメージを与えると、<keywordMajor>24<\/keywordMajor>(近接) \/ <keywordMajor>22<\/keywordMajor>(遠隔)ゴールド獲得する。<li>手段を問わず、ミニオンを倒すと<keywordMajor>20<\/keywordMajor>ゴールドを獲得し、最も近くの味方チャンピオンもキルゴールドを獲得する。<br><br>"
+        ],
+        "actives": [
+            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <br><br><br><br>",
+            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+        ],
         "normal_item": true,
         "aram_item": false,
         "destination": 3867
@@ -4123,6 +4711,12 @@
             "基本マナ自動回復": "75%"
         },
         "id": 3867,
+        "passives": [
+            "<passive>アップグレード<\/passive> <br>このアイテムは<rarityLegendary>「ブラッドソング」<\/rarityLegendary>、<rarityLegendary>「セレスティアル オポジション」<\/rarityLegendary>、<rarityLegendary>「ドリーム メーカー」<\/rarityLegendary>、<rarityLegendary>「ザズ＝ザクのレルムスパイク」<\/rarityLegendary>、または<rarityLegendary>「至点のソリ」<\/rarityLegendary>に無料でアップグレードできる。<br><br>"
+        ],
+        "actives": [
+            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <br><br>"
+        ],
         "normal_item": true,
         "aram_item": false
     },
@@ -4149,6 +4743,12 @@
         },
         "depth": 2,
         "id": 3869,
+        "passives": [
+            "<passive>山の祝福<\/passive> <br>「祝福」状態になって、チャンピオンから受けるダメージを軽減する。この効果はチャンピオンからダメージを受けた後、2秒間持続する。<br><br><br><br>"
+        ],
+        "actives": [
+            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+        ],
         "role": [
             "Support"
         ],
@@ -4178,6 +4778,15 @@
         },
         "depth": 2,
         "id": 3870,
+        "passives": [
+            "<passive>ドリーム メーカー<\/passive><br>時間経過で",
+            "<passive>「青の夢の泡沫」<\/passive>と",
+            "<passive>「紫の夢の泡沫」<\/passive>を1つずつ獲得する。味方に体力回復効果またはシールドを付与すると、その味方に両方の",
+            "<passive>「夢の泡沫」<\/passive>を吹き付けて強化する。対象は被ダメージが軽減され、与ダメージが増加する。<br><br>"
+        ],
+        "actives": [
+            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+        ],
         "role": [
             "Support"
         ],
@@ -4207,6 +4816,12 @@
         },
         "depth": 2,
         "id": 3871,
+        "passives": [
+            "<passive>ヴォイドの爆発<\/passive><br>スキルでダメージを与えると爆発が起こり、魔法ダメージと対象の最大体力に応じたダメージを与える。<br><br><br><br>"
+        ],
+        "actives": [
+            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+        ],
         "role": [
             "Support"
         ],
@@ -4236,6 +4851,12 @@
         },
         "depth": 2,
         "id": 3876,
+        "passives": [
+            "<passive>ソリ滑り<\/passive><br>敵チャンピオンに<status>スロウ効果<\/status>または<status>移動不能効果<\/status>を与えると、自身および近くの最も体力の低い味方は、体力と移動速度が増加する。<br><br>"
+        ],
+        "actives": [
+            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+        ],
         "role": [
             "Support"
         ],
@@ -4265,6 +4886,12 @@
         },
         "depth": 2,
         "id": 3877,
+        "passives": [
+            "<passive>追撃<\/passive><br>スキルを使ってから10秒以内に行う次の通常攻撃が、通常攻撃時効果で基本攻撃力の100%にあたる追加物理ダメージを与え、6秒間対象の敵チャンピオンが受けるダメージを増加させる。<br><br><br><br>"
+        ],
+        "actives": [
+            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+        ],
         "role": [
             "Support"
         ],
@@ -4290,6 +4917,10 @@
         "stats": [],
         "depth": 2,
         "id": 3916,
+        "passives": [
+            "<passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -4315,6 +4946,10 @@
         },
         "depth": 3,
         "id": 4005,
+        "passives": [
+            "<passive>調整射撃<\/passive><br>敵チャンピオンに<status>スロウ効果<\/status>または<status>移動不能効果<\/status>を与えた際、対象をマークする。味方チャンピオンが対象を攻撃すると追加ダメージを与え、自身とその味方の移動速度が増加する。"
+        ],
+        "actives": [],
         "role": [
             "Support"
         ],
@@ -4343,6 +4978,10 @@
         },
         "depth": 3,
         "id": 4401,
+        "passives": [
+            "<passive>毅然<\/passive><br>敵チャンピオンから<magicDamage>魔法ダメージ<\/magicDamage>を受けるとスタックを獲得する(最大8スタック)。8スタックある間は、<scaleMR>魔法防御が70<\/scaleMR>、移動速度が10%増加する。"
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -4367,6 +5006,11 @@
         },
         "depth": 3,
         "id": 4628,
+        "passives": [
+            "<passive>ハイパーショット<\/passive><br>射程600以上で非対象指定スキルによりチャンピオンにダメージを与えるか、<status>スロウ効果または移動不能効果<\/status>を与えると、対象を<keywordStealth>可視化<\/keywordStealth>し、その対象に与えるダメージが増加する。<br><br><rules>",
+            "<passive>「ハイパーショット」<\/passive>を発動するスキルもダメージ増加の恩恵を受ける。対象がペットまたは移動不能効果を与えないトラップの場合、この効果は発動しない。範囲効果スキルは設置された最初の瞬間のみ、この効果を発動する。距離の計測はスキルを発動した位置を基準に行われる。<\/rules>"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -4396,6 +5040,10 @@
         },
         "depth": 3,
         "id": 4629,
+        "passives": [
+            "<passive>スペルダンス<\/passive><br>スキルで敵チャンピオンにダメージを与えると、2秒間、<speed>移動速度が0<\/speed>増加する。 "
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -4424,6 +5072,8 @@
         },
         "depth": 2,
         "id": 4630,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -4449,6 +5099,10 @@
         },
         "depth": 2,
         "id": 4632,
+        "passives": [
+            "<passive>破棄<\/passive> (0秒)<br>次に敵から受けるスキルをブロックするスペルシールドを獲得する。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -4473,6 +5127,11 @@
         },
         "depth": 3,
         "id": 4633,
+        "passives": [
+            "<passive>ヴォイドの邪念<\/passive><br>敵チャンピオンとの戦闘中、自身の与えるダメージが毎秒増加する。効果が最大になっている間はオムニヴァンプが増加する。<br><br>",
+            "<passive>ヴォイドの浸食<\/passive><br>増加体力の一定割合を魔力として獲得する。 "
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -4504,6 +5163,10 @@
             "スキルヘイスト": "10"
         },
         "id": 4638,
+        "passives": [
+            "<passive>アーケインキャッシュ<\/passive><br>購入した「コントロール ワード」を最大3個まで保持できる。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": false
     },
@@ -4536,6 +5199,8 @@
         },
         "depth": 2,
         "id": 4642,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -4565,6 +5230,11 @@
         },
         "depth": 2,
         "id": 4643,
+        "passives": [
+            "<passive>アーケインキャッシュ<\/passive><br>購入した「コントロール ワード」を最大3個まで保持できる。<br><br>",
+            "<passive>凝視<\/passive><br>「ステルス ワード」と「コントロール ワード」の設置可能数の上限が1増加する。"
+        ],
+        "actives": [],
         "role": [
             "Support"
         ],
@@ -4590,6 +5260,10 @@
         },
         "depth": 3,
         "id": 4645,
+        "passives": [
+            "<passive>シンダーブルーム<\/passive><br>体力が低下した敵に対する<magicDamage>魔法ダメージ<\/magicDamage>および<trueDamage>確定ダメージ<\/trueDamage>がクリティカルになる。"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -4618,6 +5292,12 @@
         },
         "depth": 3,
         "id": 4646,
+        "passives": [
+            "<passive>ストームレイダー<\/passive> <br>チャンピオンに対して、短時間にその最大体力の25%にあたるダメージを与えると、対象に",
+            "<passive>「スコール」<\/passive>を付与し、移動速度が増加する。<br><br>",
+            "<passive>スコール<\/passive><br>数秒後、対象を攻撃して魔法ダメージを与える。対象がこのダメージを受ける前に倒されると即座に爆発が起こり、広範囲にダメージを与えて、追加ゴールドを獲得する。"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -4647,6 +5327,12 @@
         },
         "depth": 3,
         "id": 6333,
+        "passives": [
+            "<passive>強行突破<\/passive><br>受けたダメージの一定割合を一定時間をかけて受けるようになる。<br><br>",
+            "<passive>拒絶<\/passive><br>ダメージを与えていたチャンピオンが倒されると、",
+            "<passive>「強行突破」<\/passive>の残りダメージが除去されて、数秒かけて体力を回復する。"
+        ],
+        "actives": [],
         "role": [
             "Fighter"
         ],
@@ -4676,6 +5362,10 @@
         },
         "depth": 3,
         "id": 6609,
+        "passives": [
+            "<passive>両断<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間40%の<keyword>「重傷」<\/keyword>を付与する。"
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Assassin"
@@ -4705,6 +5395,10 @@
         },
         "depth": 3,
         "id": 6610,
+        "passives": [
+            "<passive>ライトシールドストライク<\/passive><br>チャンピオンに対する最初の通常攻撃がクリティカルになり、自身の体力を回復する。<br><br><rules>余剰の回復量は一時的な増加体力として獲得できる。<\/rules>"
+        ],
+        "actives": [],
         "role": [
             "Fighter"
         ],
@@ -4734,6 +5428,10 @@
         },
         "depth": 3,
         "id": 6616,
+        "passives": [
+            "<passive>急流<\/passive><br>味方に体力回復効果またはシールドを付与すると、4秒間自身とその味方の<magicDamage>魔力が30<\/magicDamage>、<speed>移動速度が10%<\/speed>増加する。"
+        ],
+        "actives": [],
         "role": [
             "Support"
         ],
@@ -4764,6 +5462,10 @@
         },
         "depth": 3,
         "id": 6617,
+        "passives": [
+            "<passive>星明りの恩寵<\/passive><br>味方への体力回復またはシールド効果が、最も近くにいる味方チャンピオン1体に、元の値の一定割合の効果で連鎖する。"
+        ],
+        "actives": [],
         "role": [
             "Support"
         ],
@@ -4794,6 +5496,12 @@
         },
         "depth": 3,
         "id": 6620,
+        "passives": [
+            "<passive>吸魂<\/passive><br>チャンピオンにダメージを与えると、",
+            "<passive>「魂の断片」<\/passive>を1個獲得する。味方に体力回復効果またはシールドを付与すると",
+            "<passive>「魂の断片」<\/passive>をすべて消費して、断片の数に応じてその味方の体力を回復し、最も近くにいる敵チャンピオンには魔法ダメージを与える。<br><br>"
+        ],
+        "actives": [],
         "role": [
             "Support"
         ],
@@ -4821,6 +5529,10 @@
         },
         "depth": 3,
         "id": 6621,
+        "passives": [
+            "<passive>ファーストライト<\/passive><br>基本マナ自動回復100%ごとに、<healing>体力回復量およびシールド量が2%<\/healing>、<scaleAP>魔力が10<\/scaleAP>増加する。"
+        ],
+        "actives": [],
         "role": [
             "Support"
         ],
@@ -4851,6 +5563,13 @@
         },
         "depth": 3,
         "id": 6631,
+        "passives": [
+            "<passive>なぎ払い<\/passive><br>通常攻撃が周囲の敵に物理ダメージを与える。<br><br>",
+            "<passive>短気<\/passive><br><physicalDamage>物理ダメージ<\/physicalDamage>を与えると移動速度が増加する。<br><br>"
+        ],
+        "actives": [
+            "<active>破壊の衝撃波<\/active><br>周囲の敵に物理ダメージと<status>スロウ効果<\/status>を与え、命中したチャンピオン1体ごとに増加移動速度を得る。移動中に使用できる。"
+        ],
         "role": [
             "Fighter"
         ],
@@ -4875,6 +5594,11 @@
         },
         "depth": 3,
         "id": 6653,
+        "passives": [
+            "<passive>苦悶<\/passive><br>スキルでダメージを与えると敵を炎上させる。<br><br>",
+            "<passive>重苦<\/passive><br>敵チャンピオンと戦闘状態の間、与えるダメージが毎秒増加する。 "
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -4902,6 +5626,10 @@
         },
         "depth": 3,
         "id": 6655,
+        "passives": [
+            "<passive>発射<\/passive><br>ダメージスキルがショットを発射し、対象と周囲の敵に追加ダメージを与える。残りのショットはメインの対象に向かって発射され、低下したダメージを与える。"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -4930,6 +5658,11 @@
         },
         "depth": 3,
         "id": 6657,
+        "passives": [
+            "<passive>時空の超越者<\/passive><br>このアイテムは60秒ごとに付与ステータスの体力、マナ、魔力が増加する。最大スタックになると、チャンピオンレベルが1増加する。<br><br>",
+            "<passive>久遠<\/passive><br>チャンピオンからダメージを受けるとマナが回復する。また、スキルを発動すると、消費したマナの一定割合にあたる体力を回復する。"
+        ],
+        "actives": [],
         "role": [
             "Mage"
         ],
@@ -4959,6 +5692,10 @@
         },
         "depth": 2,
         "id": 6660,
+        "passives": [
+            "<passive>猛火<\/passive><br>ダメージを受けるかダメージを与えると、周囲の敵に毎秒魔法ダメージを与える(ミニオンとモンスターに対しては与えるダメージが増加する)。"
+        ],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -4987,6 +5724,10 @@
         },
         "depth": 3,
         "id": 6662,
+        "passives": [
+            "<passive>追撃<\/passive><br>スキル使用後、次の通常攻撃が強化されて追加ダメージを与え、2秒間、凍てつくゾーンを発生させる。このゾーンに入った敵は、<status>スロウ効果<\/status>を受ける。"
+        ],
+        "actives": [],
         "role": [
             "Fighter",
             "Tank"
@@ -5019,6 +5760,11 @@
         },
         "depth": 3,
         "id": 6664,
+        "passives": [
+            "<passive>猛火<\/passive><br>ダメージを受けるかダメージを与えると、周囲の敵に魔法ダメージを与える。<br><br>",
+            "<passive>荒涼<\/passive><br>敵をキルすると、その周囲に魔法ダメージを与える。<br><br>"
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -5048,6 +5794,10 @@
         },
         "depth": 3,
         "id": 6665,
+        "passives": [
+            "<passive>強靭なるヴォイドの子ら<\/passive><br>チャンピオンとの戦闘中に強化されて、戦闘終了まで<scaleArmor>物理防御<\/scaleArmor>と<scaleMR>魔法防御<\/scaleMR>が増加する。"
+        ],
+        "actives": [],
         "role": [
             "Tank"
         ],
@@ -5080,6 +5830,8 @@
         },
         "depth": 2,
         "id": 6670,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -5106,6 +5858,10 @@
         },
         "depth": 3,
         "id": 6672,
+        "passives": [
+            "<passive>打倒<\/passive><br>通常攻撃が3回ごとに、通常攻撃時効果で対象の減少体力に応じた追加物理ダメージを与える。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -5131,6 +5887,10 @@
         },
         "depth": 3,
         "id": 6673,
+        "passives": [
+            "<passive>ライフライン<\/passive><br>体力が一定割合未満になるダメージを受けると、シールドを獲得する。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -5159,6 +5919,10 @@
         },
         "depth": 3,
         "id": 6675,
+        "passives": [
+            "<passive>至上<\/passive><br>通常攻撃でアルティメット以外のスキルのクールダウンが短縮される。"
+        ],
+        "actives": [],
         "role": [
             "Marksman"
         ],
@@ -5187,6 +5951,11 @@
         },
         "depth": 3,
         "id": 6676,
+        "passives": [
+            "<passive>死<\/passive><br>体力が5%未満のチャンピオンにとどめを刺す。<br><br>",
+            "<passive>税金<\/passive><br>チャンピオンをキルした際、追加で<gold>25ゴールド<\/gold>を獲得する。"
+        ],
+        "actives": [],
         "role": [
             "Marksman",
             "Assassin"
@@ -5220,6 +5989,8 @@
         },
         "depth": 2,
         "id": 6690,
+        "passives": [],
+        "actives": [],
         "normal_item": true,
         "aram_item": true
     },
@@ -5244,6 +6015,10 @@
         },
         "depth": 3,
         "id": 6692,
+        "passives": [
+            "<passive>沈まぬ月<\/passive><br>2秒以内に3つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加ダメージを与え、自身はシールドを獲得する。<br><br>"
+        ],
+        "actives": [],
         "role": [
             "Fighter"
         ],
@@ -5272,6 +6047,11 @@
         },
         "depth": 3,
         "id": 6694,
+        "passives": [
+            "<passive>敵意<\/passive><br>物理防御貫通が0増加する。<br><br>",
+            "<passive>厳寒<\/passive><br>攻撃スキルが、体力50%未満の敵に1秒間30%の<status>スロウ効果<\/status>を与える。"
+        ],
+        "actives": [],
         "role": [
             "Assassin"
         ],
@@ -5297,6 +6077,10 @@
         },
         "depth": 3,
         "id": 6695,
+        "passives": [
+            "<passive>盾崩し<\/passive><br>敵チャンピオンにダメージを与えると、対象が獲得するシールドの耐久値を低下させる。「盾崩し」の効果を受けていない敵にダメージを与えた場合は、対象が受けているすべてのシールドの耐久値を低下させる。"
+        ],
+        "actives": [],
         "role": [
             "Assassin"
         ],
@@ -5324,6 +6108,10 @@
         },
         "depth": 3,
         "id": 6696,
+        "passives": [
+            "<passive>流転<\/passive><br>ダメージを与えてから3秒以内にそのチャンピオンが倒されるたびに、アルティメットスキルの合計クールダウンの一部が解消される。"
+        ],
+        "actives": [],
         "role": [
             "Assassin"
         ],
@@ -5353,6 +6141,10 @@
         },
         "depth": 3,
         "id": 6697,
+        "passives": [
+            "<passive>エミネンス<\/passive><br>キルを獲得すると、キルしたチャンピオンの数に応じて一時的に攻撃力が増加する。"
+        ],
+        "actives": [],
         "role": [
             "Assassin"
         ],
@@ -5382,6 +6174,12 @@
         },
         "depth": 3,
         "id": 6698,
+        "passives": [
+            "<passive>なぎ払い<\/passive><br>通常攻撃が追加ダメージ <OnHit>通常攻撃時効果<\/OnHit>を与え、衝撃波を発生させて対象の背後の敵にダメージを与える。<br><br>"
+        ],
+        "actives": [
+            "<active>異端の斬撃<\/active><br>周囲の敵に物理ダメージを与える。体力が低下している敵に対しては、このダメージが増加する。"
+        ],
         "role": [
             "Assassin"
         ],
@@ -5412,6 +6210,11 @@
         },
         "depth": 3,
         "id": 6699,
+        "passives": [
+            "<passive>刺激<\/passive><br>ダッシュするかステルス状態になると、エネルギー充填状態のスタックが速く溜まる。<br><br>",
+            "<passive>ファーマメント<\/passive><br>エネルギー充填状態の通常攻撃が敵に追加物理ダメージを与え、スロウ効果を付与する。"
+        ],
+        "actives": [],
         "role": [
             "Assassin"
         ],
@@ -5440,6 +6243,11 @@
         },
         "depth": 3,
         "id": 6701,
+        "passives": [
+            "<passive>臨戦態勢<\/passive><br>チャンピオンとの非戦闘状態が続くと、脅威が増加する。この脅威はチャンピオンにダメージを与えてから3秒間持続する。<br><br>",
+            "<passive>採集<\/passive><br>ダメージを与えてから3秒以内にチャンピオンを倒すと、移動速度が増加する。増加した移動速度は効果時間中に徐々に元に戻る。"
+        ],
+        "actives": [],
         "role": [
             "Assassin"
         ],
@@ -5470,6 +6278,10 @@
         },
         "depth": 3,
         "id": 8020,
+        "passives": [
+            "<passive>荒廃<\/passive><br>周囲の敵チャンピオンの魔法防御を低下させる。この効果を与えた敵の数に応じて魔法防御を獲得する。"
+        ],
+        "actives": [],
         "role": [
             "Tank",
             "Support"
