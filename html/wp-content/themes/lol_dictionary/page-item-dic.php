@@ -96,7 +96,8 @@ get_header(); ?>
 					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
 						<?php if (has_post_thumbnail()) : ?>
 							<?php the_post_thumbnail('thumbnail'); ?>
-							<p class="name"><?php the_title(); ?></p>
+							<div class="name"><?php the_title(); ?></div>
+							<div class="content"><?php the_content(); ?></div>
 						<?php endif; ?>
 					</li>
 					<?php endif; ?>
