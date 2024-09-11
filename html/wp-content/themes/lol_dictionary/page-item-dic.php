@@ -14,6 +14,8 @@ get_header(); ?>
 			<div class="p-item-tags-select">
 				<label class="p-item-tags-select__label" for="tags">絞り込み：</label>
 				<select class="p-item-tags-select__dropdown js-tag-dropdown" id="tags">
+					<option value="All">すべて</option>
+					<hr>
 					<option value="体力">体力</option>
 					<option value="マナ">マナ</option>
 					<option value="攻撃力">攻撃力</option>
@@ -67,6 +69,7 @@ get_header(); ?>
 		$the_query = new WP_Query($args);
 
 		if ($the_query->have_posts()) : ?>
+
 			<ul class="p-item-list">
 				<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 					<?php

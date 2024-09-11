@@ -2,49 +2,54 @@
 //  src/js/item_tab_button.js
 // ============================================================
 
-function choiceRole(buttonRole) {
+let choicedRole = 'Fighter';
+let choicedTag = 'All';
+
+// role ボタンクリック
+const roleButtonList = document.querySelectorAll('.js-role-button');
+roleButtonList.forEach((roleButton) => {
+    // ボタンをクリック時
+    roleButton.addEventListener('click', function() {
+        // ボタンのハイライト切り替え
+        roleButtonList.forEach((button) => {
+            button.classList.remove('is-choiced');
+        });
+        this.classList.add('is-choiced');
+
+        // 選択した role でフィルタリング
+        choicedRole = roleButton.dataset.role;
+        filterItems();
+    });
+});
+
+// tag ドロップダウン選択
+const tagSelect = document.querySelector('.js-tag-dropdown');
+tagSelect.addEventListener('change', () => {
+    choicedTag = tagSelect.value;
+    filterItems();
+});
+
+// アイテムのフィルタリング
+const filterItems = () => {    
     const items = document.querySelectorAll('.js-item');
+    items.forEach((item) => {
+        const itemRoleList = item.dataset.role;
+        const itemTagList = item.dataset.tag;
 
-    items.forEach(item => {
-        const itemRoles = item.getAttribute('data-role').split(',');
-
-        if (itemRoles.includes(buttonRole) || buttonRole === 'All') {
+        if (
+            (itemRoleList.includes(choicedRole) || choicedRole === 'All') &&
+            (itemTagList.includes(choicedTag) || choicedTag === 'All')
+        ) {
             item.classList.add('is-show');
         } else {
             item.classList.remove('is-show');
         }
     });
-}
 
-document.addEventListener('DOMContentLoaded', function() {
-    // js-role-button を押すと、そのボタンがもつ data-role に対応する要素を表示する
-    const buttons = document.querySelectorAll('.js-role-button');
-    buttons.forEach(button => {
-        button.addEventListener('click', function() {
-            buttons.forEach(button => {
-                button.classList.remove('is-choiced');
-            });
-            button.classList.add('is-choiced');
-            choiceRole(button.getAttribute('data-role'));
-        });
-    });
+    console.log('role:', choicedRole, 'tag:', choicedTag);
+};
 
-    // js-dropdown を押すと、そのボタンがもつ data-tag に対応する要素を表示する
-    const dropdown = document.querySelector('.js-tag-dropdown');
-    dropdown.addEventListener('change', function() {
-        const items = document.querySelectorAll('.js-item');
-
-        items.forEach(item => {
-            const itemTags = item.getAttribute('data-tag').split(',');
-            if (itemTags.includes(dropdown.value)) {
-                item.classList.add('is-show');
-            } else {
-                item.classList.remove('is-show');
-            }
-        });
-    });
-
-
-    // 初期表示
-    choiceRole('Fighter');
+// 初期表示
+addEventListener('DOMContentLoaded', () => {
+    filterItems();
 });
