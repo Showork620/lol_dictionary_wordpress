@@ -69,7 +69,10 @@ get_header(); ?>
 		$the_query = new WP_Query($args);
 
 		if ($the_query->have_posts()) : ?>
-
+			<div class="p-item-notfound js-item-notfound">
+				アイテムが見つかりません。
+				<button class="p-item-notfound__unfilter-button js-unfilter-button">絞り込みを解除</button>
+			</div>
 			<ul class="p-item-list">
 				<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 					<?php

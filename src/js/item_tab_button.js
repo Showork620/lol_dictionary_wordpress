@@ -5,6 +5,27 @@
 let choicedRole = 'Fighter';
 let choicedTag = 'All';
 
+// アイテムが見つからない時に表示
+const itemNotfound = document.querySelector('.js-item-notfound');
+const unfilterButton = document.querySelector('.js-unfilter-button');
+// フィルタ解除ボタンクリック
+unfilterButton.addEventListener('click', () => {
+    choicedRole = 'All';
+    choicedTag = 'All';
+
+    roleButtonList.forEach((roleButton) => {
+        if(roleButton.dataset.role === 'All') {
+            roleButton.classList.add('is-choiced');
+        } else {
+            roleButton.classList.remove('is-choiced');
+        }
+    });
+    tagSelect.value = 'All';
+
+    itemNotfound.classList.remove('is-show');
+    filterItems();
+});
+
 // role ボタンクリック
 const roleButtonList = document.querySelectorAll('.js-role-button');
 roleButtonList.forEach((roleButton) => {
@@ -32,6 +53,8 @@ tagSelect.addEventListener('change', () => {
 // アイテムのフィルタリング
 const filterItems = () => {    
     const items = document.querySelectorAll('.js-item');
+    let itemShowCount = 0;
+
     items.forEach((item) => {
         const itemRoleList = item.dataset.role;
         const itemTagList = item.dataset.tag;
@@ -41,15 +64,22 @@ const filterItems = () => {
             (itemTagList.includes(choicedTag) || choicedTag === 'All')
         ) {
             item.classList.add('is-show');
+            itemShowCount++;
         } else {
             item.classList.remove('is-show');
         }
     });
-
-    console.log('role:', choicedRole, 'tag:', choicedTag);
+    
+    // アイテムが見つからない時に「notfound」表示
+    if (itemShowCount === 0) {
+        itemNotfound.classList.add('is-show');
+    }
 };
 
 // 初期表示
 addEventListener('DOMContentLoaded', () => {
     filterItems();
 });
+
+
+// tab選択関数
