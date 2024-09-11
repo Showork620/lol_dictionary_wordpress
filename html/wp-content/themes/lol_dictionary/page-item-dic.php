@@ -11,7 +11,7 @@ get_header(); ?>
 <main id="main" class="l-main">
 	<section class="l-section">
 		<div class="p-item-search-group">
-			<?php 
+			<?php // TODO: 別ファイルから参照する.
 			$item_tags_option_html = '
 				<option value="All">すべて</option>
 				<hr>
@@ -56,9 +56,8 @@ get_header(); ?>
 			</div>
 			<ul class="p-item-role-nav">
 			<?php
-			// TODO: 別ファイルから参照する（Role, TAGS の配列）
+			// TODO: 別ファイルから参照する.
 			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
-			$TAGS = ["abilityhaste","active","armor","armorpenetration","attackspeed","aura","boots","consumable","cooldownreduction","criticalstrike","damage","goldper","health","healthregen","jungle","lane","lifesteal","magicpenetration","magicresist","mana","ManaRegen","NonbootsMovement","OnHit","Slow","SpellBlock","SpellDamage","SpellVamp","Stealth","Tenacity","Trinket","Vision"];
 
 			foreach ($ROLES as $role) : ?>
 				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
@@ -71,7 +70,6 @@ get_header(); ?>
 			</ul>
 		</div>
 		<?php
-		// post_type が items の投稿を取得
 		$args = array(
 			'post_type' => 'items',
 			'posts_per_page' => -1,
