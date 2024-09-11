@@ -14,7 +14,7 @@ unfilterButton.addEventListener('click', () => {
     choicedTag = 'All';
 
     roleButtonList.forEach((roleButton) => {
-        if(roleButton.dataset.role === 'All') {
+        if (roleButton.dataset.role === 'All') {
             roleButton.classList.add('is-choiced');
         } else {
             roleButton.classList.remove('is-choiced');
@@ -51,13 +51,13 @@ tagSelect.addEventListener('change', () => {
 });
 
 // アイテムのフィルタリング
-const filterItems = () => {    
+const filterItems = () => {
     const items = document.querySelectorAll('.js-item');
     let itemShowCount = 0;
 
     items.forEach((item) => {
-        const itemRoleList = item.dataset.role;
-        const itemTagList = item.dataset.tag;
+        const itemRoleList = item.dataset.role ? item.dataset.role.split(',') : [];
+        const itemTagList = item.dataset.tag ? item.dataset.tag.split(',') : [];
 
         if (
             (itemRoleList.includes(choicedRole) || choicedRole === 'All') &&
@@ -69,10 +69,12 @@ const filterItems = () => {
             item.classList.remove('is-show');
         }
     });
-    
+
     // アイテムが見つからない時に「notfound」表示
     if (itemShowCount === 0) {
         itemNotfound.classList.add('is-show');
+    } else {
+        itemNotfound.classList.remove('is-show');
     }
 };
 
@@ -80,6 +82,3 @@ const filterItems = () => {
 addEventListener('DOMContentLoaded', () => {
     filterItems();
 });
-
-
-// tab選択関数
