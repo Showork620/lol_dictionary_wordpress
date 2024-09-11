@@ -24,9 +24,13 @@
 
     &__item {
         width: 100%;
-        display: flex;
+        display: none;
         flex-direction: column;
         gap: 5px;
+
+        &.is-show {
+            display: flex;
+        }
     }
 
     &__item > .wp-post-image {
@@ -46,23 +50,81 @@
     }
 }
 
+.p-item-search-group {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.p-item-tags-select {
+    position: relative;
+    display: grid;
+    grid-template-columns: 6em 1fr;
+    align-items: center;
+
+    
+    &::after {
+        // プルダウンの三角形を作成
+        content: "";
+        display: block;
+        width: 0.9em;
+        height: 0.9em;
+        border-right: 3px solid var(--color-gold);
+        border-bottom: 3px solid var(--color-gold);
+        position: absolute;
+        right: 16px;
+        top: 40%;
+        transform: translateY(-50%) rotate(45deg);
+        
+        @include mixin.sm {
+            width: 0.8em;
+            height: 0.8em;
+            border-right: 2px solid var(--color-gold);
+            border-bottom: 2px solid var(--color-gold);
+            right: 15px;
+        }
+    }
+
+    &__label {
+        font-size: 14px;
+        color: var(--color-white);
+    }
+
+    &__dropdown {
+        width: 100%;
+        padding-block: 6px;
+        padding-inline: 10px;
+        border: 2px solid var(--color-gold);
+        border-radius: 3px;
+        background-color: rgb(from var(--color-white) r g b / 0.1);
+        color: var(--color-white);
+        font-size: 14px;
+    
+        @include mixin.sm {
+            border: 1px solid var(--color-gold);
+            font-size: 14px;
+        }
+    }
+}
+
 .p-item-role-nav {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     justify-content: space-around;
     gap: 3px;
+    margin-top: 10px;
 
     &__item {
         width: 80%;
         margin-inline: auto;
         --bottom-line-height: 4px;
-        padding-bottom: var(--bottom-line-height);
+        padding-bottom: calc(var(--bottom-line-height) + 5px);
 
         .button {
             width: 100%;
             display: grid;
             place-items: center;
-            padding-block: 5px;
+            padding-block: 5px 10px;
             opacity: 0.5;
             transition: all 0.3s;
 
@@ -72,8 +134,31 @@
             }
         }
         .icon {
-            width: 30px;
+            width: 24px;
             height: auto;
         }
+    }
+}
+
+.p-item-notfound {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(from var(--color-white) r g b / 0.5);
+    padding-block: 20px;
+
+    &.is-show {
+        display: flex;
+    }
+
+    &__unfilter-button {
+        display: block;
+        margin-top: 10px;
+        color: var(--color-white);
+        background-color: rgb(from var(--color-white) r g b / 0.1);
+        border: 1px solid var(--color-gold);
+        padding: 5px;
+        text-align: center;
     }
 }
