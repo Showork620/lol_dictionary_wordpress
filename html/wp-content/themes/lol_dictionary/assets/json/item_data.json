@@ -1876,7 +1876,7 @@
     },
     "3072": {
         "name": "ブラッドサースター",
-        "description": "<mainText><stats>攻撃力<attention>80<\/attention><br>ライフ スティール<attention>18%<\/attention><\/stats><br><br><passive>イコルシールド<\/passive><br>ライフスティールで最大体力を超えて回復した余剰の体力が、最大での耐久値のシールドに変換される。<\/mainText>",
+        "description": "<mainText><stats>攻撃力<attention>80<\/attention><br>ライフ スティール<attention>15%<\/attention><\/stats><br><br><passive>イコルシールド<\/passive><br>ライフスティールで最大体力を超えて回復した余剰の体力が、最大での耐久値のシールドに変換される。<\/mainText>",
         "colloq": ";The Bloodthirster;bt;かつぼうのちけん;ぶらっでぃさーすたー;ブラッディサースター;びーてぃー;ビーティー;渇望の血剣;katsubounochikenn;katubounotikenn;katsubounochiken;katsubounotiken",
         "from": [
             "1038",
@@ -4081,7 +4081,7 @@
     },
     "4645": {
         "name": "シャドウフレイム",
-        "description": "<mainText><stats>魔力<attention>120<\/attention><br>魔法防御貫通<attention>12<\/attention><\/stats><br><br><passive>シンダーブルーム<\/passive><br>体力が低下した敵に対する<magicDamage>魔法ダメージ<\/magicDamage>および<trueDamage>確定ダメージ<\/trueDamage>がクリティカルになる。<\/mainText>",
+        "description": "<mainText><stats>魔力<attention>115<\/attention><br>魔法防御貫通<attention>15<\/attention><\/stats><br><br><passive>シンダーブルーム<\/passive><br>体力が低下した敵に対する<magicDamage>魔法ダメージ<\/magicDamage>および<trueDamage>確定ダメージ<\/trueDamage>がクリティカルになる。<\/mainText>",
         "colloq": "",
         "from": [
             "3145",
@@ -4103,7 +4103,7 @@
     },
     "4646": {
         "name": "ストームサージ",
-        "description": "<mainText><stats>魔力<attention>95<\/attention><br>魔法防御貫通<attention>10<\/attention><br>移動速度<attention>8%<\/attention><\/stats><br><br><passive>ストームレイダー<\/passive> <br>チャンピオンに対して、短時間にその最大体力の35%にあたるダメージを与えると、対象に<passive>「スコール」<\/passive>を付与し、移動速度が増加する。<br><br><passive>スコール<\/passive><br>数秒後、対象を攻撃して魔法ダメージを与える。対象がこのダメージを受ける前に倒されると即座に爆発が起こり、広範囲にダメージを与えて、追加ゴールドを獲得する。<\/mainText>",
+        "description": "<mainText><stats>魔力<attention>95<\/attention><br>魔法防御貫通<attention>15<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>ストームレイダー<\/passive> <br>チャンピオンに対して、短時間にその最大体力の25%にあたるダメージを与えると、対象に<passive>「スコール」<\/passive>を付与し、移動速度が増加する。<br><br><passive>スコール<\/passive><br>数秒後、対象を攻撃して魔法ダメージを与える。対象がこのダメージを受ける前に倒されると即座に爆発が起こり、広範囲にダメージを与えて、追加ゴールドを獲得する。<\/mainText>",
         "colloq": "",
         "from": [
             "3145",
@@ -4347,13 +4347,13 @@
     },
     "6655": {
         "name": "ルーデン コンパニオン",
-        "description": "<mainText><stats>魔力<attention>95<\/attention><br>マナ<attention>600<\/attention><br>スキルヘイスト<attention>25<\/attention><\/stats><br><br><passive>発射<\/passive><br>ダメージスキルがショットを発射し、対象と周囲の敵に追加ダメージを与える。残りのショットはメインの対象に向かって発射され、低下したダメージを与える。<\/mainText>",
+        "description": "<mainText><stats>魔力<attention>100<\/attention><br>マナ<attention>600<\/attention><br>スキルヘイスト<attention>20<\/attention><\/stats><br><br><passive>発射<\/passive><br>ダメージスキルがショットを発射し、対象と周囲の敵に追加ダメージを与える。残りのショットはメインの対象に向かって発射され、低下したダメージを与える。<\/mainText>",
         "colloq": "",
         "from": [
             "3802",
             "3145"
         ],
-        "gold": 2900,
+        "gold": 2850,
         "tags": [
             "魔力",
             "マナ",
