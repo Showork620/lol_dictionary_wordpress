@@ -24,9 +24,13 @@
 
     &__item {
         width: 100%;
-        display: flex;
+        display: none;
         flex-direction: column;
         gap: 5px;
+
+        &.is-show {
+            display: flex;
+        }
     }
 
     &__item > .wp-post-image {

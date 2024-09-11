@@ -13,7 +13,7 @@ get_header(); ?>
 		<div class="p-item-search-group">
 			<div class="p-item-tags-select">
 				<label class="p-item-tags-select__label" for="tags">絞り込み：</label>
-				<select class="p-item-tags-select__dropdown" id="tags">
+				<select class="p-item-tags-select__dropdown js-tag-dropdown" id="tags">
 					<option value="体力">体力</option>
 					<option value="マナ">マナ</option>
 					<option value="攻撃力">攻撃力</option>
