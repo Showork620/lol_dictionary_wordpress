@@ -97,6 +97,9 @@ $TAGS_TRANSLATE = array(
 	"Vision" => "視界"
 );
 
+// stats用キーワード
+$STATS_KEYWORD = ["体力", "マナ", "攻撃力", "物理防御", "魔法防御", "移動速度", "攻撃速度", "スキルヘイスト", "クリティカル率", "脅威", "物理防御貫通", "魔法防御貫通", "ライフ スティール", "基本体力自動回復", "基本マナ自動回復", "回復効果およびシールド量", "行動妨害耐性"];
+
 // アイテムデータを取得
 function getOriginItemData($preUrl) {
 	$url = "{$preUrl}item.json";
@@ -135,7 +138,29 @@ foreach ($ITEMDATA as $key => &$item) {
 
 	// プロパティの追加
 	$item['id'] = $key;
-	$item['has_detail'] = is_numeric(strpos($item['description'], '<passive>')) || is_numeric(strpos($item['description'], '<active>'));
+
+	// statsの追加
+	$description = $item['description'];
+	$stats_list = [];
+	
+	foreach ($STATS_KEYWORD as $stats_key) {
+		$stats_value = null;
+		$first_split = explode($stats_key, $description);
+	
+		if (isset($first_split[1])) {
+			$second_split = explode('<attention>', $first_split[1]);
+	
+			if (isset($second_split[1])) {
+				$stats_value = explode('</attention>', $second_split[1])[0];
+			}
+		}
+	
+		if ($stats_value !== null) {
+			$stats_list[$stats_key] = $stats_value;
+		}
+	}
+	
+	$item['stats'] = $stats_list;
 
 	// $ITEMS_ROLE に含まれる場合、role プロパティを追加 role プロパティは 数値の配列 で 複数持つことができる
 	foreach ($ITEMS_ROLE as $role => $items) {
@@ -164,7 +189,6 @@ foreach ($ITEMDATA as $key => &$item) {
 	// 不要なプロパティを削除
 	unset($item['image']);
 	unset($item['maps']);
-	unset($item['stats']);
 	unset($item['effect']);
 	unset($item['plaintext']);
 	unset($item['hideFromAll']);

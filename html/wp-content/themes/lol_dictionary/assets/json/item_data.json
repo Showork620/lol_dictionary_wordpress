@@ -18,8 +18,10 @@
         "tags": [
             "ブーツ"
         ],
+        "stats": {
+            "移動速度": "25"
+        },
         "id": 1001,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -36,8 +38,11 @@
         "tags": [
             "マナ回復効果"
         ],
+        "stats": {
+            "マナ": "50%",
+            "基本マナ自動回復": "50%"
+        },
         "id": 1004,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -54,8 +59,11 @@
         "tags": [
             "体力回復効果"
         ],
+        "stats": {
+            "体力": "100%",
+            "基本体力自動回復": "100%"
+        },
         "id": 1006,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -81,9 +89,11 @@
         "tags": [
             "体力"
         ],
+        "stats": {
+            "体力": "350"
+        },
         "depth": 2,
         "id": 1011,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -104,8 +114,10 @@
         "tags": [
             "クリティカル"
         ],
+        "stats": {
+            "クリティカル率": "15%"
+        },
         "id": 1018,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -125,8 +137,8 @@
         "tags": [
             "魔力"
         ],
+        "stats": [],
         "id": 1026,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -143,8 +155,10 @@
         "tags": [
             "マナ"
         ],
+        "stats": {
+            "マナ": "250"
+        },
         "id": 1027,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -182,8 +196,10 @@
         "tags": [
             "体力"
         ],
+        "stats": {
+            "体力": "150"
+        },
         "id": 1028,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -209,8 +225,10 @@
         "tags": [
             "物理防御"
         ],
+        "stats": {
+            "物理防御": "15"
+        },
         "id": 1029,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -234,9 +252,11 @@
         "tags": [
             "物理防御"
         ],
+        "stats": {
+            "物理防御": "40"
+        },
         "depth": 2,
         "id": 1031,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -261,8 +281,10 @@
         "tags": [
             "スペルブロック"
         ],
+        "stats": {
+            "魔法防御": "20"
+        },
         "id": 1033,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -296,8 +318,10 @@
             "攻撃力",
             "初期購入アイテム"
         ],
+        "stats": {
+            "攻撃力": "10"
+        },
         "id": 1036,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -329,8 +353,10 @@
         "tags": [
             "攻撃力"
         ],
+        "stats": {
+            "攻撃力": "25"
+        },
         "id": 1037,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -352,8 +378,10 @@
         "tags": [
             "攻撃力"
         ],
+        "stats": {
+            "攻撃力": "40"
+        },
         "id": 1038,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -377,8 +405,10 @@
         "tags": [
             "攻撃速度"
         ],
+        "stats": {
+            "攻撃速度": "10%"
+        },
         "id": 1042,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -402,9 +432,11 @@
             "攻撃速度",
             "通常攻撃時効果"
         ],
+        "stats": {
+            "攻撃速度": "15%"
+        },
         "depth": 2,
         "id": 1043,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -435,8 +467,8 @@
         "tags": [
             "魔力"
         ],
+        "stats": [],
         "id": 1052,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -459,9 +491,12 @@
             "攻撃力",
             "ライフスティール"
         ],
+        "stats": {
+            "攻撃力": "15",
+            "ライフ スティール": "7%"
+        },
         "depth": 2,
         "id": 1053,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -475,8 +510,10 @@
             "体力回復効果",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "110"
+        },
         "id": 1054,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -491,8 +528,12 @@
             "オムニヴァンプ",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "80",
+            "攻撃力": "10",
+            "ライフ スティール": "3%"
+        },
         "id": 1055,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -507,8 +548,10 @@
             "マナ回復効果",
             "魔力"
         ],
+        "stats": {
+            "体力": "90"
+        },
         "id": 1056,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -530,9 +573,11 @@
         "tags": [
             "スペルブロック"
         ],
+        "stats": {
+            "魔法防御": "50"
+        },
         "depth": 2,
         "id": 1057,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -553,8 +598,8 @@
         "tags": [
             "魔力"
         ],
+        "stats": [],
         "id": 1058,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -571,8 +616,10 @@
             "魔力",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "50"
+        },
         "id": 1082,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -586,8 +633,10 @@
             "通常攻撃時効果",
             "初期購入アイテム"
         ],
+        "stats": {
+            "攻撃力": "7"
+        },
         "id": 1083,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -599,8 +648,8 @@
         "tags": [
             "ジャングル用アイテム"
         ],
+        "stats": [],
         "id": 1101,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -612,8 +661,8 @@
         "tags": [
             "ジャングル用アイテム"
         ],
+        "stats": [],
         "id": 1102,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -625,8 +674,8 @@
         "tags": [
             "ジャングル用アイテム"
         ],
+        "stats": [],
         "id": 1103,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -642,8 +691,8 @@
             "初期購入アイテム",
             "ジャングル用アイテム"
         ],
+        "stats": [],
         "id": 2003,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -655,8 +704,8 @@
         "inStore": false,
         "gold": 50,
         "tags": [],
+        "stats": [],
         "id": 2010,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -679,9 +728,12 @@
             "物理防御",
             "攻撃力"
         ],
+        "stats": {
+            "攻撃力": "15",
+            "物理防御": "30"
+        },
         "depth": 2,
         "id": 2019,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -705,9 +757,13 @@
             "スキルヘイスト",
             "物理防御貫通"
         ],
+        "stats": {
+            "攻撃力": "25",
+            "スキルヘイスト": "10",
+            "脅威": "5"
+        },
         "depth": 2,
         "id": 2020,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -733,9 +789,12 @@
             "体力",
             "攻撃力"
         ],
+        "stats": {
+            "体力": "250",
+            "攻撃力": "15"
+        },
         "depth": 2,
         "id": 2021,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -760,8 +819,10 @@
         "tags": [
             "スキルヘイスト"
         ],
+        "stats": {
+            "スキルヘイスト": "5"
+        },
         "id": 2022,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -780,8 +841,8 @@
             "初期購入アイテム",
             "ジャングル用アイテム"
         ],
+        "stats": [],
         "id": 2031,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -795,8 +856,10 @@
             "体力回復効果",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "150"
+        },
         "id": 2051,
-        "has_detail": true,
         "normal_item": false,
         "aram_item": true
     },
@@ -808,8 +871,8 @@
         "inStore": false,
         "gold": 0,
         "tags": [],
+        "stats": [],
         "id": 2052,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -826,8 +889,8 @@
             "ステルス",
             "視界"
         ],
+        "stats": [],
         "id": 2055,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -848,9 +911,14 @@
             "移動速度（ブーツ以外）",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "125%",
+            "移動速度": "5%",
+            "スキルヘイスト": "15",
+            "基本マナ自動回復": "125%"
+        },
         "depth": 3,
         "id": 2065,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -869,8 +937,8 @@
             "移動速度（ブーツ以外）",
             "行動妨害耐性"
         ],
+        "stats": [],
         "id": 2138,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -885,8 +953,8 @@
             "マナ回復効果",
             "魔力"
         ],
+        "stats": [],
         "id": 2139,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -902,8 +970,8 @@
             "ライフスティール",
             "オムニヴァンプ"
         ],
+        "stats": [],
         "id": 2140,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -917,8 +985,8 @@
             "攻撃力",
             "消費アイテム"
         ],
+        "stats": [],
         "id": 2141,
-        "has_detail": true,
         "normal_item": false,
         "aram_item": true
     },
@@ -931,8 +999,8 @@
         "tags": [
             "消費アイテム"
         ],
+        "stats": [],
         "id": 2150,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -947,8 +1015,8 @@
             "消費アイテム",
             "行動妨害耐性"
         ],
+        "stats": [],
         "id": 2151,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -962,8 +1030,8 @@
             "消費アイテム",
             "行動妨害耐性"
         ],
+        "stats": [],
         "id": 2152,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -986,9 +1054,11 @@
             "魔力",
             "発動効果あり"
         ],
+        "stats": {
+            "物理防御": "25"
+        },
         "depth": 2,
         "id": 2420,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1001,8 +1071,10 @@
         ],
         "gold": 1600,
         "tags": [],
+        "stats": {
+            "物理防御": "25"
+        },
         "id": 2421,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1024,8 +1096,10 @@
         "tags": [
             "ブーツ"
         ],
+        "stats": {
+            "移動速度": "25"
+        },
         "id": 2422,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -1042,9 +1116,12 @@
             "体力",
             "攻撃力"
         ],
+        "stats": {
+            "体力": "500",
+            "攻撃力": "40"
+        },
         "depth": 3,
         "id": 2501,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Tank"
@@ -1068,9 +1145,13 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "400",
+            "物理防御": "55",
+            "スキルヘイスト": "10"
+        },
         "depth": 3,
         "id": 2502,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -1092,9 +1173,12 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "600",
+            "スキルヘイスト": "25"
+        },
         "depth": 3,
         "id": 2503,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -1115,9 +1199,13 @@
             "スペルブロック",
             "体力回復効果"
         ],
+        "stats": {
+            "体力": "400",
+            "魔法防御": "80",
+            "基本体力自動回復": "150%"
+        },
         "depth": 3,
         "id": 2504,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -1139,9 +1227,9 @@
         "tags": [
             "魔力"
         ],
+        "stats": [],
         "depth": 2,
         "id": 2508,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1159,9 +1247,13 @@
             "物理防御",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "体力": "200",
+            "物理防御": "40",
+            "移動速度": "5%"
+        },
         "depth": 3,
         "id": 3002,
-        "has_detail": true,
         "role": [
             "Tank",
             "Support"
@@ -1184,9 +1276,12 @@
             "マナ",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "600",
+            "スキルヘイスト": "25"
+        },
         "depth": 3,
         "id": 3003,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -1211,9 +1306,13 @@
             "通常攻撃時効果",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "500",
+            "攻撃力": "35",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 3004,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Marksman",
@@ -1239,9 +1338,12 @@
             "攻撃速度",
             "ブーツ"
         ],
+        "stats": {
+            "移動速度": "45",
+            "攻撃速度": "30%"
+        },
         "depth": 2,
         "id": 3006,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -1256,9 +1358,11 @@
         "tags": [
             "ブーツ"
         ],
+        "stats": {
+            "移動速度": "60"
+        },
         "depth": 2,
         "id": 3009,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1276,9 +1380,11 @@
         "tags": [
             "ブーツ"
         ],
+        "stats": {
+            "移動速度": "35"
+        },
         "depth": 2,
         "id": 3010,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false,
         "destination": 3013
@@ -1295,10 +1401,12 @@
         "tags": [
             "ブーツ"
         ],
+        "stats": {
+            "移動速度": "45"
+        },
         "depth": 3,
         "specialRecipe": 3010,
         "id": 3013,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -1314,9 +1422,13 @@
             "ブーツ",
             "魔法防御貫通"
         ],
+        "stats": {
+            "魔法防御": "15",
+            "移動速度": "45",
+            "魔法防御貫通": "15"
+        },
         "depth": 2,
         "id": 3020,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -1339,9 +1451,13 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "250",
+            "物理防御": "20",
+            "スキルヘイスト": "10"
+        },
         "depth": 2,
         "id": 3024,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -1358,9 +1474,12 @@
             "物理防御",
             "攻撃力"
         ],
+        "stats": {
+            "攻撃力": "55",
+            "物理防御": "45"
+        },
         "depth": 3,
         "id": 3026,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Marksman",
@@ -1383,9 +1502,12 @@
             "クリティカル",
             "攻撃力"
         ],
+        "stats": {
+            "攻撃力": "80",
+            "クリティカル率": "25%"
+        },
         "depth": 2,
         "id": 3031,
-        "has_detail": false,
         "role": [
             "Marksman"
         ],
@@ -1405,9 +1527,12 @@
             "攻撃力",
             "クリティカル"
         ],
+        "stats": {
+            "攻撃力": "65",
+            "クリティカル率": "25%"
+        },
         "depth": 3,
         "id": 3032,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -1429,9 +1554,14 @@
             "クリティカル",
             "物理防御貫通"
         ],
+        "stats": {
+            "攻撃力": "35",
+            "物理防御": "35%",
+            "クリティカル率": "25%",
+            "物理防御貫通": "35%"
+        },
         "depth": 3,
         "id": 3033,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -1456,9 +1586,13 @@
             "物理防御貫通",
             "攻撃力"
         ],
+        "stats": {
+            "攻撃力": "20",
+            "物理防御": "18%",
+            "物理防御貫通": "18%"
+        },
         "depth": 2,
         "id": 3035,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -1476,9 +1610,14 @@
             "クリティカル",
             "物理防御貫通"
         ],
+        "stats": {
+            "攻撃力": "45",
+            "物理防御": "35%",
+            "クリティカル率": "25%",
+            "物理防御貫通": "35%"
+        },
         "depth": 3,
         "id": 3036,
-        "has_detail": false,
         "role": [
             "Marksman"
         ],
@@ -1497,8 +1636,11 @@
             "マナ",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "1000",
+            "スキルヘイスト": "25"
+        },
         "id": 3040,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1515,9 +1657,11 @@
             "魔力",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "体力": "100"
+        },
         "depth": 2,
         "id": 3041,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -1538,8 +1682,12 @@
             "通常攻撃時効果",
             "物理防御貫通"
         ],
+        "stats": {
+            "マナ": "860",
+            "攻撃力": "35",
+            "スキルヘイスト": "15"
+        },
         "id": 3042,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1563,9 +1711,12 @@
             "攻撃力",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "体力": "200",
+            "攻撃力": "15"
+        },
         "depth": 2,
         "id": 3044,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1584,9 +1735,13 @@
             "攻撃速度",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "移動速度": "12%",
+            "攻撃速度": "60%",
+            "クリティカル率": "25%"
+        },
         "depth": 3,
         "id": 3046,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -1606,9 +1761,12 @@
             "物理防御",
             "ブーツ"
         ],
+        "stats": {
+            "物理防御": "25",
+            "移動速度": "45"
+        },
         "depth": 2,
         "id": 3047,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1628,9 +1786,14 @@
             "物理防御",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "300",
+            "物理防御": "25",
+            "魔法防御": "25",
+            "スキルヘイスト": "10"
+        },
         "depth": 3,
         "id": 3050,
-        "has_detail": true,
         "role": [
             "Tank",
             "Support"
@@ -1658,9 +1821,12 @@
             "攻撃力",
             "攻撃速度"
         ],
+        "stats": {
+            "攻撃力": "20",
+            "攻撃速度": "20%"
+        },
         "depth": 2,
         "id": 3051,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -1679,9 +1845,12 @@
             "攻撃力",
             "行動妨害耐性"
         ],
+        "stats": {
+            "体力": "400",
+            "行動妨害耐性": "20%"
+        },
         "depth": 3,
         "id": 3053,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -1706,9 +1875,11 @@
             "通常攻撃時効果",
             "スキルヘイスト"
         ],
+        "stats": {
+            "スキルヘイスト": "10"
+        },
         "depth": 2,
         "id": 3057,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1728,9 +1899,14 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "450",
+            "魔法防御": "60",
+            "スキルヘイスト": "10",
+            "基本体力自動回復": "100%"
+        },
         "depth": 3,
         "id": 3065,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -1755,9 +1931,12 @@
             "体力",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "体力": "150",
+            "移動速度": "5%"
+        },
         "depth": 2,
         "id": 3066,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -1797,9 +1976,12 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "200",
+            "スキルヘイスト": "10"
+        },
         "depth": 2,
         "id": 3067,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -1818,9 +2000,13 @@
             "周囲効果",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "350",
+            "物理防御": "50",
+            "スキルヘイスト": "10"
+        },
         "depth": 3,
         "id": 3068,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -1841,8 +2027,10 @@
             "マナ",
             "マナ回復効果"
         ],
+        "stats": {
+            "マナ": "240"
+        },
         "id": 3070,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -1865,9 +2053,13 @@
             "物理防御貫通",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "400",
+            "攻撃力": "55",
+            "スキルヘイスト": "20"
+        },
         "depth": 3,
         "id": 3071,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -1888,9 +2080,12 @@
             "攻撃力",
             "ライフスティール"
         ],
+        "stats": {
+            "攻撃力": "80",
+            "ライフ スティール": "15%"
+        },
         "depth": 3,
         "id": 3072,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -1914,9 +2109,13 @@
             "移動速度（ブーツ以外）",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "300",
+            "攻撃力": "55",
+            "攻撃速度": "25%"
+        },
         "depth": 3,
         "id": 3073,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -1940,9 +2139,13 @@
             "通常攻撃時効果",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "70",
+            "スキルヘイスト": "20",
+            "ライフ スティール": "12%"
+        },
         "depth": 3,
         "id": 3074,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -1962,9 +2165,12 @@
             "体力",
             "物理防御"
         ],
+        "stats": {
+            "体力": "350",
+            "物理防御": "70"
+        },
         "depth": 3,
         "id": 3075,
-        "has_detail": true,
         "role": [
             "Tank",
             "Support"
@@ -1987,9 +2193,11 @@
         "tags": [
             "物理防御"
         ],
+        "stats": {
+            "物理防御": "30"
+        },
         "depth": 2,
         "id": 3076,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -2012,9 +2220,11 @@
             "攻撃力",
             "通常攻撃時効果"
         ],
+        "stats": {
+            "攻撃力": "20"
+        },
         "depth": 2,
         "id": 3077,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -2037,9 +2247,14 @@
             "移動速度（ブーツ以外）",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "300",
+            "攻撃力": "45",
+            "攻撃速度": "33%",
+            "スキルヘイスト": "20"
+        },
         "depth": 3,
         "id": 3078,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -2062,9 +2277,11 @@
         "tags": [
             "物理防御"
         ],
+        "stats": {
+            "物理防御": "40"
+        },
         "depth": 2,
         "id": 3082,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -2083,9 +2300,13 @@
             "体力回復効果",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "体力": "1000",
+            "移動速度": "5%",
+            "基本体力自動回復": "100%"
+        },
         "depth": 3,
         "id": 3083,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -2106,9 +2327,12 @@
             "体力",
             "体力回復効果"
         ],
+        "stats": {
+            "体力": "900",
+            "基本体力自動回復": "200%"
+        },
         "depth": 3,
         "id": 3084,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -2130,9 +2354,13 @@
             "通常攻撃時効果",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "移動速度": "7%",
+            "攻撃速度": "40%",
+            "クリティカル率": "25%"
+        },
         "depth": 3,
         "id": 3085,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -2161,9 +2389,13 @@
             "攻撃速度",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "移動速度": "5%",
+            "攻撃速度": "15%",
+            "クリティカル率": "15%"
+        },
         "depth": 2,
         "id": 3086,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -2183,9 +2415,13 @@
             "通常攻撃時効果",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "攻撃力": "55",
+            "移動速度": "5%",
+            "攻撃速度": "45%"
+        },
         "depth": 3,
         "id": 3087,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -2204,9 +2440,9 @@
         "tags": [
             "魔力"
         ],
+        "stats": [],
         "depth": 2,
         "id": 3089,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -2229,9 +2465,13 @@
             "通常攻撃時効果",
             "行動妨害耐性"
         ],
+        "stats": {
+            "魔法防御": "50",
+            "攻撃速度": "55%",
+            "行動妨害耐性": "20%"
+        },
         "depth": 3,
         "id": 3091,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Marksman"
@@ -2253,9 +2493,13 @@
             "攻撃速度",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "移動速度": "7%",
+            "攻撃速度": "35%",
+            "クリティカル率": "25%"
+        },
         "depth": 3,
         "id": 3094,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -2278,9 +2522,12 @@
             "移動速度（ブーツ以外）",
             "スキルヘイスト"
         ],
+        "stats": {
+            "移動速度": "8%",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 3100,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -2300,9 +2547,11 @@
             "スペルブロック",
             "魔力"
         ],
+        "stats": {
+            "魔法防御": "50"
+        },
         "depth": 3,
         "id": 3102,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -2324,9 +2573,15 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "200",
+            "マナ": "100%",
+            "スキルヘイスト": "15",
+            "基本マナ自動回復": "100%",
+            "回復効果およびシールド量": "15%"
+        },
         "depth": 3,
         "id": 3107,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -2361,9 +2616,11 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "スキルヘイスト": "10"
+        },
         "depth": 2,
         "id": 3108,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -2386,9 +2643,14 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "200",
+            "物理防御": "40",
+            "スキルヘイスト": "10",
+            "基本体力自動回復": "100%"
+        },
         "depth": 3,
         "id": 3109,
-        "has_detail": true,
         "role": [
             "Tank",
             "Support"
@@ -2412,9 +2674,13 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "400",
+            "物理防御": "65",
+            "スキルヘイスト": "20"
+        },
         "depth": 3,
         "id": 3110,
-        "has_detail": true,
         "role": [
             "Tank",
             "Support"
@@ -2436,9 +2702,13 @@
             "スペルブロック",
             "行動妨害耐性"
         ],
+        "stats": {
+            "魔法防御": "20",
+            "移動速度": "45",
+            "行動妨害耐性": "30%"
+        },
         "depth": 2,
         "id": 3111,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -2453,8 +2723,10 @@
             "マナ回復効果",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "150"
+        },
         "id": 3112,
-        "has_detail": true,
         "normal_item": false,
         "aram_item": true
     },
@@ -2477,9 +2749,11 @@
             "移動速度（ブーツ以外）",
             "魔力"
         ],
+        "stats": {
+            "移動速度": "5%"
+        },
         "depth": 2,
         "id": 3113,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -2502,9 +2776,13 @@
         "tags": [
             "マナ回復効果"
         ],
+        "stats": {
+            "マナ": "50%",
+            "基本マナ自動回復": "50%",
+            "回復効果およびシールド量": "8%"
+        },
         "depth": 2,
         "id": 3114,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -2524,9 +2802,12 @@
             "通常攻撃時効果",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃速度": "50%",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 3115,
-        "has_detail": true,
         "role": [
             "Marksman",
             "Mage"
@@ -2549,9 +2830,11 @@
             "魔力",
             "スロウ効果"
         ],
+        "stats": {
+            "体力": "400"
+        },
         "depth": 3,
         "id": 3116,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -2570,9 +2853,11 @@
         "tags": [
             "ブーツ"
         ],
+        "stats": {
+            "移動速度": "25"
+        },
         "depth": 2,
         "id": 3117,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -2590,9 +2875,12 @@
             "マナ",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "600",
+            "スキルヘイスト": "25"
+        },
         "depth": 3,
         "id": 3118,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -2614,9 +2902,13 @@
             "マナ",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "550",
+            "マナ": "500",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 3119,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -2636,8 +2928,12 @@
             "マナ",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "550",
+            "マナ": "860",
+            "スキルヘイスト": "15"
+        },
         "id": 3121,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -2656,9 +2952,11 @@
         "tags": [
             "攻撃力"
         ],
+        "stats": {
+            "攻撃力": "15"
+        },
         "depth": 2,
         "id": 3123,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -2678,9 +2976,12 @@
             "魔力",
             "通常攻撃時効果"
         ],
+        "stats": {
+            "攻撃力": "35",
+            "攻撃速度": "25%"
+        },
         "depth": 3,
         "id": 3124,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -2723,9 +3024,12 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "20",
+            "スキルヘイスト": "10"
+        },
         "depth": 2,
         "id": 3133,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -2757,9 +3061,12 @@
             "攻撃力",
             "物理防御貫通"
         ],
+        "stats": {
+            "攻撃力": "20",
+            "脅威": "10"
+        },
         "depth": 2,
         "id": 3134,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -2776,9 +3083,12 @@
             "魔法防御貫通",
             "魔力"
         ],
+        "stats": {
+            "魔法防御": "40%",
+            "魔法防御貫通": "40%"
+        },
         "depth": 3,
         "id": 3135,
-        "has_detail": false,
         "role": [
             "Mage"
         ],
@@ -2799,9 +3109,13 @@
             "魔法防御貫通",
             "スキルヘイスト"
         ],
+        "stats": {
+            "魔法防御": "30%",
+            "スキルヘイスト": "15",
+            "魔法防御貫通": "30%"
+        },
         "depth": 3,
         "id": 3137,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -2826,9 +3140,13 @@
             "移動速度（ブーツ以外）",
             "行動妨害耐性"
         ],
+        "stats": {
+            "攻撃力": "40",
+            "魔法防御": "50",
+            "ライフ スティール": "10%"
+        },
         "depth": 3,
         "id": 3139,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -2851,9 +3169,11 @@
             "発動効果あり",
             "スペルブロック"
         ],
+        "stats": {
+            "魔法防御": "30"
+        },
         "depth": 2,
         "id": 3140,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -2872,9 +3192,12 @@
             "移動速度（ブーツ以外）",
             "物理防御貫通"
         ],
+        "stats": {
+            "攻撃力": "60",
+            "脅威": "18"
+        },
         "depth": 3,
         "id": 3142,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -2896,9 +3219,12 @@
             "発動効果あり",
             "スロウ効果"
         ],
+        "stats": {
+            "体力": "350",
+            "物理防御": "75"
+        },
         "depth": 3,
         "id": 3143,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -2922,9 +3248,11 @@
         "tags": [
             "攻撃速度"
         ],
+        "stats": {
+            "攻撃速度": "20%"
+        },
         "depth": 2,
         "id": 3144,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -2949,9 +3277,9 @@
         "tags": [
             "魔力"
         ],
+        "stats": [],
         "depth": 2,
         "id": 3145,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -2972,9 +3300,11 @@
             "体力",
             "魔力"
         ],
+        "stats": {
+            "体力": "200"
+        },
         "depth": 2,
         "id": 3147,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -2995,9 +3325,12 @@
             "移動速度（ブーツ以外）",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "400",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 3152,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -3021,9 +3354,13 @@
             "スロウ効果",
             "通常攻撃時効果"
         ],
+        "stats": {
+            "攻撃力": "50",
+            "攻撃速度": "25%",
+            "ライフ スティール": "10%"
+        },
         "depth": 3,
         "id": 3153,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Marksman"
@@ -3049,9 +3386,12 @@
             "攻撃力",
             "スペルブロック"
         ],
+        "stats": {
+            "攻撃力": "25",
+            "魔法防御": "30"
+        },
         "depth": 2,
         "id": 3155,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -3072,9 +3412,13 @@
             "オムニヴァンプ",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "70",
+            "魔法防御": "40",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 3156,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Marksman",
@@ -3097,9 +3441,11 @@
             "魔力",
             "発動効果あり"
         ],
+        "stats": {
+            "物理防御": "50"
+        },
         "depth": 3,
         "id": 3157,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -3119,9 +3465,12 @@
             "ブーツ",
             "スキルヘイスト"
         ],
+        "stats": {
+            "移動速度": "45",
+            "スキルヘイスト": "15"
+        },
         "depth": 2,
         "id": 3158,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -3140,9 +3489,13 @@
             "攻撃力",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "300",
+            "攻撃力": "55",
+            "スキルヘイスト": "20"
+        },
         "depth": 3,
         "id": 3161,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -3163,9 +3516,11 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 3165,
-        "has_detail": true,
         "role": [
             "Mage",
             "Support"
@@ -3185,9 +3540,12 @@
             "攻撃速度",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "移動速度": "45",
+            "攻撃速度": "45%"
+        },
         "depth": 3,
         "id": 3172,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -3202,8 +3560,12 @@
             "初期購入アイテム",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "150",
+            "攻撃力": "30",
+            "スキルヘイスト": "15"
+        },
         "id": 3177,
-        "has_detail": false,
         "normal_item": false,
         "aram_item": true
     },
@@ -3223,9 +3585,13 @@
             "物理防御貫通",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "50",
+            "スキルヘイスト": "15",
+            "脅威": "15"
+        },
         "depth": 3,
         "id": 3179,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -3247,9 +3613,13 @@
             "攻撃力",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "体力": "350",
+            "攻撃力": "65",
+            "移動速度": "5%"
+        },
         "depth": 3,
         "id": 3181,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -3267,8 +3637,12 @@
             "ライフスティール",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "150",
+            "攻撃力": "25",
+            "ライフ スティール": "5%"
+        },
         "id": 3184,
-        "has_detail": false,
         "normal_item": false,
         "aram_item": true
     },
@@ -3291,9 +3665,14 @@
             "魔法防御",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "200",
+            "物理防御": "30",
+            "魔法防御": "30",
+            "スキルヘイスト": "10"
+        },
         "depth": 3,
         "id": 3190,
-        "has_detail": true,
         "role": [
             "Tank",
             "Support"
@@ -3321,9 +3700,13 @@
             "体力回復効果",
             "スペルブロック"
         ],
+        "stats": {
+            "体力": "200",
+            "魔法防御": "25",
+            "基本体力自動回復": "100%"
+        },
         "depth": 2,
         "id": 3211,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -3344,9 +3727,15 @@
             "行動妨害耐性",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "250",
+            "マナ": "100%",
+            "スキルヘイスト": "15",
+            "基本マナ自動回復": "100%",
+            "回復効果およびシールド量": "12%"
+        },
         "depth": 3,
         "id": 3222,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -3369,9 +3758,12 @@
             "魔法防御貫通",
             "物理防御貫通"
         ],
+        "stats": {
+            "攻撃力": "35",
+            "攻撃速度": "35%"
+        },
         "depth": 3,
         "id": 3302,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Marksman"
@@ -3391,8 +3783,8 @@
             "トリンケット",
             "視界"
         ],
+        "stats": [],
         "id": 3340,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -3406,8 +3798,8 @@
             "トリンケット",
             "視界"
         ],
+        "stats": [],
         "id": 3363,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -3421,8 +3813,8 @@
             "トリンケット",
             "視界"
         ],
+        "stats": [],
         "id": 3364,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -3441,9 +3833,14 @@
             "マナ回復効果",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "マナ": "125%",
+            "移動速度": "8%",
+            "基本マナ自動回復": "125%",
+            "回復効果およびシールド量": "8%"
+        },
         "depth": 3,
         "id": 3504,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -3468,9 +3865,13 @@
             "通常攻撃時効果",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "70",
+            "スキルヘイスト": "25",
+            "クリティカル率": "25%"
+        },
         "depth": 3,
         "id": 3508,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -3493,9 +3894,13 @@
             "スロウ効果",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "体力": "300",
+            "物理防御": "45",
+            "移動速度": "5%"
+        },
         "depth": 3,
         "id": 3742,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Tank"
@@ -3519,9 +3924,12 @@
             "攻撃力",
             "通常攻撃時効果"
         ],
+        "stats": {
+            "体力": "550",
+            "攻撃力": "50"
+        },
         "depth": 3,
         "id": 3748,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Tank"
@@ -3546,9 +3954,12 @@
             "体力",
             "体力回復効果"
         ],
+        "stats": {
+            "体力": "200",
+            "基本体力自動回復": "100%"
+        },
         "depth": 2,
         "id": 3801,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -3577,9 +3988,12 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "300",
+            "スキルヘイスト": "10"
+        },
         "depth": 2,
         "id": 3802,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -3602,9 +4016,12 @@
             "マナ",
             "マナ回復効果"
         ],
+        "stats": {
+            "体力": "350",
+            "マナ": "300"
+        },
         "depth": 2,
         "id": 3803,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -3623,9 +4040,13 @@
             "攻撃力",
             "物理防御貫通"
         ],
+        "stats": {
+            "体力": "250",
+            "攻撃力": "50",
+            "脅威": "15"
+        },
         "depth": 3,
         "id": 3814,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -3645,8 +4066,8 @@
             "獲得ゴールド",
             "初期購入アイテム"
         ],
+        "stats": [],
         "id": 3865,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": false,
         "destination": 3866
@@ -3664,8 +4085,13 @@
             "マナ回復効果",
             "魔力"
         ],
+        "stats": {
+            "体力": "100",
+            "マナ": "50%",
+            "基本体力自動回復": "50%",
+            "基本マナ自動回復": "50%"
+        },
         "id": 3866,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false,
         "destination": 3867
@@ -3690,8 +4116,13 @@
             "マナ回復効果",
             "魔力"
         ],
+        "stats": {
+            "体力": "75%",
+            "マナ": "75%",
+            "基本体力自動回復": "75%",
+            "基本マナ自動回復": "75%"
+        },
         "id": 3867,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -3710,9 +4141,14 @@
             "獲得ゴールド",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "200",
+            "マナ": "75%",
+            "基本体力自動回復": "75%",
+            "基本マナ自動回復": "75%"
+        },
         "depth": 2,
         "id": 3869,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -3734,9 +4170,14 @@
             "獲得ゴールド",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "200",
+            "マナ": "75%",
+            "基本体力自動回復": "75%",
+            "基本マナ自動回復": "75%"
+        },
         "depth": 2,
         "id": 3870,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -3758,9 +4199,14 @@
             "獲得ゴールド",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "200",
+            "マナ": "75%",
+            "基本体力自動回復": "75%",
+            "基本マナ自動回復": "75%"
+        },
         "depth": 2,
         "id": 3871,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -3782,9 +4228,14 @@
             "獲得ゴールド",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "200",
+            "マナ": "75%",
+            "基本体力自動回復": "75%",
+            "基本マナ自動回復": "75%"
+        },
         "depth": 2,
         "id": 3876,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -3806,9 +4257,14 @@
             "獲得ゴールド",
             "初期購入アイテム"
         ],
+        "stats": {
+            "体力": "200",
+            "マナ": "75%",
+            "基本体力自動回復": "75%",
+            "基本マナ自動回復": "75%"
+        },
         "depth": 2,
         "id": 3877,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -3831,9 +4287,9 @@
         "tags": [
             "魔力"
         ],
+        "stats": [],
         "depth": 2,
         "id": 3916,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -3852,9 +4308,13 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "125%",
+            "スキルヘイスト": "20",
+            "基本マナ自動回復": "125%"
+        },
         "depth": 3,
         "id": 4005,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -3876,9 +4336,13 @@
             "スペルブロック",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "体力": "400",
+            "魔法防御": "55",
+            "移動速度": "5%"
+        },
         "depth": 3,
         "id": 4401,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -3898,9 +4362,11 @@
             "魔力",
             "スキルヘイスト"
         ],
+        "stats": {
+            "スキルヘイスト": "20"
+        },
         "depth": 3,
         "id": 4628,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -3923,9 +4389,13 @@
             "移動速度（ブーツ以外）",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "350",
+            "移動速度": "5%",
+            "スキルヘイスト": "25"
+        },
         "depth": 3,
         "id": 4629,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -3948,9 +4418,12 @@
             "魔法防御貫通",
             "魔力"
         ],
+        "stats": {
+            "魔法防御": "13%",
+            "魔法防御貫通": "13%"
+        },
         "depth": 2,
         "id": 4630,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -3971,9 +4444,11 @@
             "スペルブロック",
             "魔力"
         ],
+        "stats": {
+            "魔法防御": "30"
+        },
         "depth": 2,
         "id": 4632,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -3992,9 +4467,12 @@
             "スキルヘイスト",
             "オムニヴァンプ"
         ],
+        "stats": {
+            "体力": "350",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 4633,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -4019,8 +4497,13 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "150",
+            "物理防御": "10",
+            "魔法防御": "15",
+            "スキルヘイスト": "10"
+        },
         "id": 4638,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": false
     },
@@ -4046,9 +4529,13 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "75%",
+            "スキルヘイスト": "10",
+            "基本マナ自動回復": "75%"
+        },
         "depth": 2,
         "id": 4642,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -4070,9 +4557,14 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "250",
+            "物理防御": "25",
+            "魔法防御": "30",
+            "スキルヘイスト": "20"
+        },
         "depth": 2,
         "id": 4643,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -4092,9 +4584,12 @@
             "魔力",
             "魔法防御貫通"
         ],
+        "stats": {
+            "魔法防御": "15",
+            "魔法防御貫通": "15"
+        },
         "depth": 3,
         "id": 4645,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -4116,9 +4611,13 @@
             "移動速度（ブーツ以外）",
             "魔法防御貫通"
         ],
+        "stats": {
+            "魔法防御": "15",
+            "移動速度": "5%",
+            "魔法防御貫通": "15"
+        },
         "depth": 3,
         "id": 4646,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -4141,9 +4640,13 @@
             "攻撃力",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "60",
+            "物理防御": "50",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 6333,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -4166,9 +4669,13 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "250",
+            "攻撃力": "55",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 6609,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Assassin"
@@ -4191,9 +4698,13 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "450",
+            "攻撃力": "45",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 6610,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -4215,9 +4726,14 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "125%",
+            "スキルヘイスト": "15",
+            "基本マナ自動回復": "125%",
+            "回復効果およびシールド量": "8%"
+        },
         "depth": 3,
         "id": 6616,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -4240,9 +4756,14 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "250",
+            "マナ": "125%",
+            "スキルヘイスト": "20",
+            "基本マナ自動回復": "125%"
+        },
         "depth": 3,
         "id": 6617,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -4265,9 +4786,14 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "200",
+            "マナ": "125%",
+            "スキルヘイスト": "20",
+            "基本マナ自動回復": "125%"
+        },
         "depth": 3,
         "id": 6620,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -4288,9 +4814,13 @@
             "魔力",
             "マナ回復効果"
         ],
+        "stats": {
+            "マナ": "100%",
+            "基本マナ自動回復": "100%",
+            "回復効果およびシールド量": "16%"
+        },
         "depth": 3,
         "id": 6621,
-        "has_detail": true,
         "role": [
             "Support"
         ],
@@ -4314,9 +4844,13 @@
             "スロウ効果",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "体力": "450",
+            "攻撃力": "50",
+            "攻撃速度": "30%"
+        },
         "depth": 3,
         "id": 6631,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -4336,9 +4870,11 @@
             "体力",
             "魔力"
         ],
+        "stats": {
+            "体力": "300"
+        },
         "depth": 3,
         "id": 6653,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -4360,9 +4896,12 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "マナ": "600",
+            "スキルヘイスト": "20"
+        },
         "depth": 3,
         "id": 6655,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -4385,9 +4924,12 @@
             "マナ",
             "マナ回復効果"
         ],
+        "stats": {
+            "体力": "400",
+            "マナ": "400"
+        },
         "depth": 3,
         "id": 6657,
-        "has_detail": true,
         "role": [
             "Mage"
         ],
@@ -4411,9 +4953,12 @@
             "体力",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "200",
+            "スキルヘイスト": "5"
+        },
         "depth": 2,
         "id": 6660,
-        "has_detail": true,
         "normal_item": true,
         "aram_item": true
     },
@@ -4435,9 +4980,13 @@
             "通常攻撃時効果",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "300",
+            "物理防御": "50",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 6662,
-        "has_detail": true,
         "role": [
             "Fighter",
             "Tank"
@@ -4462,9 +5011,14 @@
             "魔法防御",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "450",
+            "魔法防御": "40",
+            "スキルヘイスト": "10",
+            "基本体力自動回復": "100%"
+        },
         "depth": 3,
         "id": 6664,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -4487,9 +5041,13 @@
             "物理防御",
             "魔法防御"
         ],
+        "stats": {
+            "体力": "300",
+            "物理防御": "50",
+            "魔法防御": "50"
+        },
         "depth": 3,
         "id": 6665,
-        "has_detail": true,
         "role": [
             "Tank"
         ],
@@ -4516,9 +5074,12 @@
             "攻撃力",
             "クリティカル"
         ],
+        "stats": {
+            "攻撃力": "20",
+            "クリティカル率": "20%"
+        },
         "depth": 2,
         "id": 6670,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -4538,9 +5099,13 @@
             "通常攻撃時効果",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "攻撃力": "50",
+            "移動速度": "5%",
+            "攻撃速度": "40%"
+        },
         "depth": 3,
         "id": 6672,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -4560,9 +5125,12 @@
             "攻撃力",
             "クリティカル"
         ],
+        "stats": {
+            "攻撃力": "55",
+            "クリティカル率": "25%"
+        },
         "depth": 3,
         "id": 6673,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -4584,9 +5152,13 @@
             "攻撃速度",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "移動速度": "7%",
+            "攻撃速度": "40%",
+            "クリティカル率": "25%"
+        },
         "depth": 3,
         "id": 6675,
-        "has_detail": true,
         "role": [
             "Marksman"
         ],
@@ -4608,9 +5180,13 @@
             "クリティカル",
             "物理防御貫通"
         ],
+        "stats": {
+            "攻撃力": "60",
+            "クリティカル率": "25%",
+            "脅威": "12"
+        },
         "depth": 3,
         "id": 6676,
-        "has_detail": true,
         "role": [
             "Marksman",
             "Assassin"
@@ -4638,9 +5214,12 @@
             "攻撃力",
             "移動速度（ブーツ以外）"
         ],
+        "stats": {
+            "攻撃力": "20",
+            "移動速度": "4%"
+        },
         "depth": 2,
         "id": 6690,
-        "has_detail": false,
         "normal_item": true,
         "aram_item": true
     },
@@ -4659,9 +5238,12 @@
             "スキルヘイスト",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "70",
+            "スキルヘイスト": "15"
+        },
         "depth": 3,
         "id": 6692,
-        "has_detail": true,
         "role": [
             "Fighter"
         ],
@@ -4683,9 +5265,13 @@
             "物理防御貫通",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "45",
+            "スキルヘイスト": "15",
+            "脅威": "15"
+        },
         "depth": 3,
         "id": 6694,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -4705,9 +5291,12 @@
             "攻撃力",
             "物理防御貫通"
         ],
+        "stats": {
+            "攻撃力": "55",
+            "脅威": "15"
+        },
         "depth": 3,
         "id": 6695,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -4728,9 +5317,13 @@
             "物理防御貫通",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "55",
+            "スキルヘイスト": "25",
+            "脅威": "18"
+        },
         "depth": 3,
         "id": 6696,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -4753,9 +5346,13 @@
             "物理防御貫通",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "60",
+            "スキルヘイスト": "15",
+            "脅威": "18"
+        },
         "depth": 3,
         "id": 6697,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -4778,9 +5375,13 @@
             "物理防御貫通",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "60",
+            "スキルヘイスト": "20",
+            "脅威": "18"
+        },
         "depth": 3,
         "id": 6698,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -4804,9 +5405,13 @@
             "物理防御貫通",
             "スキルヘイスト"
         ],
+        "stats": {
+            "攻撃力": "55",
+            "スキルヘイスト": "15",
+            "脅威": "18"
+        },
         "depth": 3,
         "id": 6699,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -4828,9 +5433,13 @@
             "移動速度（ブーツ以外）",
             "物理防御貫通"
         ],
+        "stats": {
+            "攻撃力": "55",
+            "移動速度": "5%",
+            "脅威": "18"
+        },
         "depth": 3,
         "id": 6701,
-        "has_detail": true,
         "role": [
             "Assassin"
         ],
@@ -4854,9 +5463,13 @@
             "魔法防御",
             "スキルヘイスト"
         ],
+        "stats": {
+            "体力": "300",
+            "魔法防御": "50",
+            "スキルヘイスト": "10"
+        },
         "depth": 3,
         "id": 8020,
-        "has_detail": true,
         "role": [
             "Tank",
             "Support"
