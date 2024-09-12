@@ -83,8 +83,15 @@ function create_custom_posts_from_json() {
 				// statsの文字列化
 				$stats = '';
 				if (isset($item['stats']) && is_array($item['stats'])) {
+					$stats_count = count($item['stats']);
+					$current_index = 0;
 					foreach ($item['stats'] as $key => $value) {
-						$stats .= $key . ': ' . $value . ', ';
+						$current_index++;
+						if ($current_index === $stats_count) {
+							$stats .= $key . ':' . $value;
+						} else {
+							$stats .= $key . ':' . $value . ',';
+						}
 					}
 				}
 				
