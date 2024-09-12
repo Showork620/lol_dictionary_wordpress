@@ -158,6 +158,12 @@ foreach ($ITEMDATA as $key => &$item) {
 	
 		if ($stats_value !== null) {
 			$stats_list[$stats_key] = $stats_value;
+			
+			// 回復効果およびシールド量 → 回復効果&シールド量 に変換
+			if ($stats_key === "回復効果およびシールド量") {
+				$stats_list["回復効果&シールド量"] = $stats_list[$stats_key];
+				unset($stats_list[$stats_key]);
+			}
 		}
 	}
 	$item['stats'] = $stats_list;
