@@ -150,6 +150,14 @@ foreach ($ITEMDATA as $key => &$item) {
 	
 		if (isset($first_split[1])) {
 			$second_split = explode('<attention>', $first_split[1]);
+
+			//"マナ自動回復","体力自動回復"の包含問題を解決
+			if ($stats_key === "マナ" || $stats_key === "体力") {
+				// $second_split[0] に "自動回復" が含まれていたらスキップ
+				if (strpos($second_split[0], "自動回復") !== false) {
+					continue;
+				}
+			}
 	
 			if (isset($second_split[1])) {
 				$stats_value = explode('</attention>', $second_split[1])[0];
