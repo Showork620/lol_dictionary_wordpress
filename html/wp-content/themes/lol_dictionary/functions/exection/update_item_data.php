@@ -180,20 +180,16 @@ foreach ($ITEMDATA as $key => &$item) {
 	$passive_list = [];
 	$active_list = [];
 
-	// passiveとactiveを抽出
-	preg_match_all('/<passive>(.*?)<\/passive>(.*?)(?=<passive>|<active>|<\/mainText>)/s', $description, $matches);
-	if (!empty($matches[0])) {
+	// passiveとactiveを抽出（ただし "<passive>「xxx」</passive>" は除外）
+	preg_match_all('/<passive>(?!「)(.*?)<\/passive>(.*?)(?=<passive>(?!「)|<active>|<\/mainText>)/s', $description, $matches);	if (!empty($matches[0])) {
 		foreach ($matches[0] as $match) {
-			// <passive>「 で始まるものは引用部分なので無視
-			if(strpos($match, '<passive>「') === false) {
-				$passive_list[] = $match;
-			}
+			$passive_list[] = $match;
 		}
 	}
-	preg_match_all('/<active>(.*?)<\/active>(.*?)(?=<passive>|<active>|<\/mainText>)/s', $description, $matches);
+	preg_match_all('/<active>(.*?)<\/active>(.*?)(?=<passive>(?!「)|<active>|<\/mainText>)/s', $description, $matches);
 	if (!empty($matches[0])) {
 		foreach ($matches[0] as $match) {
-			if (strpos($match, '<active>発動効果') === false && strpos($match, '<active>「') === false) {
+			if (strpos($match, '<active>発動効果') === false) {
 				$active_list[] = $match;
 			}
 		}
