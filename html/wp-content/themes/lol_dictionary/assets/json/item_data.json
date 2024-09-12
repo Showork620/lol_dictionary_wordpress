@@ -1333,8 +1333,7 @@
         "id": 2503,
         "passives": [
             "<passive>悪意の炎<\/passive><br>スキルでダメージを与えると敵を燃やす。モンスターに対しては、このダメージが増加する。<br><br>",
-            "<passive>黒炎<\/passive><br>",
-            "<passive>「悪意の炎」<\/passive>の影響を受けた敵チャンピオン、エピックモンスター、大型モンスター1体ごとに、<scaleAP>魔力<\/scaleAP>が増加する。 "
+            "<passive>黒炎<\/passive><br>"
         ],
         "actives": [],
         "role": [
@@ -2275,8 +2274,7 @@
         "depth": 3,
         "id": 3068,
         "passives": [
-            "<passive>猛火:<\/passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(15 + 増加体力の1.75%)の魔法ダメージ<\/magicDamage>を与える(このダメージはミニオンに対しては25%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に",
-            "<passive>「猛火」<\/passive>で与えるダメージが5秒間10%増加する(最大スタック6)。<br>"
+            "<passive>猛火:<\/passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(15 + 増加体力の1.75%)の魔法ダメージ<\/magicDamage>を与える(このダメージはミニオンに対しては25%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に"
         ],
         "actives": [],
         "role": [
@@ -2305,8 +2303,7 @@
         "id": 3070,
         "passives": [
             "<passive>一点集中:<\/passive> 通常攻撃がミニオンに追加物理ダメージを与える。<li>",
-            "<passive>マナフロー:<\/passive> スキルが対象に命中するとチャージを1つ消費して<scaleMana>増加マナ3<\/scaleMana>を獲得する。対象がチャンピオンだった場合は増加マナが2倍になる。最大360まで増加マナを獲得できる。<br><br><rules>8秒ごとに",
-            "<passive>「マナチャージ」<\/passive>を1つ獲得する(最大4)。<\/rules>"
+            "<passive>マナフロー:<\/passive> スキルが対象に命中するとチャージを1つ消費して<scaleMana>増加マナ3<\/scaleMana>を獲得する。対象がチャンピオンだった場合は増加マナが2倍になる。最大360まで増加マナを獲得できる。<br><br><rules>8秒ごとに"
         ],
         "actives": [],
         "normal_item": true,
@@ -3897,8 +3894,7 @@
         "depth": 3,
         "id": 3156,
         "passives": [
-            "<passive>ライフライン<\/passive><br>魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、魔法ダメージを防ぐシールドを得る。",
-            "<passive>「ライフライン」<\/passive>が発動すると、戦闘終了までオムニヴァンプを獲得する。"
+            "<passive>ライフライン<\/passive><br>魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、魔法ダメージを防ぐシールドを得る。"
         ],
         "actives": [],
         "role": [
@@ -4487,8 +4483,7 @@
         "depth": 3,
         "id": 3748,
         "passives": [
-            "<passive>なぎ払い<\/passive><br>通常攻撃が追加で<physicalDamage>0の物理ダメージ<\/physicalDamage> <OnHit>通常攻撃時効果<\/OnHit>を与え、対象の背後にいる敵に<physicalDamage>0の物理ダメージ<\/physicalDamage>を与える。<br><br>",
-            "<passive>「なぎ払い」<\/passive>が対象および衝撃波が当たった周囲の敵に追加物理ダメージを与える。"
+            "<passive>なぎ払い<\/passive><br>通常攻撃が追加で<physicalDamage>0の物理ダメージ<\/physicalDamage> <OnHit>通常攻撃時効果<\/OnHit>を与え、対象の背後にいる敵に<physicalDamage>0の物理ダメージ<\/physicalDamage>を与える。<br><br>"
         ],
         "actives": [
             "<active>巨大な三日月<\/active><br>次の通常攻撃時、"
@@ -4779,10 +4774,7 @@
         "depth": 2,
         "id": 3870,
         "passives": [
-            "<passive>ドリーム メーカー<\/passive><br>時間経過で",
-            "<passive>「青の夢の泡沫」<\/passive>と",
-            "<passive>「紫の夢の泡沫」<\/passive>を1つずつ獲得する。味方に体力回復効果またはシールドを付与すると、その味方に両方の",
-            "<passive>「夢の泡沫」<\/passive>を吹き付けて強化する。対象は被ダメージが軽減され、与ダメージが増加する。<br><br>"
+            "<passive>ドリーム メーカー<\/passive><br>時間経過で"
         ],
         "actives": [
             "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
@@ -5007,8 +4999,7 @@
         "depth": 3,
         "id": 4628,
         "passives": [
-            "<passive>ハイパーショット<\/passive><br>射程600以上で非対象指定スキルによりチャンピオンにダメージを与えるか、<status>スロウ効果または移動不能効果<\/status>を与えると、対象を<keywordStealth>可視化<\/keywordStealth>し、その対象に与えるダメージが増加する。<br><br><rules>",
-            "<passive>「ハイパーショット」<\/passive>を発動するスキルもダメージ増加の恩恵を受ける。対象がペットまたは移動不能効果を与えないトラップの場合、この効果は発動しない。範囲効果スキルは設置された最初の瞬間のみ、この効果を発動する。距離の計測はスキルを発動した位置を基準に行われる。<\/rules>"
+            "<passive>ハイパーショット<\/passive><br>射程600以上で非対象指定スキルによりチャンピオンにダメージを与えるか、<status>スロウ効果または移動不能効果<\/status>を与えると、対象を<keywordStealth>可視化<\/keywordStealth>し、その対象に与えるダメージが増加する。<br><br><rules>"
         ],
         "actives": [],
         "role": [
@@ -5294,7 +5285,6 @@
         "id": 4646,
         "passives": [
             "<passive>ストームレイダー<\/passive> <br>チャンピオンに対して、短時間にその最大体力の25%にあたるダメージを与えると、対象に",
-            "<passive>「スコール」<\/passive>を付与し、移動速度が増加する。<br><br>",
             "<passive>スコール<\/passive><br>数秒後、対象を攻撃して魔法ダメージを与える。対象がこのダメージを受ける前に倒されると即座に爆発が起こり、広範囲にダメージを与えて、追加ゴールドを獲得する。"
         ],
         "actives": [],
@@ -5329,8 +5319,7 @@
         "id": 6333,
         "passives": [
             "<passive>強行突破<\/passive><br>受けたダメージの一定割合を一定時間をかけて受けるようになる。<br><br>",
-            "<passive>拒絶<\/passive><br>ダメージを与えていたチャンピオンが倒されると、",
-            "<passive>「強行突破」<\/passive>の残りダメージが除去されて、数秒かけて体力を回復する。"
+            "<passive>拒絶<\/passive><br>ダメージを与えていたチャンピオンが倒されると、"
         ],
         "actives": [],
         "role": [
@@ -5497,9 +5486,7 @@
         "depth": 3,
         "id": 6620,
         "passives": [
-            "<passive>吸魂<\/passive><br>チャンピオンにダメージを与えると、",
-            "<passive>「魂の断片」<\/passive>を1個獲得する。味方に体力回復効果またはシールドを付与すると",
-            "<passive>「魂の断片」<\/passive>をすべて消費して、断片の数に応じてその味方の体力を回復し、最も近くにいる敵チャンピオンには魔法ダメージを与える。<br><br>"
+            "<passive>吸魂<\/passive><br>チャンピオンにダメージを与えると、"
         ],
         "actives": [],
         "role": [
