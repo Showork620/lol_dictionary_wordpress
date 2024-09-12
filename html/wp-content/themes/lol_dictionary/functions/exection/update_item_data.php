@@ -226,7 +226,6 @@ foreach ($ITEMDATA as $key => &$item) {
 	unset($item['image']);
 	unset($item['maps']);
 	unset($item['effect']);
-	unset($item['plaintext']);
 	unset($item['hideFromAll']);
 	unset($item['consumed']);
 }

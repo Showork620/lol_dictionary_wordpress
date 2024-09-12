@@ -3,6 +3,7 @@
         "name": "ブーツ",
         "description": "<mainText><stats>移動速度<attention>25<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Boots of Speed;くつ;クツ;ぶーつ;ブーツ;靴;bu-tsu;bu-tu;butsu;butu",
+        "plaintext": "移動速度がわずかに上昇",
         "into": [
             "3005",
             "3047",
@@ -31,6 +32,7 @@
         "name": "フェアリー チャーム",
         "description": "<mainText><stats>基本マナ自動回復<attention>50%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Faerie Charm;ふぇありーちゃーむ;ようせい;フェアリー チャーム;feari-cha-mu;feari-tya-mu;fuearichamu;huearichamu",
+        "plaintext": "マナ自動回復がわずかに上昇",
         "into": [
             "3114",
             "4642",
@@ -53,6 +55,7 @@
         "name": "再生の珠",
         "description": "<mainText><stats>基本体力自動回復<attention>100%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Rejuvenation Bead;さいせいのたま;サイセイノタマ;みどり;ミドリ;再生の珠;saiseinotama",
+        "plaintext": "体力自動回復がわずかに上昇",
         "into": [
             "3109",
             "3211",
@@ -75,6 +78,7 @@
         "name": "ジャイアント ベルト",
         "description": "<mainText><stats>体力<attention>350<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Giant's Belt;じゃいあんとべると;ジャイアント ベルト;jaianntoberuto;zyaianntoberuto;jaiantoberuto",
+        "plaintext": "体力が大幅に上昇",
         "from": [
             "1028"
         ],
@@ -107,6 +111,7 @@
         "name": "アジリティ クローク",
         "description": "<mainText><stats>クリティカル率<attention>15%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Cloak of Agility;くり;あじりてぃくろーく;アジリティ クローク;ajiritexikuro-ku;aziritelikuro-ku;ajiriteikuroku;aziriteikuroku",
+        "plaintext": "クリティカル率がやや上昇",
         "into": [
             "3031",
             "6670",
@@ -133,6 +138,7 @@
         "name": "ブラスティング ワンド",
         "description": "<mainText><stats>魔力<attention>45<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Blasting Wand;850杖;はっぴゃくろくじゅうづえ;はっぴゃくごじゅうづえ;ぶらすてぃんぐわんど;よんじゅうづえ;わんど;ブラスティング ワンド;burasutexinnguwanndo;burasutelinnguwanndo;burasuteinguwando",
+        "plaintext": "魔力がやや上昇",
         "into": [
             "4637",
             "3135",
@@ -158,6 +164,7 @@
         "name": "サファイア クリスタル",
         "description": "<mainText><stats>マナ<attention>250<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Sapphire Crystal;ぶるー;あお;まな;さふぁいあくりすたる;サファイア クリスタル;safaiakurisutaru;safuaiakurisutaru;sahuaiakurisutaru",
+        "plaintext": "マナが上昇",
         "into": [
             "3024",
             "3802",
@@ -180,6 +187,7 @@
         "name": "ルビー クリスタル",
         "description": "<mainText><stats>体力<attention>150<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Ruby Crystal;れっど;あか;へるす;らいふ;るびーくりすたる;ルビー クリスタル;rubi-kurisutaru;rubikurisutaru;rubikurisutaru",
+        "plaintext": "体力が上昇",
         "into": [
             "3742",
             "1011",
@@ -223,6 +231,7 @@
         "name": "クロース アーマー",
         "description": "<mainText><stats>物理防御 <attention>15<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Cloth Armor;くろーすあーまー;クロース アーマー;kuro-sua-ma-;kurosuama",
+        "plaintext": "物理防御がわずかに上昇",
         "into": [
             "2420",
             "1031",
@@ -254,6 +263,7 @@
         "name": "チェイン ベスト",
         "description": "<mainText><stats>物理防御 <attention>40<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Chain Vest;くさり;ちぇいんべすと;チェイン ベスト;cheinnbesuto;tyeinnbesuto;chieinbesuto;tieinbesuto",
+        "plaintext": "物理防御が大幅に上昇",
         "from": [
             "1029"
         ],
@@ -284,6 +294,7 @@
         "name": "ヌルマジック マント",
         "description": "<mainText><stats>魔法防御<attention>20<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Null-Magic Mantle;れじすと;まんとる;なるまじっくまんと;ナルマジックマント;ぬるまじっくまんと;ヌルマジック マント;narumajikkumannto;narumazikkumannto;narumajikkumanto;narumazikkumanto",
+        "plaintext": "魔法防御がわずかに上昇",
         "into": [
             "1057",
             "3140",
@@ -314,6 +325,7 @@
         "name": "ロング ソード",
         "description": "<mainText><stats>攻撃力<attention>10<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Long Sword;ろんそ;ロンソ;けん;ケン;剣;ろんぐそーど;ロング ソード;ronnguso-do;rongusodo",
+        "plaintext": "攻撃力がわずかに上昇",
         "into": [
             "2015",
             "1053",
@@ -353,6 +365,7 @@
         "name": "ピッケル",
         "description": "<mainText><stats>攻撃力<attention>25<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Pickaxe;ぴっける;ぴっくあっくす;ピックアックス;ピッケル;pikkeru",
+        "plaintext": "攻撃力がやや上昇",
         "into": [
             "6333",
             "2020",
@@ -390,6 +403,7 @@
         "name": "B. F. ソード",
         "description": "<mainText><stats>攻撃力<attention>40<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";bf;B. F. Sword;bf;びーえふそーど;ビーエフソード;BFそーど;BFソード;ｂ．ｆ．ソード;ｂｆソード;B.Fそーど;B.Fソード;B.F そーど;B.F ソード;B.F.そーど;B.F.ソード;B.F. そーど;B.F. ソード;b.f.sodo;b.f.so-do;b.f. sodo;b.f. so-do;B.F.so-do;B.F.sodo;BFsodo;BFso-do;BF sodo;BF so-do;B.Fsodo;B.Fso-do;B.F sodo;B.F so-do",
+        "plaintext": "攻撃力が大幅に上昇",
         "into": [
             "3031",
             "6671",
@@ -417,6 +431,7 @@
         "name": "ダガー",
         "description": "<mainText><stats>攻撃速度<attention>10%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Dagger;だがー;ダガー;daga-;daga",
+        "plaintext": "攻撃速度がわずかに上昇",
         "into": [
             "1043",
             "3086",
@@ -446,6 +461,7 @@
         "name": "リカーブ ボウ",
         "description": "<mainText><stats>攻撃速度<attention>15%<\/attention><\/stats><br><br>通常攻撃時効果で追加物理ダメージを与える。<\/mainText>",
         "colloq": ";Recurve Bow;ゆみ;ぼう;ボウ;りかーぶぼう;リカーブ ボウ;rika-bubou;rikabubou",
+        "plaintext": "攻撃速度が大幅に上昇",
         "from": [
             "1042"
         ],
@@ -476,6 +492,7 @@
         "name": "増魔の書",
         "description": "<mainText><stats>魔力<attention>20<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Amplifying Tome;amptome;ほん;ぞうまのしょ;あんぷ;アンプ;増魔の書;zoumanosho;zoumanosyo",
+        "plaintext": "魔力がわずかに上昇",
         "into": [
             "2420",
             "3145",
@@ -512,6 +529,7 @@
         "name": "ヴァンパイア セプター",
         "description": "<mainText><stats>攻撃力<attention>15<\/attention><br>ライフ スティール<attention>7%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Vampiric Scepter;ヴぁんぴりっく;ゔぁんぴりっく;ヴァンピリック;ばんぴりっく;らいふすてぃーる;ゔぁんぱいあせぷたー;ヴぁんぱいあせぷたー;ヴァンパイア セプター;vannpaiaseputa-;vanpaiaseputa",
+        "plaintext": "通常攻撃で体力回復",
         "from": [
             "1036"
         ],
@@ -542,6 +560,7 @@
         "name": "ドラン シールド",
         "description": "<mainText><stats>体力<attention>110<\/attention><\/stats><br><br><passive>一点集中<\/passive><li>通常攻撃がミニオンに<physicalDamage>5の物理ダメージ<\/physicalDamage>を追加で与える。<li>5秒ごとに<healing>4の体力<\/healing>を自動回復する。チャンピオン、大型ジャングルモンスター、エピックジャングルモンスターからダメージを受けると、8秒かけて最大<healing>45の体力<\/healing>を回復する。自身の体力が低下していると回復量が増加する。<\/mainText>",
         "colloq": ";Doran's Shield;dshield;どらし;どらんしーるど;ドラン シールド;dorannshi-rudo;dorannsi-rudo;doranshirudo;doransirudo",
+        "plaintext": "防御強化向けの初期アイテム",
         "gold": 450,
         "tags": [
             "体力",
@@ -563,6 +582,7 @@
         "name": "ドラン ブレード",
         "description": "<mainText><stats>攻撃力<attention>10<\/attention><br>体力<attention>80<\/attention><br>ライフ スティール<attention>3%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Doran's Blade;dblade;どらけん;どらんぶれいど;ドランブレイド;どらんぶれーど;ドラン ブレード;dorannbure-do;doranburedo",
+        "plaintext": "物理攻撃系チャンピオン向けの初期アイテム",
         "gold": 450,
         "tags": [
             "体力",
@@ -585,6 +605,7 @@
         "name": "ドラン リング",
         "description": "<mainText><stats>魔力<attention>18<\/attention><br>体力<attention>90<\/attention><\/stats><br><br><passive>修復<\/passive><li>毎秒マナを回復する。マナを回復できない場合は、代わりに体力を自動回復する。<li>通常攻撃がミニオンに追加物理ダメージ与える。<\/mainText>",
         "colloq": ";Doran's Ring;dring;どらりん;りんぐ;どらんりんぐ;ドラン リング;dorannrinngu;doranringu",
+        "plaintext": "魔法攻撃系チャンピオン向けの初期アイテム",
         "gold": 400,
         "tags": [
             "体力",
@@ -608,6 +629,7 @@
         "name": "ネガトロン クローク",
         "description": "<mainText><stats>魔法防御<attention>50<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Negatron Cloak;れじすと;ねがとろんくろーく;ネガトロン クローク;negatoronnkuro-ku;negatoronkuroku",
+        "plaintext": "魔法防御がやや上昇",
         "from": [
             "1033"
         ],
@@ -636,6 +658,7 @@
         "name": "ムダニ デカイ ロッド",
         "description": "<mainText><stats>魔力<attention>70<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Needlessly Large Rod;nlr;1250杖;せんろっぴゃくづえ;せんにひゃくごじゅうづえ;ろくじゅうづえ;はちじゅうづえ;むだにでかいろっど;ムダニ デカイ ロッド;mudanidekairoddo",
+        "plaintext": "魔力が大幅に上昇",
         "into": [
             "3157",
             "4645",
@@ -662,6 +685,7 @@
         "name": "ダーク シール",
         "description": "<mainText><stats>魔力<attention>15<\/attention><br>体力<attention>50<\/attention><\/stats><br><br><passive>栄光<\/passive><br>キルまたはアシストするとスタックを獲得し、1スタックごとに魔力を獲得する。自身が死亡するとスタックを一部失う。<\/mainText>",
         "colloq": ";The Dark Seal;Noxian;だーくしーる;ダーク シール;da-kushi-ru;da-kusi-ru;dakushiru;dakusiru",
+        "plaintext": "魔力とマナを付与。敵をキルするごとに得られる魔力が上昇する。",
         "into": [
             "3041"
         ],
@@ -687,6 +711,7 @@
         "name": "カル",
         "description": "<mainText><stats>攻撃力<attention>7<\/attention><\/stats><br><br><passive>収穫者<\/passive><li>通常攻撃が命中するたびに<healing>3の体力<\/healing>を回復する。<li>レーンミニオンをキルすると<goldGain>1<\/goldGain>ゴールドを追加で獲得する(最大100ゴールドまで)。レーンミニオンを100体キルすると追加で<goldGain>350<\/goldGain>ゴールドのボーナスを獲得する。<br><\/mainText>",
         "colloq": ";dblade;Cull;かる;カル;karu",
+        "plaintext": "命中時にダメージとライフ スティールを付与。ミニオンをキルするとゴールドボーナスを獲得。",
         "gold": 450,
         "tags": [
             "攻撃力",
@@ -708,6 +733,7 @@
         "name": "スコーチクロウの幼体",
         "description": "<mainText><stats><\/stats><br><br><li><passive>ジャングル コンパニオン:<\/passive> <font color='#DD2E2E'>スコーチクロウ<\/font>を召喚して、ジャングルで支援させる。<li><passive>スコーチクロウの爪:<\/passive> このコンパニオンを最大まで成長させると、定期的に次に与えるダメージ効果が強化され、敵チャンピオンに<status>スロウ効果<\/status>と<passive>ダメージ<\/passive>を与える。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "gold": 450,
         "tags": [
             "ジャングル用アイテム"
@@ -727,6 +753,7 @@
         "name": "ガストウォーカーの幼体",
         "description": "<mainText><stats><\/stats><br><br><li><passive>ジャングル コンパニオン:<\/passive> <font color='#38A8E8'>ガストウォーカー<\/font>を召喚して、ジャングルで支援させる。<li><passive>ガストウォーカーの歩み:<\/passive> このコンパニオンを最大まで成長させると、主人であるチャンピオンが茂みに入るかモンスターをキルすると<speed>移動速度<\/speed>が増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "gold": 450,
         "tags": [
             "ジャングル用アイテム"
@@ -745,6 +772,7 @@
         "name": "モスストンパーの幼体",
         "description": "<mainText><stats><\/stats><br><br><li><passive>ジャングル コンパニオン:<\/passive> <font color='#1CA935'>モスストンパー<\/font>を召喚して、ジャングルで支援させる。<li><passive>モスストンパーの勇気:<\/passive> このコンパニオンを最大まで成長させると、主人であるチャンピオンは<shield>恒久的なシールド<\/shield>を獲得する。このシールドはモンスターをキルするか非戦闘状態になると自動的に回復する。シールド展開中は行動妨害耐性とスロウ耐性が0%増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "gold": 450,
         "tags": [
             "ジャングル用アイテム"
@@ -763,6 +791,7 @@
         "name": "体力ポーション",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>使用<\/active><br><healing>体力<\/healing>を15秒間かけて120回復する。<\/mainText>",
         "colloq": ";Health Potion;あかぽ;れっど;へるす;らいふ;たいりょくぽーしょん;体力ポーション;tairyokupo-shonn;tairyokupo-syonn;tairyokuposhonn;tairyokuposyonn",
+        "plaintext": "消費して一定時間をかけて体力を回復",
         "stacks": 5,
         "gold": 50,
         "tags": [
@@ -784,6 +813,7 @@
         "name": "英気満点ビスケット",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果 - 消費:<\/active> ビスケットを食べて、<scaleMana>減少マナ<\/scaleMana>および<healing>減少体力の8%<\/healing>を5秒間かけて回復する。ビスケットを消費するか売却すると恒久的に<scaleMana>最大マナが40<\/scaleMana>増加する。 <\/mainText>",
         "colloq": ";Total Biscuit of Everlasting Will;えいきまんてんびすけっと;英気満点ビスケット;eikimantenbisuketto",
+        "plaintext": "",
         "stacks": 10,
         "inStore": false,
         "gold": 50,
@@ -799,6 +829,7 @@
         "name": "スチール シジル",
         "description": "<mainText><stats>攻撃力<attention>15<\/attention><br>物理防御 <attention>30<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1029",
             "1036",
@@ -829,6 +860,7 @@
         "name": "ブルータライザー",
         "description": "<mainText><stats>攻撃力<attention>25<\/attention><br>スキルヘイスト<attention>10<\/attention><br>脅威<attention>5<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "2022",
             "1037"
@@ -861,6 +893,7 @@
         "name": "トンネル掘り",
         "description": "<mainText><stats>攻撃力<attention>15<\/attention><br>体力<attention>250<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1036",
             "1028"
@@ -894,6 +927,7 @@
         "name": "輝きのモート",
         "description": "<mainText><stats>スキルヘイスト<attention>5<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "into": [
             "2020",
             "4642",
@@ -924,6 +958,7 @@
         "name": "詰め替えポーション",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>使用<\/active><br><healing>体力<\/healing>を12秒間かけて100回復する。<br><br>2チャージまで保持可能で、ショップを訪れると補充される。<\/mainText>",
         "colloq": ";Refillable Potion;つめかえぽーしょん;ツメカエ;りふぃる;リフィル;詰め替えポーション;tsumekaepo-shonn;tumekaepo-syonn;tsumekaeposhon;tumekaeposhon",
+        "plaintext": "一定時間をかけて体力を回復。ショップで補充できる。",
         "into": [
             "2033"
         ],
@@ -948,6 +983,7 @@
         "name": "ガーディアン ホーン",
         "description": "<mainText><stats>体力<attention>150<\/attention><\/stats><br><br><br><li><passive>治癒: <\/passive>徐々に体力を回復する。<li><passive>屈強: <\/passive>チャンピオンによる通常攻撃とスキルのダメージを低減する。<br><\/mainText>",
         "colloq": ";Guardian's Horn;Golden•Arm•of•Kobe;Golden•Bicep•of•Kobe;Horn;•Horn•of•the•ManWolf;•ManWolf;がーでぃあんほーん;ガーディアン ホーン;ga-dexiannho-nn;ga-deliann ho-nn;gadeian honn",
+        "plaintext": "タンク系チャンピオン向けの初期アイテム",
         "gold": 950,
         "tags": [
             "体力",
@@ -970,6 +1006,7 @@
         "name": "ポロのおやつ",
         "description": "<mainText><stats><\/stats><br><br><br><br><flavorText>放し飼いで伸び伸びと草を食べて育ったアヴァローサン産地鶏と、ZMO不使用の有機フレヨルド産ハーブをブレンドし、風味豊かに仕上げました。かわいいポロのゴキゲンな生活に必要な栄養素を、バランス良く含有しています。<br><br>すべての収益はノクサスの動物虐待防止運動に寄付されます。<\/flavorText><active>発動効果 - 消費:<\/active> 近くにいるポロに美味しいおやつを食べさせてサイズを大きくする。<\/mainText>",
         "colloq": ";Poro-Snax;ぽろのおやつ;すなっく;スナック;ポロのおやつ;poronooyatsu;poronooyatu",
+        "plaintext": "",
         "stacks": 2,
         "inStore": false,
         "gold": 0,
@@ -985,6 +1022,7 @@
         "name": "コントロール ワード",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>コントロール ワード<\/active><br>「コントロール ワード」を設置する。この装置は敵のステルス ワードやトラップ、<keywordStealth>カモフラージュ<\/keywordStealth>状態の敵を可視化できる。<\/mainText>",
         "colloq": ";orange;Control Ward;pinkコントロール ワード;こんとろーる わーど;オレンジ;おれんじ;ピンク;ぴんく;kontoro-ruwa-do;kontororuwado",
+        "plaintext": "一定範囲内のワードや見えない罠を無効化するのに使用",
         "stacks": 2,
         "consumeOnFull": true,
         "gold": 75,
@@ -1007,6 +1045,7 @@
         "name": "シュレリアの戦歌",
         "description": "<mainText><stats>魔力<attention>50<\/attention><br>スキルヘイスト<attention>15<\/attention><br>移動速度<attention>5%<\/attention><br>基本マナ自動回復<attention>125%<\/attention><\/stats><br><br><br><br><active>発動効果<\/active> (0秒)<br><active>感動的スピーチ<\/active><br>周囲の味方の移動速度を増加させる。<br><br><\/mainText>",
         "colloq": ";Shurelya's Reverie;しゅれりあのしねん;シュレリアノシネン;シュレリアの思念;syurerianosinen;shurerianosinen;Shurelya's Battlesong;シュレリアの戦歌;しゅれりあのせんか;シュレリアノセンカ;shurerianosenka;syurerianosenka",
+        "plaintext": "発動すると周囲の味方の速度が上昇する",
         "from": [
             "3113",
             "4642"
@@ -1042,6 +1081,7 @@
         "name": "アイアン エリクサー",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>使用<\/active><br>3分間、<scaleHealth>体力を300<\/scaleHealth>、行動妨害耐性を25%増加させて、体が大きくなる。発動中、通過した場所は続く味方チャンピオンの<speed>移動速度を15%<\/speed>増加させる。<\/mainText>",
         "colloq": ";Elixir of Iron;white;白;あいあんえりくさー;アイアン エリクサー;aiannerikusa-;aianerikusa",
+        "plaintext": "一時的に防御が上昇する。通過した道に続く味方を強化する。",
         "consumeOnFull": true,
         "gold": 500,
         "tags": [
@@ -1063,6 +1103,7 @@
         "name": "ソーサリー エリクサー",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>使用<\/active><br>3分間、<scaleAP>魔力が50<\/scaleAP>、<scaleMana>マナ自動回復が15%<\/scaleMana>増加する。発動中、チャンピオンまたはタワーにダメージを与えると、<trueDamage>25の追加確定ダメージ<\/trueDamage>を与える(対チャンピオンは5秒)。<\/mainText>",
         "colloq": ";blue;Elixir of Sorcery;ぶるー;あお;まな;そーさりー えりくさー;ソーサリー エリクサー;so-sari-erikusa-;sosarierikusa",
+        "plaintext": "魔力およびチャンピオンとタワーへの追加ダメージを一時的に上昇させる。",
         "consumeOnFull": true,
         "gold": 500,
         "tags": [
@@ -1083,6 +1124,7 @@
         "name": "ラース エリクサー",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>使用<\/active><br>3分間、<scaleAD>攻撃力が30<\/scaleAD>、チャンピオンに対する<lifeSteal>物理ヴァンプが12%<\/lifeSteal>増加する。<\/mainText>",
         "colloq": ";red;Elixir of Wrath;れっど;あか;こうげき;らーす えりくさー;ラース エリクサー;ra-suerikusa-;rasuerikusa",
+        "plaintext": "一時的に攻撃力が上昇し、チャンピオンに物理ダメージを与えると自身を回復する",
         "consumeOnFull": true,
         "gold": 500,
         "tags": [
@@ -1104,6 +1146,7 @@
         "name": "帽子ジュース",
         "description": "<mainText><stats><\/stats><br><br><rules>観客の注目を独り占め。<\/rules><active>発動効果 - 消費:<\/active>このジュースでは何も起こらない。<br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "consumeOnFull": true,
         "gold": 500,
         "tags": [
@@ -1121,6 +1164,7 @@
         "name": "スキル エリクサー",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>使用<\/active><br>スキルポイントを1獲得する。<br><br><rules>このアイテムを使用してもチャンピオンレベルは上昇しない。また、通常のスキルレベル上限を越えてスキルポイントを割り振ることもできない。<\/rules><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "inStore": false,
         "gold": 0,
         "tags": [
@@ -1139,6 +1183,7 @@
         "name": "強欲のエリクサー",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>使用<\/active><br>60秒間、ミニオンに対して通常攻撃時効果で<trueDamage>5の確定ダメージ<\/trueDamage>を与えるようになる。この効果が終了すると、40ゴールドを得る。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "inStore": false,
         "gold": 50,
         "tags": [
@@ -1159,6 +1204,7 @@
         "name": "力のエリクサー",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>使用<\/active><br>60秒間、アダプティブフォース20を獲得する。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "inStore": false,
         "gold": 50,
         "tags": [
@@ -1178,6 +1224,7 @@
         "name": "シーカー アームガード",
         "description": "<mainText><stats>魔力<attention>45<\/attention><br>物理防御 <attention>25<\/attention><\/stats><br><br><active>発動効果<\/active><br><active>時間停止<\/active>(使用は一度のみ)<br>2.5秒間<keyword>固有時停止<\/keyword>状態になる。<\/mainText>",
         "colloq": ";Stopwatch;stop;watch;ストップウォッチ;すとっぷうぉっち;ウォッチ;うぉっち;時計;とけい;トケイ;sutoppuuxotti;sutoppuulotti;uxotti;uxocchi;ulotti;ulocchi;ゾーニャ;zo-nya;ぞーにゃ",
+        "plaintext": "発動ですべての行動が不可になるが、一定時間無敵になる",
         "from": [
             "1052",
             "1029",
@@ -1210,6 +1257,7 @@
         "name": "砕けたアームガード",
         "description": "<mainText><stats>魔力<attention>45<\/attention><br>物理防御 <attention>25<\/attention><\/stats><br><br><passive>砕けた時間<\/passive><br>「アームガード」は壊れているがアップグレードは可能。<br><br><rules>一度「アームガード」を使用して壊すと、その後<rarityGeneric>「砕けたアームガード」<\/rarityGeneric>しか買えなくなる。<\/rules><br><br><\/mainText>",
         "colloq": ";Broken Stop Watch;こわれたすとっぷうぉっち;ぶろーくんすとっぷうぉっち;すとっぷうぉっち;とけい;ストップウォッチ;コワレタストップウォッチ;ウォッチ;トケイ;壊れたストップウォッチ;kowaretasutoppuuxotti;kowaretasutoxpuuxotti;sutoppuuxotti;sutoxpuuxotti;tokei;Shattered;Armguard;砕けた;アームガード;くだけた;あーむがーど;kudaketaa-muga-do;",
+        "plaintext": "使用できないがアップグレードは可能なストップウォッチ",
         "into": [
             "3157"
         ],
@@ -1231,6 +1279,7 @@
         "name": "ちょっとだけ魔法がかった靴",
         "description": "<mainText><stats>移動速度<attention>25<\/attention><\/stats><br><br>追加で<speed>移動速度が10<\/speed>増加する。「ちょっとだけ魔法がかった靴」からアップグレードしたブーツは、この増加移動速度を引き継ぐ。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "inStore": false,
         "into": [
             "3006",
@@ -1258,6 +1307,7 @@
         "name": "覇王のブラッドメイル",
         "description": "<mainText><stats>攻撃力<attention>40<\/attention><br>体力<attention>500<\/attention><\/stats><br><br><passive>暴君<\/passive><br><healing>増加体力<\/healing>の2%を<scaleAD>攻撃力<\/scaleAD>として獲得する。<br><br><passive>報復<\/passive><br>減少体力の割合に応じて、<scaleAD>攻撃力<\/scaleAD>が最大10%まで増加する。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "2021",
             "2021"
@@ -1289,6 +1339,7 @@
         "name": "終わりなき絶望",
         "description": "<mainText><stats>体力<attention>400<\/attention><br>物理防御 <attention>55<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><passive>苦辛<\/passive><br>チャンピオンと戦闘中は、数秒ごとに周囲の敵チャンピオンに魔法ダメージを与え、与えたダメージに応じて体力を回復する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1031",
             "3067",
@@ -1322,6 +1373,7 @@
         "name": "黒炎のトーチ",
         "description": "<mainText><stats>魔力<attention>90<\/attention><br>マナ<attention>600<\/attention><br>スキルヘイスト<attention>25<\/attention><\/stats><br><br><passive>悪意の炎<\/passive><br>スキルでダメージを与えると敵を燃やす。モンスターに対しては、このダメージが増加する。<br><br><passive>黒炎<\/passive><br><passive>「悪意の炎」<\/passive>の影響を受けた敵チャンピオン、エピックモンスター、大型モンスター1体ごとに、<scaleAP>魔力<\/scaleAP>が増加する。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3802",
             "2508"
@@ -1355,6 +1407,7 @@
         "name": "ケイニック ルーケルン",
         "description": "<mainText><stats>体力<attention>400<\/attention><br>魔法防御<attention>80<\/attention><br>基本体力自動回復<attention>150%<\/attention><\/stats><br><br><passive>メイジベイン<\/passive><br>15秒間<magicDamage>魔法ダメージ<\/magicDamage>を受けずにいると、<magicDamage>0の魔法ダメージを防ぐシールド<\/magicDamage>を獲得する。<br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3211",
             "1057"
@@ -1386,6 +1439,7 @@
         "name": "運命の灰",
         "description": "<mainText><stats>魔力<attention>30<\/attention><\/stats><br><br><passive>発火<\/passive><br>スキルでダメージを与えると敵を燃やす。このダメージはモンスターに対しては増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1052"
         ],
@@ -1413,6 +1467,7 @@
         "name": "先人の道標",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>物理防御 <attention>40<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>先導<\/passive><br>移動中に<speed>20の増加移動速度<\/speed>を獲得する。最大速度になると軌跡が発生し、軌跡に触れた味方チャンピオンの移動速度を自身の移動速度の15%分増加させる。次の通常攻撃で増加した移動速度を放出し、近接攻撃チャンピオンは対象に1秒間、50%の<keyword>スロウ効果<\/keyword>を与える。<br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3066",
             "1031"
@@ -1445,6 +1500,7 @@
         "name": "アークエンジェル スタッフ",
         "description": "<mainText><stats>魔力<attention>80<\/attention><br>マナ<attention>600<\/attention><br>スキルヘイスト<attention>25<\/attention><\/stats><br><br><passive>畏怖<\/passive><br>自身の増加マナに応じて魔力を獲得する。<br><br><passive>マナフロー<\/passive><br>スキルが対象に命中するとチャージを1つ消費して増加マナを獲得する。最大360まで増加マナを獲得でき、最大値に到達すると、このアイテムは<rarityLegendary>「セラフ エンブレイス」<\/rarityLegendary>に変化する。<br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "最大マナを基に魔力が上昇",
         "from": [
             "3070",
             "3802",
@@ -1479,6 +1535,7 @@
         "name": "マナムネ",
         "description": "<mainText><stats>攻撃力<attention>35<\/attention><br>マナ<attention>500<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>畏怖<\/passive><br>マナに応じて攻撃力が増加する。<br><br><passive>マナフロー<\/passive><br>スキルまたは通常攻撃が対象に命中すると増加マナを獲得する。最大までマナを獲得すると、このアイテムは<rarityLegendary>「ムラマナ」<\/rarityLegendary>に変化する。<\/mainText>",
         "colloq": "",
+        "plaintext": "最大マナを基に攻撃力が上昇",
         "from": [
             "3070",
             "3133",
@@ -1517,6 +1574,7 @@
         "name": "バーサーカー ブーツ",
         "description": "<mainText><stats>攻撃速度<attention>30%<\/attention><br>移動速度<attention>45<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Berserker's Greaves;Enchantment: Furor;ぶーつ;ブーツ;靴;ばさか;バサカ;きょうせんし;キョウセンシ;ばーさーかーぶーつ;バーサーカー ブーツ;えんちゃんとふゅあー;エンチャントフュアー;えんちゃんと：ふゅあー;エンチャント：フュアー;ennchanntofuxyua-;enntyanntohulyua-;enchantofuyua;enchantohuyua;ba-sa-ka-bu-tu;ba-sa-ka-bu-tsu",
+        "plaintext": "移動速度と攻撃速度が上昇",
         "from": [
             "1001",
             "1042"
@@ -1544,6 +1602,7 @@
         "name": "スイフトネス ブーツ",
         "description": "<mainText><stats>移動速度<attention>60<\/attention><\/stats><br><br><passive>俊足<\/passive><br><keyword>スロウ効果<\/keyword>が25%低下する。<\/mainText>",
         "colloq": ";Boots of Swiftness;Enchantment: Furor;すいふとねすぶーつ;スイフトネス ブーツ;靴;さんぐつ;はねぐつ;すうぃふと;スウィフト;えんちゃんとふゅあー;エンチャントフュアー;えんちゃんと：ふゅあー;エンチャント：フュアー;ennchanntofuxyua-;enntyanntohulyua-;enchantofuyua;enchantohuyua;suihutonesubu-tu",
+        "plaintext": "移動速度が上昇し、スロウ効果が減少",
         "from": [
             "1001"
         ],
@@ -1567,6 +1626,7 @@
         "name": "共生靴底",
         "description": "<mainText><stats>移動速度<attention>35<\/attention><\/stats><br><br><passive>ヴォイドの子ら<\/passive><br>リコール強化を獲得する。<br><br><passive>共生<\/passive><br>150000ユニット以上の距離を移動すると、<rarityLegendary>「シンクロナイズド ソウル」<\/rarityLegendary>に変化する。<\/mainText>",
         "colloq": ";Catalyst of Aeons;くおんのかたりすと;久遠のカタリスト;kuonnokatarisuto",
+        "plaintext": "マナを消費して体力を回復",
         "from": [
             "1001"
         ],
@@ -1595,6 +1655,7 @@
         "name": "シンクロナイズド ソウル",
         "description": "<mainText><stats>移動速度<attention>45<\/attention><\/stats><br><br><passive>ヴォイドの子ら<\/passive><br>リコール強化を獲得する。<br><br><passive>シンクロニー<\/passive><br>非戦闘時の<speed>移動速度が45<\/speed>増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3010"
         ],
@@ -1621,6 +1682,7 @@
         "name": "ソーサラー シューズ",
         "description": "<mainText><stats>魔法防御貫通<attention>15<\/attention><br>移動速度<attention>45<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Sorcerer's Shoes;Enchantment: Furor;そーさらーしゅーず;ソーサラー シューズ;靴;そさら;ソサラ;えんちゃんと：ふゅあー;エンチャント：フュアー;えんちゃんとふゅあー;エンチャントフュアー;ennchanntofuxyua-;enntyanntohulyua-;enchantofuyua;enchantohuyua;so-sara-syu-zu",
+        "plaintext": "移動速度と魔法ダメージが上昇",
         "from": [
             "1001"
         ],
@@ -1645,6 +1707,7 @@
         "name": "グレイシャル バックラー",
         "description": "<mainText><stats>物理防御 <attention>20<\/attention><br>マナ<attention>250<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Glacial Buckler;Glacial Shroud;ぐらしある;グラシアル;ぐれいしゃる しゅらうど;こおり;コオリ;たて;タテ;グレイシャル シュラウド;グレイシャル バックラー;ぐれいしゃる ばっくらー;gureisharu shuraudo;gureisyaru syuraudo;gureisyaru bakkura-;gureisharu bakkura-;guraisyaru baxtukura;guraisyaru baltukura",
+        "plaintext": "物理防御が上昇し、クールダウンを短縮",
         "from": [
             "1029",
             "1027",
@@ -1676,6 +1739,7 @@
         "name": "ガーディアン エンジェル",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>物理防御 <attention>45<\/attention><\/stats><br><br><passive>起死回生<\/passive><br>体力がゼロになった際、少し遅れて復活する。<\/mainText>",
         "colloq": ";Guardian Angel;ga;がーでぃあんえんじぇる;じーえー;ジーエー;ふっかつ;フッカツ;りばいぶ;リバイブ;ガーディアン エンジェル;ga-dexiannennjeru;ga-deliannennzyeru;gadeianenjieru;gadeianenzieru",
+        "plaintext": "一定時間ごとに、チャンピオンを死亡時に復活させる",
         "from": [
             "2019",
             "1038"
@@ -1707,6 +1771,7 @@
         "name": "インフィニティ エッジ",
         "description": "<mainText><stats>攻撃力<attention>80<\/attention><br>クリティカル率<attention>25%<\/attention><br>クリティカルダメージ<attention>40%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Infinity Edge;ie;あいいー;アイイー;えっぢ;いんふぃにてぃ・えっじ;インフィニティ エッジ;いんふぃにてぃえっじ;インフィニティエッジ;innfinitexiejji;innfiniteliezzi;infuiniteiejji;inhuiniteiezzi",
+        "plaintext": "クリティカルが大きく強化",
         "from": [
             "1038",
             "1037",
@@ -1735,6 +1800,7 @@
         "name": "ユン・タル ワイルドアロー",
         "description": "<mainText><stats>攻撃力<attention>65<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><passive>鋸刃<\/passive><br>クリティカルになった通常攻撃が、追加で継続ダメージを与える。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1037",
             "6670"
@@ -1764,6 +1830,7 @@
         "name": "モータル リマインダー",
         "description": "<mainText><stats>攻撃力<attention>35<\/attention><br>物理防御貫通<attention>35%<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><passive>重傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。<\/mainText>",
         "colloq": ";Mortal Reminder;lgrievous;終焉;重傷;らすうぃす;ラスウィス;うぃすぱー;ウィスパー;しゅうえん;シュウエン;じゅうしょう;ジュウショウ;もーたるりまいんだー;モータル リマインダー;mo-tarurimainnda-;motarurimainda",
+        "plaintext": "体力回復と物理防御の高い敵を打倒する",
         "from": [
             "3123",
             "3035",
@@ -1797,6 +1864,7 @@
         "name": "ラスト ウィスパー",
         "description": "<mainText><stats>攻撃力<attention>20<\/attention><br>物理防御貫通<attention>18%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Last Whisper;lw;らすうぃす;ゆみ;うぃすぱー;かんつう;らすとうぃすぱー;ラスト ウィスパー;rasutouxisupa-;rasutoulisupa-;rasutouisupa",
+        "plaintext": "物理防御の高い敵を打倒する",
         "from": [
             "1036",
             "1036"
@@ -1827,6 +1895,7 @@
         "name": "ドミニク リガード",
         "description": "<mainText><stats>攻撃力<attention>45<\/attention><br>物理防御貫通<attention>35%<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Lord Dominik's Regards;lw;らすうぃす;ラスウィス;しゅうえん;シュウエン;終焉;ゆみ;ユミ;弓;うぃすぱー;ウィスパー;かんつう;カンツウ;貫通;どみにくりがーど;ドミニク リガード;dominikuriga-do;dominikuriga-do;dominikurigado",
+        "plaintext": "体力と物理防御の高い敵を打倒する",
         "from": [
             "3035",
             "6670"
@@ -1857,6 +1926,7 @@
         "name": "セラフ エンブレイス",
         "description": "<mainText><stats>魔力<attention>80<\/attention><br>マナ<attention>1000<\/attention><br>スキルヘイスト<attention>25<\/attention><\/stats><br><br><passive>畏怖<\/passive><scaleMana>増加マナの2%<\/scaleMana>にあたる魔力を獲得する。<br><passive>ライフライン<\/passive>(90(0秒))<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3秒間<shield>250 + 現在マナの20%の耐久値を持つシールド<\/shield>を得る。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "specialRecipe": 3003,
         "inStore": false,
         "gold": 2900,
@@ -1883,6 +1953,7 @@
         "name": "メジャイ ソウルスティーラー",
         "description": "<mainText><stats>魔力<attention>20<\/attention><br>体力<attention>100<\/attention><\/stats><br><br><passive>栄光<\/passive><li>キルまたはアシストするとスタックを獲得し、1スタックごとに魔力を獲得する。自身が死亡するとスタックを一部失う。<li>10スタック以上保持している場合、移動速度が増加する。<\/mainText>",
         "colloq": ";Mejai's Soulstealer;めじゃい・そうるすてぃーらー;めじゃいそうるすてぃーらー;メジャイソウルスティーラー;すたっく;スタック;まぼん;マボン;メジャイ ソウルスティーラー;mejaisourusutexi-ra-;mezyaisourusuteli-ra-;mejaisourusutelira;mejaisourusutexira",
+        "plaintext": "キル、アシストごとに魔力を付与",
         "from": [
             "1082"
         ],
@@ -1912,6 +1983,7 @@
         "name": "ムラマナ",
         "description": "<mainText><stats>攻撃力<attention>35<\/attention><br>マナ<attention>860<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>畏怖<\/passive><br>マナに応じて攻撃力が増加する。<br><br><passive>ショック<\/passive><br>チャンピオンに対する通常攻撃と攻撃スキルが追加物理ダメージを与える。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "specialRecipe": 3004,
         "inStore": false,
         "gold": 3000,
@@ -1940,6 +2012,7 @@
         "name": "ファージ",
         "description": "<mainText><stats>攻撃力<attention>15<\/attention><br>体力<attention>200<\/attention><\/stats><br><br><passive>逸る怒り<\/passive><br>ユニットに通常攻撃を行うと移動速度が増加する。<\/mainText>",
         "colloq": ";Phage;ふぁーじ;ぱーじ;パージ;ふぇいじ;フェイジ;ふぇーじ;フェージ;ファージ;fa-ji;fa-zi;fuaji;huazi",
+        "plaintext": "攻撃およびキルで小規模の移動速度増加を得る",
         "from": [
             "1028",
             "1036"
@@ -1973,6 +2046,7 @@
         "name": "ファントム ダンサー",
         "description": "<mainText><stats>攻撃速度<attention>60%<\/attention><br>クリティカル率<attention>25%<\/attention><br>移動速度<attention>12%<\/attention><\/stats><br><br><passive>幽霊のワルツ<\/passive><br><status>ゴースト化<\/status>する。<\/mainText>",
         "colloq": ";Phantom Dancer;pd;ぴーでぃー;ピーディー;ふぁんとむだんさー;ファントム ダンサー;fanntomudannsa-;huanntomudannsa-;fuantomudansa;huantomudansa",
+        "plaintext": "敵を攻撃すると移動速度が上昇し、体力が低い場合にシールドを発生させる",
         "from": [
             "1042",
             "3086",
@@ -2005,6 +2079,7 @@
         "name": "プレート スチールキャップ",
         "description": "<mainText><stats>物理防御 <attention>25<\/attention><br>移動速度<attention>45<\/attention><\/stats><br><br><passive>プレート<\/passive><br>通常攻撃で受けるダメージを10%軽減する。<\/mainText>",
         "colloq": ";Plated Steelcaps;プレート スチールキャップ;ぷれーとすちーるきゃっぷ;pure-tosuti-rukyappu;pureitosutiirukyappu;Ninja Tabi;Enchantment: Furor;にんじゃたび;ニンジャタビ;忍者足袋にんたび;ニンタビ;たび;タビ;にんじゃ;靴;ニンジャ;えんちゃんと：ふゅあー;エンチャント：フュアー;えんちゃんとふゅあー;エンチャントフュアー;ennchanntofuxyua-;enntyanntohulyua-;enchantofuyua;enchantohuyua;ninzyatabi;",
+        "plaintext": "移動速度が上昇し、通常攻撃によって受けるダメージが軽減",
         "from": [
             "1001",
             "1029"
@@ -2031,6 +2106,7 @@
         "name": "ジーク コンバージェンス",
         "description": "<mainText><stats>体力<attention>300<\/attention><br>物理防御 <attention>25<\/attention><br>魔法防御<attention>25<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><passive>氷炎のテンペスト<\/passive> <br>アルティメットスキルを使用すると、自身の周りに嵐を発生させる。この嵐は敵チャンピオンに魔法ダメージを与え、<keyword>スロウ効果<\/keyword>を付与する。<\/mainText>",
         "colloq": ";Zeke's Convergence;Zeke's Harbinger;haroldandkumar;じーくこんばーじぇんす;ジーク コンバージェンス;じーくはーびんじゃー;ジークハービンジャー;ji-kuha-binnja-;zi-kuha-binnzya-;jikuhabinja;zikuhabinja;zi-kukonba-zyensu",
+        "plaintext": "アルティメットスキル使用時に自身と味方に追加効果を付与",
         "from": [
             "3067",
             "1029",
@@ -2066,6 +2142,7 @@
         "name": "ハースバウンド アックス",
         "description": "<mainText><stats>攻撃力<attention>20<\/attention><br>攻撃速度<attention>20%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1036",
             "1042",
@@ -2097,6 +2174,7 @@
         "name": "ステラックの篭手",
         "description": "<mainText><stats>体力<attention>400<\/attention><br>行動妨害耐性<attention>20%<\/attention><\/stats><br><br><passive>獲物を狙う爪<\/passive><br>攻撃力が増加する。<br><br><passive>ライフライン<\/passive> (0秒)<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、シールドを得る。<\/mainText>",
         "colloq": ";Sterak's Gage;すてらっくのこて;ステラックの篭手;suterakkunokote",
+        "plaintext": "大ダメージから身を守る",
         "from": [
             "1037",
             "2021",
@@ -2129,6 +2207,7 @@
         "name": "シーン",
         "description": "<mainText><stats>スキルヘイスト<attention>10<\/attention><\/stats><br><br><passive>追撃<\/passive><br>スキルを使った後、次の通常攻撃が強化されて追加ダメージを与える。<\/mainText>",
         "colloq": ";Sheen;しーん;しぇーん;シェーン;あおけん;アオケン;シーン;shi-nn;si-nn;shin;sin",
+        "plaintext": "スキル使用後の次の攻撃に追加ダメージ付与",
         "from": [
             "2022"
         ],
@@ -2159,6 +2238,7 @@
         "name": "スピリット ビサージュ",
         "description": "<mainText><stats>体力<attention>450<\/attention><br>魔法防御<attention>60<\/attention><br>スキルヘイスト<attention>10<\/attention><br>基本体力自動回復<attention>100%<\/attention><\/stats><br><br><passive>無限の胆力<\/passive><br>自身が受けるすべての回復効果とシールド耐久値が25%増加する。<\/mainText>",
         "colloq": ";Spirit Visage;sv;びせーじ;ビセージ;びせいじ;ビセイジ;びせぃじ;ビセィジ;えすぶい;エスブイ;せーれー;セーレー;すぴりっとびさーじゅ;スピリット ビサージュ;supirittobisa-ju;supirittobisa-zyu;supirittobisaju;supirittobisazyu",
+        "plaintext": "体力とすべての回復効果が増加",
         "from": [
             "3211",
             "3067"
@@ -2193,6 +2273,7 @@
         "name": "翼のムーンプレート",
         "description": "<mainText><stats>体力<attention>150<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1028"
         ],
@@ -2222,6 +2303,7 @@
         "name": "キンドルジェム",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Kindlegem;きんどるじぇむ;おうせき;オウセキ;いし;イシ;ちゃっか;チャッカ;あかいし;アカイシ;キンドルジェム;kinndorujemu;kinndoruzyemu;kindorujiemu;kindoruziemu",
+        "plaintext": "体力が上昇し、クールダウンを短縮",
         "from": [
             "1028",
             "2022"
@@ -2269,6 +2351,7 @@
         "name": "サンファイア イージス",
         "description": "<mainText><stats>体力<attention>350<\/attention><br>物理防御 <attention>50<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><br><li><passive>猛火:<\/passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(15 + 増加体力の1.75%)の魔法ダメージ<\/magicDamage>を与える(このダメージはミニオンに対しては25%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」<\/passive>で与えるダメージが5秒間10%増加する(最大スタック6)。<br><\/mainText>",
         "colloq": ";Sunfire Aegis;sunfire;sunborn;burn;さんふぁいあ いーじす;サンファイア イージス;sannfaiai-zisu;sanfaiai-zisu;sannfaiaizisu;sanfaiaizisu;さんぼーん;サンボーン;sanbo-nn;炎上;えんじょう;エンジョウ;ennjou;ennzyou;enjou;enzyou",
+        "plaintext": "物理防御が大幅に増加。周囲の敵に常にダメージを与える。敵に移動不能効果を与えると、波状の炎を放ってダメージを与える。",
         "from": [
             "6660",
             "1031"
@@ -2301,6 +2384,7 @@
         "name": "女神の涙",
         "description": "<mainText><stats>マナ<attention>240<\/attention><\/stats><br><br><br><li><passive>一点集中:<\/passive> 通常攻撃がミニオンに追加物理ダメージを与える。<li><passive>マナフロー:<\/passive> スキルが対象に命中するとチャージを1つ消費して<scaleMana>増加マナ3<\/scaleMana>を獲得する。対象がチャンピオンだった場合は増加マナが2倍になる。最大360まで増加マナを獲得できる。<br><br><rules>8秒ごとに<passive>「マナチャージ」<\/passive>を1つ獲得する(最大4)。<\/rules><\/mainText>",
         "colloq": "",
+        "plaintext": "マナ消費時に最大マナが上昇",
         "into": [
             "3003",
             "3004",
@@ -2327,6 +2411,7 @@
         "name": "ブラック クリーバー",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>体力<attention>400<\/attention><br>スキルヘイスト<attention>20<\/attention><\/stats><br><br><passive>カーブ<\/passive><br>チャンピオンに物理ダメージを与えると、対象に物理防御低下のスタックを付与する。<br><br><passive>熱情<\/passive><br>物理ダメージを与えると移動速度が増加する。<\/mainText>",
         "colloq": ";The Black Cleaver;bc;ぶらくり;ブラクリ;くろおの;クロオノ;びーしー;ビーシー;ぶらっく・くりーばー;ブラック クリーバー;ぶらっくくりーばー;ブラッククリーバー;burakkukuri-ba-;burakkukuriba",
+        "plaintext": "敵チャンピオンに物理ダメージを与えると、その対象の物理防御が低下",
         "from": [
             "3044",
             "3133",
@@ -2364,6 +2449,7 @@
         "name": "ブラッドサースター",
         "description": "<mainText><stats>攻撃力<attention>80<\/attention><br>ライフ スティール<attention>15%<\/attention><\/stats><br><br><passive>イコルシールド<\/passive><br>ライフスティールで最大体力を超えて回復した余剰の体力が、最大での耐久値のシールドに変換される。<\/mainText>",
         "colloq": ";The Bloodthirster;bt;かつぼうのちけん;ぶらっでぃさーすたー;ブラッディサースター;びーてぃー;ビーティー;渇望の血剣;katsubounochikenn;katubounotikenn;katsubounochiken;katsubounotiken",
+        "plaintext": "攻撃力、ライフ スティールが上昇。ライフ スティールで最大体力を超えて回復が可能。",
         "from": [
             "1038",
             "1037",
@@ -2394,6 +2480,7 @@
         "name": "実験的へクスプレート",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>攻撃速度<attention>25%<\/attention><br>体力<attention>300<\/attention><\/stats><br><br><passive>へクスチャージ<\/passive><br>アルティメットスキルがスキルヘイストを獲得する。<br><br><passive>オーバードライブ<\/passive><br>アルティメットスキル発動から少しの間、攻撃速度と移動速度が増加する。<br><\/mainText>",
         "colloq": ";Tear of the Goddess (Crystal Scar);Experimental Hexplate;なみだ;ナミダ;てぃあー;ティアー;てぃあおぶ;ティアオブ;ごっです;ゴッデス;めがみのなみだ（くいっくちゃーじ）;女神の涙（クイックチャージ）;めがみのなみだ（くりすたるすかー）;女神の涙（クリスタルスカー）;めがみのなみだくいっくちゃーじ;女神の涙クイックチャージ;めがみのなみだくりすたるすかー;女神の涙クリスタルスカー;くいっくちゃーじ;クイックチャージ;実験的へクスプレート;じっけんてきへくすぷれーと;megaminonamida;jixtukennteki hekusupure-to;jixtukennteki hekusupureto;jiltukennteki hekusupure-to;Jiltukennteki hekusupureto",
+        "plaintext": "マナ消費時に最大マナが上昇",
         "from": [
             "2021",
             "3051"
@@ -2429,6 +2516,7 @@
         "name": "ラヴァナス ハイドラ",
         "description": "<mainText><stats>攻撃力<attention>70<\/attention><br>スキルヘイスト<attention>20<\/attention><br>ライフ スティール<attention>12%<\/attention><\/stats><br><br><passive>なぎ払い<\/passive><br>通常攻撃が周囲の敵にも物理ダメージを与える。<br><br><active>発動効果<\/active> (0秒)<br><active>貪欲な三日月<\/active><br>周囲の敵に物理ダメージを与えて、ライフスティールを適用する。<\/mainText>",
         "colloq": ";Ravenous Hydra;らヴぁなす・はいどら;らゔぁなす・はいどら;ひどら;ヒドラ;らべのす;ラベノス;ラヴァナス ハイドラ（近接専用）;ラヴァナスハイドラ近接専用;らヴぁなすはいどら;らゔぁなすはいどら;ひどら;ヒドラ;らべのす;ラベノス;ラヴァナスハイドラ（近接専用）;ravanasuhaidora",
+        "plaintext": "近接攻撃で周囲の敵にダメージを与え、体力が回復",
         "from": [
             "3077",
             "1053",
@@ -2465,6 +2553,7 @@
         "name": "ソーンメイル",
         "description": "<mainText><stats>体力<attention>350<\/attention><br>物理防御 <attention>70<\/attention><\/stats><br><br><passive>棘<\/passive><br>通常攻撃を受けると攻撃者にダメージを与え、対象がチャンピオンだった場合は40%の<keyword>「重傷」<\/keyword>を付与する。<br><br><rules><status>「重傷」<\/status>は体力回復および自動回復の効果を減少させる。<\/rules><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3076",
             "1011"
@@ -2495,6 +2584,7 @@
         "name": "ブランブル ベスト",
         "description": "<mainText><stats>物理防御 <attention>30<\/attention><\/stats><br><br><passive>棘<\/passive><br>通常攻撃を受けると攻撃者にダメージを与え、対象がチャンピオンだった場合は40%の「重傷」を付与する。<br><br><rules><status>「重傷」<\/status>は体力回復および自動回復の効果を減少させる。<\/rules><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1029",
             "1029"
@@ -2522,6 +2612,7 @@
         "name": "ティアマット",
         "description": "<mainText><stats>攻撃力<attention>20<\/attention><\/stats><br><br><passive>なぎ払い<\/passive><br>通常攻撃が周囲の敵にも物理ダメージを与える。<br><br>近接攻撃チャンピオンか遠隔攻撃チャンピオンかに応じて、アイテムの効果は異なる。<br><br><br><active>発動効果<\/active> (0秒)<br><active>三日月<\/active><br>周囲の敵に<physicalDamage>0の物理ダメージ<\/physicalDamage>を与える。<\/mainText>",
         "colloq": ";Tiamat;てぃあまと;ティアマト;てぃあまっと;ティアマット;texiamatto;teliamatto;teiamatto;teiamatto",
+        "plaintext": "近接攻撃が周囲の敵にダメージを与える",
         "from": [
             "1036",
             "1036"
@@ -2555,6 +2646,7 @@
         "name": "トリニティ フォース",
         "description": "<mainText><stats>攻撃力<attention>45<\/attention><br>攻撃速度<attention>33%<\/attention><br>体力<attention>300<\/attention><br>スキルヘイスト<attention>20<\/attention><\/stats><br><br><passive>追撃<\/passive><br>スキルを使った後、次の通常攻撃が強化されて追加物理ダメージを与える。<br><br><passive>加速<\/passive><br>通常攻撃を行うと移動速度が増加する。<br><br><\/mainText>",
         "colloq": ";Trinity Force;triforce;tons of damage;TF;てぃーえふ;ティーエフ;とりにてぃ・ふぉーす;トリニティ フォース;とりにてぃふぉーす;トリニティフォース;torinitexifo-su;torinitelifo-su;toriniteifuosu;toriniteihuosu",
+        "plaintext": "圧倒的ダメージ",
         "from": [
             "3057",
             "3044",
@@ -2593,6 +2685,7 @@
         "name": "ワーデン メイル",
         "description": "<mainText><stats>物理防御 <attention>40<\/attention><\/stats><br><br><passive>岩より固く<\/passive><br>通常攻撃で受けるダメージを軽減する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1029",
             "1029"
@@ -2621,6 +2714,7 @@
         "name": "ワーモグ アーマー",
         "description": "<mainText><stats>体力<attention>1000<\/attention><br>移動速度<attention>5%<\/attention><br>基本体力自動回復<attention>100%<\/attention><\/stats><br><br><passive>ワーモグの心臓<\/passive><br>自身の増加体力が1500以上であれば、6秒間ダメージを受けずにいると、毎秒最大体力の一定割合を回復する。<\/mainText>",
         "colloq": ";Warmog's Armor;わもぐ;ワモグ;へるす;ヘルス;らいふ;ライフ;わーもぐあーまー;ワーモグ アーマー;wa-mogua-ma-;wamoguama",
+        "plaintext": "大量の体力と体力自動回復を付与",
         "from": [
             "1011",
             "3066",
@@ -2653,6 +2747,7 @@
         "name": "心の鋼",
         "description": "<mainText><stats>体力<attention>900<\/attention><br>基本体力自動回復<attention>200%<\/attention><\/stats><br><br><passive>巨人の食欲<\/passive> 対象ごとに(0秒)<br>チャンピオンの近くにいると、そのチャンピオンに対し、強力な通常攻撃をチャージする。チャージした通常攻撃は追加物理ダメージを与え、最大体力が恒久的に増加する。<br><br><passive>ゴライアス<\/passive><br>合計体力に応じてサイズが増加する。 <\/mainText>",
         "colloq": ";Heartsteel;Overlord's Bloodmail;おばろ;オバロ;おーばーろーど;オーバーロード;はおうのぶらっどめいる;ちよろい;チヨロイ;覇王のブラッドメイル;ハートスティール;はーとすてぃーる;ハートスチール;ハートすちーる;心の銅;こころのどう;こころのあかがね;ココロノドウ;ココロノアカガネ;haounoburaddomeiru;haounoburaddomeiru;haounoburaddomeiru;haounoburaddomeiru;ha-tosutexi-ru;hatosutexiru;ha-tosuti-ru;hatosutiru;ha-tosuteli-ru;ha-tosuteli-ru;kokoronodou;kokoronoakagane",
+        "plaintext": "キルまたはアシスト時に体力を回復",
         "from": [
             "1011",
             "3801",
@@ -2684,6 +2779,7 @@
         "name": "ルナーン ハリケーン",
         "description": "<mainText><stats>攻撃速度<attention>40%<\/attention><br>クリティカル率<attention>25%<\/attention><br>移動速度<attention>7%<\/attention><\/stats><br><br><passive>連撃の風<\/passive><br>通常攻撃時、対象の周囲にいる敵(最大2体)にも矢を放つ。矢には通常攻撃時効果が適用され、クリティカル判定がある。<br><br><rules>このアイテムは遠隔攻撃チャンピオン専用。<\/rules><\/mainText>",
         "colloq": ";Runaan's Hurricane;るなーん・はりけーん;ルナーン ハリケーン;るなーんはりけーん;ルナーンハリケーン;runa-nnharike-nn;runanhariken",
+        "plaintext": "遠隔の通常攻撃で周辺の敵に対し2本の矢を射出",
         "from": [
             "3086",
             "3144"
@@ -2716,6 +2812,7 @@
         "name": "ジール",
         "description": "<mainText><stats>攻撃速度<attention>15%<\/attention><br>クリティカル率<attention>15%<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Zeal;じーる;じいる;ジイル;じぃる;ジィル;ジール;ji-ru;zi-ru;jiru;ziru",
+        "plaintext": "クリティカル率、移動速度、攻撃速度にわずかなボーナス付与",
         "from": [
             "1018",
             "1042"
@@ -2750,6 +2847,7 @@
         "name": "スタティック シヴ",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>攻撃速度<attention>45%<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>電気スパーク<\/passive> <br>ミニオンまたはモンスターをキルすると連鎖する電撃を放ち、魔法ダメージを与える。<br><br><passive>電気ショック<\/passive> <br>チャンピオンからキルまたはアシストを奪うと連鎖する電撃を放ち、さらに多くの魔法ダメージを与える。<\/mainText>",
         "colloq": ";Statikk Shiv;ss;しぶ;シブ;しヴ;えすえす;エスエス;すたてぃっく・しゔ;スタティック シヴ;すたてぃっくしゔ;スタティックシヴ;sutatexikkushivu;sutatelikkusivu;sutateikkushivu;sutateikkusivu",
+        "plaintext": "移動によってチャージし、通常攻撃でチャージした雷撃を放つ",
         "from": [
             "3144",
             "6690",
@@ -2784,6 +2882,7 @@
         "name": "ラバドン デスキャップ",
         "description": "<mainText><stats>魔力<attention>140<\/attention><\/stats><br><br><passive>マジカルオーパス<\/passive><br>合計<scaleAP>魔力を35%<\/scaleAP>増加させる。<\/mainText>",
         "colloq": ";Rabadon's Deathcap;dc;banksys;hat;はっと;ハット;ぼうし;ボウシ;らばどん・ですきゃっぷ;ぼーし;ボーシ;ラバドン デスキャップ;らばどんですきゃっぷ;ラバドンデスキャップ;rabadonndesukyappu",
+        "plaintext": "魔力が大きく上昇",
         "from": [
             "1058",
             "1058"
@@ -2811,6 +2910,7 @@
         "name": "ウィッツ エンド",
         "description": "<mainText><stats>攻撃速度<attention>55%<\/attention><br>魔法防御<attention>50<\/attention><br>行動妨害耐性<attention>20%<\/attention><\/stats><br><br><passive>フレイ<\/passive><br>通常攻撃時効果で魔法ダメージを与える。<\/mainText>",
         "colloq": ";Wit's End;うぃっつえんど;ウィッツ エンド;uxittsuenndo;ulittuenndo;uittsuendo;uittuendo",
+        "plaintext": "魔法ダメージから身を守り、死の淵から生還させる",
         "from": [
             "1043",
             "1057",
@@ -2845,6 +2945,7 @@
         "name": "ラピッド ファイアキャノン",
         "description": "<mainText><stats>攻撃速度<attention>35%<\/attention><br>クリティカル率<attention>25%<\/attention><br>移動速度<attention>7%<\/attention><\/stats><br><br><passive>心眼<\/passive><br>エネルギー充填状態の通常攻撃が追加魔法ダメージを与え、その射程が増加する。<\/mainText>",
         "colloq": ";Rapid Firecannon;らぴっどふぁいあきゃのん;ラピッド ファイアキャノン;らぴっどふぁいやきゃのん;ラピッドファイヤキャノン;rapiddofaiakyanonn;rapiddofuaiakyanon;rapiddohuaiakyanon",
+        "plaintext": "移動によってチャージが溜まり、解放時に砲撃を放つ",
         "from": [
             "3086",
             "3144"
@@ -2876,6 +2977,7 @@
         "name": "リッチ ベイン",
         "description": "<mainText><stats>魔力<attention>100<\/attention><br>移動速度<attention>8%<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>追撃<\/passive><br>スキルを使った後、次の通常攻撃が強化されて追加魔法ダメージ<OnHit>通常攻撃時効果<\/OnHit>を与える。<\/mainText>",
         "colloq": ";Lich Bane;lb;りっちべいん;えるびー;エルビー;リッチ ベイン;ricchibeinn;rittibeinn;ricchibein;rittibein",
+        "plaintext": "スキル使用後の次の攻撃に追加ダメージ付与",
         "from": [
             "3057",
             "3113",
@@ -2909,6 +3011,7 @@
         "name": "バンシー ヴェール",
         "description": "<mainText><stats>魔力<attention>120<\/attention><br>魔法防御<attention>50<\/attention><\/stats><br><br><passive>破棄<\/passive><br>スペルシールドを獲得する。<br><\/mainText>",
         "colloq": ";Banshee's Veil;bv;ベイル;べいる;ヴぇいる;ゔぇいる;ヴェイル;ばんしーヴぇーる;ばんしーゔぇーる;バンシー ヴェール;bannshi-ve-ru;bannsi-ve-ru;banshiveru;bansiveru",
+        "plaintext": "一定時間ごとに敵のスキルを無効化する",
         "from": [
             "1058",
             "4632"
@@ -2938,6 +3041,7 @@
         "name": "リデンプション",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>スキルヘイスト<attention>15<\/attention><br>基本マナ自動回復<attention>100%<\/attention><br>回復効果およびシールド量<attention>15%<\/attention><\/stats><br><br><active>発動効果<\/active><br><active>介入<\/active><br>一定範囲を指定し、味方チャンピオンの体力を回復して、敵チャンピオンに確定ダメージを与える。<\/mainText>",
         "colloq": ";Redemption;リデンプション;りでんぷしょん;ridenpushon;ridennpusyon",
+        "plaintext": "発動で範囲内の味方を回復して敵にダメージを与える",
         "from": [
             "3067",
             "3114"
@@ -2971,6 +3075,7 @@
         "name": "フィンディッシュの古書",
         "description": "<mainText><stats>魔力<attention>25<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Fiendish Codex;こーでっくす;コーデックス;ふぃえん;フィエン;こーで;こおで;コオデ;ふぃんでぃっしゅのこしょ;フィンディッシュの古書;finndexisshunokosho;finndelissyunokosyo;fuindeisshunokosho;huindeisshunokosho",
+        "plaintext": "魔力が上昇し、クールダウンを短縮",
         "from": [
             "1052",
             "2022"
@@ -3010,6 +3115,7 @@
         "name": "騎士の誓い",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>物理防御 <attention>40<\/attention><br>スキルヘイスト<attention>10<\/attention><br>基本体力自動回復<attention>100%<\/attention><\/stats><br><br><passive>犠牲<\/passive><br>味方の<attention>同士<\/attention>が近くにいる間は、その味方が受けるダメージを代わりに受け、その<attention>同士<\/attention>がチャンピオンに与えたダメージに応じた体力を回復する。<br><br><br><active>発動効果<\/active> (0秒)<br><active>誓約<\/active><br>味方を<attention>同志<\/attention>に指定する。<\/mainText>",
         "colloq": ";Knight's Vow;きしのちかい;kishinochikai;kisinochikai;キシノチカイ;騎士の誓い",
+        "plaintext": "1人の味方とパートナーになってお互いを守る",
         "from": [
             "3067",
             "1031",
@@ -3050,6 +3156,7 @@
         "name": "フローズン ハート",
         "description": "<mainText><stats>物理防御 <attention>65<\/attention><br>マナ<attention>400<\/attention><br>スキルヘイスト<attention>20<\/attention><\/stats><br><br><passive>冬の抱擁<\/passive><br>周囲の敵の<attackSpeed>攻撃速度<\/attackSpeed>を20%低下させる。<br><br><passive>岩より固く<\/passive><br>通常攻撃で受けるダメージを最大0軽減する。通常攻撃のダメージの0%が上限。<\/mainText>",
         "colloq": ";Frozen Heart;fh;ふろは;フロハ;ふろーずんはーと;こおり;コオリ;フローズン ハート;furo-zunnha-to;huro-zunnha-to;furozunhato;hurozunhato",
+        "plaintext": "物理防御がかなり上昇し、敵の攻撃速度を低下させる",
         "from": [
             "3082",
             "3024"
@@ -3085,6 +3192,7 @@
         "name": "マーキュリー ブーツ",
         "description": "<mainText><stats>魔法防御<attention>20<\/attention><br>移動速度<attention>45<\/attention><br>行動妨害耐性<attention>30%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Mercury's Treads;Enchantment: Furor;てなくつ;テナクツ;てなぐつ;テナグツ;まきゅり;マキュリ;れじくつ;レジクツ;れじぐつ;レジグツ;まーきゅりー;靴;マーキュリー ブーツ;まーきゅりーぶーつ;えんちゃんと：ふゅあー;エンチャント：フュアー;えんちゃんとふゅあー;エンチャントフュアー;ennchanntofuxyua-;enntyanntohulyua-;enchantofuyua;enchantohuyua;ma-kyuri-bu-tu;ma-kyuri-bu-tsu",
+        "plaintext": "移動速度が上昇し、行動阻害の効果時間を短縮",
         "from": [
             "1001",
             "1033"
@@ -3111,6 +3219,7 @@
         "name": "ガーディアン オーブ",
         "description": "<mainText><stats>魔力<attention>50<\/attention><br>体力<attention>150<\/attention><\/stats><br><br><br><li><passive>治癒: <\/passive>一定時間をかけてマナを回復する。マナを獲得できない場合は、代わりに体力を回復する。<br><\/mainText>",
         "colloq": ";Guardian's Orb;Orb of Winter;がーでぃあん おーぶ;ガーディアン オーブ;ふゆ;フユ;うぃんたー おーぶ;ウィンター オーブ;uxinnta-o-bu;ulinnta-o-bu;uintaobu;ga-dexianno-bu;gadexiann obu;ga-deliann o-bu;gadeliann obu",
+        "plaintext": "メイジ系チャンピオン向けの初期アイテム",
         "gold": 950,
         "tags": [
             "体力",
@@ -3134,6 +3243,7 @@
         "name": "エーテル ウィスプ",
         "description": "<mainText><stats>魔力<attention>30<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Aether Wisp;えいざー;エイザー;いーざー;イーザー;えーてるうぃすぷ;ゆうれい;ユウレイ;エーテル ウィスプ;e-teruuxisupu;e-teruulisupu;eteruuisupu",
+        "plaintext": "魔力と移動速度が上昇",
         "from": [
             "1052"
         ],
@@ -3164,6 +3274,7 @@
         "name": "フォビドゥン アイドル",
         "description": "<mainText><stats>基本マナ自動回復<attention>50%<\/attention><br>回復効果およびシールド量<attention>8%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Forbidden Idol;ふぉびどん;フォビドン;ふぉびどぅんあいどる;フォビドゥン アイドル;fobidoxunnaidoru;fobidolunnaidoru;fuobidounaidoru;huobidounaidoru",
+        "plaintext": "ヒール量、シールド量、マナ自動回復量が増加し、クールダウンを短縮する",
         "from": [
             "1004"
         ],
@@ -3194,6 +3305,7 @@
         "name": "ナッシャー トゥース",
         "description": "<mainText><stats>魔力<attention>90<\/attention><br>攻撃速度<attention>50%<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>イカシアの牙<\/passive><br>通常攻撃が<magicDamage>魔法ダメージ<\/magicDamage> <OnHit>通常攻撃時効果<\/OnHit>を与える。<\/mainText>",
         "colloq": ";Nashor's Tooth;なっしゃーとぅーす;ナッシャートゥース;なっしゃー・とぅーす;は;歯;ナッシャー トゥース;nassha-toxu-su;nassya-tolu-su;nasshatousu",
+        "plaintext": "攻撃速度、魔力が上昇し、クールダウンを短縮",
         "from": [
             "1043",
             "1026",
@@ -3228,6 +3340,7 @@
         "name": "リーライ クリスタル セプター",
         "description": "<mainText><stats>魔力<attention>75<\/attention><br>体力<attention>400<\/attention><\/stats><br><br><passive>ライムフロスト<\/passive><br>攻撃スキルが、敵に1秒間30%の<keyword>スロウ効果<\/keyword>を与える。<\/mainText>",
         "colloq": ";Rylai's Crystal Scepter;りらい;リライ;くりせぷ;クリセプ;りーらいず;リーライズ;こおり;コオリ;りーらい・くりすたるせぷたー;リーライ クリスタル セプター;りーらいくりすたるせぷたー;リーライクリスタルセプター;ri-raikurisutaruseputa-;riraikurisutaruseputa",
+        "plaintext": "スキルによる攻撃で敵にスロウを付与",
         "from": [
             "1026",
             "1011",
@@ -3259,6 +3372,7 @@
         "name": "モビリティ ブーツ",
         "description": "<mainText><stats><\/stats><br><br>移動速度<attention>25<\/attention> <br>非戦闘状態が5秒間続くと、このアイテムの効果が<attention>45<\/attention>に増加する。<\/mainText>",
         "colloq": ";Mobility Boots;Boots of Mobility;Enchantment: Furor;ごぐつ;ゴグツ;もびりてぃ;モビリティ;もばいりてぃ;モバイリティ;もびぐつ;モビグツ;靴;えんちゃんと：ふゅあー;エンチャント：フュアー;えんちゃんとふゅあー;エンチャントフュアー;ennchanntofuxyua-;enntyanntohulyua-;enchantofuyua;enchantohuyua;mobiritelibu-tu;mobiritelibu-tsu;bu-tuobumobiriteli;bu-tsuobumobiriteli",
+        "plaintext": "非戦闘時の移動速度が大幅に上昇",
         "from": [
             "1001"
         ],
@@ -3281,6 +3395,7 @@
         "name": "マリグナンス",
         "description": "<mainText><stats>魔力<attention>80<\/attention><br>マナ<attention>600<\/attention><br>スキルヘイスト<attention>25<\/attention><\/stats><br><br><passive>嘲り<\/passive><br>アルティメットスキルがスキルヘイストを獲得する。<br><br><passive>憎悪の霧<\/passive><br>アルティメットスキルでチャンピオンにダメージを与えると、対象の足元の地面が燃え上がり、ダメージを与えて、対象の魔法防御を低下させる。<br><\/mainText>",
         "colloq": ";Knight's Vow;きしのちかい;kishinochikai;kisinochikai;キシノチカイ;騎士の誓い;宇宙の;うちゅうの;utyuuno;utyu-no;uchuuno;uchu-no;Malignance;マリグナンス;marigunannsu",
+        "plaintext": "1人の味方とパートナーになってお互いを守る",
         "from": [
             "3802",
             "3108"
@@ -3313,6 +3428,7 @@
         "name": "冬の訪れ",
         "description": "<mainText><stats>体力<attention>550<\/attention><br>マナ<attention>500<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>畏怖<\/passive><br>追加で<scaleHealth>0にあたる体力<\/scaleHealth>を獲得する。<br><br><passive>マナフロー<\/passive><br>スキルまたは通常攻撃が対象に命中するとチャージを1つ消費して増加マナを獲得する。最大までマナを獲得すると、このアイテムは<rarityLegendary>「フィンブルウィンター」<\/rarityLegendary>に変化する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3070",
             "1011",
@@ -3347,6 +3463,7 @@
         "name": "フィンブルウィンター",
         "description": "<mainText><stats>体力<attention>550<\/attention><br>マナ<attention>860<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>畏怖<\/passive><br>追加で<scaleHealth>0にあたる体力<\/scaleHealth>を獲得する。<br><br><passive>不朽<\/passive> (0秒)<br>敵チャンピオンに<status>移動不能効果<\/status>または<status>スロウ効果<\/status>(近接のみ)を与えると、3秒間、耐久値<scaleMana>0 + 現在マナの4.5%<\/scaleMana>のシールドを獲得する。周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が<attention>80%<\/attention>増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "specialRecipe": 3119,
         "inStore": false,
         "gold": 2400,
@@ -3373,6 +3490,7 @@
         "name": "エクスキューショナー コーリング",
         "description": "<mainText><stats>攻撃力<attention>15<\/attention><\/stats><br><br><passive>重傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。<\/mainText>",
         "colloq": ";grievous;Executioner's Calling;重傷;じゅうしょう;ジュウショウ;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;ekusukyu-shona-ko-rinngu;ekusukyu-syona-ko-rinngu;ekusukyushonakoringu;juusyou;juushou",
+        "plaintext": "体力回復効果の高い敵を打倒する",
         "from": [
             "1036"
         ],
@@ -3400,6 +3518,7 @@
         "name": "グインソー レイジブレード",
         "description": "<mainText><stats>攻撃力<attention>35<\/attention><br>魔力<attention>35<\/attention><br>攻撃速度<attention>25%<\/attention><\/stats><br><br><passive>激憤<\/passive><br>通常攻撃が<magicDamage>30の魔法ダメージ <OnHit>通常攻撃時効果<\/OnHit><\/magicDamage>を与える。<br><br><passive>シージングストライク<\/passive><br>通常攻撃によって<attackSpeed>攻撃速度が8%<\/attackSpeed>増加する。この効果は4回までスタックし、最大で<attackSpeed>攻撃速度が0<\/attackSpeed>増加する。スタックが最大の間は、通常攻撃3回ごとに<OnHit>通常攻撃時効果<\/OnHit>を2回適用する。<br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1052",
             "1043",
@@ -3434,6 +3553,7 @@
         "name": "コールフィールド ウォーハンマー",
         "description": "<mainText><stats>攻撃力<attention>20<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Caulfield's Warhammer;こーるふぃーるど・うぉーはんまー;コールフィールド ウォーハンマー;こーるふぃーるどうぉーはんまー;コールフィールドウォーハンマー;ko-rufi-rudouxo-hannma-;ko-rufi-rudoulo-hannma-;korufuirudouohanma",
+        "plaintext": "攻撃力が上昇し、クールダウンを短縮",
         "stacks": 0,
         "from": [
             "1036",
@@ -3481,6 +3601,7 @@
         "name": "セレイテッド ダーク",
         "description": "<mainText><stats>攻撃力<attention>20<\/attention><br>脅威<attention>10<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Serrated Dirk;ぶるたら;ブルタラ;せれいてっどだーく;セレイテッド ダーク;sereiteddoda-ku;sereiteddodaku",
+        "plaintext": "攻撃力と脅威が上昇",
         "stacks": 0,
         "from": [
             "1036",
@@ -3520,6 +3641,7 @@
         "name": "ヴォイド スタッフ",
         "description": "<mainText><stats>魔力<attention>95<\/attention><br>魔法防御貫通<attention>40%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Void Staff;かんつう;つえ;杖;カンツウ;ゔぉいどすたっふ;ヴぉいどすたっふ;ヴォイド スタッフ;voidosutaffu;voidosutahhu",
+        "plaintext": "魔法ダメージが上昇",
         "from": [
             "4630",
             "1026"
@@ -3548,6 +3670,7 @@
         "name": "クリプトブルーム",
         "description": "<mainText><stats>魔力<attention>70<\/attention><br>魔法防御貫通<attention>30%<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>死から命へ<\/passive> <br>敵チャンピオンからキルまたはアシストを獲得すると、その位置に味方の体力を回復する新星が発生する。<\/mainText>",
         "colloq": ";Cryptbloom;Dervish Blade;でるびっしゅ;デルビッシュ;だるびっしゅ;ダルビッシュ;でるヴぃっしゅ;デルヴィッシュ;でるゔぃっしゅ;さっしゅけん;サッシュケン;くれんずけん;クレンズケン;だーゔぃっしゅ ぶれーど;だーヴぃっしゅ ぶれーど;ダーヴィッシュ ブレード;だーゔぃっしゅ ぶれいど;だーヴぃっしゅ ぶれいど;ダーヴィッシュ ブレイド;クリプトブルーム;くりぷとぶるーむ;da-visshubure-do;da-vissyubure-do;davisshuburedo;kuriputoburu-mu;kuriputoburumu",
+        "plaintext": "発動ですべてのデバフを無効化し、移動速度がかなり増加",
         "from": [
             "4630",
             "3108"
@@ -3580,6 +3703,7 @@
         "name": "マーキュリアル シミター",
         "description": "<mainText><stats>攻撃力<attention>40<\/attention><br>魔法防御<attention>50<\/attention><br>ライフ スティール<attention>10%<\/attention><\/stats><br><br><br><br><active>発動効果<\/active><br><active>水銀<\/active><br>すべての行動妨害系デバフ(<keyword>ノックアップ<\/keyword>を除く)を除去し、移動速度が増加する。<\/mainText>",
         "colloq": ";Mercurial Scimitar;さっしゅけん;サッシュケン;くれんずけん;クレンズケン;まきゅりけん;マキュリケン;まーきゅりある・しみたー;マーキュリー;マーキュリアル シミター;まーきゅりあるしみたー;マーキュリアルシミター;ma-kyuriarushimita-;ma-kyuriarusimita-;makyuriarushimita;makyuriarusimita",
+        "plaintext": "発動で行動妨害系のデバフを無効化し、移動速度がかなり増加",
         "from": [
             "3140",
             "1037",
@@ -3615,6 +3739,7 @@
         "name": "クイックシルバー サッシュ",
         "description": "<mainText><stats>魔法防御<attention>30<\/attention><\/stats><br><br><active>発動効果<\/active> (0秒)<br><active>水銀<\/active><br>すべての行動妨害系デバフを除去する(<keyword>ノックアップ<\/keyword>を除く)。<\/mainText>",
         "colloq": ";Quicksilver Sash;qss;しるばーさっしゅ;くれんず;クレンズ;ぎん;ギン;銀;ぬの;ヌノ;布;くいっく;クイック;クイックシルバー サッシュ;shiruba-sasshu;siruba-sassyu;shirubasasshu;sirubasasshu",
+        "plaintext": "発動で行動妨害系のデバフを無効化",
         "from": [
             "1033"
         ],
@@ -3643,6 +3768,7 @@
         "name": "妖夢の霊剣",
         "description": "<mainText><stats>攻撃力<attention>60<\/attention><br>脅威<attention>18<\/attention><\/stats><br><br><passive>幽鬼<\/passive> <br>非戦闘時に<speed>移動速度<\/speed>が増加する。<br><br><br><active>発動効果<\/active> (0秒)<br><active>幽霊の歩み<\/active><br><speed>移動速度<\/speed>が増加して<keyword>ゴースト化<\/keyword>する。<\/mainText>",
         "colloq": ";Youmuu's Ghostblade;ようむのれいけん;ヨウムノレイケン;youmunoreiken;ようむ;よーむ;yo-munoreiken",
+        "plaintext": "発動で移動速度が大幅に上昇",
         "from": [
             "3134",
             "6690"
@@ -3676,6 +3802,7 @@
         "name": "ランデュイン オーメン",
         "description": "<mainText><stats>体力<attention>350<\/attention><br>物理防御 <attention>75<\/attention><\/stats><br><br><passive>クリティカル耐性<\/passive><br>クリティカルで受けるダメージが軽減される。<br><br><active>発動効果<\/active><br><active>卑下<\/active><br>周囲の敵に<keyword>スロウ効果<\/keyword>を付与する。<\/mainText>",
         "colloq": ";Randuin's Omen;おめん;オメン;おーめん;しろたて;シロタテ;らんでゅいん・おーめん;ランデュイン オーメン;らんでゅいんおーめん;ランデュインオーメン;ranndexyuinno-menn;ranndelyuinno-menn;randeyuinomen",
+        "plaintext": "防御力が大幅に上昇し、発動で周辺の敵にスロウを付与",
         "from": [
             "3082",
             "1011"
@@ -3709,6 +3836,7 @@
         "name": "偵察兵のパチンコ",
         "description": "<mainText><stats>攻撃速度<attention>20%<\/attention><\/stats><br><br><passive>ブルズアイ<\/passive> <br>チャンピオンにダメージを与えると、追加で魔法ダメージを与える。通常攻撃でこのクールダウンが短縮される。<\/mainText>",
         "colloq": ";Bilgewater Cutlass;びるじうぉーたーかとらす;ビルジウォーターカトラス;びるじうぉーたー・かとらす;かっとらす;カットラス;ビルジウォーター カトラス;birujiuxo-ta-katorasu;biruziulo-ta-katorasu;birujiuotakatorasu;biruziuotakatorasu",
+        "plaintext": "発動で魔法ダメージとスロウを対象のチャンピオンに付与",
         "from": [
             "1042",
             "1042"
@@ -3738,6 +3866,7 @@
         "name": "ヘクステック オルタネーター",
         "description": "<mainText><stats>魔力<attention>45<\/attention><\/stats><br><br><passive>レヴド<\/passive><br>チャンピオンにダメージを与えると追加ダメージを与える。<\/mainText>",
         "colloq": ";Hextech Alternator;Hextech Revolver;ヴぁんぷ;ヴァンプ;ゔぁんぷ;りぼるばー;じゅう;ジュウ;銃;ばんぷ;バンプ;すぺる;スペル;へくすてっく りぼるばー;りゔぉるばー;リヴォルバー;りヴぉるばー;ヘクステック リボルバー;ヘクステック リボルバー;ヘクステック オルタネーター;へくすてっく おるたねーたー;hekusutekkuriboruba-;hekusutekkuriboruba;hekusutekkuorutane-ta-;hekusutekkuorutaneta;hekusutextuku riboruba-;hekusutextuku riboruba",
+        "plaintext": "魔力が上昇。一定期間毎に通常攻撃に魔法ダメージを追加。",
         "from": [
             "1052",
             "1052"
@@ -3771,6 +3900,7 @@
         "name": "悲愴な仮面",
         "description": "<mainText><stats>魔力<attention>30<\/attention><br>体力<attention>200<\/attention><\/stats><br><br><passive>狂気<\/passive><br>敵チャンピオンと戦闘状態の間、毎秒追加ダメージを与える。<\/mainText>",
         "colloq": ";lethality;Haunting Guise;Duskblade of Draktharr;ドラクサー ダスクブレード;どらくさー だすくぶれーど;悲愴な仮面;ひそうなかめん;ヒソウナカメン;脅威;きょうい;キョウイ;dorakusa-dasukubure-do;hisouna kamen;kyoui;kixyoui;kilyou",
+        "plaintext": "敵を奇襲した時に追加物理ダメージを与える",
         "from": [
             "1052",
             "1028"
@@ -3801,6 +3931,7 @@
         "name": "ヘクステック ロケットベルト",
         "description": "<mainText><stats>魔力<attention>70<\/attention><br>体力<attention>400<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><active>発動効果<\/active><br><active>超音速<\/active><br>指定方向にダッシュして扇状に魔弾を放ち、魔法ダメージを与える。<\/mainText>",
         "colloq": ";rocket•belt;Hextech Rocketbelt;Hextech Protobelt-01;ヘクステック プロトベルト01;ヘクステック プロトベルト01;へくすてっく ぷろとべると01;ヘクステック•ロケットベルト;へくすてっく ろけっとべると;プロトベルト;hekusutekku purotoberuto;hekusutekkurokettoberuto;hekusutextuku rokextutoberuto",
+        "plaintext": "発動で前方にダッシュして火の矢を放つ",
         "from": [
             "3145",
             "3067"
@@ -3835,6 +3966,7 @@
         "name": "ルインドキング ブレード",
         "description": "<mainText><stats>攻撃力<attention>50<\/attention><br>攻撃速度<attention>25%<\/attention><br>ライフ スティール<attention>10%<\/attention><\/stats><br><br><passive>ミストエッジ<\/passive><br>通常攻撃が敵の現在体力にあたる物理ダメージ <OnHit>通常攻撃時効果<\/OnHit>を追加で与える。<br><br><passive>引き裂く影<\/passive> <br>チャンピオンに3回通常攻撃を行うと、対象にスロウ効果を与える。<\/mainText>",
         "colloq": ";Blade of the Ruined King;brk;bork;botrk;おうけん;るいんどきんぐ・ぶれーど;ルインドキング・ブレ―ド;るいんどきんぐ・ぶれいど;ルインドキング・ブレイド;るいんどきんぐぶれーど;ルインドキングブレ―ド;るいんどきんぐぶれいど;ルインドキングブレイド;オウケン;おーけん;オーケン;るーいん;ルーイン;ぶれきん;ブレキン;しっついのおうけん;失墜の王剣;shittsuinooukenn;sittuinooukenn",
+        "plaintext": "対象の体力を元にしたダメージを与え、移動速度を吸収",
         "from": [
             "1053",
             "1043",
@@ -3871,6 +4003,7 @@
         "name": "ヘクスドリンカー",
         "description": "<mainText><stats>攻撃力<attention>25<\/attention><br>魔法防御<attention>30<\/attention><\/stats><br><br><passive>ライフライン<\/passive><br>体力が残り少ない状態で魔法ダメージを受けると、魔法ダメージを防ぐシールドを獲得する。<\/mainText>",
         "colloq": ";Hexdrinker;へくすどりんかー;れじけん;レジケン;にんじん;ニンジン;ヘクスドリンカー;hekusudorinnka-;hekusudorinka",
+        "plaintext": "攻撃力と魔法防御が上昇",
         "stacks": 0,
         "from": [
             "1036",
@@ -3902,6 +4035,7 @@
         "name": "マルモティウスの胃袋",
         "description": "<mainText><stats>攻撃力<attention>70<\/attention><br>スキルヘイスト<attention>15<\/attention><br>魔法防御<attention>40<\/attention><\/stats><br><br><passive>ライフライン<\/passive><br>魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、魔法ダメージを防ぐシールドを得る。<passive>「ライフライン」<\/passive>が発動すると、戦闘終了までオムニヴァンプを獲得する。<\/mainText>",
         "colloq": ";Maw of Malmortius;もるもるそーど;モルモルソード;まるもる;マルモル;れじすと;レジスト;まるもてぃうすのいぶくろ;マルモティウスの胃袋;marumotexiusunoibukuro;marumoteliusunoibukuro;marumoteiusunoibukuro",
+        "plaintext": "体力低下時に追加物理ダメージを付与",
         "stacks": 0,
         "from": [
             "3155",
@@ -3938,6 +4072,7 @@
         "name": "ゾーニャの砂時計",
         "description": "<mainText><stats>魔力<attention>120<\/attention><br>物理防御 <attention>50<\/attention><\/stats><br><br><active>時間停止<\/active><br>2.5秒間<keyword>固有時停止<\/keyword>状態になる。<\/mainText>",
         "colloq": ";Zhonya's Hourglass;zhg;zonyas;ぞにゃ;ゾニャ;ぴかーん;ピカーン;すなどけい;あわぐら;アワグラ;ぞーにゃのすなどけい;スナドケイ;あわーぐらす;アワーグラス;ゾーニャの砂時計;zo-nyanosunadokei;zonyanosunadokei",
+        "plaintext": "発動ですべての行動が不可になるが、一定時間無敵になる",
         "from": [
             "1058",
             "2420"
@@ -3968,6 +4103,7 @@
         "name": "アイオニア ブーツ",
         "description": "<mainText><stats>スキルヘイスト<attention>15<\/attention><br>移動速度<attention>45<\/attention><\/stats><br><br><passive>アイオニアン・インサイト<\/passive><br>10のサモナースペルヘイストを獲得する。<br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "移動速度が上昇し、クールダウンを短縮",
         "from": [
             "1001",
             "2022"
@@ -3994,6 +4130,7 @@
         "name": "ショウジンの矛",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>体力<attention>300<\/attention><br>スキルヘイスト<attention>20<\/attention><\/stats><br><br><passive>ドラゴンフォース<\/passive><br>アルティメット以外のスキルがスキルヘイストを獲得する。<br><br><passive>研ぎ澄ました意志<\/passive><br>スキルが命中するごとにスタックを獲得する。保持しているスタックごとに、スキルで与えるダメージが増加する。<\/mainText>",
         "colloq": ";Spear of Shojin;しょうじんのほこ;ショウジンノホコ;ショウジン;しょうじん;syoujinnohoko;shoujinnohoko;syoujin;shoujin",
+        "plaintext": "敵チャンピオンからの被ダメージを一定量軽減する。周囲に複数の敵チャンピオンがいると短時間だけ効果がさらに増加する。",
         "from": [
             "3067",
             "3133",
@@ -4027,6 +4164,7 @@
         "name": "モレロノミコン",
         "description": "<mainText><stats>魔力<attention>90<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>重傷<\/passive><br>敵チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。<\/mainText>",
         "colloq": ";Morellonomicon;重傷;じゅうしょう;ジュウショウ;もれろのみこん;モレロノミコン;moreronomikonn",
+        "plaintext": "魔法ダメージが増加",
         "from": [
             "3916",
             "3108"
@@ -4058,6 +4196,7 @@
         "name": "ゼファー",
         "description": "<mainText><stats>攻撃速度<attention>45%<\/attention><br>移動速度<attention>45<\/attention><\/stats><br><br><passive>風が如く<\/passive><br><speed>移動速度<\/speed><OnHit>通常攻撃時効果<\/OnHit>が6秒間5%増加する(最大で<speed>移動速度<\/speed>15%まで)。<\/mainText>",
         "colloq": ";Zephyr;ぜぴゅろす;ゼピュロス;ぜふぁー;ぜふぃーる;ゼフィール;ぜぴゅ;ゼピュ;じふぁー;ジファー;じふぃーる;ジフィール;ゼファー;zefa-;zefa-;zefua;zehua;zepyurosu",
+        "plaintext": "機動性と行動妨害耐性",
         "from": [
             "3006"
         ],
@@ -4083,6 +4222,7 @@
         "name": "ガーディアン ブレード",
         "description": "<mainText><stats>攻撃力<attention>30<\/attention><br>体力<attention>150<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";dblade;Guardian's Blade;Guardian's Hammer;Doran's Lost Blade;がーでぃあん はんまー;ガーディアン ハンマー;どらん ろすと ぶれーど;ドラン ロスト ブレード;ガーディアン ブレード;がーでぃあん ぶれーど;dorannrosutobure-do;dorannrosutobure-do;doranrosutoburedo;doranrosutoburedo;ga-delianhanma-;ga-dexiannbure-do;gadexiann buredo;ga-delian nbure-do;gadeliann buredo",
+        "plaintext": "物理攻撃系チャンピオン向けの初期アイテム",
         "gold": 950,
         "tags": [
             "体力",
@@ -4105,6 +4245,7 @@
         "name": "アンブラル グレイブ",
         "description": "<mainText><stats>攻撃力<attention>50<\/attention><br>脅威<attention>15<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>ブラックアウト<\/passive><br>周囲にある罠を可視化してワードを無効化する。通常攻撃でワードに与えるダメージが増加する。<\/mainText>",
         "colloq": ";Umbral Glaive;アンブラル グレイブ;あんぶらるぐれいぶ;きょうい;キョウイ;脅威;貫通;かんつう;カンツウ;amburarugureibu;anburarugureibu;amburarugureivu;anburarugureibu",
+        "plaintext": "定期的に罠とワードを見破る",
         "from": [
             "3134",
             "3133"
@@ -4138,6 +4279,7 @@
         "name": "ハルブレイカー",
         "description": "<mainText><stats>攻撃力<attention>65<\/attention><br>体力<attention>350<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>艦長<\/passive><br>チャンピオンまたはエピックモンスターに対する通常攻撃5回ごとに追加物理ダメージを与える。対象が建造物の場合はこのダメージが増加する。<br><br><passive>乗船部隊<\/passive><br>周囲にいる味方の砲撃ミニオンおよびスーパーミニオンが、物理\/魔法防御を獲得する。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "2021",
             "6690",
@@ -4171,6 +4313,7 @@
         "name": "ガーディアン ハンマー",
         "description": "<mainText><stats>攻撃力<attention>25<\/attention><br>体力<attention>150<\/attention><br>ライフ スティール<attention>5%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Guardian's Hammer;Doran's Blade;dblade;がーでぃあんはんまー;ガーディアン ハンマー;dorannbure-do;dorannbure-do;doranburedo;doranburedo;ga-delianhanma-",
+        "plaintext": "物理攻撃系チャンピオン向けの初期アイテム",
         "gold": 950,
         "tags": [
             "体力",
@@ -4193,6 +4336,7 @@
         "name": "ソラリのロケット",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>物理防御 <attention>30<\/attention><br>魔法防御<attention>30<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><active>発動効果 -<\/active><active>献身<\/active><br>周囲の味方に<shield>シールド<\/shield>を付与する。シールドは一定時間かけて減衰する。<\/mainText>",
         "colloq": ";Locket of the Iron Solari;そらりのぺんだんと;ろけっと;ロケット;ソラリのペンダント;そらりのろけっと;ソラリのロケット;sorarinopenndannto;sorarinopendanto;sorarinoroketto;solarinoroketto",
+        "plaintext": "発動すると周辺の味方にダメージを軽減するシールドを付与",
         "from": [
             "3067",
             "1029",
@@ -4231,6 +4375,7 @@
         "name": "スペクター カウル",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>魔法防御<attention>25<\/attention><br>基本体力自動回復<attention>100%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Spectre's Cowl;hat;はっと;ハット;ぼうし;ボウシ;ずきん;ズキン;ふーど;フード;ふうど;フウド;すぺくたーかうる;スペクター カウル;supekuta-kauru;supekutakauru",
+        "plaintext": "防御が強化され、攻撃を受けた際自動回復を付与",
         "from": [
             "1028",
             "1033",
@@ -4263,6 +4408,7 @@
         "name": "ミカエルの祝福",
         "description": "<mainText><stats>体力<attention>250<\/attention><br>基本マナ自動回復<attention>100%<\/attention><br>回復効果およびシールド量<attention>12%<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><active>発動効果<\/active><br><active>浄化<\/active> (0秒)<br>味方チャンピオンからすべての行動妨害系デバフを除去し、体力を回復させる。<\/mainText>",
         "colloq": ";Mikael's Crucible;みかえるのるつぼ;くれんず;クレンズ;さっしゅ;サッシュ;かいふく;カイフク;ひーる;ヒール;みかえる;くるしぶる;クルシブル;ミカエルのるつぼ;mikaerunorutsubo;mikaerunorutubo;crucible;michael;mikael;Mikael's Blessing;ミカエルの祝福;みかえるのしゅくふく;ミカエルノシュクフク;mikaerunosyukuhuku;mikaerunoshukuhuku;mikaerunosyukufuku;mikaerunoshukufuku",
+        "plaintext": "発動で味方チャンピオンのすべての行動妨害効果を無効化",
         "from": [
             "3067",
             "3114"
@@ -4298,6 +4444,7 @@
         "name": "テルミヌス",
         "description": "<mainText><stats>攻撃力<attention>35<\/attention><br>攻撃速度<attention>35%<\/attention><\/stats><br><br><passive>シャドウ<\/passive><br>通常攻撃が魔法ダメージ<OnHit>通常攻撃時効果<\/OnHit>を与える。<br><br><passive>ジャクスタポジション<\/passive><br>チャンピオンに対する通常攻撃時に、通常攻撃時効果を<keywordMajor>「ライト」<\/keywordMajor>と<keywordMajor>「ダーク」<\/keywordMajor>の間で切り替える。<li><keywordMajor>「ライト」<\/keywordMajor>の通常攻撃は<scaleArmor>物理防御<\/scaleArmor>と<scaleMR>魔法防御<\/scaleMR>を増加させる。<li><keywordMajor>「ダーク」<\/keywordMajor>の通常攻撃は、<scaleArmor>物理防御貫通<\/scaleArmor>と<scaleMR>魔法防御貫通<\/scaleMR>を増加させる。<\/mainText>",
         "colloq": ";Relic Shield;れりっくしーるど;たて;タテ;レリック シールド;rerikkushi-rudo;rerikkusi-rudo;rerikkushirudo;rerikkusirudo;Terminus",
+        "plaintext": "一定時間ごとに、ミニオンをキルした時に周辺の仲間を回復し、ゴールドを付与する効果を発生させる",
         "from": [
             "3051",
             "1043"
@@ -4332,6 +4479,7 @@
         "name": "ステルス ワード",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>ワード設置<\/active><br>視界を付与する<keyword>インビジブル<\/keyword>状態の「ステルス ワード」を設置する。<br><br>2チャージまで保持でき、 一定間隔おきに1チャージ生成される。 <\/mainText>",
         "colloq": ";Warding Totem (Trinket);yellow;イエロー;き;黄;とりんけっと;わーど;ワード;トリンケット;trinket;わーどとーてむ（とりんけっと）;ワードトーテム（トリンケット）;わーどとーてむとりんけっと;ワードトーテムトリンケット;wa-doto-temu;wadototemu",
+        "plaintext": "一定時間ごとにステルス ワードを設置可能",
         "gold": 0,
         "tags": [
             "発動効果あり",
@@ -4353,6 +4501,7 @@
         "name": "ファーサイト オルタレーション",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>水晶占い<\/active><br>遠くのエリアを可視化し、敵チャンピオンが視界に入ると効果が切れるワードを設置する。<\/mainText>",
         "colloq": ";blue;totem;trinket;Farsight Alteration;blue;てんがん;テンガン;ふぁーさいと おるたれーしょん;ファーサイト オルタレーション;とりんけっと;トリンケット;あお;アオ;ぶるー;ブルー;青;あおとり;アオトリ;青とり; 青トリ;buru-;blue;ao;aotori;trinket;wa-doto-temu;wadototemu;totem;fa-saitoorutare-syon",
+        "plaintext": "射程距離が上昇し、指定した範囲の視界を得る",
         "gold": 0,
         "tags": [
             "発動効果あり",
@@ -4372,6 +4521,7 @@
         "name": "オラクル レンズ",
         "description": "<mainText><stats><\/stats><br><br><active>発動効果<\/active><br><active>一掃<\/active><br>6秒間、周囲にある敵のステルス ワードとトラップを可視化する。<br><br>2チャージまで保持でき、一定間隔おきに1チャージ生成される。<\/mainText>",
         "colloq": ";Oracle Alteration;red;かんぱ;カンパ;おらくる・おるたれーしょん;オラクル・オルタレーション;おらくるおるたれーしょん;オラクルオルタレーション;とりんけっと;トリンケット;レッド;れっど;あか;アカ;赤;わーど;ワード;レンズ;れんず;オラクル レンズ;あかとり;アカトリ;赤とり;赤トリ;aka;akatori;renzu;red;trinket;wa-doto-temu;wa-doto-temu;wadototemu;lens;orakuruorutare-syon;Oracle Lens;オラクル レンズ;orakururenzu",
+        "plaintext": "近くにあるステルス状態のワード、トラップを一定時間無効化",
         "gold": 0,
         "tags": [
             "発動効果あり",
@@ -4391,6 +4541,7 @@
         "name": "アーデント センサー",
         "description": "<mainText><stats>魔力<attention>50<\/attention><br>回復効果およびシールド量<attention>8%<\/attention><br>基本マナ自動回復<attention>125%<\/attention><br>移動速度<attention>8%<\/attention><\/stats><br><br><passive>サンクティファイ<\/passive><br>味方に体力回復効果またはシールドを付与すると、6秒間、自身とその味方の両方が強化され、攻撃速度が<attackSpeed>25%<\/attackSpeed>増加して、<magicDamage>20の魔法ダメージ<\/magicDamage> <OnHit>通常攻撃時効果<\/OnHit>を与える。<\/mainText>",
         "colloq": ";Ardent Censer;あーでんとせんさー;アーデント センサー;a-dentosensa-",
+        "plaintext": "他のユニットへシールドおよび回復効果を付与すると、その対象と自身の両方に攻撃速度増加と通常攻撃時の追加魔法ダメージが付与される",
         "from": [
             "3113",
             "3114"
@@ -4424,6 +4575,7 @@
         "name": "エッセンス リーバー",
         "description": "<mainText><stats>攻撃力<attention>70<\/attention><br>スキルヘイスト<attention>25<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><passive>エッセンスドレイン<\/passive><br>通常攻撃で<scaleMana>マナ<\/scaleMana> <OnHit>通常攻撃時効果<\/OnHit>が回復する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1038",
             "3133",
@@ -4459,6 +4611,7 @@
         "name": "デッド マン プレート",
         "description": "<mainText><stats>体力<attention>300<\/attention><br>物理防御 <attention>45<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>シップレッカー<\/passive><br>移動中に増加移動速度を獲得する。次の通常攻撃が増加した移動速度のエネルギーを放出して物理ダメージを与える。<br><br><passive>不沈<\/passive><br>スロウ効果の移動速度低下量が軽減される。<\/mainText>",
         "colloq": ";juggernaut;dreadnought;Dead Man's Plate;はおう;ハオウ;覇王;きょうふ;キョウフ;恐怖のゼロ;でっど まん ぷれーと;デッド マン プレート;deddomann pure-to;deddoman pureto",
+        "plaintext": "移動によって「熾烈」をためて敵を攻撃する",
         "from": [
             "3066",
             "1028",
@@ -4494,6 +4647,7 @@
         "name": "タイタン ハイドラ",
         "description": "<mainText><stats>攻撃力<attention>50<\/attention><br>体力<attention>550<\/attention><\/stats><br><br><passive>なぎ払い<\/passive><br>通常攻撃が追加で<physicalDamage>0の物理ダメージ<\/physicalDamage> <OnHit>通常攻撃時効果<\/OnHit>を与え、対象の背後にいる敵に<physicalDamage>0の物理ダメージ<\/physicalDamage>を与える。<br><br><active>発動効果<\/active><br><active>巨大な三日月<\/active><br>次の通常攻撃時、<passive>「なぎ払い」<\/passive>が対象および衝撃波が当たった周囲の敵に追加物理ダメージを与える。<\/mainText>",
         "colloq": ";Titanic Hydra;ふきゅうのにくたい;フキュウノニクタイ;不朽の肉体;たいたん・はいどら;タイタン ハイドラ（近接専用）;たいたんはいどら;タイタンハイドラ（近接専用）;タイタンハイドラ近接専用;タイタン ハイドラ近接専用;taitannhaidora;taitanhaidora",
+        "plaintext": "所持者の体力に応じた範囲効果ダメージを与える",
         "from": [
             "3077",
             "2021",
@@ -4529,6 +4683,7 @@
         "name": "クリスタル ブレーサー",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>基本体力自動回復<attention>100%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Crystalline Bracer;くりすたるぶれーさー;クリスタル ブレーサー;kurisutarubure-sa-;kurisutaruburesa",
+        "plaintext": "体力と体力自動回復が増える",
         "from": [
             "1028",
             "1006"
@@ -4557,6 +4712,7 @@
         "name": "ロスト チャプター",
         "description": "<mainText><stats>魔力<attention>40<\/attention><br>マナ<attention>300<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><passive>啓発<\/passive><br>レベルアップ時に<scaleMana>最大マナの20%<\/scaleMana>を3秒かけて回復する。<\/mainText>",
         "colloq": ";ろすとちゃぷたー;ロスト チャプター;Lost Chapter;rosutochaputa-;rosutotyaputa-;",
+        "plaintext": "レベルアップ時にマナを回復する",
         "from": [
             "1052",
             "1027",
@@ -4596,6 +4752,7 @@
         "name": "久遠のカタリスト",
         "description": "<mainText><stats>体力<attention>350<\/attention><br>マナ<attention>300<\/attention><\/stats><br><br><passive>久遠<\/passive><br>チャンピオンからダメージを受けるとマナを回復する。スキルを発動すると時間をかけて体力を回復する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1028",
             "1027"
@@ -4628,6 +4785,7 @@
         "name": "ナイト エッジ",
         "description": "<mainText><stats>攻撃力<attention>50<\/attention><br>脅威<attention>15<\/attention><br>体力<attention>250<\/attention><\/stats><br><br><passive>破棄<\/passive><br>スペルシールドを獲得する。<\/mainText>",
         "colloq": ";Edge of Night;ないとえっじ;ナイト エッジ;naitoejji;naitoezzi",
+        "plaintext": "一定時間ごとに敵のスキルを無効化する",
         "stacks": 0,
         "from": [
             "3134",
@@ -4660,6 +4818,7 @@
         "name": "ワールド アトラス",
         "description": "",
         "colloq": "",
+        "plaintext": "",
         "gold": 400,
         "tags": [
             "体力",
@@ -4681,6 +4840,7 @@
         "name": "ルーニック コンパス",
         "description": "<mainText><stats>体力<attention>100<\/attention><br>基本体力自動回復<attention>50%<\/attention><br>基本マナ自動回復<attention>50%<\/attention><br>獲得ゴールド(10秒毎)<attention>5<\/attention><\/stats><br><br><br><br><active>発動効果<\/active><br><active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <br><br><br><br><passive>クエスト<\/passive><br>このアイテムで800ゴールドを獲得すると<rarityGeneric>「ルーニック コンパス」<\/rarityGeneric>にアップグレードされる。<passive>20<\/passive>秒ごとにチャージを1つ獲得する(最大<passive>3<\/passive>チャージ)。味方チャンピオンが近くにいる場合、チャージを消費してゴールドを獲得できる:<br><li>攻撃スキルまたは通常攻撃でチャンピオンか建造物にダメージを与えると、<keywordMajor>24<\/keywordMajor>(近接) \/ <keywordMajor>22<\/keywordMajor>(遠隔)ゴールド獲得する。<li>手段を問わず、ミニオンを倒すと<keywordMajor>20<\/keywordMajor>ゴールドを獲得し、最も近くの味方チャンピオンもキルゴールドを獲得する。<br><br><active>発動効果<\/active><br><active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "specialRecipe": 3865,
         "inStore": false,
         "gold": 400,
@@ -4713,6 +4873,7 @@
         "name": "世界の恵み",
         "description": "<mainText><stats>獲得ゴールド(10秒毎)<attention>5<\/attention><br>基本体力自動回復<attention>75%<\/attention><br>基本マナ自動回復<attention>75%<\/attention><br>体力<attention>200<\/attention><\/stats><br><br><br><li><passive>アップグレード<\/passive> <br>このアイテムは<rarityLegendary>「ブラッドソング」<\/rarityLegendary>、<rarityLegendary>「セレスティアル オポジション」<\/rarityLegendary>、<rarityLegendary>「ドリーム メーカー」<\/rarityLegendary>、<rarityLegendary>「ザズ＝ザクのレルムスパイク」<\/rarityLegendary>、または<rarityLegendary>「至点のソリ」<\/rarityLegendary>に無料でアップグレードできる。<br><br><active>発動効果<\/active><br><active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "specialRecipe": 3866,
         "inStore": false,
         "into": [
@@ -4747,6 +4908,7 @@
         "name": "セレスティアル オポジション",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>基本体力自動回復<attention>75%<\/attention><br>基本マナ自動回復<attention>75%<\/attention><br>獲得ゴールド(10秒毎)<attention>5<\/attention><\/stats><br><br><passive>山の祝福<\/passive> <br>「祝福」状態になって、チャンピオンから受けるダメージを軽減する。この効果はチャンピオンからダメージを受けた後、2秒間持続する。<br><br><br><br><active>発動効果<\/active><br><active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3867"
         ],
@@ -4781,6 +4943,7 @@
         "name": "ドリーム メーカー",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>基本体力自動回復<attention>75%<\/attention><br>基本マナ自動回復<attention>75%<\/attention><br>獲得ゴールド(10秒毎)<attention>5<\/attention><\/stats><br><br><passive>ドリーム メーカー<\/passive><br>時間経過で<passive>「青の夢の泡沫」<\/passive>と<passive>「紫の夢の泡沫」<\/passive>を1つずつ獲得する。味方に体力回復効果またはシールドを付与すると、その味方に両方の<passive>「夢の泡沫」<\/passive>を吹き付けて強化する。対象は被ダメージが軽減され、与ダメージが増加する。<br><br><active>発動効果<\/active><br><active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3867"
         ],
@@ -4815,6 +4978,7 @@
         "name": "ザズ＝ザクのレルムスパイク",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>基本体力自動回復<attention>75%<\/attention><br>基本マナ自動回復<attention>75%<\/attention><br>獲得ゴールド(10秒毎)<attention>5<\/attention><\/stats><br><br><passive>ヴォイドの爆発<\/passive><br>スキルでダメージを与えると爆発が起こり、魔法ダメージと対象の最大体力に応じたダメージを与える。<br><br><br><br><active>発動効果<\/active><br><active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3867"
         ],
@@ -4849,6 +5013,7 @@
         "name": "至点のソリ",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>基本体力自動回復<attention>75%<\/attention><br>基本マナ自動回復<attention>75%<\/attention><br>獲得ゴールド(10秒毎)<attention>5<\/attention><\/stats><br><br><passive>ソリ滑り<\/passive><br>敵チャンピオンに<status>スロウ効果<\/status>または<status>移動不能効果<\/status>を与えると、自身および近くの最も体力の低い味方は、体力と移動速度が増加する。<br><br><active>発動効果<\/active><br><active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3867"
         ],
@@ -4883,6 +5048,7 @@
         "name": "ブラッドソング",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>基本体力自動回復<attention>75%<\/attention><br>基本マナ自動回復<attention>75%<\/attention><br>獲得ゴールド(10秒毎)<attention>5<\/attention><\/stats><br><br><passive>追撃<\/passive><br>スキルを使ってから10秒以内に行う次の通常攻撃が、通常攻撃時効果で基本攻撃力の100%にあたる追加物理ダメージを与え、6秒間対象の敵チャンピオンが受けるダメージを増加させる。<br><br><br><br><active>発動効果<\/active><br><active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3867"
         ],
@@ -4917,6 +5083,7 @@
         "name": "忘却のオーブ",
         "description": "<mainText><stats>魔力<attention>30<\/attention><\/stats><br><br><passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。<\/mainText>",
         "colloq": "",
+        "plaintext": "魔法ダメージが上昇",
         "stacks": 0,
         "from": [
             "1052"
@@ -4945,6 +5112,7 @@
         "name": "帝国の指令",
         "description": "<mainText><stats>魔力<attention>60<\/attention><br>スキルヘイスト<attention>20<\/attention><br>基本マナ自動回復<attention>125%<\/attention><\/stats><br><br><passive>調整射撃<\/passive><br>敵チャンピオンに<status>スロウ効果<\/status>または<status>移動不能効果<\/status>を与えた際、対象をマークする。味方チャンピオンが対象を攻撃すると追加ダメージを与え、自身とその味方の移動速度が増加する。<\/mainText>",
         "colloq": ";Imperial•Mandate;Zhonya's Foresight;ぞーにゃのみらいどけい;ゾーニャの未来時計;時計;とけい;帝国の指令;ていこくのしれい;テイコクノシレイ;zo-nyanomiraidokei;teikokunosirei",
+        "plaintext": "被ダメージを先送り",
         "from": [
             "3108",
             "4642"
@@ -4977,6 +5145,7 @@
         "name": "自然の力",
         "description": "<mainText><stats>体力<attention>400<\/attention><br>魔法防御<attention>55<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>毅然<\/passive><br>敵チャンピオンから<magicDamage>魔法ダメージ<\/magicDamage>を受けるとスタックを獲得する(最大8スタック)。8スタックある間は、<scaleMR>魔法防御が70<\/scaleMR>、移動速度が10%増加する。<\/mainText>",
         "colloq": ";fon;Force of Nature;自然の力;しぜんのちから;sizennnotikara;sizennnochikara;sizexnnotikara;sizexnnochikara;shizennnotikara;shizennnochikara;shizexnnotikara;shizexnnochikara;フォースオブネイチャー;ふぉーすおぶねいちゃー;fo-suobuneitya-;fo-suobuneicha-;fo-suobuneitixya-;fo-suobuneichixya-;fuxo-suobuneitya-;fuxo-suobuneicha-;fuxo-suobuneitixya-;fuxo-suobuneichixya-;",
+        "plaintext": "移動速度、魔法防御、最大体力自動回復",
         "from": [
             "1057",
             "1028",
@@ -5009,6 +5178,7 @@
         "name": "ホライゾン フォーカス",
         "description": "<mainText><stats>魔力<attention>90<\/attention><br>スキルヘイスト<attention>20<\/attention><\/stats><br><br><passive>ハイパーショット<\/passive><br>射程600以上で非対象指定スキルによりチャンピオンにダメージを与えるか、<status>スロウ効果または移動不能効果<\/status>を与えると、対象を<keywordStealth>可視化<\/keywordStealth>し、その対象に与えるダメージが増加する。<br><br><rules><passive>「ハイパーショット」<\/passive>を発動するスキルもダメージ増加の恩恵を受ける。対象がペットまたは移動不能効果を与えないトラップの場合、この効果は発動しない。範囲効果スキルは設置された最初の瞬間のみ、この効果を発動する。距離の計測はスキルを発動した位置を基準に行われる。<\/rules><\/mainText>",
         "colloq": "",
+        "plaintext": "チャンピオンを移動不能にした際に雷で攻撃",
         "from": [
             "3145",
             "3108"
@@ -5038,6 +5208,7 @@
         "name": "コズミック ドライブ",
         "description": "<mainText><stats>魔力<attention>80<\/attention><br>体力<attention>350<\/attention><br>スキルヘイスト<attention>25<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>スペルダンス<\/passive><br>スキルで敵チャンピオンにダメージを与えると、2秒間、<speed>移動速度が0<\/speed>増加する。 <\/mainText>",
         "colloq": "",
+        "plaintext": "大量のクールダウン短縮",
         "from": [
             "3067",
             "3113",
@@ -5072,6 +5243,7 @@
         "name": "枯死の宝石",
         "description": "<mainText><stats>魔力<attention>25<\/attention><br>魔法防御貫通<attention>13%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1052"
         ],
@@ -5100,6 +5272,7 @@
         "name": "ヴァーダント バリア",
         "description": "<mainText><stats>魔力<attention>40<\/attention><br>魔法防御<attention>30<\/attention><\/stats><br><br><passive>破棄<\/passive> (0秒)<br>次に敵から受けるスキルをブロックするスペルシールドを獲得する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1052",
             "1033",
@@ -5130,6 +5303,7 @@
         "name": "リフトメーカー",
         "description": "<mainText><stats>魔力<attention>80<\/attention><br>体力<attention>350<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>ヴォイドの邪念<\/passive><br>敵チャンピオンとの戦闘中、自身の与えるダメージが毎秒増加する。効果が最大になっている間はオムニヴァンプが増加する。<br><br><passive>ヴォイドの浸食<\/passive><br>増加体力の一定割合を魔力として獲得する。 <\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3147",
             "3108"
@@ -5163,6 +5337,7 @@
         "name": "ウォッチフル ワードストーン",
         "description": "<mainText><stats>体力<attention>150<\/attention><br>スキルヘイスト<attention>10<\/attention><br>物理防御 <attention>10<\/attention><br>魔法防御<attention>15<\/attention><\/stats><br><br><passive>アーケインキャッシュ<\/passive><br>購入した「コントロール ワード」を最大3個まで保持できる。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "consumeOnFull": true,
         "into": [
             "4643"
@@ -5195,6 +5370,7 @@
         "name": "バンドルグラスの鏡",
         "description": "<mainText><stats>魔力<attention>20<\/attention><br>基本マナ自動回復<attention>75%<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1004",
             "1052",
@@ -5229,6 +5405,7 @@
         "name": "ビジラント ワードストーン",
         "description": "<mainText><stats>体力<attention>250<\/attention><br>スキルヘイスト<attention>20<\/attention><br>物理防御 <attention>25<\/attention><br>魔法防御<attention>30<\/attention><\/stats><br><br><passive>アーケインキャッシュ<\/passive><br>購入した「コントロール ワード」を最大3個まで保持できる。<br><br><passive>凝視<\/passive><br>「ステルス ワード」と「コントロール ワード」の設置可能数の上限が1増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "consumeOnFull": true,
         "from": [
             "4638"
@@ -5266,6 +5443,7 @@
         "name": "シャドウフレイム",
         "description": "<mainText><stats>魔力<attention>115<\/attention><br>魔法防御貫通<attention>15<\/attention><\/stats><br><br><passive>シンダーブルーム<\/passive><br>体力が低下した敵に対する<magicDamage>魔法ダメージ<\/magicDamage>および<trueDamage>確定ダメージ<\/trueDamage>がクリティカルになる。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3145",
             "1058"
@@ -5296,6 +5474,7 @@
         "name": "ストームサージ",
         "description": "<mainText><stats>魔力<attention>95<\/attention><br>魔法防御貫通<attention>15<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>ストームレイダー<\/passive> <br>チャンピオンに対して、短時間にその最大体力の25%にあたるダメージを与えると、対象に<passive>「スコール」<\/passive>を付与し、移動速度が増加する。<br><br><passive>スコール<\/passive><br>数秒後、対象を攻撃して魔法ダメージを与える。対象がこのダメージを受ける前に倒されると即座に爆発が起こり、広範囲にダメージを与えて、追加ゴールドを獲得する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3145",
             "3113"
@@ -5330,6 +5509,7 @@
         "name": "デス ダンス",
         "description": "<mainText><stats>攻撃力<attention>60<\/attention><br>スキルヘイスト<attention>15<\/attention><br>物理防御 <attention>50<\/attention><\/stats><br><br><passive>強行突破<\/passive><br>受けたダメージの一定割合を一定時間をかけて受けるようになる。<br><br><passive>拒絶<\/passive><br>ダメージを与えていたチャンピオンが倒されると、<passive>「強行突破」<\/passive>の残りダメージが除去されて、数秒かけて体力を回復する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "stacks": 0,
         "from": [
             "2019",
@@ -5364,6 +5544,7 @@
         "name": "ケミパンク チェーンソード",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>体力<attention>250<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>両断<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間40%の<keyword>「重傷」<\/keyword>を付与する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3123",
             "1028",
@@ -5398,6 +5579,7 @@
         "name": "サンダード スカイ",
         "description": "<mainText><stats>攻撃力<attention>45<\/attention><br>体力<attention>450<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>ライトシールドストライク<\/passive><br>チャンピオンに対する最初の通常攻撃がクリティカルになり、自身の体力を回復する。<br><br><rules>余剰の回復量は一時的な増加体力として獲得できる。<\/rules><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "2021",
             "3133"
@@ -5430,6 +5612,7 @@
         "name": "フロー ウォーター スタッフ",
         "description": "<mainText><stats>魔力<attention>40<\/attention><br>回復効果およびシールド量<attention>8%<\/attention><br>基本マナ自動回復<attention>125%<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>急流<\/passive><br>味方に体力回復効果またはシールドを付与すると、4秒間自身とその味方の<magicDamage>魔力が30<\/magicDamage>、<speed>移動速度が10%<\/speed>増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "自身の回復効果とシールドが行動妨害効果を軽減し、移動速度が増加",
         "from": [
             "3108",
             "3114"
@@ -5463,6 +5646,7 @@
         "name": "ムーンストーンの再生",
         "description": "<mainText><stats>魔力<attention>30<\/attention><br>体力<attention>250<\/attention><br>スキルヘイスト<attention>20<\/attention><br>基本マナ自動回復<attention>125%<\/attention><\/stats><br><br><passive>星明りの恩寵<\/passive><br>味方への体力回復またはシールド効果が、最も近くにいる味方チャンピオン1体に、元の値の一定割合の効果で連鎖する。<\/mainText>",
         "colloq": "",
+        "plaintext": "自身の回復効果とシールドのクールダウンが短縮されて、体力の低下した味方への効果が増加",
         "from": [
             "3067",
             "4642"
@@ -5497,6 +5681,7 @@
         "name": "ヘリアの残響",
         "description": "<mainText><stats>魔力<attention>40<\/attention><br>体力<attention>200<\/attention><br>スキルヘイスト<attention>20<\/attention><br>基本マナ自動回復<attention>125%<\/attention><\/stats><br><br><passive>吸魂<\/passive><br>チャンピオンにダメージを与えると、<passive>「魂の断片」<\/passive>を1個獲得する。味方に体力回復効果またはシールドを付与すると<passive>「魂の断片」<\/passive>をすべて消費して、断片の数に応じてその味方の体力を回復し、最も近くにいる敵チャンピオンには魔法ダメージを与える。<br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "体力が低下した敵にダメージを与えると呪いの爆発が発生して、周囲の敵にダメージとスロウ効果を付与",
         "from": [
             "3067",
             "4642"
@@ -5531,6 +5716,7 @@
         "name": "ドーンコア",
         "description": "<mainText><stats>魔力<attention>60<\/attention><br>回復効果およびシールド量<attention>16%<\/attention><br>基本マナ自動回復<attention>100%<\/attention><\/stats><br><br><passive>ファーストライト<\/passive><br>基本マナ自動回復100%ごとに、<healing>体力回復量およびシールド量が2%<\/healing>、<scaleAP>魔力が10<\/scaleAP>増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1026",
             "3114",
@@ -5562,6 +5748,7 @@
         "name": "ストライドブレイカー",
         "description": "<mainText><stats>攻撃力<attention>50<\/attention><br>攻撃速度<attention>30%<\/attention><br>体力<attention>450<\/attention><\/stats><br><br><passive>なぎ払い<\/passive><br>通常攻撃が周囲の敵に物理ダメージを与える。<br><br><passive>短気<\/passive><br><physicalDamage>物理ダメージ<\/physicalDamage>を与えると移動速度が増加する。<br><br><active>発動効果<\/active><br><active>破壊の衝撃波<\/active><br>周囲の敵に物理ダメージと<status>スロウ効果<\/status>を与え、命中したチャンピオン1体ごとに増加移動速度を得る。移動中に使用できる。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3077",
             "3044",
@@ -5599,6 +5786,7 @@
         "name": "ライアンドリーの仮面",
         "description": "<mainText><stats>魔力<attention>90<\/attention><br>体力<attention>300<\/attention><\/stats><br><br><passive>苦悶<\/passive><br>スキルでダメージを与えると敵を炎上させる。<br><br><passive>重苦<\/passive><br>敵チャンピオンと戦闘状態の間、与えるダメージが毎秒増加する。 <\/mainText>",
         "colloq": "",
+        "plaintext": "戦闘でチャージされ、特に耐久力の高い敵に対して高い継続ダメージを与える",
         "from": [
             "3147",
             "2508"
@@ -5629,6 +5817,7 @@
         "name": "ルーデン コンパニオン",
         "description": "<mainText><stats>魔力<attention>100<\/attention><br>マナ<attention>600<\/attention><br>スキルヘイスト<attention>20<\/attention><\/stats><br><br><passive>発射<\/passive><br>ダメージスキルがショットを発射し、対象と周囲の敵に追加ダメージを与える。残りのショットはメインの対象に向かって発射され、低下したダメージを与える。<\/mainText>",
         "colloq": "",
+        "plaintext": "バーストダメージが大幅に増加、耐久力の低い敵に効果的",
         "from": [
             "3802",
             "3145"
@@ -5661,6 +5850,7 @@
         "name": "ロッド オブ エイジス",
         "description": "<mainText><stats>魔力<attention>50<\/attention><br>体力<attention>400<\/attention><br>マナ<attention>400<\/attention><\/stats><br><br><passive>時空の超越者<\/passive><br>このアイテムは60秒ごとに付与ステータスの体力、マナ、魔力が増加する。最大スタックになると、チャンピオンレベルが1増加する。<br><br><passive>久遠<\/passive><br>チャンピオンからダメージを受けるとマナが回復する。また、スキルを発動すると、消費したマナの一定割合にあたる体力を回復する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1026",
             "3803"
@@ -5695,6 +5885,7 @@
         "name": "バミ シンダー",
         "description": "<mainText><stats>体力<attention>200<\/attention><br>スキルヘイスト<attention>5<\/attention><\/stats><br><br><passive>猛火<\/passive><br>ダメージを受けるかダメージを与えると、周囲の敵に毎秒魔法ダメージを与える(ミニオンとモンスターに対しては与えるダメージが増加する)。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1028",
             "2022"
@@ -5725,6 +5916,7 @@
         "name": "アイスボーン ガントレット",
         "description": "<mainText><stats>体力<attention>300<\/attention><br>物理防御 <attention>50<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>追撃<\/passive><br>スキル使用後、次の通常攻撃が強化されて追加ダメージを与え、2秒間、凍てつくゾーンを発生させる。このゾーンに入った敵は、<status>スロウ効果<\/status>を受ける。<\/mainText>",
         "colloq": "",
+        "plaintext": "魔法防御が大幅に増加。自動効果で周囲の敵にスロウ効果を付与。周囲でスキルが使用されると、エネルギー波を放ってダメージとスロウ効果を付与。",
         "from": [
             "3057",
             "1028",
@@ -5761,6 +5953,7 @@
         "name": "ホロウ レディアンス",
         "description": "<mainText><stats>体力<attention>450<\/attention><br>魔法防御<attention>40<\/attention><br>スキルヘイスト<attention>10<\/attention><br>基本体力自動回復<attention>100%<\/attention><\/stats><br><br><passive>猛火<\/passive><br>ダメージを受けるかダメージを与えると、周囲の敵に魔法ダメージを与える。<br><br><passive>荒涼<\/passive><br>敵をキルすると、その周囲に魔法ダメージを与える。<br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "敵に移動不能効果を与えるとシールドを獲得。発動すると相手に向かう際の移動速度が増加。",
         "from": [
             "6660",
             "3211"
@@ -5797,6 +5990,7 @@
         "name": "変幻自在のジャック＝ショー",
         "description": "<mainText><stats>体力<attention>300<\/attention><br>物理防御 <attention>50<\/attention><br>魔法防御<attention>50<\/attention><\/stats><br><br><passive>強靭なるヴォイドの子ら<\/passive><br>チャンピオンとの戦闘中に強化されて、戦闘終了まで<scaleArmor>物理防御<\/scaleArmor>と<scaleMR>魔法防御<\/scaleMR>が増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1031",
             "1057",
@@ -5830,6 +6024,7 @@
         "name": "ヌーンクィヴァー",
         "description": "<mainText><stats>攻撃力<attention>20<\/attention><br>クリティカル率<attention>20%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1036",
             "1018",
@@ -5861,6 +6056,7 @@
         "name": "クラーケン スレイヤー",
         "description": "<mainText><stats>攻撃力<attention>50<\/attention><br>攻撃速度<attention>40%<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>打倒<\/passive><br>通常攻撃が3回ごとに、通常攻撃時効果で対象の減少体力に応じた追加物理ダメージを与える。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "6690",
             "3051",
@@ -5894,6 +6090,7 @@
         "name": "イモータル シールドボウ",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><passive>ライフライン<\/passive><br>体力が一定割合未満になるダメージを受けると、シールドを獲得する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1037",
             "6670"
@@ -5923,6 +6120,7 @@
         "name": "ナヴォリ フリッカーブレード",
         "description": "<mainText><stats>攻撃速度<attention>40%<\/attention><br>クリティカル率<attention>25%<\/attention><br>移動速度<attention>7%<\/attention><\/stats><br><br><passive>至上<\/passive><br>通常攻撃でアルティメット以外のスキルのクールダウンが短縮される。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1042",
             "3086",
@@ -5955,6 +6153,7 @@
         "name": "コレクター",
         "description": "<mainText><stats>攻撃力<attention>60<\/attention><br>脅威<attention>12<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><passive>死<\/passive><br>体力が5%未満のチャンピオンにとどめを刺す。<br><br><passive>税金<\/passive><br>チャンピオンをキルした際、追加で<gold>25ゴールド<\/gold>を獲得する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1038",
             "3134",
@@ -5989,6 +6188,7 @@
         "name": "レクトリクス",
         "description": "<mainText><stats>攻撃力<attention>20<\/attention><br>移動速度<attention>4%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "1036"
         ],
@@ -6020,6 +6220,7 @@
         "name": "赤月の刃",
         "description": "<mainText><stats>攻撃力<attention>70<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>沈まぬ月<\/passive><br>2秒以内に3つの異なる通常攻撃またはスキルをチャンピオンに命中させると、追加ダメージを与え、自身はシールドを獲得する。<br><br><\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3133",
             "1037",
@@ -6051,6 +6252,7 @@
         "name": "セリルダの怨恨",
         "description": "<mainText><stats>攻撃力<attention>45<\/attention><br>脅威<attention>15<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>敵意<\/passive><br>物理防御貫通が0増加する。<br><br><passive>厳寒<\/passive><br>攻撃スキルが、体力50%未満の敵に1秒間30%の<status>スロウ効果<\/status>を与える。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "2020",
             "3035"
@@ -6084,6 +6286,7 @@
         "name": "毒蛇の牙",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>脅威<attention>15<\/attention><\/stats><br><br><passive>盾崩し<\/passive><br>敵チャンピオンにダメージを与えると、対象が獲得するシールドの耐久値を低下させる。「盾崩し」の効果を受けていない敵にダメージを与えた場合は、対象が受けているすべてのシールドの耐久値を低下させる。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3134",
             "1037"
@@ -6113,6 +6316,7 @@
         "name": "アクシオム アーク",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>脅威<attention>18<\/attention><br>スキルヘイスト<attention>25<\/attention><\/stats><br><br><passive>流転<\/passive><br>ダメージを与えてから3秒以内にそのチャンピオンが倒されるたびに、アルティメットスキルの合計クールダウンの一部が解消される。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "2020",
             "3133"
@@ -6144,6 +6348,7 @@
         "name": "ヒュブリス",
         "description": "<mainText><stats>攻撃力<attention>60<\/attention><br>脅威<attention>18<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>エミネンス<\/passive><br>キルを獲得すると、キルしたチャンピオンの数に応じて一時的に攻撃力が増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3134",
             "3133"
@@ -6177,6 +6382,7 @@
         "name": "プロフェイン ハイドラ",
         "description": "<mainText><stats>攻撃力<attention>60<\/attention><br>脅威<attention>18<\/attention><br>スキルヘイスト<attention>20<\/attention><\/stats><br><br><passive>なぎ払い<\/passive><br>通常攻撃が追加ダメージ <OnHit>通常攻撃時効果<\/OnHit>を与え、衝撃波を発生させて対象の背後の敵にダメージを与える。<br><br><active>発動効果<\/active><br><active>異端の斬撃<\/active><br>周囲の敵に物理ダメージを与える。体力が低下している敵に対しては、このダメージが増加する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3077",
             "2020"
@@ -6212,6 +6418,7 @@
         "name": "ボルテイク サイクロソード",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>脅威<attention>18<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>刺激<\/passive><br>ダッシュするかステルス状態になると、エネルギー充填状態のスタックが速く溜まる。<br><br><passive>ファーマメント<\/passive><br>エネルギー充填状態の通常攻撃が敵に追加物理ダメージを与え、スロウ効果を付与する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "2020",
             "1036",
@@ -6247,6 +6454,7 @@
         "name": "オポチュニティー",
         "description": "<mainText><stats>攻撃力<attention>55<\/attention><br>脅威<attention>18<\/attention><br>移動速度<attention>5%<\/attention><\/stats><br><br><passive>臨戦態勢<\/passive><br>チャンピオンとの非戦闘状態が続くと、脅威が増加する。この脅威はチャンピオンにダメージを与えてから3秒間持続する。<br><br><passive>採集<\/passive><br>ダメージを与えてから3秒以内にチャンピオンを倒すと、移動速度が増加する。増加した移動速度は効果時間中に徐々に元に戻る。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3134",
             "6690"
@@ -6280,6 +6488,7 @@
         "name": "アビサル マスク",
         "description": "<mainText><stats>体力<attention>300<\/attention><br>魔法防御<attention>50<\/attention><br>スキルヘイスト<attention>10<\/attention><\/stats><br><br><passive>荒廃<\/passive><br>周囲の敵チャンピオンの魔法防御を低下させる。この効果を与えた敵の数に応じて魔法防御を獲得する。<\/mainText>",
         "colloq": "",
+        "plaintext": "",
         "from": [
             "3067",
             "1057"

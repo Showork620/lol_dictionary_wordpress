@@ -112,6 +112,7 @@ function create_custom_posts_from_json() {
 						'destination' => isset($item['destination']) ? $item['destination'] : '',
 						'normal_item' => isset($item['normal_item']) ? $item['normal_item'] : '',
 						'aram_item' => isset($item['aram_item']) ? $item['aram_item'] : '',
+						'plaintext' => isset($item['plaintext']) ? $item['plaintext'] : '',
 						'colloq' => isset($item['colloq']) ? $item['colloq'] : '',
 					),
 				));
