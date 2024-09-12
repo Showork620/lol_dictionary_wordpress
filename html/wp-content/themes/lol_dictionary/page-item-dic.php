@@ -94,11 +94,39 @@ get_header(); ?>
 						$tags_list = implode(',', $tags);
 					?>
 					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
-						<?php if (has_post_thumbnail()) : ?>
-							<?php the_post_thumbnail('thumbnail'); ?>
-							<div class="name"><?php the_title(); ?></div>
-							<div class="content"><?php the_content(); ?></div>
-						<?php endif; ?>
+						<?php
+						$id = get_post_meta(get_the_ID(), 'id', true);
+						$image_path = get_image_path('/items/') . $id . '.webp';
+						?>
+						<img class="icon" src="<?php echo esc_url($image_path); ?>" alt="" width="40" height="40">
+						<div class="name"><?php the_title(); ?></div>
+						<div class="gold">
+							<?php $gold = get_post_meta(get_the_ID(), 'gold', true); ?>
+							<?php echo esc_html($gold) . ' G'; ?>
+						</div>
+						<div class="content">
+							<?php
+							$stats = get_post_meta(get_the_ID(), 'stats', true);
+							$stats_list = explode(',', $stats);
+							foreach ($stats_list as $stat) {
+								$stat_key = explode(':', $stat)[0];
+								$stat_value = explode(':', $stat)[1];
+								echo '<p>' . esc_html($stat_key) . ':<strong>' . esc_html($stat_value) . '</strong></p>';
+							}
+							?>
+						</div>
+						<div class="sub">
+							<?php
+							$from = get_post_meta(get_the_ID(), 'from', true);
+							$from_list = explode(', ', $from);
+							if (!empty($from_list)) {
+								foreach ($from_list as $from) {
+									$image_path = get_image_path('/items/') . $from . '.webp';
+									echo '<img src="' . esc_attr($image_path) . '" alt="" width="30" height="30">';
+								}
+							}
+							?>
+						</div>
 					</li>
 					<?php endif; ?>
 				<?php endwhile; ?>
