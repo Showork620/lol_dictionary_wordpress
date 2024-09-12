@@ -80,9 +80,14 @@ function create_custom_posts_from_json() {
 			// 投稿が存在しない場合にのみ新しい投稿を作成
 			if (empty($existing_post)) {
 
-				// normal_detail があれば description を上書き
-				$contents = isset($details[$item['id']]['normal']) ? $details[$item['id']]['normal'] : $item['description'];
-
+				// statsの文字列化
+				$stats = '';
+				if (isset($item['stats']) && is_array($item['stats'])) {
+					foreach ($item['stats'] as $key => $value) {
+						$stats .= $key . ': ' . $value . ', ';
+					}
+				}
+				
 				$post_id = wp_insert_post(array(
 					'post_title' => isset($item['name']) ? $item['name'] : '',
 					'post_content' => isset($item['description']) ? $item['description'] : '',
@@ -91,6 +96,9 @@ function create_custom_posts_from_json() {
 					'meta_input' => array(
 						'id' => isset($item['id']) ? $item['id'] : '',
 						'gold' => isset($item['gold']) ? $item['gold'] : '',
+						'stats' => $stats,
+						'passives' => isset($item['passives']) ? implode(', ', $item['passives']) : '',
+						'actives' => isset($item['actives']) ? implode(', ', $item['actives']) : '',
 						'from' => isset($item['from']) ? implode(', ', $item['from']) : '',
 						'into' => isset($item['into']) ? implode(', ', $item['into']) : '',
 						'specialRecipe' => isset($item['specialRecipe']) ? $item['specialRecipe'] : '',
@@ -98,7 +106,6 @@ function create_custom_posts_from_json() {
 						'normal_item' => isset($item['normal_item']) ? $item['normal_item'] : '',
 						'aram_item' => isset($item['aram_item']) ? $item['aram_item'] : '',
 						'colloq' => isset($item['colloq']) ? $item['colloq'] : '',
-						'aram_detail' => isset($details[$item['id']]['aram']) ? $details[$item['id']]['aram'] : '',
 					),
 				));
 

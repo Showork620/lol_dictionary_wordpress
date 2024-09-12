@@ -55,7 +55,7 @@ function register_custom_fields() {
 	});
 
 	function item_fields_callback($post) {
-		$fields = array('id', 'gold', 'from', 'into', 'specialRecipe', 'destination', 'normal_item', 'aram_item', 'colloq', 'aram_detail');
+		$fields = array('id', 'gold', 'stats', 'passives', 'actives', 'from', 'into', 'specialRecipe', 'destination', 'normal_item', 'aram_item', 'colloq', 'aram_detail');
 
 		echo '<ul>';
 		foreach ($fields as $field) {
@@ -66,7 +66,7 @@ function register_custom_fields() {
 				echo '<label for="' . $field . '">' . ucfirst($field) . '</label>';
 				echo '<input type="checkbox" id="' . $field . '" name="' . $field . '" ' . ($value ? 'checked' : '') . '/>';
 			} else
-			if('colloq' === $field || 'aram_detail' === $field) {
+			if('colloq' === $field || 'passives' === $field || 'actives' === $field) {
 				echo '<label for="' . $field . '">' . ucfirst($field) . '</label>';
 				echo '<textarea id="' . $field . '" name="' . $field . '">' . esc_textarea($value) . '</textarea>';
 			} else {
@@ -82,7 +82,7 @@ function register_custom_fields() {
 		if (defined('DOING_AUTOSAVE') && DOING_AUTOSAVE) return;
 		if (!current_user_can('edit_post', $post_id)) return;
 
-		$fields = array('id', 'gold', 'from', 'into', 'specialRecipe', 'destination', 'colloq', 'aram_detail');
+		$fields = array('id', 'gold', 'stats', 'passives', 'actives', 'from', 'into', 'specialRecipe', 'destination', 'normal_item', 'aram_item', 'colloq', 'aram_detail');
 		foreach ($fields as $field) {
 			if (isset($_POST[$field])) {
 				update_post_meta($post_id, $field, sanitize_text_field($_POST[$field]));
