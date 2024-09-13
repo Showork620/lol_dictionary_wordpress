@@ -70,7 +70,7 @@ $TAGS_TRANSLATE = array(
 	"ArmorPenetration" => "物理防御貫通",
 	"AttackSpeed" => "攻撃速度",
 	"Aura" => "周囲効果",
-	"Boots" => "ブーツ",
+	"Boots" => "移動速度",
 	"Consumable" => "消費アイテム",
 	"CooldownReduction" => "スキルヘイスト",
 	"CriticalStrike" => "クリティカル",
@@ -85,10 +85,10 @@ $TAGS_TRANSLATE = array(
 	"MagicResist" => "魔法防御",
 	"Mana" => "マナ",
 	"ManaRegen" => "マナ回復効果",
-	"NonbootsMovement" => "移動速度（ブーツ以外）",
+	"NonbootsMovement" => "移動速度",
 	"OnHit" => "通常攻撃時効果",
 	"Slow" => "スロウ効果",
-	"SpellBlock" => "スペルブロック",
+	"SpellBlock" => "魔法防御",
 	"SpellDamage" => "魔力",
 	"SpellVamp" => "オムニヴァンプ",
 	"Stealth" => "ステルス",
@@ -96,6 +96,9 @@ $TAGS_TRANSLATE = array(
 	"Trinket" => "トリンケット",
 	"Vision" => "視界"
 );
+
+// stats用キーワード
+$STATS_KEYWORD = ["体力", "マナ", "攻撃力", "魔力", "物理防御", "魔法防御", "移動速度", "攻撃速度", "スキルヘイスト", "クリティカル率", "脅威", "物理防御貫通", "魔法防御貫通", "ライフ スティール", "基本体力自動回復", "基本マナ自動回復", "回復効果およびシールド量", "行動妨害耐性"];
 
 // アイテムデータを取得
 function getOriginItemData($preUrl) {
@@ -135,8 +138,66 @@ foreach ($ITEMDATA as $key => &$item) {
 
 	// プロパティの追加
 	$item['id'] = $key;
-	$item['has_detail'] = is_numeric(strpos($item['description'], '<passive>')) || is_numeric(strpos($item['description'], '<active>'));
 
+	// desctiption からの抽出 ==========
+	$description = $item['description'];
+
+	// statsの追加
+	$stats_list = [];
+	foreach ($STATS_KEYWORD as $stats_key) {
+		$stats_value = null;
+		$first_split = explode($stats_key, $description);
+	
+		if (isset($first_split[1])) {
+			$second_split = explode('<attention>', $first_split[1]);
+
+			//"マナ自動回復","体力自動回復"の包含問題を解決
+			if ($stats_key === "マナ" || $stats_key === "体力") {
+				// $second_split[0] に "自動回復" が含まれていたらスキップ
+				if (strpos($second_split[0], "自動回復") !== false) {
+					continue;
+				}
+			}
+	
+			if (isset($second_split[1])) {
+				$stats_value = explode('</attention>', $second_split[1])[0];
+			}
+		}
+	
+		if ($stats_value !== null) {
+			$stats_list[$stats_key] = $stats_value;
+			
+			// 回復効果およびシールド量 → 回復効果&シールド量 に変換
+			if ($stats_key === "回復効果およびシールド量") {
+				$stats_list["回復効果&シールド量"] = $stats_list[$stats_key];
+				unset($stats_list[$stats_key]);
+			}
+		}
+	}
+	$item['stats'] = $stats_list;
+
+	// passive, active の追加
+	$passive_list = [];
+	$active_list = [];
+
+	// passiveとactiveを抽出（ただし "<passive>「xxx」</passive>" は除外）
+	preg_match_all('/<passive>(?!「)(.*?)<\/passive>(.*?)(?=<passive>(?!「)|<active>|<\/mainText>)/s', $description, $matches);	if (!empty($matches[0])) {
+		foreach ($matches[0] as $match) {
+			$passive_list[] = $match;
+		}
+	}
+	preg_match_all('/<active>(.*?)<\/active>(.*?)(?=<passive>(?!「)|<active>|<\/mainText>)/s', $description, $matches);
+	if (!empty($matches[0])) {
+		foreach ($matches[0] as $match) {
+			if (strpos($match, '<active>発動効果') === false) {
+				$active_list[] = $match;
+			}
+		}
+	}
+	$item['passives'] = $passive_list;
+	$item['actives'] = $active_list;
+
+	
 	// $ITEMS_ROLE に含まれる場合、role プロパティを追加 role プロパティは 数値の配列 で 複数持つことができる
 	foreach ($ITEMS_ROLE as $role => $items) {
 		if (in_array($key, $items)) {
@@ -149,24 +210,38 @@ foreach ($ITEMDATA as $key => &$item) {
 	$item['normal_item'] = $item['maps']['11'];
 	$item['aram_item'] = $item['maps']['12'];
 
+
+	// tags の編集 ====================
+
+	// tags の翻訳
 	$tags = $item['tags'];
 	$translated_tags = [];
 	foreach ($tags as $tag) {
 		if (isset($TAGS_TRANSLATE[$tag])) {
-			$translated_tags[] = $TAGS_TRANSLATE[$tag];
+			if (!in_array($TAGS_TRANSLATE[$tag], $translated_tags)) {
+				$translated_tags[] = $TAGS_TRANSLATE[$tag];
+			}
 		} else {
 			// 翻訳が見つからない場合は元のタグを使用
 			$translated_tags[] = $tag;
 		}
 	}
+
+	
+
 	$item['tags'] = $translated_tags;
+
+	// plaintext の訂正版があれば上書き
+	$new_plaintext = file_get_contents(get_template_directory() . '/assets/json/item_plaintext.json');
+	$new_plaintext_list = json_decode($new_plaintext, true);
+	if (isset($new_plaintext_list[$key])) {
+		$item['plaintext'] = $new_plaintext_list[$key];
+	}
 	
 	// 不要なプロパティを削除
 	unset($item['image']);
 	unset($item['maps']);
-	unset($item['stats']);
 	unset($item['effect']);
-	unset($item['plaintext']);
 	unset($item['hideFromAll']);
 	unset($item['consumed']);
 }
