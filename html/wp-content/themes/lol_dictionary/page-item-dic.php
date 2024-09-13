@@ -72,6 +72,8 @@ get_header(); ?>
 				<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 					<?php
 					$id = get_post_meta(get_the_ID(), 'id', true);
+
+					// リスト化するアイテムの設定 * * *
 					if(empty($into) && has_term('', 'role', get_the_ID())) :
 						// タクソノミーのタームを取得
 						$roles = wp_get_post_terms(get_the_ID(), 'role', array('fields' => 'names'));
@@ -172,7 +174,8 @@ get_header(); ?>
 			foreach ($ROLES as $role) : ?>
 				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
 				<li class="p-item-role-nav__item">
-					<button class="button js-role-button <?php echo 'Fighter' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
+					<?php // TODO: 初期選択はjs側で行う. ?>
+					<button class="button js-role-button <?php echo 'All' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
 						<img class="icon" src="<?php echo esc_url($image_path); ?>">
 					</button>
 				</li>
@@ -181,12 +184,7 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<div class="p-item-modal">
-		<div class="p-item-modal__overlay js-modal-overlay">
-			<div class="p-item-detail">
-				<div id="modal-content"></div>
-			</div>
-		</div>
+	<div class="p-item-modal js-modal">
 	</div>
 </main><!-- #main -->
 <!-- #primary -->
