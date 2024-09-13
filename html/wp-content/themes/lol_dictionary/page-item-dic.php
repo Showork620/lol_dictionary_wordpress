@@ -22,8 +22,7 @@ get_header(); ?>
 				<option value="物理防御">物理防御</option>
 				<option value="魔法防御">魔法防御</option>
 				<hr>
-				<option value="移動速度（ブーツ以外）">移動速度（ブーツ以外）</option>
-				<option value="ブーツ">ブーツ</option>
+				<option value="移動速度">移動速度</option>
 				<option value="攻撃速度">攻撃速度</option>
 				<option value="スキルヘイスト">スキルヘイスト</option>
 				<option value="クリティカル">クリティカル</option>
@@ -99,7 +98,15 @@ get_header(); ?>
 						$image_path = get_image_path('/items/') . $id . '.webp';
 						?>
 						<img class="icon" src="<?php echo esc_url($image_path); ?>" alt="" width="40" height="40">
-						<div class="name"><?php the_title(); ?></div>
+						<div class="name">
+							<?php
+							the_title();
+							
+							// DEBUG: IDを表示
+							// $id = get_post_meta(get_the_ID(), 'id', true);
+							// echo ' [' . esc_html($id);
+							?>
+						</div>
 						<div class="gold">
 							<?php $gold = get_post_meta(get_the_ID(), 'gold', true); ?>
 							<?php echo esc_html($gold) . ' G'; ?>
@@ -113,18 +120,20 @@ get_header(); ?>
 								$stat_value = explode(':', $stat)[1];
 								echo '<p>' . esc_html($stat_key) . ':<strong>' . esc_html($stat_value) . '</strong></p>';
 							}
+
+							// DEBUG: tagsを表示
+							// $tags = wp_get_post_terms(get_the_ID(), 'post_tag', array('fields' => 'names'));
+							// $tags_list = implode(', ', $tags);
+							// foreach ($tags as $tag) {
+							// 	echo '<p class="tag">' . esc_html($tag) . '</p>';
+							// }
 							?>
 						</div>
 						<div class="sub">
 							<?php
-							$from = get_post_meta(get_the_ID(), 'from', true);
-							$from_list = explode(', ', $from);
-							if (!empty($from_list)) {
-								foreach ($from_list as $from) {
-									$image_path = get_image_path('/items/') . $from . '.webp';
-									echo '<img src="' . esc_attr($image_path) . '" alt="" width="30" height="30">';
-								}
-							}
+							// * plaintextを表示 *
+							$plaintext = get_post_meta(get_the_ID(), 'plaintext', true);
+							echo esc_html($plaintext);
 							?>
 						</div>
 					</li>
