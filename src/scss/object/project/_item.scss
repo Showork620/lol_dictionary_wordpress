@@ -126,14 +126,113 @@
         line-height: 1.2;
 
         // * 素材アイテムのサムネイルを表示 *
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // gap: 5px;
-        // img {
-        //     opacity: 0.67;
-        //     display: block;
-        // }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        .plaintext {
+            display: block;
+        }
+
+        .from {
+            opacity: 0.67;
+            display: none;
+        }
+    }
+
+    &__ability {
+        grid-row: 3 / 4;
+        grid-column: 1 / 5;
+        height: 100%;
+
+        border: 1px solid var(--color-white-33);
+        padding: 5px;
+        font-size: 12px;
+        line-height: 1.4;
+        color: var(--color-white-67);
+        display: none; // flex
+        flex-direction: column;
+        justify-content: center;
+
+        strong {
+            font-weight: 500;
+            color: var(--color-white);
+        }
+
+        .separate {
+            padding-block: 0.5lh;
+
+            &:not(:first-child) {
+                border-top: 1px dashed var(--color-white-33);
+            }
+        }
+
+        // デフォルト表示の上書き
+        br {
+            display: none;
+        }
+
+        // デフォルト表示の上書き
+        passive,
+        active {
+            display: block;
+            font-style: italic;
+            color: var(--color-white);
+
+            &:first-child::after {
+                display: inline;
+                color: var(--color-white-67);
+            }
+        }
+
+        passive:first-child::after {
+            content: "【自動効果】";
+        }
+
+        active:first-child::after {
+            content: "【発動効果】";
+        }
+    }
+
+    &__from {
+        grid-row: 4 / 5;
+        grid-column: 1 / 5;
+
+        border: 1px solid var(--color-white-33);
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        img {
+            opacity: 0.67;
+            display: block;
+        }
+    }
+
+    &.is-detail-mode {
+
+        .p-item-card {
+            grid-template-rows: 40px 1fr auto auto;
+
+            &__ability {
+                display: flex;
+            }
+
+            &__sub {
+                .plaintext {
+                    display: none;
+                }
+    
+                .from {
+                    opacity: 0.67;
+                    display: block;
+                }
+            }
+        }
     }
 }
 

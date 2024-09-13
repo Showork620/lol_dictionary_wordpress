@@ -71,7 +71,7 @@ get_header(); ?>
 			<ul class="p-item-list">
 				<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 					<?php
-					$into = get_post_meta(get_the_ID(), 'into', true);
+					$id = get_post_meta(get_the_ID(), 'id', true);
 					if(empty($into) && has_term('', 'role', get_the_ID())) :
 						// タクソノミーのタームを取得
 						$roles = wp_get_post_terms(get_the_ID(), 'role', array('fields' => 'names'));
@@ -80,7 +80,7 @@ get_header(); ?>
 						$tags_list = implode(',', $tags);
 					?>
 					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
-						<button class="p-item-card">
+						<button class="p-item-card js-item-button">
 							<?php
 							$id = get_post_meta(get_the_ID(), 'id', true);
 							$image_path = get_image_path('/items/') . $id . '.webp';
@@ -91,7 +91,6 @@ get_header(); ?>
 								the_title();
 							
 								// DEBUG: IDを表示
-								// $id = get_post_meta(get_the_ID(), 'id', true);
 								// echo ' [' . esc_html($id);
 								?>
 							</div>
@@ -120,7 +119,38 @@ get_header(); ?>
 								<?php
 								// * plaintextを表示 *
 								$plaintext = get_post_meta(get_the_ID(), 'plaintext', true);
-								echo esc_html($plaintext);
+								echo '<p class="plaintext">' . esc_html($plaintext) . '</p>';
+
+								$from = get_post_meta(get_the_ID(), 'from', true);
+								$from_list = explode(', ', $from);
+								if (!empty($from_list)) {
+									foreach ($from_list as $from) {
+										$image_path = get_image_path('/items/') . $from . '.webp';
+										echo '<img class="from" src="' . esc_attr($image_path) . '" alt="" width="30" height="30">';
+									}
+								}
+								?>
+							</div>
+							<div class="p-item-card__ability">
+								<?php
+								$passives = get_post_meta(get_the_ID(), 'passives', true);
+								$passives_list = explode(',', $passives);
+								$actives = get_post_meta(get_the_ID(), 'actives', true);
+								$actives_list = explode(',', $actives);
+								// パッシブを表示
+								foreach ($passives_list as $passive) {
+									if (empty($passive)) {
+										continue;
+									}
+									echo '<p class="separate">' . ($passive) . '</p>';
+								}
+								// アクティブを表示
+								foreach ($actives_list as $active) {
+									if (empty($active)) {
+										continue;
+									}
+									echo '<p class="separate">' . ($active) . '</p>';
+								}
 								?>
 							</div>
 						</button>
@@ -150,6 +180,14 @@ get_header(); ?>
 			</ul>
 		</div>
 	</section>
+
+	<div class="p-item-modal">
+		<div class="p-item-modal__overlay js-modal-overlay">
+			<div class="p-item-detail">
+				<div id="modal-content"></div>
+			</div>
+		</div>
+	</div>
 </main><!-- #main -->
 <!-- #primary -->
 
