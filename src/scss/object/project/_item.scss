@@ -182,8 +182,9 @@
             color: var(--color-white);
 
             &:first-child::after {
-                display: inline;
+                display: inline-block;
                 color: var(--color-white-67);
+                margin-bottom: 0.25lh;
             }
         }
 
