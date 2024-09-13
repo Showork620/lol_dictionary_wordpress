@@ -70,7 +70,7 @@ $TAGS_TRANSLATE = array(
 	"ArmorPenetration" => "物理防御貫通",
 	"AttackSpeed" => "攻撃速度",
 	"Aura" => "周囲効果",
-	"Boots" => "ブーツ",
+	"Boots" => "移動速度",
 	"Consumable" => "消費アイテム",
 	"CooldownReduction" => "スキルヘイスト",
 	"CriticalStrike" => "クリティカル",
@@ -85,10 +85,10 @@ $TAGS_TRANSLATE = array(
 	"MagicResist" => "魔法防御",
 	"Mana" => "マナ",
 	"ManaRegen" => "マナ回復効果",
-	"NonbootsMovement" => "移動速度（ブーツ以外）",
+	"NonbootsMovement" => "移動速度",
 	"OnHit" => "通常攻撃時効果",
 	"Slow" => "スロウ効果",
-	"SpellBlock" => "スペルブロック",
+	"SpellBlock" => "魔法防御",
 	"SpellDamage" => "魔力",
 	"SpellVamp" => "オムニヴァンプ",
 	"Stealth" => "ステルス",
@@ -214,13 +214,22 @@ foreach ($ITEMDATA as $key => &$item) {
 	$translated_tags = [];
 	foreach ($tags as $tag) {
 		if (isset($TAGS_TRANSLATE[$tag])) {
-			$translated_tags[] = $TAGS_TRANSLATE[$tag];
+			if (!in_array($TAGS_TRANSLATE[$tag], $translated_tags)) {
+				$translated_tags[] = $TAGS_TRANSLATE[$tag];
+			}
 		} else {
 			// 翻訳が見つからない場合は元のタグを使用
 			$translated_tags[] = $tag;
 		}
 	}
 	$item['tags'] = $translated_tags;
+
+	// plaintext の訂正版があれば上書き
+	$new_plaintext = file_get_contents(get_template_directory() . '/assets/json/item_plaintext.json');
+	$new_plaintext_list = json_decode($new_plaintext, true);
+	if (isset($new_plaintext_list[$key])) {
+		$item['plaintext'] = $new_plaintext_list[$key];
+	}
 	
 	// 不要なプロパティを削除
 	unset($item['image']);
