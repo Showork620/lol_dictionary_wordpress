@@ -10,7 +10,7 @@ get_header(); ?>
 
 <main id="main" class="l-main">
 	<section class="l-section">
-		<div class="p-item-search-group">
+		<div class="p-item-search-header">
 			<?php // TODO: 別ファイルから参照する.
 			$item_tags_option_html = '
 				<option value="All">すべて</option>
@@ -53,21 +53,8 @@ get_header(); ?>
 					<?php echo $item_tags_option_html; ?>
 				</select>
 			</div>
-			<ul class="p-item-role-nav">
-			<?php
-			// TODO: 別ファイルから参照する.
-			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
-
-			foreach ($ROLES as $role) : ?>
-				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
-				<li class="p-item-role-nav__item">
-					<button class="button js-role-button <?php echo 'Fighter' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
-						<img class="icon" src="<?php echo esc_url($image_path); ?>">
-					</button>
-				</li>
-			<?php endforeach; ?>
-			</ul>
 		</div>
+		
 		<?php
 		$args = array(
 			'post_type' => 'items',
@@ -144,6 +131,23 @@ get_header(); ?>
 		<?php else : ?>
 			<p><?php _e('No items found.', 'text-domain'); ?></p>
 		<?php endif; ?>
+
+		<div class="p-item-search-footer">
+			<ul class="p-item-role-nav">
+			<?php
+			// TODO: 別ファイルから参照する.
+			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
+
+			foreach ($ROLES as $role) : ?>
+				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
+				<li class="p-item-role-nav__item">
+					<button class="button js-role-button <?php echo 'Fighter' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
+						<img class="icon" src="<?php echo esc_url($image_path); ?>">
+					</button>
+				</li>
+			<?php endforeach; ?>
+			</ul>
+		</div>
 	</section>
 </main><!-- #main -->
 <!-- #primary -->

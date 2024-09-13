@@ -108,10 +108,23 @@
     }
 }
 
-.p-item-search-group {
+.p-item-search-header {
+    background-color: var(--color-navy);
     display: flex;
     gap: 10px;
     flex-direction: column;
+    position: sticky;
+    top: 0;
+    padding-block: 10px;
+}
+
+.p-item-search-footer {
+    background-color: var(--color-navy);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    position: sticky;
+    bottom: 0;
 }
 
 .p-item-tags-select {
