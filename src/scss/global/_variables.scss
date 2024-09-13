@@ -8,6 +8,10 @@
 :root {
     --color-gold: #c8aa6e;
     --color-navy: #0C1427;
+    --color-dull-navy: #182032;
     --color-light-navy: #3b4353;
     --color-white: #fff;
+
+    --color-white-67: rgb(from #fff r g b / 0.67);
+    --color-white-33: rgb(from #fff r g b / 0.33);
 }

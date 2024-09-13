@@ -80,49 +80,50 @@ get_header(); ?>
 						$tags_list = implode(',', $tags);
 					?>
 					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
-						<?php
-						$id = get_post_meta(get_the_ID(), 'id', true);
-						$image_path = get_image_path('/items/') . $id . '.webp';
-						?>
-						<img class="icon" src="<?php echo esc_url($image_path); ?>" alt="" width="40" height="40">
-						<div class="name">
+						<button class="p-item-card">
 							<?php
-							the_title();
+							$id = get_post_meta(get_the_ID(), 'id', true);
+							$image_path = get_image_path('/items/') . $id . '.webp';
+							?>
+							<img class="p-item-card__icon" src="<?php echo esc_url($image_path); ?>" alt="" width="40" height="40">
+							<div class="p-item-card__name">
+								<?php
+								the_title();
 							
-							// DEBUG: IDを表示
-							// $id = get_post_meta(get_the_ID(), 'id', true);
-							// echo ' [' . esc_html($id);
-							?>
-						</div>
-						<div class="gold">
-							<?php $gold = get_post_meta(get_the_ID(), 'gold', true); ?>
-							<?php echo esc_html($gold) . ' G'; ?>
-						</div>
-						<div class="content">
-							<?php
-							$stats = get_post_meta(get_the_ID(), 'stats', true);
-							$stats_list = explode(',', $stats);
-							foreach ($stats_list as $stat) {
-								$stat_key = explode(':', $stat)[0];
-								$stat_value = explode(':', $stat)[1];
-								echo '<p>' . esc_html($stat_key) . ':<strong>' . esc_html($stat_value) . '</strong></p>';
-							}
-
-							// DEBUG: tagsを表示
-							// $tags = wp_get_post_terms(get_the_ID(), 'post_tag', array('fields' => 'names'));
-							// $tags_list = implode(', ', $tags);
-							// foreach ($tags as $tag) {
-							// 	echo '<p class="tag">' . esc_html($tag) . '</p>';
-							// }
-							?>
-						</div>
-						<div class="sub">
-							<?php
-							// * plaintextを表示 *
-							$plaintext = get_post_meta(get_the_ID(), 'plaintext', true);
-							echo esc_html($plaintext);
-							?>
-						</div>
+								// DEBUG: IDを表示
+								// $id = get_post_meta(get_the_ID(), 'id', true);
+								// echo ' [' . esc_html($id);
+								?>
+							</div>
+							<div class="p-item-card__gold">
+								<?php $gold = get_post_meta(get_the_ID(), 'gold', true); ?>
+								<?php echo esc_html($gold) . ' G'; ?>
+							</div>
+							<div class="p-item-card__content">
+								<?php
+								$stats = get_post_meta(get_the_ID(), 'stats', true);
+								$stats_list = explode(',', $stats);
+								foreach ($stats_list as $stat) {
+									$stat_key = explode(':', $stat)[0];
+									$stat_value = explode(':', $stat)[1];
+									echo '<p>' . esc_html($stat_key) . ':<strong>' . esc_html($stat_value) . '</strong></p>';
+								}
+								// DEBUG: tagsを表示
+								// $tags = wp_get_post_terms(get_the_ID(), 'post_tag', array('fields' => 'names'));
+								// $tags_list = implode(', ', $tags);
+								// foreach ($tags as $tag) {
+								// 	echo '<p class="tag">' . esc_html($tag) . '</p>';
+								// }
+								?>
+							</div>
+							<div class="p-item-card__sub">
+								<?php
+								// * plaintextを表示 *
+								$plaintext = get_post_meta(get_the_ID(), 'plaintext', true);
+								echo esc_html($plaintext);
+								?>
+							</div>
+						</button>
 					</li>
 					<?php endif; ?>
 				<?php endwhile; ?>
