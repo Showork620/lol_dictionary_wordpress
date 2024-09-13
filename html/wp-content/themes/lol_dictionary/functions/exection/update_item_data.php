@@ -210,6 +210,10 @@ foreach ($ITEMDATA as $key => &$item) {
 	$item['normal_item'] = $item['maps']['11'];
 	$item['aram_item'] = $item['maps']['12'];
 
+
+	// tags の編集 ====================
+
+	// tags の翻訳
 	$tags = $item['tags'];
 	$translated_tags = [];
 	foreach ($tags as $tag) {
@@ -222,6 +226,9 @@ foreach ($ITEMDATA as $key => &$item) {
 			$translated_tags[] = $tag;
 		}
 	}
+
+	
+
 	$item['tags'] = $translated_tags;
 
 	// plaintext の訂正版があれば上書き

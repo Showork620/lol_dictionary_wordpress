@@ -9,7 +9,7 @@
 .p-item-list {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 7px;
+    gap: 5px;
     margin-inline: auto;
     width: 100%;
     padding-block: 15px;
@@ -24,10 +24,11 @@
         grid-template-columns: 40px 1fr 5em 5em;
         grid-template-rows: 40px 1fr;
         flex-direction: column;
-        border: 1px solid rgb(from var(--color-white) r g b / 0.67);
+        border: 1px solid var(--color-gold);
+        border-radius: 3px;
         padding: 2px;
         gap: 1px;
-        font-size: 13px;
+        font-size: 14px;
 
         &.is-show {
             display: grid;
@@ -69,7 +70,7 @@
         grid-column: 1 / 3;
         border: 1px solid var(--color-light-navy);
         padding: 5px;
-        font-size: 11px;
+        font-size: 12px;
         line-height: 1.4;
         min-height: 3lh;
         color: rgb(from var(--color-white) r g b / 0.66);
@@ -89,15 +90,21 @@
         border: 1px solid var(--color-light-navy);
         padding: 5px;
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
+        // * plaintextを表示 *
+        font-style: italic;
+        color: rgb(from var(--color-white) r g b / 0.67);
+        font-size: 12px;
+        line-height: 1.2;
 
-        img {
-            opacity: 0.67;
-            display: block;
-        }
+        // * 素材アイテムのサムネイルを表示 *
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // gap: 5px;
+        // img {
+        //     opacity: 0.67;
+        //     display: block;
+        // }
     }
 }
 
@@ -196,7 +203,7 @@
     flex-direction: column;
     align-items: center;
     font-size: 16px;
-    color: rgb(from var(--color-white) r g b / 0.5);
+    color: rgb(from var(--color-white) r g b / 0.67);
     padding-block: 20px;
 
     &.is-show {
