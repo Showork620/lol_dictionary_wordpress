@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+// ============================================================
+//  object/component/_icon.scss
+// ============================================================
+@use "../../global/mediaquery" as mixin;
+@use "../../global/variables" as var;
+
+.c-icon-clickable {
+    width: 12px;
+    height: 12px;
+    border-right: 3px solid var(--color-gold);
+    border-bottom: 3px solid var(--color-gold);
+    background: linear-gradient(45deg, transparent 5px, var(--color-gold) 5px, var(--color-gold) 8px, transparent 8px) no-repeat;
+    transform: rotate(-45deg) skew(10deg, 10deg) scale(0.75);
+}

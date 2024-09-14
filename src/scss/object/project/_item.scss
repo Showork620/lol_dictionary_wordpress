@@ -7,6 +7,7 @@
 @use "../../global/variables" as var;
 
 .p-item-list {
+    position: relative;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5px;
@@ -19,61 +20,94 @@
     }
 
     &__item {
-        width: 100%;
         display: none;
-        grid-template-columns: 40px 1fr 5em 5em;
-        grid-template-rows: 40px 1fr;
-        flex-direction: column;
-        border: 1px solid var(--color-gold);
-        border-radius: 3px;
-        padding: 2px;
-        gap: 1px;
-        font-size: 14px;
 
         &.is-show {
-            display: grid;
+            display: block;
+        }
+    }
+}
+
+.p-item-card {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 40px 1fr 5em 5em;
+    grid-template-rows: 40px 1fr;
+    gap: 1px;
+    border: 1px solid var(--color-gold);
+    border-radius: 3px;
+    padding: 2px;
+    font-size: 14px;
+    background-color: var(--color-navy);
+    transition: all 0.3s;
+		max-height: 320px;
+		overflow: scroll;
+
+    @mixin hoverOrActive {
+        background-color: var(--color-dull-navy);
+        filter: drop-shadow(0 0 5px var(--color-gold));
+
+				.p-item-card__clickable {
+					opacity: 1;
+				}
+    }
+
+    @media (hover: hover) {
+        &:hover {
+            @include hoverOrActive;
         }
     }
 
-    &__item > .icon {
+    @media (hover: none) {
+        &:active {
+            @include hoverOrActive;
+        }
+    }
+
+    &__icon {
         grid-row: 1 / 2;
         grid-column: 1 / 2;
 
-        border: 1px solid var(--color-light-navy);
+        border: 1px solid var(--color-white-33);
         display: block;
         width: 100%;
         height: auto;
     }
 
-    &__item > .name {
+    &__name {
         grid-row: 1 / 2;
         grid-column: 2 / 4;
+        height: 100%;
 
         letter-spacing: -0.1em;
-        border: 1px solid var(--color-light-navy);
+        border: 1px solid var(--color-white-33);
         display: flex;
         align-items: center;
         padding-inline: 5px;
     }
 
-    &__item > .gold {
+    &__gold {
         grid-row: 1 / 2;
         grid-column: 4 / 5;
+        height: 100%;
 
-        border: 1px solid var(--color-light-navy);
+        border: 1px solid var(--color-white-33);
         display: grid;
         place-items: center;
     }
 
-    &__item > .content {
+    &__content {
         grid-row: 2 / 3;
         grid-column: 1 / 3;
-        border: 1px solid var(--color-light-navy);
+        height: 100%;
+
+        border: 1px solid var(--color-white-33);
         padding: 5px;
         font-size: 12px;
         line-height: 1.4;
         min-height: 3lh;
-        color: rgb(from var(--color-white) r g b / 0.66);
+        color: var(--color-white-67);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -84,34 +118,187 @@
         }
     }
 
-    &__item > .sub {
+    &__sub {
         grid-row: 2 / 3;
         grid-column: 3 / 5;
-        border: 1px solid var(--color-light-navy);
+        height: 100%;
+
+        border: 1px solid var(--color-white-33);
         padding: 5px;
 
         // * plaintextを表示 *
         font-style: italic;
-        color: rgb(from var(--color-white) r g b / 0.67);
+        color: var(--color-white-67);
         font-size: 12px;
         line-height: 1.2;
 
         // * 素材アイテムのサムネイルを表示 *
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // gap: 5px;
-        // img {
-        //     opacity: 0.67;
-        //     display: block;
-        // }
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        .plaintext {
+            display: block;
+        }
+
+        .from {
+            opacity: 0.67;
+            display: none;
+        }
+    }
+
+    &__ability {
+        grid-row: 3 / 4;
+        grid-column: 1 / 5;
+        height: 100%;
+
+        border: 1px solid var(--color-white-33);
+        padding: 5px;
+        font-size: 12px;
+        line-height: 1.4;
+        color: var(--color-white-67);
+        display: none; // flex
+        flex-direction: column;
+        justify-content: center;
+
+        strong {
+            font-weight: 500;
+            color: var(--color-white);
+        }
+
+        .separate {
+            padding-block: 0.5lh;
+
+            &:not(:first-child) {
+                border-top: 1px dashed var(--color-white-33);
+            }
+        }
+
+        // デフォルト表示の上書き
+        br {
+            display: none;
+        }
+
+        // デフォルト表示の上書き
+        passive,
+        active {
+            display: inline-block;
+            font-style: italic;
+            color: var(--color-white);
+
+            &:first-child {
+                display: block;
+                margin-bottom: 0.25lh;
+            }
+        }
+
+        passive:first-child::after {
+            content: "【自動効果】";
+            color: var(--color-white-67);
+        }
+
+        active:first-child::after {
+            content: "【発動効果】";
+            color: var(--color-white-67);
+        }
+    }
+
+    &__from {
+        grid-row: 4 / 5;
+        grid-column: 1 / 5;
+
+        border: 1px solid var(--color-white-33);
+        padding: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+
+        img {
+            opacity: 0.67;
+            display: block;
+        }
+    }
+
+		&__clickable {
+			grid-column: 1/5;
+			height: 20px;
+			padding-right: 11px;
+			display: flex; // none
+			gap: 5px;
+			justify-content: end;
+			align-items: center;
+			color: var(--color-gold);
+			font-size: 11px;
+			margin-right: 3px;
+			opacity: 0.75;
+		}
+
+		// * デティールモード *
+    &.is-detail-mode {
+        position: fixed;
+        z-index: 5000;
+        transform: translateX(-50%);
+        top: 120px;
+        left: 50%;
+        width: 96vw;
+        max-width: calc(640px - 4vw);
+        margin-inline: auto;
+        grid-template-rows: 40px auto auto auto;
+        height: auto;
+        cursor: default;
+
+        &:hover {
+            background-color: var(--color-navy);
+            filter: none;
+        }
+
+        .p-item-card {
+            
+            &__ability {
+                display: flex;
+            }
+
+            &__sub {
+
+                .plaintext {
+                    display: none;
+                }
+    
+                .from {
+                    opacity: 0.67;
+                    display: block;
+                }
+            }
+
+						&__clickable {
+							display: none;
+						}
+        }
     }
 }
 
-.p-item-search-group {
+.p-item-search-header {
+    background-color: var(--color-navy);
     display: flex;
     gap: 10px;
     flex-direction: column;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+    padding-block: 10px;
+}
+
+.p-item-search-footer {
+    background-color: var(--color-navy);
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    position: sticky;
+    z-index: 1000;
+    bottom: 0;
 }
 
 .p-item-tags-select {
@@ -119,28 +306,19 @@
     display: grid;
     grid-template-columns: 6em 1fr;
     align-items: center;
-
     
     &::after {
         // プルダウンの三角形を作成
         content: "";
         display: block;
-        width: 0.9em;
-        height: 0.9em;
-        border-right: 3px solid var(--color-gold);
-        border-bottom: 3px solid var(--color-gold);
+        width: 0.75em;
+        height: 0.75em;
+        border-right: 2px solid var(--color-gold);
+        border-bottom: 2px solid var(--color-gold);
         position: absolute;
         right: 16px;
         top: 40%;
         transform: translateY(-50%) rotate(45deg);
-        
-        @include mixin.sm {
-            width: 0.8em;
-            height: 0.8em;
-            border-right: 2px solid var(--color-gold);
-            border-bottom: 2px solid var(--color-gold);
-            right: 15px;
-        }
     }
 
     &__label {
@@ -152,16 +330,11 @@
         width: 100%;
         padding-block: 6px;
         padding-inline: 10px;
-        border: 2px solid var(--color-gold);
+        border: 1px solid var(--color-gold);
         border-radius: 3px;
-        background-color: rgb(from var(--color-white) r g b / 0.1);
+        background-color: var(--color-dull-navy);
         color: var(--color-white);
         font-size: 14px;
-    
-        @include mixin.sm {
-            border: 1px solid var(--color-gold);
-            font-size: 14px;
-        }
     }
 }
 
@@ -203,20 +376,48 @@
     flex-direction: column;
     align-items: center;
     font-size: 16px;
-    color: rgb(from var(--color-white) r g b / 0.67);
+    color: var(--color-white-67);
     padding-block: 20px;
 
     &.is-show {
         display: flex;
     }
+}
 
-    &__unfilter-button {
-        display: block;
-        margin-top: 10px;
-        color: var(--color-white);
-        background-color: rgb(from var(--color-white) r g b / 0.1);
-        border: 1px solid var(--color-gold);
-        padding: 5px;
-        text-align: center;
+.p-item-modal {
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(from var(--color-navy) r g b / 0.9);
+		pointer-events: none; // クリックを貫通させる
+		opacity: 0;
+		transition: all 0.3s;
+
+    &.is-detail-mode {
+        display: flex;
+				opacity: 1;
+				pointer-events: all; // クリックを貫通させない
     }
+}
+
+.p-item-icon {
+	margin-bottom: 1px;
+	opacity: 0.6;
+	transition: all 0.3s;
+}
+
+.p-item-close {
+	display: none;
+
+	.is-detail-mode & {
+		display: block;
+		position: fixed;
+		z-index: 5000;
+		transform: translateX(-50%);
+		bottom: 82px;
+		left: 50%;
+	}
 }

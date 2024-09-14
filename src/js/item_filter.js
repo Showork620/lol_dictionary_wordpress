@@ -1,8 +1,8 @@
 // ============================================================
-//  src/js/item_tab_button.js
+//  src/js/item_filter.js
 // ============================================================
 
-let choicedRole = 'Fighter';
+let choicedRole = 'All';
 let choicedTag1 = 'All';
 let choicedTag2 = 'All';
 

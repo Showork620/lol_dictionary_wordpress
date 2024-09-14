@@ -3,7 +3,8 @@
 // ============================================================
 
 // JavaScriptモジュールをインポート
-import './item_tab_button.js';
+import './item_filter.js';
+import './item_detail.js';
 
 
 // 画像をインポート（必要な場合）

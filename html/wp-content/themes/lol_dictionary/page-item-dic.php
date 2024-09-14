@@ -10,7 +10,7 @@ get_header(); ?>
 
 <main id="main" class="l-main">
 	<section class="l-section">
-		<div class="p-item-search-group">
+		<div class="p-item-search-header">
 			<?php // TODO: 別ファイルから参照する.
 			$item_tags_option_html = '
 				<option value="All">すべて</option>
@@ -53,21 +53,8 @@ get_header(); ?>
 					<?php echo $item_tags_option_html; ?>
 				</select>
 			</div>
-			<ul class="p-item-role-nav">
-			<?php
-			// TODO: 別ファイルから参照する.
-			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
-
-			foreach ($ROLES as $role) : ?>
-				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
-				<li class="p-item-role-nav__item">
-					<button class="button js-role-button <?php echo 'Fighter' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
-						<img class="icon" src="<?php echo esc_url($image_path); ?>">
-					</button>
-				</li>
-			<?php endforeach; ?>
-			</ul>
 		</div>
+		
 		<?php
 		$args = array(
 			'post_type' => 'items',
@@ -79,12 +66,14 @@ get_header(); ?>
 		if ($the_query->have_posts()) : ?>
 			<div class="p-item-notfound js-item-notfound">
 				アイテムが見つかりません。
-				<button class="p-item-notfound__unfilter-button js-unfilter-button">絞り込みを解除</button>
+				<button class="c-button-regular js-unfilter-button">絞り込みを解除</button>
 			</div>
 			<ul class="p-item-list">
 				<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 					<?php
-					$into = get_post_meta(get_the_ID(), 'into', true);
+					$id = get_post_meta(get_the_ID(), 'id', true);
+
+					// リスト化するアイテムの設定 * * *
 					if(empty($into) && has_term('', 'role', get_the_ID())) :
 						// タクソノミーのタームを取得
 						$roles = wp_get_post_terms(get_the_ID(), 'role', array('fields' => 'names'));
@@ -93,49 +82,84 @@ get_header(); ?>
 						$tags_list = implode(',', $tags);
 					?>
 					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
-						<?php
-						$id = get_post_meta(get_the_ID(), 'id', true);
-						$image_path = get_image_path('/items/') . $id . '.webp';
-						?>
-						<img class="icon" src="<?php echo esc_url($image_path); ?>" alt="" width="40" height="40">
-						<div class="name">
+						<button class="p-item-card js-item-button">
 							<?php
-							the_title();
+							$id = get_post_meta(get_the_ID(), 'id', true);
+							$image_path = get_image_path('/items/') . $id . '.webp';
+							?>
+							<img class="p-item-card__icon" src="<?php echo esc_url($image_path); ?>" alt="" width="40" height="40">
+							<div class="p-item-card__name">
+								<?php
+								the_title();
 							
-							// DEBUG: IDを表示
-							// $id = get_post_meta(get_the_ID(), 'id', true);
-							// echo ' [' . esc_html($id);
-							?>
-						</div>
-						<div class="gold">
-							<?php $gold = get_post_meta(get_the_ID(), 'gold', true); ?>
-							<?php echo esc_html($gold) . ' G'; ?>
-						</div>
-						<div class="content">
-							<?php
-							$stats = get_post_meta(get_the_ID(), 'stats', true);
-							$stats_list = explode(',', $stats);
-							foreach ($stats_list as $stat) {
-								$stat_key = explode(':', $stat)[0];
-								$stat_value = explode(':', $stat)[1];
-								echo '<p>' . esc_html($stat_key) . ':<strong>' . esc_html($stat_value) . '</strong></p>';
-							}
+								// DEBUG: IDを表示
+								// echo ' [' . esc_html($id);
+								?>
+							</div>
+							<div class="p-item-card__gold">
+								<?php $gold = get_post_meta(get_the_ID(), 'gold', true); ?>
+								<?php echo esc_html($gold) . ' G'; ?>
+							</div>
+							<div class="p-item-card__content">
+								<?php
+								$stats = get_post_meta(get_the_ID(), 'stats', true);
+								$stats_list = explode(',', $stats);
+								foreach ($stats_list as $stat) {
+									$stat_key = explode(':', $stat)[0];
+									$stat_value = explode(':', $stat)[1];
+									echo '<p>' . esc_html($stat_key) . ':<strong>' . esc_html($stat_value) . '</strong></p>';
+								}
+								// DEBUG: tagsを表示
+								// $tags = wp_get_post_terms(get_the_ID(), 'post_tag', array('fields' => 'names'));
+								// $tags_list = implode(', ', $tags);
+								// foreach ($tags as $tag) {
+								// 	echo '<p class="tag">' . esc_html($tag) . '</p>';
+								// }
+								?>
+							</div>
+							<div class="p-item-card__sub">
+								<?php
+								// * plaintextを表示 *
+								$plaintext = get_post_meta(get_the_ID(), 'plaintext', true);
+								echo '<p class="plaintext">' . esc_html($plaintext) . '</p>';
 
-							// DEBUG: tagsを表示
-							// $tags = wp_get_post_terms(get_the_ID(), 'post_tag', array('fields' => 'names'));
-							// $tags_list = implode(', ', $tags);
-							// foreach ($tags as $tag) {
-							// 	echo '<p class="tag">' . esc_html($tag) . '</p>';
-							// }
-							?>
-						</div>
-						<div class="sub">
-							<?php
-							// * plaintextを表示 *
-							$plaintext = get_post_meta(get_the_ID(), 'plaintext', true);
-							echo esc_html($plaintext);
-							?>
-						</div>
+								$from = get_post_meta(get_the_ID(), 'from', true);
+								$from_list = explode(', ', $from);
+								if (!empty($from_list)) {
+									foreach ($from_list as $from) {
+										$image_path = get_image_path('/items/') . $from . '.webp';
+										echo '<img class="from" src="' . esc_attr($image_path) . '" alt="" width="30" height="30">';
+									}
+								}
+								?>
+							</div>
+							<div class="p-item-card__ability">
+								<?php
+								$passives = get_post_meta(get_the_ID(), 'passives', true);
+								$passives_list = explode(',', $passives);
+								$actives = get_post_meta(get_the_ID(), 'actives', true);
+								$actives_list = explode(',', $actives);
+								// パッシブを表示
+								foreach ($passives_list as $passive) {
+									if (empty($passive)) {
+										continue;
+									}
+									echo '<p class="separate">' . ($passive) . '</p>';
+								}
+								// アクティブを表示
+								foreach ($actives_list as $active) {
+									if (empty($active)) {
+										continue;
+									}
+									echo '<p class="separate">' . ($active) . '</p>';
+								}
+								?>
+							</div>
+							<div class="p-item-card__clickable">
+								詳細
+								<div class="c-icon-clickable p-item-icon"></div>
+							</div>
+						</button>
 					</li>
 					<?php endif; ?>
 				<?php endwhile; ?>
@@ -144,7 +168,31 @@ get_header(); ?>
 		<?php else : ?>
 			<p><?php _e('No items found.', 'text-domain'); ?></p>
 		<?php endif; ?>
+
+		<div class="p-item-search-footer">
+			<ul class="p-item-role-nav">
+			<?php
+			// TODO: 別ファイルから参照する.
+			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
+
+			foreach ($ROLES as $role) : ?>
+				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
+				<li class="p-item-role-nav__item">
+					<?php // TODO: 初期選択はjs側で行う. ?>
+					<button class="button js-role-button <?php echo 'All' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
+						<img class="icon" src="<?php echo esc_url($image_path); ?>">
+					</button>
+				</li>
+			<?php endforeach; ?>
+			</ul>
+		</div>
 	</section>
+
+	<div class="p-item-modal js-modal" tabindex="0">
+		<button class="p-item-close c-button-regular js-modal-close">
+			閉じる
+		</button>
+	</div>
 </main><!-- #main -->
 <!-- #primary -->
 
