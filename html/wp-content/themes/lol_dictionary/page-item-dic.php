@@ -66,7 +66,7 @@ get_header(); ?>
 		if ($the_query->have_posts()) : ?>
 			<div class="p-item-notfound js-item-notfound">
 				アイテムが見つかりません。
-				<button class="p-item-notfound__unfilter-button js-unfilter-button">絞り込みを解除</button>
+				<button class="c-button-regular js-unfilter-button">絞り込みを解除</button>
 			</div>
 			<ul class="p-item-list">
 				<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
@@ -156,8 +156,12 @@ get_header(); ?>
 								?>
 							</div>
 							<div class="p-item-card__clickable">
+								詳細
 								<div class="c-icon-clickable p-item-icon"></div>
 							</div>
+						</button>
+						<button cla>
+
 						</button>
 					</li>
 					<?php endif; ?>
