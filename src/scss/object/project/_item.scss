@@ -41,6 +41,8 @@
     font-size: 14px;
     background-color: var(--color-navy);
     transition: all 0.3s;
+		max-height: 320px;
+		overflow: scroll;
 
     @mixin hoverOrActive {
         background-color: var(--color-dull-navy);
@@ -236,7 +238,6 @@
 
 		// * デティールモード *
     &.is-detail-mode {
-
         position: fixed;
         z-index: 5000;
         transform: translateX(-50%);
@@ -406,4 +407,17 @@
 	margin-bottom: 1px;
 	opacity: 0.67;
 	transition: all 0.3s;
+}
+
+.p-item-close {
+	display: none;
+
+	.is-detail-mode & {
+		display: block;
+		position: fixed;
+		z-index: 5000;
+		transform: translateX(-50%);
+		bottom: 82px;
+		left: 50%;
+	}
 }

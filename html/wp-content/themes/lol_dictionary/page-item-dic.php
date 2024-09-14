@@ -160,9 +160,6 @@ get_header(); ?>
 								<div class="c-icon-clickable p-item-icon"></div>
 							</div>
 						</button>
-						<button cla>
-
-						</button>
 					</li>
 					<?php endif; ?>
 				<?php endwhile; ?>
@@ -191,7 +188,10 @@ get_header(); ?>
 		</div>
 	</section>
 
-	<div class="p-item-modal js-modal">
+	<div class="p-item-modal js-modal" tabindex="0">
+		<button class="p-item-close c-button-regular js-modal-close">
+			閉じる
+		</button>
 	</div>
 </main><!-- #main -->
 <!-- #primary -->
