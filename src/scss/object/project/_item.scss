@@ -306,22 +306,14 @@
         // プルダウンの三角形を作成
         content: "";
         display: block;
-        width: 0.9em;
-        height: 0.9em;
+        width: 0.75em;
+        height: 0.75em;
         border-right: 2px solid var(--color-gold);
         border-bottom: 2px solid var(--color-gold);
         position: absolute;
         right: 16px;
         top: 40%;
         transform: translateY(-50%) rotate(45deg);
-        
-        @include mixin.sm {
-            width: 0.8em;
-            height: 0.8em;
-            border-right: 2px solid var(--color-gold);
-            border-bottom: 2px solid var(--color-gold);
-            right: 15px;
-        }
     }
 
     &__label {
