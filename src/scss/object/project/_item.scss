@@ -45,6 +45,11 @@
     @mixin hoverOrActive {
         background-color: var(--color-dull-navy);
         filter: drop-shadow(0 0 5px var(--color-gold));
+
+				.p-item-icon {
+					opacity: 1;
+					filter: drop-shadow(0 0 5px var(--color-gold));
+				}
     }
 
     @media (hover: hover) {
@@ -216,6 +221,16 @@
         }
     }
 
+		&__clickable {
+			grid-column: 1/5;
+			height: 20px;
+			padding-right: 11px;
+			display: flex; // none
+			justify-content: end;
+			align-items: center;
+		}
+
+		// * デティールモード *
     &.is-detail-mode {
 
         position: fixed;
@@ -252,6 +267,10 @@
                     display: block;
                 }
             }
+
+						&__clickable {
+							display: none;
+						}
         }
     }
 }
@@ -395,4 +414,9 @@
 				opacity: 1;
 				pointer-events: all; // クリックを貫通させない
     }
+}
+
+.p-item-icon {
+	opacity: 0.67;
+	transition: all 0.3s;
 }

@@ -155,6 +155,9 @@ get_header(); ?>
 								}
 								?>
 							</div>
+							<div class="p-item-card__clickable">
+								<div class="c-icon-clickable p-item-icon"></div>
+							</div>
 						</button>
 					</li>
 					<?php endif; ?>
