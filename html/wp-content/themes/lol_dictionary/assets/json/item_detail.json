@@ -782,14 +782,14 @@
     },
     "3179": {
         "passives": [
-            "<passive>ブラックアウト<\/passive><br>周囲にある罠を可視化してワードを無効化する。通常攻撃でワードに与えるダメージが増加する。"
+            "<passive>ブラックアウト<\/passive>敵のワードに発見されると<tm>8秒</tm>間周囲にある技を可視化してワードを無効化する。<note>CD: <tm>50秒</tm></note><note>通常攻撃がワードに<base>(近接)3/<ranged>(遠隔)2</ranged></base>のダメージを与える。</note>"
         ],
         "actives": []
     },
     "3181": {
         "passives": [
-            "<passive>艦長<\/passive><br>チャンピオンまたはエピックモンスターに対する通常攻撃5回ごとに追加物理ダメージを与える。対象が建造物の場合はこのダメージが増加する。<br><br>",
-            "<passive>乗船部隊<\/passive><br>周囲にいる味方の砲撃ミニオンおよびスーパーミニオンが、物理\/魔法防御を獲得する。 "
+            "<passive>艦長<\/passive>チャンピオンまたはエピックモンスターに対する通常攻撃5回ごとに<ad>(近接)140%/<ranged>(遠隔)70%</ranged>[基本AD]</ad> + <hp>3.5%[最大HP]</hp>の<ad>追加物理ダメージ</ad>を与える。対象がタワーの場合はこの<ad>ダメージ</ad>が<ad>(近接)400%/<ranged>(遠隔)200%</ranged>[基本AD]</ad> + <hp>3.5%[最大HP]</hp>増加する。",
+            "<passive>乗船部隊<\/passive>周囲にいる味方の砲撃ミニオンとスーパーミニオンが、増加ARと増加MRを獲得する。<note>増加AR・MR: 20-135[レベル比例]<ranged>（遠隔は50%減）</ranged></note>"
         ],
         "actives": []
     },
@@ -800,7 +800,7 @@
     "3190": {
         "passives": [],
         "actives": [
-            "<active>献身<\/active><br>周囲の味方に<shield>シールド<\/shield>を付与する。シールドは一定時間かけて減衰する。"
+            "<active>献身<\/active>周囲の味方にシールドを付与する。<note>シールド耐久値: 200-360[対象のレベル比例]／<tm>2.5秒</tm>かけて減衰</note><note>CD: <tm>90秒</tm></note>"
         ]
     },
     "3211": {
@@ -810,13 +810,13 @@
     "3222": {
         "passives": [],
         "actives": [
-            "<active>浄化<\/active> (0秒)<br>味方チャンピオンからすべての行動妨害系デバフを除去し、体力を回復させる。"
+            "<active>浄化<\/active>自身を含む味方チャンピオンを1体指定できる。対象から、すべての行動妨害系デバフを除去し、<hp>100-250[対象のレベル比例]体力</hp>を回復させる。<note>CD: <tm>120秒</tm></note>"
         ]
     },
     "3302": {
         "passives": [
-            "<passive>シャドウ<\/passive><br>通常攻撃が魔法ダメージ<OnHit>通常攻撃時効果<\/OnHit>を与える。<br><br>",
-            "<passive>ジャクスタポジション<\/passive><br>チャンピオンに対する通常攻撃時に、通常攻撃時効果を<keywordMajor>「ライト」<\/keywordMajor>と<keywordMajor>「ダーク」<\/keywordMajor>の間で切り替える。<li><keywordMajor>「ライト」<\/keywordMajor>の通常攻撃は<scaleArmor>物理防御<\/scaleArmor>と<scaleMR>魔法防御<\/scaleMR>を増加させる。<li><keywordMajor>「ダーク」<\/keywordMajor>の通常攻撃は、<scaleArmor>物理防御貫通<\/scaleArmor>と<scaleMR>魔法防御貫通<\/scaleMR>を増加させる。"
+            "<passive>シャドウ<\/passive>通常攻撃が<base>30</base>の<ap>追加魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。",
+            "<passive>ジャクスタポジション<\/passive>チャンピオンに対する通常攻撃時に、通常攻撃時効果を「ライト」と「ダーク」の間で切り替える。<note>ライト: 通常攻撃のたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<ar>AR</ar>と<mr>MR</mr>が<base>6/7/8</base>[レベル1/11/14]増加する。<note>ダーク: 通常攻撃のたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<arpen>物理防御貫通</arpen>と<mrpen>魔法防御貫通</mrpen>を<base>10%</base>する。</note>"
         ],
         "actives": []
     },
@@ -840,29 +840,29 @@
     },
     "3504": {
         "passives": [
-            "<passive>サンクティファイ<\/passive><br>味方に体力回復効果またはシールドを付与すると、6秒間、自身とその味方の両方が強化され、攻撃速度が<attackSpeed>25%<\/attackSpeed>増加して、<magicDamage>20の魔法ダメージ<\/magicDamage> <OnHit>通常攻撃時効果<\/OnHit>を与える。"
+            "<passive>サンクティファイ<\/passive>味方に体力回復効果またはシールドを付与すると、<tm>6秒</tm>間、自身とその味方の両方が強化され、<as>AS</as>が<base>25%</base>増加して、<base>20</base>の<ap>魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。"
         ],
         "actives": []
     },
     "3508": {
         "passives": [
-            "<passive>エッセンスドレイン<\/passive><br>通常攻撃で<scaleMana>マナ<\/scaleMana> <OnHit>通常攻撃時効果<\/OnHit>が回復する。"
+            "<passive>エッセンスドレイン<\/passive>通常攻撃時に、<base>15</base> + <ad>10%[増加AD]</ad>の<mana>マナ</mana>を回復する<OnHit>通常攻撃時効果<\/OnHit>を得る。"
         ],
         "actives": []
     },
     "3742": {
         "passives": [
-            "<passive>シップレッカー<\/passive><br>移動中に増加移動速度を獲得する。次の通常攻撃が増加した移動速度のエネルギーを放出して物理ダメージを与える。<br><br>",
-            "<passive>不沈<\/passive><br>スロウ効果の移動速度低下量が軽減される。"
+            "<passive>シップレッカー<\/passive>移動中に徐々にスタックを得て、スタックごとに<ms>MS</ms>が増加する（最大100スタック、MS+40）。通常攻撃時、スタックに応じて最大で<base><40/base> + <ad>100%[基本AD]</ad>の<ad>追加物理ダメージ</ad>を与え、スタックをリセットする。",
+            "<passive>不沈<\/passive>スロウ効果を<base>25%</base>減少させる。"
         ],
         "actives": []
     },
     "3748": {
         "passives": [
-            "<passive>なぎ払い<\/passive><br>通常攻撃が追加で<physicalDamage>0の物理ダメージ<\/physicalDamage> <OnHit>通常攻撃時効果<\/OnHit>を与え、対象の背後にいる敵に<physicalDamage>0の物理ダメージ<\/physicalDamage>を与える。<br><br>"
+            "<passive>なぎ払い<\/passive>通常攻撃時に、<hp>1.5%[最大HP]</hp>の<ad>追加物理ダメージ</ad>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。さらに攻撃した背後の扇状に衝撃波を発生させ、範囲内の敵に<hp>3%[最大HP]</hp>の<ad>物理ダメージ</ad>を与える。<ranged>（遠隔はそれぞれ50%減）</ranged>"
         ],
         "actives": [
-            "<active>巨大な三日月<\/active><br>次の通常攻撃時、<passive>「なぎ払い」<\/passive>が対象および衝撃波が当たった周囲の敵に追加物理ダメージを与える。"
+            "<active>巨大な三日月<\/active>次の通常攻撃時に<passive>「なぎ払い」<\/passive>の効果を強化する。通常攻撃対象へは<hp>4%[最大HP]</hp>の<ad>追加物理ダメージ</ad>、衝撃波は<hp>9%[最大HP]</hp>の<ad>追加物理ダメージ</ad>に増加する。<ranged>（遠隔はそれぞれ50%減）</ranged><note>発動時にAAタイマーをリセットする。</note><note>CD: <tm>10秒</tm></note>"
         ]
     },
     "3801": {
@@ -883,7 +883,7 @@
     },
     "3814": {
         "passives": [
-            "<passive>破棄<\/passive><br>スペルシールドを獲得する。"
+            "<passive>破棄<\/passive>次に受ける敵のスキルを無効化するスペルシールドを獲得する。シールドはスキルを無効にすると消費される。<note>CD: <tm>40秒</tm></note>"
         ],
         "actives": []
     },
@@ -912,42 +912,42 @@
     },
     "3869": {
         "passives": [
-            "<passive>山の祝福<\/passive> <br>「祝福」状態になって、チャンピオンから受けるダメージを軽減する。この効果はチャンピオンからダメージを受けた後、2秒間持続する。<br><br><br><br>"
+            "<passive>山の祝福<\/passive>非戦闘状態が<tm>18秒</tm>続くと祝福状態になる。祝福状態中はチャンピオンから受けるダメージを<base>(近接)35%/<ranged>(遠隔)25%</ranged></base>軽減する。祝福状態はチャンピオンからダメージを受けた後、<tm>2秒</tm>後に解除される。解除時には小さな衝撃波を放ち、触れた敵にスロウ効果を付与する。<note>スロウ効果: <base>50%</base>／<tm>1.5</tm>秒</note>"
         ],
         "actives": [
-            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+            "<active>ワード設置<\/active>1チャージ消費して「ステルス ワード」を設置する。ショップを訪れるたびに4チャージを得る。<note>持続時間: <tm>150秒</tm></note>"
         ]
     },
     "3870": {
         "passives": [
-            "<passive>ドリーム メーカー<\/passive><br>時間経過で<passive>「青の夢の泡沫」<\/passive>と<passive>「紫の夢の泡沫」<\/passive>を1つずつ獲得する。味方に体力回復効果またはシールドを付与すると、その味方に両方の<passive>「夢の泡沫」<\/passive>を吹き付けて強化する。対象は被ダメージが軽減され、与ダメージが増加する。<br><br>"
+            "<passive>ドリーム メーカー<\/passive>味方に体力回復効果またはシールドを付与すると、以下の効果を<tm>3秒間</tm>与える。<note>青の夢の泡沫: 次に受けるダメージが<base>75-255[レベル比例]</base>軽減される。</note><note>紫の夢の泡沫: 次に与えるダメージに<base>50-170[レベル比例]</base>の<ap>追加魔法ダメージ</ap>を付与する。</note><note>CD: <tm>8秒</tm></note>"
         ],
         "actives": [
-            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+            "<active>ワード設置<\/active>1チャージ消費して「ステルス ワード」を設置する。ショップを訪れるたびに4チャージを得る。<note>持続時間: <tm>150秒</tm></note>"
         ]
     },
     "3871": {
         "passives": [
-            "<passive>ヴォイドの爆発<\/passive><br>スキルでダメージを与えると爆発が起こり、魔法ダメージと対象の最大体力に応じたダメージを与える。<br><br><br><br>"
+            "<passive>ヴォイドの爆発<\/passive>敵チャンピオンにスキルでダメージを与えると爆発が起こり、<base>10</base> + <hp>3%[対象の最大HP]</hp>の<ap>魔法ダメージ</ap>を与える。<note>CD: <tm>10秒</tm></note>"
         ],
         "actives": [
-            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+            "<active>ワード設置<\/active>1チャージ消費して「ステルス ワード」を設置する。ショップを訪れるたびに4チャージを得る。<note>持続時間: <tm>150秒</tm></note>"
         ]
     },
     "3876": {
         "passives": [
-            "<passive>ソリ滑り<\/passive><br>敵チャンピオンに<status>スロウ効果<\/status>または<status>移動不能効果<\/status>を与えると、自身および近くの最も体力の低い味方は、体力と移動速度が増加する。<br><br>"
+            "<passive>ソリ滑り<\/passive>敵チャンピオンにスロウ効果または移動不能効果を与えると、自身および近くの最も体力の低い味方は、<base>50-230[レベル比例]</base><hp>HP</hp>回復し、<base>20%</base><ms>MS</ms>増加する。この<ms>増加MS</ms>は<tm>2.5秒</tm>かけて減衰する。<note>CD: <tm>30秒</tm></note>"
         ],
         "actives": [
-            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+            "<active>ワード設置<\/active>1チャージ消費して「ステルス ワード」を設置する。ショップを訪れるたびに4チャージを得る。<note>持続時間: <tm>150秒</tm></note>"
         ]
     },
     "3877": {
         "passives": [
-            "<passive>追撃<\/passive><br>スキルを使ってから10秒以内に行う次の通常攻撃が、通常攻撃時効果で基本攻撃力の100%にあたる追加物理ダメージを与え、6秒間対象の敵チャンピオンが受けるダメージを増加させる。<br><br><br><br>"
+            "<passive>追撃<\/passive><br>スキルを使ってから10秒以内に行う次の通常攻撃が、<ad>100%[基本AD]</ad>の<ad>追加物理ダメージ</ad>通常攻撃時効果を得る。対象が敵チャンピオンの場合は<tm>6秒</tm>間、対象の被ダメージを(近接)10%/<ranged>(遠隔)5%</ranged>増加させる。<note>CD: <tm>1.5秒</tm></note>"
         ],
         "actives": [
-            "<active>ワード設置<\/active> <br>視界を付与する<keywordStealth>インビジブル<\/keywordStealth>状態の「ステルス ワード」を設置する。0個まで所持可能で、ショップを訪れると補充される。 "
+            "<active>ワード設置<\/active>1チャージ消費して「ステルス ワード」を設置する。ショップを訪れるたびに4チャージを得る。<note>持続時間: <tm>150秒</tm></note>"
         ]
     },
     "3916": {
@@ -1198,7 +1198,7 @@
     "6699": {
         "passives": [
             "<passive>刺激<\/passive>ダッシュするかステルス状態になると、エネルギー充填状態のスタック増加量が<base>75%</base>増える。",
-            "<passive>ファーマメント<\/passive>エネルギー充填状態の通常攻撃が敵に<base>100</base>の<ad>追加物理ダメージ</ad>を与え、スロウ効果を付与する。<note>スロウ効果: 近接99%・<ranged>遠隔20%</ranged>／<tm>0.75秒</tm></note>"
+            "<passive>ファーマメント<\/passive>エネルギー充填状態の通常攻撃が敵に<base>100</base>の<ad>追加物理ダメージ</ad>を与え、スロウ効果を付与する。<note>スロウ効果: (近接)99%/<ranged>(遠隔)20%</ranged>／<tm>0.75秒</tm></note>"
         ],
         "actives": []
     },
