@@ -13,12 +13,10 @@ $itemData = json_decode($itemDataJson, true);
 // has_detail が true のアイテムをフィルタリングして新しい形式に変換
 $filteredItems = [];
 foreach ($itemData as $key => $item) {
-    if (isset($item['has_detail']) && $item['has_detail'] === true) {
-        $filteredItems[$key] = [
-            "normal" => $item['description'],
-            "aram" => ""
-        ];
-    }
+    $filteredItems[$key] = [
+        "passives" => isset($item['passives']) ? $item['passives'] : [],
+        "actives" => isset($item['actives']) ? $item['actives'] : [],
+    ];
 }
 
 // フィルタリングされたアイテムを新しい JSON として保存
