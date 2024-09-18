@@ -94,6 +94,10 @@ function create_custom_posts_from_json() {
 						}
 					}
 				}
+
+				$passives = isset($details[$item['id']]['passives']) ? implode(', ', $details[$item['id']]['passives']) : '';
+				$actives = isset($details[$item['id']]['actives']) ? implode(', ', $details[$item['id']]['actives']) : '';
+
 				
 				$post_id = wp_insert_post(array(
 					'post_title' => isset($item['name']) ? $item['name'] : '',
@@ -104,8 +108,8 @@ function create_custom_posts_from_json() {
 						'id' => isset($item['id']) ? $item['id'] : '',
 						'gold' => isset($item['gold']) ? $item['gold'] : '',
 						'stats' => $stats,
-						'passives' => isset($item['passives']) ? implode(', ', $item['passives']) : '',
-						'actives' => isset($item['actives']) ? implode(', ', $item['actives']) : '',
+						'passives' => $passives,
+						'actives' => $actives,
 						'from' => isset($item['from']) ? implode(', ', $item['from']) : '',
 						'into' => isset($item['into']) ? implode(', ', $item['into']) : '',
 						'specialRecipe' => isset($item['specialRecipe']) ? $item['specialRecipe'] : '',
