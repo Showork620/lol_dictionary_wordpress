@@ -181,7 +181,7 @@
     "2065": {
         "passives": [],
         "actives": [
-            "<active>感動的スピーチ<\/active><br>周囲の味方の移動速度を増加させる。<br><br>"
+            "<active>感動的スピーチ<\/active>自身と周囲の味方の<ms>MSを30%</mas>増加させる。<note>CD: <tm>75秒</tm></note>"
         ]
     },
     "2138": {
@@ -242,27 +242,27 @@
     },
     "2501": {
         "passives": [
-            "<passive>暴君<\/passive><br><healing>増加体力<\/healing>の2%を<scaleAD>攻撃力<\/scaleAD>として獲得する。<br><br>",
-            "<passive>報復<\/passive><br>減少体力の割合に応じて、<scaleAD>攻撃力<\/scaleAD>が最大10%まで増加する。 "
+            "<passive>暴君<\/passive><hp>2%[増加HP]</hp>を<ad>[増加AD]</ad>として獲得する。",
+            "<passive>報復<\/passive>減少HPの割合に応じて、<ad>AD</ad>が最大<base>10%</base>まで増加する。<note>この効果はHPが30%未満で最大になる。</note>"
         ],
         "actives": []
     },
     "2502": {
         "passives": [
-            "<passive>苦辛<\/passive><br>チャンピオンと戦闘中は、数秒ごとに周囲の敵チャンピオンに魔法ダメージを与え、与えたダメージに応じて体力を回復する。"
+            "<passive>苦辛<\/passive>チャンピオンと戦闘状態の時、<tm>5秒</tm>ごとに周囲の敵チャンピオンに<base>30-50[レベル比例]</base> + 3%[増加HP]の<ap>魔法ダメージ</ap>を与え、与えたダメージの<base>250%</base><heal>体力を回復</heal>する。"
         ],
         "actives": []
     },
     "2503": {
         "passives": [
-            "<passive>悪意の炎<\/passive><br>スキルでダメージを与えると敵を燃やす。モンスターに対しては、このダメージが増加する。<br><br>",
-            "<passive>黒炎<\/passive><br><passive>「悪意の炎」<\/passive>の影響を受けた敵チャンピオン、エピックモンスター、大型モンスター1体ごとに、<scaleAP>魔力<\/scaleAP>が増加する。 "
+            "<passive>悪意の炎<\/passive>敵ユニットにスキルでダメージを与えると対象を<tm>3秒間</tm>燃やす。<tm>0.5秒</tm>ごとに<base>7.5</base> + <ap>1.5%[AP]</ap>の<ap>魔法ダメージ</ap>を与える。モンスターには<tm>0.5秒</tm>ごとのダメージが<base>10</base>ずつ増加する。",
+            "<passive>黒炎<\/passive>「悪意の炎」の影響を受けた敵チャンピオン、エピックモンスター、大型モンスター1体ごとに、<ap>APが4%</ap>増加する。 "
         ],
         "actives": []
     },
     "2504": {
         "passives": [
-            "<passive>メイジベイン<\/passive><br>15秒間<magicDamage>魔法ダメージ<\/magicDamage>を受けずにいると、<magicDamage>0の魔法ダメージを防ぐシールド<\/magicDamage>を獲得する。<br><br>"
+            "<passive>メイジベイン<\/passive>敵ユニットから<tm>15秒間</tm><ap>魔法ダメージ</ap>を受けずにいると<hp>18%[最大HP]</hp>分の<keyword>魔法シールド</keyowrd>を得る"
         ],
         "actives": []
     },
@@ -274,21 +274,21 @@
     },
     "3002": {
         "passives": [
-            "<passive>先導<\/passive><br>移動中に<speed>20の増加移動速度<\/speed>を獲得する。最大速度になると軌跡が発生し、軌跡に触れた味方チャンピオンの移動速度を自身の移動速度の15%分増加させる。次の通常攻撃で増加した移動速度を放出し、近接攻撃チャンピオンは対象に1秒間、50%の<keyword>スロウ効果<\/keyword>を与える。<br><br>"
+            "<passive>先導<\/passive>移動中に徐々にスタックを得て、100スタックで<ms>MSが20</ms>増加する。最大速度になると軌跡が発生し、軌跡に触れた味方チャンピオンの<を自身のMSの15%分増加させる。<note>通常攻撃効果を発生させるとスタックを消費する。<melee>近接チャンピオンはこの時、100スタックを消費すると、対象に<base>50%</base>／<tm>1秒間</tm>の<keyword>スロウ効果</keyword></melee>を与える。</note>"
         ],
         "actives": []
     },
     "3003": {
         "passives": [
-            "<passive>畏怖<\/passive><br>自身の増加マナに応じて魔力を獲得する。<br><br>",
-            "<passive>マナフロー<\/passive><br>スキルが対象に命中するとチャージを1つ消費して増加マナを獲得する。最大360まで増加マナを獲得でき、最大値に到達すると、このアイテムは<rarityLegendary>「セラフ エンブレイス」<\/rarityLegendary>に変化する。<br><br>"
+            "<passive>畏怖<\/passive><mn>1%[増加マナ]</mn>に当たる<ad>増加AD</ad>を獲得する。>",
+            "<passive>マナフロー<\/passive><tm>8秒</tm>ごとに1チャージ獲得する。（最大4チャージ）スキルが敵ユニットに命中するとチャージを1つ消費して<mn>マナが3増加</mn>する。対象がチャンピオンの場合は<mn>6マナ増加</mn>する。（最大は<mn>360マナ</mn>）最大までマナを獲得すると、このアイテムは「セラフ エンブレイス」に変化する。"
         ],
         "actives": []
     },
     "3004": {
         "passives": [
-            "<passive>畏怖<\/passive><br>マナに応じて攻撃力が増加する。<br><br>",
-            "<passive>マナフロー<\/passive><br>スキルまたは通常攻撃が対象に命中すると増加マナを獲得する。最大までマナを獲得すると、このアイテムは<rarityLegendary>「ムラマナ」<\/rarityLegendary>に変化する。"
+            "<passive>畏怖<\/passive><mn>2.5%[最大マナ]</mn>に当たる<ad>増加AD</ad>を獲得する。",
+            "<passive>マナフロー<\/passive><tm>8秒</tm>ごとに1チャージ獲得する。（最大4チャージ）スキルが敵ユニットに命中するとチャージを1つ消費して<mn>マナが3増加</mn>する。対象がチャンピオンの場合は<mn>6マナ増加</mn>する。（最大は<mn>360マナ</mn>）最大までマナを獲得すると、このアイテムは「ムラマナ」に変化する。"
         ],
         "actives": []
     },
@@ -326,7 +326,7 @@
     },
     "3026": {
         "passives": [
-            "<passive>起死回生<\/passive><br>体力がゼロになった際、少し遅れて復活する。"
+            "<passive>起死回生<\/passive>体力がゼロになった際、<tm>4秒間</tm><keyword>固有時停止</keyword>状態になった後、<hp>50%[基本HP]</hp>と<mn>100%[最大マナ]</mn>を回復する。<note>CD: <tm>300秒</tm></note>"
         ],
         "actives": []
     },
@@ -336,13 +336,13 @@
     },
     "3032": {
         "passives": [
-            "<passive>鋸刃<\/passive><br>クリティカルになった通常攻撃が、追加で継続ダメージを与える。"
+            "<passive>鋸刃<\/passive><keyword>クリティカル</keyword>時に<tm>2秒</tm>かけて<ad>35%[AD]</ad>の<ad>追加物理ダメージ</ad>を与える。"
         ],
         "actives": []
     },
     "3033": {
         "passives": [
-            "<passive>重傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。"
+            "<passive>重傷<\/passive><br>敵チャンピオンに<ad>物理ダメージ</ad>を与えると、<tm>3秒間</tm>40%の<keyword>「重傷」</keyword>を付与する。"
         ],
         "actives": []
     },
@@ -356,20 +356,20 @@
     },
     "3040": {
         "passives": [
-            "<passive>畏怖<\/passive><scaleMana>増加マナの2%<\/scaleMana>にあたる魔力を獲得する。<br>",
+            "<passive>畏怖<\/passive><mn>2.5%[最大マナ]</mn>に当たる<ad>増加AD</ad>を獲得する。",
             "<passive>ライフライン<\/passive>(90(0秒))<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3秒間<shield>250 + 現在マナの20%の耐久値を持つシールド<\/shield>を得る。"
         ],
         "actives": []
     },
     "3041": {
         "passives": [
-            "<passive>栄光<\/passive><li>キルまたはアシストするとスタックを獲得し、1スタックごとに魔力を獲得する。自身が死亡するとスタックを一部失う。<li>10スタック以上保持している場合、移動速度が増加する。"
+            "<passive>栄光<\/passive>敵チャンピオンをキルすると4、アシストすると2スタックを獲得する。（最大25スタック）デスすると10スタック失う。1スタックごとに<ap>5[AP]</ap>を獲得する。<note>10スタック以上持っている時<ms>MSが10%</ms>増加する。</note>"
         ],
         "actives": []
     },
     "3042": {
         "passives": [
-            "<passive>畏怖<\/passive><br>マナに応じて攻撃力が増加する。<br><br>",
+            "<passive>畏怖<\/passive><mn>2.5%[最大マナ]</mn>に当たる<ad>増加AD</ad>を獲得する。",
             "<passive>ショック<\/passive><br>チャンピオンに対する通常攻撃と攻撃スキルが追加物理ダメージを与える。"
         ],
         "actives": []
@@ -382,7 +382,7 @@
     },
     "3046": {
         "passives": [
-            "<passive>幽霊のワルツ<\/passive><br><status>ゴースト化<\/status>する。"
+            "<passive>幽霊のワルツ<\/passive>常時<keyword>ゴースト状態</keyword>になる。"
         ],
         "actives": []
     },
@@ -394,7 +394,7 @@
     },
     "3050": {
         "passives": [
-            "<passive>氷炎のテンペスト<\/passive> <br>アルティメットスキルを使用すると、自身の周りに嵐を発生させる。この嵐は敵チャンピオンに魔法ダメージを与え、<keyword>スロウ効果<\/keyword>を付与する。"
+            "<passive>氷炎のテンペスト<\/passive>アルティメットスキルを使用すると、自身の周りに<tm>5秒間</tm>嵐を発生させる。この嵐は敵チャンピオンに<base>50</base>の<ap>魔法ダメージ</ap>を与え、<base>30%</base>の<keyword>スロウ効果<\/keyword>を付与する。<note>CD: <tm>45秒</tm></note>"
         ],
         "actives": []
     },
@@ -404,8 +404,8 @@
     },
     "3053": {
         "passives": [
-            "<passive>獲物を狙う爪<\/passive><br>攻撃力が増加する。<br><br>",
-            "<passive>ライフライン<\/passive> (0秒)<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、シールドを得る。"
+            "<passive>獲物を狙う爪<\/passive><ad>50%[基本AD]</ad>だけ<ad>増加AD</ad>を得る。",
+            "<passive>ライフライン<\/passive>ダメージを受け、そのダメージにより体力が最大値の30%未満になると、ユニットサイズが10%増加し、<hp>80%[増加HP]</hp>のシールドを得る。このシールドは<tm>4.5秒</tm>かけて減衰する。<note>CD: <tm>90秒</tm></note>"
         ],
         "actives": []
     },
@@ -417,7 +417,7 @@
     },
     "3065": {
         "passives": [
-            "<passive>無限の胆力<\/passive><br>自身が受けるすべての回復効果とシールド耐久値が25%増加する。"
+            "<passive>無限の胆力<\/passive>自身が受けるすべての<heal>回復効果とシールド耐久値</heal>が<base>25%</base>増加する。"
         ],
         "actives": []
     },
@@ -431,60 +431,60 @@
     },
     "3068": {
         "passives": [
-            "<passive>猛火:<\/passive> ダメージを受けるかダメージを与えると、3秒間、周囲の敵に毎秒<magicDamage>(15 + 増加体力の1.75%)の魔法ダメージ<\/magicDamage>を与える(このダメージはミニオンに対しては25%増加する)。この効果でチャンピオンまたはエピックモンスターにダメージを与えるとスタックが増加し、それ以降に<passive>「猛火」<\/passive>で与えるダメージが5秒間10%増加する(最大スタック6)。<br>"
+            "<passive>猛火<\/passive>ダメージを受けるかダメージを与えると、<tm>3秒間</tm>、周囲の敵に毎秒<base>15</base> + <hp>1.75%[増加HP]</hp>の<ap>魔法ダメージ</ap>を与える（このダメージはミニオンに対して25%増加する）。<note>この効果でチャンピオンまたはエピックモンスターにダメージを与えると、<tm>5秒間</tm>スタックを獲得し、それ以降に「猛火」で与えるダメージ<base>10%</base>増加する（最大スタック6）。</note>"
         ],
         "actives": []
     },
     "3070": {
         "passives": [
             "<passive>一点集中:<\/passive> 通常攻撃がミニオンに追加物理ダメージを与える。<li>",
-            "<passive>マナフロー:<\/passive> スキルが対象に命中するとチャージを1つ消費して<scaleMana>増加マナ3<\/scaleMana>を獲得する。対象がチャンピオンだった場合は増加マナが2倍になる。最大360まで増加マナを獲得できる。<br><br><rules>8秒ごとに<passive>「マナチャージ」<\/passive>を1つ獲得する(最大4)。<\/rules>"
+            "<passive>マナフロー:<\/passive> スキルが対象に命中するとチャージを1つ消費して<scaleMana>増加マナ3<\/scaleMana>を獲得する。対象がチャンピオンだった場合は増加マナが2倍になる。最大360まで増加マナを獲得できる。<br><br><rules>8秒ごとに「マナチャージ」を1つ獲得する(最大4)。<\/rules>"
         ],
         "actives": []
     },
     "3071": {
         "passives": [
-            "<passive>カーブ<\/passive><br>チャンピオンに物理ダメージを与えると、対象に物理防御低下のスタックを付与する。<br><br>",
-            "<passive>熱情<\/passive><br>物理ダメージを与えると移動速度が増加する。"
+            "<passive>カーブ<\/passive>敵チャンピオンに物理ダメージを与えるたび、<tm>6秒間</tm>対象にスタックを付与する。（最大5スタック）1スタックごとに対象の<ar>ARを6%</ar>低下させる。",
+            "<passive>熱情<\/passive>敵ユニットに<ad>物理ダメージ</ad>を与えると<ms>MSが20</ms>増加する。"
         ],
         "actives": []
     },
     "3072": {
         "passives": [
-            "<passive>イコルシールド<\/passive><br>ライフスティールで最大体力を超えて回復した余剰の体力が、最大での耐久値のシールドに変換される。"
+            "<passive>イコルシールド<\/passive>ライフスティールで得た余剰回復をシールドに変換できる。得られるシールド最大値は<base>165〜315[レベル比例]</base>。"
         ],
         "actives": []
     },
     "3073": {
         "passives": [
-            "<passive>へクスチャージ<\/passive><br>アルティメットスキルがスキルヘイストを獲得する。<br><br>",
-            "<passive>オーバードライブ<\/passive><br>アルティメットスキル発動から少しの間、攻撃速度と移動速度が増加する。<br>"
+            "<passive>へクスチャージ<\/passive>アルティメットスキルヘイストを<base>30</base>獲得する。",
+            "<passive>オーバードライブ<\/passive>アルティメットスキル発動を発動すると<tm>8秒間</tm>、<as>ADが30%</as>、<ms>MSが15%</ms>増加する。<note>CD: <tm>30秒</tm></note>"
         ],
         "actives": []
     },
     "3074": {
         "passives": [
-            "<passive>なぎ払い<\/passive><br>通常攻撃が周囲の敵にも物理ダメージを与える。<br><br>"
+            "<passive>なぎ払い<\/passive><OnHit>通常攻撃効果</OnHit>が働いた時、その周囲に小さな衝撃波を生み、範囲内の敵に<ad><melee>40%</melee><ranged>20%</ranged>[AD]</ad>の<ad>物理ダメージ</ad>を与える。<note>ラヴァナス ハイドラのみ、「なぎ払い」の効果で与えたダメージにも<ls>ライフスティール</ls>が適用される。</note>"
         ],
         "actives": [
-            "<active>貪欲な三日月<\/active><br>周囲の敵に物理ダメージを与えて、ライフスティールを適用する。"
+            "<active>貪欲な三日月<\/active>周囲の敵ユニットに<ad>100%[AD]</ad>の<ad>物理ダメージ</ad>を与える。このダメージには<ls>ライフスティール</ls>が150%適用される。<note>CD: <tm>10秒</tm></note>"
         ]
     },
     "3075": {
         "passives": [
-            "<passive>棘<\/passive><br>通常攻撃を受けると攻撃者にダメージを与え、対象がチャンピオンだった場合は40%の<keyword>「重傷」<\/keyword>を付与する。<br><br><rules><status>「重傷」<\/status>は体力回復および自動回復の効果を減少させる。<\/rules><br><br>"
+            "<passive>棘<\/passive>相手から<OnHit>通常攻撃効果</OnHit>を受けると、攻撃者に<base>10</base> + <ar>25%[AR]</ar>の<ap>魔法ダメージ</ap>を与える。対象がチャンピオンだった場合は<base>40%</base>の「<keyword>重傷</keyword>」を付与する。"
         ],
         "actives": []
     },
     "3076": {
         "passives": [
-            "<passive>棘<\/passive><br>通常攻撃を受けると攻撃者にダメージを与え、対象がチャンピオンだった場合は40%の「重傷」を付与する。<br><br><rules><status>「重傷」<\/status>は体力回復および自動回復の効果を減少させる。<\/rules>"
+            "<passive>棘<\/passive>相手から<OnHit>通常攻撃効果</OnHit>を受けると、攻撃者に<base>10</base> + <ar>25%[AR]</ar>の<ap>魔法ダメージ</ap>を与える。対象がチャンピオンだった場合は<base>40%</base>の「<keyword>重傷</keyword>」を付与する。"
         ],
         "actives": []
     },
     "3077": {
         "passives": [
-            "<passive>なぎ払い<\/passive><br>通常攻撃が周囲の敵にも物理ダメージを与える。<br><br>近接攻撃チャンピオンか遠隔攻撃チャンピオンかに応じて、アイテムの効果は異なる。<br><br><br>"
+            "<passive>なぎ払い<\/passive>通常攻撃が周囲の敵にも物理ダメージを与える。<br><br>近接攻撃チャンピオンか遠隔攻撃チャンピオンかに応じて、アイテムの効果は異なる。<br><br><br>"
         ],
         "actives": [
             "<active>三日月<\/active><br>周囲の敵に<physicalDamage>0の物理ダメージ<\/physicalDamage>を与える。"
@@ -492,8 +492,8 @@
     },
     "3078": {
         "passives": [
-            "<passive>追撃<\/passive><br>スキルを使った後、次の通常攻撃が強化されて追加物理ダメージを与える。<br><br>",
-            "<passive>加速<\/passive><br>通常攻撃を行うと移動速度が増加する。<br><br>"
+            "<passive>追撃<\/passive>スキルを使用後、次の<OnHit>通常攻撃時効果</OnHit>が<ad>200%[基本AD]</ad>の<ad>追加物理ダメージ</ad>を付与する。",
+            "<passive>加速<\/passive><OnHit>通常攻撃時効果</OnHit>が働く時、<tm>2秒間</tm><ms>MSが20</ms>増加する。"
         ],
         "actives": []
     },
@@ -505,20 +505,20 @@
     },
     "3083": {
         "passives": [
-            "<passive>ワーモグの心臓<\/passive><br>自身の増加体力が1500以上であれば、6秒間ダメージを受けずにいると、毎秒最大体力の一定割合を回復する。"
+            "<passive>ワーモグの心臓<\/passive>自身の<hp>増加HP</hp>が1500以上あれば、この能力が働く。<note>敵チャンピオンから<tm>6秒間</tm>、またはチャンピオン以外から<tm>3秒間</tm>、ダメージを受けずにいると毎秒<hp>5%[最大HP]</hp>だけ回復し、<ms>MSが5%</ms>増加する。</note>"
         ],
         "actives": []
     },
     "3084": {
         "passives": [
-            "<passive>巨人の食欲<\/passive> 対象ごとに(0秒)<br>チャンピオンの近くにいると、そのチャンピオンに対し、強力な通常攻撃をチャージする。チャージした通常攻撃は追加物理ダメージを与え、最大体力が恒久的に増加する。<br><br>",
-            "<passive>ゴライアス<\/passive><br>合計体力に応じてサイズが増加する。 "
+            "<passive>巨人の食欲<\/passive>敵チャンピオンの<base>700ユニット</base>以内に入ると対象をマークして、範囲内にいる間、対象へ<tm>0.5秒</tm>ごとに1スタック追加する。（最大6スタック）スタックが最大の対象へ<OnHit>通常攻撃時効果</OnHit>を与える時、全スタックを解消し、<base>80</base> + <hp>12%[アイテムによる増加HP]</hp>の<ad>追加物理ダメージ</ad>与える。更に、このダメージの<base>12%</base>分、心の鋼による<hp>増加HP</hp>が追加される。<note>効果範囲から離れて、<tm>3秒</tm>経過すると、スタックがリセットされる。</note><note>CD: 対象ごとに<tm>30秒</tm></note>",
+            "<passive>ゴライアス<\/passive>自身のユニットサイズが<hp>1000[最大HP]<hp>ごとに3%増加する。（最大30%）"
         ],
         "actives": []
     },
     "3085": {
         "passives": [
-            "<passive>連撃の風<\/passive><br>通常攻撃時、対象の周囲にいる敵(最大2体)にも矢を放つ。矢には通常攻撃時効果が適用され、クリティカル判定がある。<br><br><rules>このアイテムは遠隔攻撃チャンピオン専用。<\/rules>"
+            "<passive>連撃の風<\/passive>通常攻撃時、対象の周囲にいる敵ユニット（最大2体）にも矢を放ち<ad>55%[AD</ad>の<ad>物理ダメージ</ad>を与える。矢には<OnHit>通常攻撃時効果</OnHit>が適用され、クリティカル判定がある。<note>このアイテムは遠隔チャンピオン専用。</note><\/rules>"
         ],
         "actives": []
     },
@@ -528,45 +528,45 @@
     },
     "3087": {
         "passives": [
-            "<passive>電気スパーク<\/passive> <br>ミニオンまたはモンスターをキルすると連鎖する電撃を放ち、魔法ダメージを与える。<br><br>",
-            "<passive>電気ショック<\/passive> <br>チャンピオンからキルまたはアシストを奪うと連鎖する電撃を放ち、さらに多くの魔法ダメージを与える。"
+            "<passive>電気スパーク<\/passive>チャンピオン以外のユニットをキルすると連鎖する電撃を放ち、最大6対の敵ユニットに<base>120</base>の<ap>魔法ダメージ</ap>を与える。<note>CD: <tm>3秒</tm></note>",
+            "<passive>電気ショック<\/passive>チャンピオンからキルまたはアシストを奪うと連鎖する電撃を放ち、敵ユニットに<base>270</base>の<ap>魔法ダメージ</ap>を与える。"
         ],
         "actives": []
     },
     "3089": {
         "passives": [
-            "<passive>マジカルオーパス<\/passive><br>合計<scaleAP>魔力を35%<\/scaleAP>増加させる。"
+            "<passive>マジカルオーパス<\/passive><ap>APを35%<\/ap>増加させる。"
         ],
         "actives": []
     },
     "3091": {
         "passives": [
-            "<passive>フレイ<\/passive><br>通常攻撃時効果で魔法ダメージを与える。"
+            "<passive>フレイ<\/passive><base>40-80[レベル比例]</base>の<ap>追加魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果</OnHit>を得る。"
         ],
         "actives": []
     },
     "3094": {
         "passives": [
-            "<passive>心眼<\/passive><br>エネルギー充填状態の通常攻撃が追加魔法ダメージを与え、その射程が増加する。"
+            "<passive>心眼<\/passive><keyword>エネルギー充填状態</kewword>の時、通常攻撃の射程が<base>35%（最大150）</base>増加する。また、その攻撃には<base>60</base>の<ap>追加魔法ダメージ</ap>の<OnHit>通常攻撃時効果</OnHit>が付与される。"
         ],
         "actives": []
     },
     "3100": {
         "passives": [
-            "<passive>追撃<\/passive><br>スキルを使った後、次の通常攻撃が強化されて追加魔法ダメージ<OnHit>通常攻撃時効果<\/OnHit>を与える。"
+            "<passive>追撃<\/passive>スキルを使用後、次に発動する<OnHit>通常攻撃時効果<\/OnHit>に<ad>75%[基本AD]</ad> + <ap>45%[AP]</ap>の<ap>追加魔法ダメージ</ap>を付与する。スキル使用後、追撃が発動するまで自身の<as>ASが50%</as>増加する。<note>CD: <tm>1.5秒</tm></note>"
         ],
         "actives": []
     },
     "3102": {
         "passives": [
-            "<passive>破棄<\/passive><br>スペルシールドを獲得する。<br>"
+            "<passive>破棄<\/passive>次に受ける敵のスキルを無効化する<keyword>スペルシールド</keyword>を展開する。シールドはスキルを無効化すると消費され、<tm>40秒間</tm>敵チャンピオンからダメージを受けないと再展開される</note>"
         ],
         "actives": []
     },
     "3107": {
         "passives": [],
         "actives": [
-            "<active>介入<\/active><br>一定範囲を指定し、味方チャンピオンの体力を回復して、敵チャンピオンに確定ダメージを与える。"
+            "<active>介入<\/active>遠距離から一定範囲を指定できる。指定範囲の視界を得て、<tm>2.5秒</tm>あとに範囲内の味方チャンピオンを<base>200-400[味方レベル比例]</base>だけ<heal>HPを回復</heal>して、敵チャンピオンには<hp>10%[対象の最大HP]</hp>の<keyword>確定ダメージ</keyword>を与える。<note>死亡中も使用可能。<tm>12秒</tm>以内に「介入」の効果を受けた対象には回復量とダメージが半減する。</note><note>CD: <tm>90秒</tm></note>"
         ]
     },
     "3108": {
@@ -575,16 +575,16 @@
     },
     "3109": {
         "passives": [
-            "<passive>犠牲<\/passive><br>味方の<attention>同士<\/attention>が近くにいる間は、その味方が受けるダメージを代わりに受け、その<attention>同士<\/attention>がチャンピオンに与えたダメージに応じた体力を回復する。<br><br><br>"
+            "<passive>犠牲<\/passive>味方の「同士」が近くにいる間は、その味方が受けるダメージの<base>12%</base>代わりに受け、「同士」が敵チャンピオンに与えたダメージの<base>10%</base>に当たる<heal>HPを回復</heal>する。<note>肩代わりするダメージは、自身の<ar>AR</ar>/<mr>MR</mr>で軽減する。自身のHPが<base>30%</base>未満の時は肩代わりできない。</note>"
         ],
         "actives": [
-            "<active>誓約<\/active><br>味方を<attention>同志<\/attention>に指定する。"
+            "<active>誓約<\/active>味方一体を対象に発動できる。対象を「同士」に指定する。（「同士」にできる味方は同時に１体のみ）<note>CD: <tm>60秒</tm></note>"
         ]
     },
     "3110": {
         "passives": [
-            "<passive>冬の抱擁<\/passive><br>周囲の敵の<attackSpeed>攻撃速度<\/attackSpeed>を20%低下させる。<br><br>",
-            "<passive>岩より固く<\/passive><br>通常攻撃で受けるダメージを最大0軽減する。通常攻撃のダメージの0%が上限。"
+            "<passive>冬の抱擁<\/passive>周囲の敵の<as>ASを20%</as>低下させる。",
+            "<passive>岩より固く<\/passive>通常攻撃で受けるダメージを<base>5</base> + <hp>0.35%[HP]</hp>だけ軽減する。通常攻撃のダメージの<base>20%</base>が上限。"
         ],
         "actives": []
     },
@@ -608,13 +608,13 @@
     },
     "3115": {
         "passives": [
-            "<passive>イカシアの牙<\/passive><br>通常攻撃が<magicDamage>魔法ダメージ<\/magicDamage> <OnHit>通常攻撃時効果<\/OnHit>を与える。"
+            "<passive>イカシアの牙<\/passive><base>15</base> + <ap>20%[AP]</ap>の<ap>追加魔法ダメージ</ap>を付与する<OnHit>通常攻撃時効果<\/OnHit>を得る。"
         ],
         "actives": []
     },
     "3116": {
         "passives": [
-            "<passive>ライムフロスト<\/passive><br>攻撃スキルが、敵に1秒間30%の<keyword>スロウ効果<\/keyword>を与える。"
+            "<passive>ライムフロスト<\/passive>敵ユニットにスキルでダメージを与えると、<base>30%</base>／<tm>1秒</tm>の<keyword>スロウ効果<\/keyword>を与える。"
         ],
         "actives": []
     },
@@ -624,22 +624,22 @@
     },
     "3118": {
         "passives": [
-            "<passive>嘲り<\/passive><br>アルティメットスキルがスキルヘイストを獲得する。<br><br>",
-            "<passive>憎悪の霧<\/passive><br>アルティメットスキルでチャンピオンにダメージを与えると、対象の足元の地面が燃え上がり、ダメージを与えて、対象の魔法防御を低下させる。<br>"
+            "<passive>嘲り<\/passive>アルティメットスキルヘイストを20獲得する。",
+            "<passive>憎悪の霧<\/passive>アルティメットスキルでチャンピオンにダメージを与えると、対象の足元を<tm>3秒間</tm>炎上させる。この炎上範囲にいる敵ユニットに毎秒<base>60</base> + <ap>5%[AP]</ap>の<ap>魔法ダメージ</ap>を与えて、<mr>MRを10</mr>低下させる。"
         ],
         "actives": []
     },
     "3119": {
         "passives": [
-            "<passive>畏怖<\/passive><br>追加で<scaleHealth>0にあたる体力<\/scaleHealth>を獲得する。<br><br>",
-            "<passive>マナフロー<\/passive><br>スキルまたは通常攻撃が対象に命中するとチャージを1つ消費して増加マナを獲得する。最大までマナを獲得すると、このアイテムは<rarityLegendary>「フィンブルウィンター」<\/rarityLegendary>に変化する。"
+            "<passive>畏怖<\/passive><mn>15%[増加マナ]</mn>にあたる体力を獲得する。",
+            "<passive>マナフロー<\/passive><tm>8秒</tm>ごとに1チャージ獲得する。（最大4チャージ）スキルが敵ユニットに命中するとチャージを1つ消費して<mn>マナが3増加</mn>する。対象がチャンピオンの場合は<mn>6マナ増加</mn>する。（最大は<mn>360マナ</mn>）最大までマナを獲得すると、このアイテムは「フィンブルウィンター」に変化する。"
         ],
         "actives": []
     },
     "3121": {
         "passives": [
-            "<passive>畏怖<\/passive><br>追加で<scaleHealth>0にあたる体力<\/scaleHealth>を獲得する。<br><br>",
-            "<passive>不朽<\/passive> (0秒)<br>敵チャンピオンに<status>移動不能効果<\/status>または<status>スロウ効果<\/status>(近接のみ)を与えると、3秒間、耐久値<scaleMana>0 + 現在マナの4.5%<\/scaleMana>のシールドを獲得する。周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が<attention>80%<\/attention>増加する。"
+            "<passive>畏怖<\/passive><mn>15%[増加マナ]</mn>にあたる体力を獲得する。",
+            "<passive>不朽<\/passive>敵チャンピオンに<melee><ranged><status>移動不能効果<\/status></ranged>または<status>スロウ効果<\/status></melee>を与えると、<tm>3秒間</tm>、耐久値<base>100-180[レベル比例]</base> + <mn>4.5%[現在マナ]</mn>のシールドを獲得する。周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が80%増加する。<note>CD: <tm>8秒</tm></note>"
         ],
         "actives": []
     },
@@ -651,8 +651,8 @@
     },
     "3124": {
         "passives": [
-            "<passive>激憤<\/passive><br>通常攻撃が<magicDamage>30の魔法ダメージ <OnHit>通常攻撃時効果<\/OnHit><\/magicDamage>を与える。<br><br>",
-            "<passive>シージングストライク<\/passive><br>通常攻撃によって<attackSpeed>攻撃速度が8%<\/attackSpeed>増加する。この効果は4回までスタックし、最大で<attackSpeed>攻撃速度が0<\/attackSpeed>増加する。スタックが最大の間は、通常攻撃3回ごとに<OnHit>通常攻撃時効果<\/OnHit>を2回適用する。<br><br>"
+            "<passive>激憤<\/passive><base>30</base>の<ap>魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る",
+            "<passive>シージングストライク<\/passive><OnHit>通常攻撃効果</OnHit>が働く時、スタックを獲得し、1スタックにつき<as>8%[AS]</as>増加する。（最大4スタック）スタックが最大の間、<OnHit>通常攻撃攻撃効果</OnHit>が3回働くごとに、追加でもう1回<OnHit>通常攻撃時効果</OnHit>が働く。"
         ],
         "actives": []
     },
@@ -670,14 +670,14 @@
     },
     "3137": {
         "passives": [
-            "<passive>死から命へ<\/passive> <br>敵チャンピオンからキルまたはアシストを獲得すると、その位置に味方の体力を回復する新星が発生する。"
+            "<passive>死から命へ<\/passive>自身が敵チャンピオンにダメージを与えてから<tm>3秒</tm>以内に対象がデスすると、その位置を中心に広範囲の衝撃波が発生し、触れた味方が<base>50</base> + <ap>50%[AP]</ap>だけ<heal>体力を回復</heal>する。<note>CD: <tm>60秒</tm></note>"
         ],
         "actives": []
     },
     "3139": {
         "passives": [],
         "actives": [
-            "<active>水銀<\/active><br>すべての行動妨害系デバフ(<keyword>ノックアップ<\/keyword>を除く)を除去し、移動速度が増加する。"
+            "<active>水銀<\/active>すべての<keyword>行動妨害効果</keyword>(<keyword>ノックアップ</keyword>を除く)を除去し、更に<tm>1.5秒間</tm><ms>MSが50%</ms>上昇し、<keyword>ゴースト化</keyword>する。<note>CD: <tm>90秒</tm></note>"
         ]
     },
     "3140": {
@@ -688,18 +688,18 @@
     },
     "3142": {
         "passives": [
-            "<passive>幽鬼<\/passive> <br>非戦闘時に<speed>移動速度<\/speed>が増加する。<br><br><br>"
+            "<passive>幽鬼<\/passive><keyword>非戦闘時</keyword>に<ms>MSが<melee>40</melee><ranged>20</ranged></ms>増加する。"
         ],
         "actives": [
-            "<active>幽霊の歩み<\/active><br><speed>移動速度<\/speed>が増加して<keyword>ゴースト化<\/keyword>する。"
+            "<active>幽霊の歩み<\/active><tm>6秒間</tm>、<ms>MSが<melee>20%</melee><ranged>15%</ranged></ms>増加して<keyword>ゴースト化</keyword>する。"
         ]
     },
     "3143": {
         "passives": [
-            "<passive>クリティカル耐性<\/passive><br>クリティカルで受けるダメージが軽減される。<br><br>"
+            "<passive>クリティカル耐性<\/passive><keyword>クリティカル</keyword>で受けるダメージが<base>30%</base>軽減される。"
         ],
         "actives": [
-            "<active>卑下<\/active><br>周囲の敵に<keyword>スロウ効果<\/keyword>を付与する。"
+            "<active>卑下<\/active>周囲の敵に<base>70%</base>／<tm>2秒間</tm>の<keyword>スロウ効果<\/keyword>を付与する。"
         ]
     },
     "3144": {
@@ -723,13 +723,13 @@
     "3152": {
         "passives": [],
         "actives": [
-            "<active>超音速<\/active><br>指定方向にダッシュして扇状に魔弾を放ち、魔法ダメージを与える。"
+            "<active>超音速<\/active>指定方向にダッシュして扇状に魔弾を放ち、<base>100</base> + <ap>10%[AP]</ap>の<ap>魔法ダメージ</ap>を与える。<note>CD: <tm>40秒</tm></note>"
         ]
     },
     "3153": {
         "passives": [
-            "<passive>ミストエッジ<\/passive><br>通常攻撃が敵の現在体力にあたる物理ダメージ <OnHit>通常攻撃時効果<\/OnHit>を追加で与える。<br><br>",
-            "<passive>引き裂く影<\/passive> <br>チャンピオンに3回通常攻撃を行うと、対象にスロウ効果を与える。"
+            "<passive>ミストエッジ<\/passive><OnHit>通常攻撃時効果</OnHit>として<hp><melee>10%</melee><ranged>6%</ranged>[対象の現在HP]</hp>にあたる<ad>物理ダメージ</ad>を追加で与える。",
+            "<passive>引き裂く影<\/passive>チャンピオンに3回<OnHit>通常攻撃効果</OnHit>を加えると、対象に<base>30%</base>／<tm>1秒</tm>の<keyword>スロウ効果</keyword>を与える。<note>CD: 15秒</note>"
         ],
         "actives": []
     },
@@ -741,14 +741,14 @@
     },
     "3156": {
         "passives": [
-            "<passive>ライフライン<\/passive><br>魔法ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、魔法ダメージを防ぐシールドを得る。<passive>「ライフライン」<\/passive>が発動すると、戦闘終了までオムニヴァンプを獲得する。"
+            "<passive>ライフライン<\/passive><ap>魔法ダメージ</ap>を受け、そのダメージにより<hp>30%[HP]</hp>未満になると、<tm>3秒間</tm><base>200</base> + <ap><melee>225%</melee><ranged>168.75%</ranged>[増加AD]</ad>の<ap>魔法ダメージ</ap>のみを防ぐ<keyword>シールド</keyword>を得る。<note>「ライフライン」が発動すると、戦闘終了まで<ls>オムニヴァンプ</ls>が<base>10%</base>増加する。</note><note>CD: <tm>90秒</tm></note>"
         ],
         "actives": []
     },
     "3157": {
         "passives": [],
         "actives": [
-            "<active>時間停止<\/active><br>2.5秒間<keyword>固有時停止<\/keyword>状態になる。"
+            "<active>時間停止<\/active><tm>2.5秒間</tm><keyword>固有時停止<\/keyword>状態になる。<note>CD: <tm>120秒</tm></note>"
         ]
     },
     "3158": {
@@ -759,14 +759,14 @@
     },
     "3161": {
         "passives": [
-            "<passive>ドラゴンフォース<\/passive><br>アルティメット以外のスキルがスキルヘイストを獲得する。<br><br>",
-            "<passive>研ぎ澄ました意志<\/passive><br>スキルが命中するごとにスタックを獲得する。保持しているスタックごとに、スキルで与えるダメージが増加する。"
+            "<passive>ドラゴンフォース<\/passive>アルティメット以外のスキルが<keyword>スキルヘイスト</keyword>を15獲得する",
+            "<passive>研ぎ澄ました意志<\/passive>敵ユニットにスキルが命中するとスタックを獲得する。（最大4スタック）1スタックにつき、スキルで与えるダメージが<base>3%</base>増加する。<note>1回のスキルが複数の敵チャンピオンに命中しても、獲得は1スタック。ただし、1回のスキルによる継続ダメージでは<tm>1秒</tm>ごとに1スタック獲得できる。</note>"
         ],
         "actives": []
     },
     "3165": {
         "passives": [
-            "<passive>重傷<\/passive><br>敵チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「重傷」<\/keyword>を付与する。"
+            "<passive>重傷<\/passive>敵チャンピオンに<ap>魔法ダメージ</ap>を与えると、<tm>3秒間</tm><base>40%</base>の<keyword>「重傷」<\/keyword>を付与する。"
         ],
         "actives": []
     },
@@ -788,8 +788,8 @@
     },
     "3181": {
         "passives": [
-            "<passive>艦長<\/passive>チャンピオンまたはエピックモンスターに対する通常攻撃5回ごとに<ad>(近接)140%/<ranged>(遠隔)70%</ranged>[基本AD]</ad> + <hp>3.5%[最大HP]</hp>の<ad>追加物理ダメージ</ad>を与える。対象がタワーの場合はこの<ad>ダメージ</ad>が<ad>(近接)400%/<ranged>(遠隔)200%</ranged>[基本AD]</ad> + <hp>3.5%[最大HP]</hp>増加する。",
-            "<passive>乗船部隊<\/passive>周囲にいる味方の砲撃ミニオンとスーパーミニオンが、増加ARと増加MRを獲得する。<note>増加AR・MR: 20-135[レベル比例]<ranged>（遠隔は50%減）</ranged></note>"
+            "<passive>艦長<\/passive>チャンピオンまたはエピックモンスターに対する通常攻撃効果が5回働くごとに<ad><melee>140%</melee><ranged>70%</ranged>[基本AD]</ad> + <hp>3.5%[最大HP]</hp>の<ad>追加物理ダメージ</ad>を与える。対象がタワーの場合はこのダメージが<ad><melee>400%</melee><ranged>200%</ranged>[基本AD]</ad> + <hp>3.5%[最大HP]</hp>増加する。",
+            "<passive>乗船部隊<\/passive>周囲にいる味方の砲撃ミニオンとスーパーミニオンが、増加ARと増加MRを獲得する。<note>増加AR・MR: <melee>20-135</melee><ranged>10-67.5</ranged>[レベル比例]</note>"
         ],
         "actives": []
     },
@@ -810,13 +810,13 @@
     "3222": {
         "passives": [],
         "actives": [
-            "<active>浄化<\/active>自身を含む味方チャンピオンを1体指定できる。対象から、すべての行動妨害系デバフを除去し、<hp>100-250[対象のレベル比例]体力</hp>を回復させる。<note>CD: <tm>120秒</tm></note>"
+            "<active>浄化<\/active>自身を含む味方チャンピオンを1体指定できる。対象から、すべての行動妨害系デバフを除去し、<hp>100-250[対象のレベル比例]</hp>だけ回復させる。<note>CD: <tm>120秒</tm></note>"
         ]
     },
     "3302": {
         "passives": [
-            "<passive>シャドウ<\/passive>通常攻撃が<base>30</base>の<ap>追加魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。",
-            "<passive>ジャクスタポジション<\/passive>チャンピオンに対する通常攻撃時に、通常攻撃時効果を「ライト」と「ダーク」の間で切り替える。<note>ライト: 通常攻撃のたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<ar>AR</ar>と<mr>MR</mr>が<base>6/7/8</base>[レベル1/11/14]増加する。<note>ダーク: 通常攻撃のたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<arpen>物理防御貫通</arpen>と<mrpen>魔法防御貫通</mrpen>を<base>10%</base>する。</note>"
+            "<passive>シャドウ<\/passive><base>30</base>の<ap>追加魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。",
+            "<passive>ジャクスタポジション<\/passive><OnHit>チャンピオンへの通常攻撃時</OnHit>に、通常攻撃時効果を「ライト」と「ダーク」の間で切り替える。<note>ライト: 通常攻撃効果が働くたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<ar>AR</ar>と<mr>MR</mr>が<base>6/7/8</base>[レベル1/11/14]増加する。<note>ダーク: 通常攻撃効果が働くたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<arpen>物理防御貫通</arpen>と<mrpen>魔法防御貫通</mrpen>を<base>10%</base>強化する。</note>"
         ],
         "actives": []
     },
@@ -840,13 +840,13 @@
     },
     "3504": {
         "passives": [
-            "<passive>サンクティファイ<\/passive>味方に体力回復効果またはシールドを付与すると、<tm>6秒</tm>間、自身とその味方の両方が強化され、<as>AS</as>が<base>25%</base>増加して、<base>20</base>の<ap>魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。"
+            "<passive>サンクティファイ<\/passive>味方に<heal>体力回復効果またはシールドを付与</heal>すると、<tm>6秒</tm>間、自身とその味方の両方が強化され、<as>AS</as>が<base>25%</base>増加して、<base>20</base>の<ap>魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。"
         ],
         "actives": []
     },
     "3508": {
         "passives": [
-            "<passive>エッセンスドレイン<\/passive>通常攻撃時に、<base>15</base> + <ad>10%[増加AD]</ad>の<mana>マナ</mana>を回復する<OnHit>通常攻撃時効果<\/OnHit>を得る。"
+            "<passive>エッセンスドレイン<\/passive><base>15</base> + <ad>10%[増加AD]</ad>の<mn>マナ</mn>を回復する<OnHit>通常攻撃時効果<\/OnHit>を得る。"
         ],
         "actives": []
     },
@@ -859,10 +859,10 @@
     },
     "3748": {
         "passives": [
-            "<passive>なぎ払い<\/passive>通常攻撃時に、<hp>1.5%[最大HP]</hp>の<ad>追加物理ダメージ</ad>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。さらに攻撃した背後の扇状に衝撃波を発生させ、範囲内の敵に<hp>3%[最大HP]</hp>の<ad>物理ダメージ</ad>を与える。<ranged>（遠隔はそれぞれ50%減）</ranged>"
+            "<passive>なぎ払い<\/passive><OnHit>通常攻撃時効果<\/OnHit>として、<hp>1.5%[最大HP]</hp>の<ad>追加物理ダメージ</ad>を与え、攻撃箇所の背後に扇状の衝撃波を発生させる。この衝撃波は範囲内の敵に<hp>3%[最大HP]</hp>の<ad>物理ダメージ</ad>を与える。<ranged>（遠隔はそれぞれ50%減）</ranged>"
         ],
         "actives": [
-            "<active>巨大な三日月<\/active>次の通常攻撃時に<passive>「なぎ払い」<\/passive>の効果を強化する。通常攻撃対象へは<hp>4%[最大HP]</hp>の<ad>追加物理ダメージ</ad>、衝撃波は<hp>9%[最大HP]</hp>の<ad>追加物理ダメージ</ad>に増加する。<ranged>（遠隔はそれぞれ50%減）</ranged><note>発動時にAAタイマーをリセットする。</note><note>CD: <tm>10秒</tm></note>"
+            "<active>巨大な三日月<\/active>次の通常攻撃時に「なぎ払い」の効果を強化する。通常攻撃時効果の対象へは<hp>4%[最大HP]</hp>の<ad>追加物理ダメージ</ad>、衝撃波は<hp>9%[最大HP]</hp>の<ad>追加物理ダメージ</ad>に増加する。<ranged>（遠隔はそれぞれ50%減）</ranged><note>発動時にAAタイマーをリセットする。</note><note>CD: <tm>10秒</tm></note>"
         ]
     },
     "3801": {
@@ -883,7 +883,7 @@
     },
     "3814": {
         "passives": [
-            "<passive>破棄<\/passive>次に受ける敵のスキルを無効化するスペルシールドを獲得する。シールドはスキルを無効にすると消費される。<note>CD: <tm>40秒</tm></note>"
+            "<passive>破棄<\/passive>次に受ける敵のスキルを無効化する<keyword>スペルシールド</keyword>を展開する。シールドはスキルを無効化すると消費され、<tm>40秒間</tm>敵チャンピオンからダメージを受けないと再展開される</note>"
         ],
         "actives": []
     },
@@ -920,7 +920,7 @@
     },
     "3870": {
         "passives": [
-            "<passive>ドリーム メーカー<\/passive>味方に体力回復効果またはシールドを付与すると、以下の効果を<tm>3秒間</tm>与える。<note>青の夢の泡沫: 次に受けるダメージが<base>75-255[レベル比例]</base>軽減される。</note><note>紫の夢の泡沫: 次に与えるダメージに<base>50-170[レベル比例]</base>の<ap>追加魔法ダメージ</ap>を付与する。</note><note>CD: <tm>8秒</tm></note>"
+            "<passive>ドリーム メーカー<\/passive>味方に<heal>体力回復効果またはシールドを付与</heal>すると、以下の効果を<tm>3秒間</tm>与える。<note>青の夢の泡沫: 次に受けるダメージが<base>75-255[レベル比例]</base>軽減される。</note><note>紫の夢の泡沫: 次に与えるダメージに<base>50-170[レベル比例]</base>の<ap>追加魔法ダメージ</ap>を付与する。</note><note>CD: <tm>8秒</tm></note>"
         ],
         "actives": [
             "<active>ワード設置<\/active>1チャージ消費して「ステルス ワード」を設置する。ショップを訪れるたびに4チャージを得る。<note>持続時間: <tm>150秒</tm></note>"
@@ -936,7 +936,7 @@
     },
     "3876": {
         "passives": [
-            "<passive>ソリ滑り<\/passive>敵チャンピオンにスロウ効果または移動不能効果を与えると、自身および近くの最も体力の低い味方は、<base>50-230[レベル比例]</base><hp>HP</hp>回復し、<base>20%</base><ms>MS</ms>増加する。この<ms>増加MS</ms>は<tm>2.5秒</tm>かけて減衰する。<note>CD: <tm>30秒</tm></note>"
+            "<passive>ソリ滑り<\/passive>敵チャンピオンにスロウ効果または移動不能効果を与えると、自身および近くの最も体力の低い味方は、<base>50-230[レベル比例][HP]</base>回復し、<base>20%</base><ms>MS</ms>増加する。この<ms>増加MS</ms>は<tm>2.5秒</tm>かけて減衰する。<note>CD: <tm>30秒</tm></note>"
         ],
         "actives": [
             "<active>ワード設置<\/active>1チャージ消費して「ステルス ワード」を設置する。ショップを訪れるたびに4チャージを得る。<note>持続時間: <tm>150秒</tm></note>"
@@ -944,7 +944,7 @@
     },
     "3877": {
         "passives": [
-            "<passive>追撃<\/passive><br>スキルを使ってから10秒以内に行う次の通常攻撃が、<ad>100%[基本AD]</ad>の<ad>追加物理ダメージ</ad>通常攻撃時効果を得る。対象が敵チャンピオンの場合は<tm>6秒</tm>間、対象の被ダメージを(近接)10%/<ranged>(遠隔)5%</ranged>増加させる。<note>CD: <tm>1.5秒</tm></note>"
+            "<passive>追撃<\/passive>スキルを使用後<tm>10秒</tm>以内に、<OnHit>通常攻撃時効果</OnHit>が働くと<ad>100%[基本AD]</ad>の<ad>追加物理ダメージ</ad>を与える。対象が敵チャンピオンの場合はさらに<tm>6秒</tm>間、対象の被ダメージを(近接)10%/<ranged>(遠隔)5%</ranged>増加させる。<note>CD: <tm>1.5秒</tm></note>"
         ],
         "actives": [
             "<active>ワード設置<\/active>1チャージ消費して「ステルス ワード」を設置する。ショップを訪れるたびに4チャージを得る。<note>持続時間: <tm>150秒</tm></note>"
@@ -970,7 +970,7 @@
     },
     "4628": {
         "passives": [
-            "<passive>ハイパーショット<\/passive>射程600以上で非対象指定スキルによりチャンピオンにダメージを与えるか、<status>スロウ効果または移動不能効果<\/status>を与えると、対象を<status>可視化</status>する。可視化した対象に与えるダメージは<tm>6秒間</tm><base>10%</base>増加する。<note><passive>「ハイパーショット」<\/passive>を発動するスキルもダメージ増加の恩恵を受ける。範囲効果スキルは設置された最初の瞬間のみ、この効果を発動する。距離の計測はスキルを発動した位置を基準に行われる。</note>","<passive>フォーカス<\/passive><passive>「ハイパーショット」<\/passive>を発動すると、対象から1400ユニット以内にいる他の全ての敵チャンピオンを<tm>3秒間</tm><status>可視化</status>する。<note>CD: <tm>30秒</tm></note>"
+            "<passive>ハイパーショット<\/passive>射程600以上で非対象指定スキルによりチャンピオンにダメージを与えるか、<status>スロウ効果または移動不能効果<\/status>を与えると、対象を<status>可視化</status>する。可視化した対象に与えるダメージは<tm>6秒間</tm><base>10%</base>増加する。<note>「ハイパーショット」を発動するスキルもダメージ増加の恩恵を受ける。範囲効果スキルは設置された最初の瞬間のみ、この効果を発動する。距離の計測はスキルを発動した位置を基準に行われる。</note>","<passive>フォーカス<\/passive>「ハイパーショット」を発動すると、対象から1400ユニット以内にいる他の全ての敵チャンピオンを<tm>3秒間</tm><status>可視化</status>する。<note>CD: <tm>30秒</tm></note>"
         ],
         "actives": []
     },
@@ -1022,7 +1022,7 @@
     },
     "4646": {
         "passives": [
-            "<passive>ストームレイダー<\/passive>チャンピオンに対して、<tm>3秒</tm>以内に短時間にその<hp>最大体力の25%</hp>にあたるダメージを与えると、対象に<passive>「スコール」<\/passive>を付与し、自身は<tm>2秒間</tm>、<ms>MSが35%</ms>増加する。<note>CD: <tm>30秒</tm></note>",
+            "<passive>ストームレイダー<\/passive>チャンピオンに対して、<tm>3秒</tm>以内に短時間にその<hp>最大体力の25%</hp>にあたるダメージを与えると、対象に「スコール」を付与し、自身は<tm>2秒間</tm>、<ms>MSが35%</ms>増加する。<note>CD: <tm>30秒</tm></note>",
             "<passive>スコール<\/passive>「スコール」が付与されてから<tm>2秒</tm>後、対象に<base>140</base> + <ap>20%[AP]</ap>の<ap>魔法ダメージ</ap>を与える。この効果が発動する前に対象がデスした場合、広範囲に爆発し、周囲に同様のダメージを与え、<gold>30G</gold>を獲得する。"
         ],
         "actives": []
@@ -1030,7 +1030,7 @@
     "6333": {
         "passives": [
             "<passive>強行突破<\/passive>受けたダメージの<base><melee>30%</melee><ranged>10%</ranged></base>を<tm>3秒</tm>の継続ダメージとして受ける。",
-            "<passive>拒絶<\/passive>直前の3秒以内に自身へダメージを与えていたチャンピオがデスすると、<passive>「強行突破」<\/passive>の残りダメージが除去されて、<tm>2秒</tm>かけて<ad>75%[増加AD]</ad>だけ<hp>HP回復</hp>する。"
+            "<passive>拒絶<\/passive>直前の3秒以内に自身へダメージを与えていたチャンピオがデスすると、「強行突破」の残りダメージが除去されて、<tm>2秒</tm>かけて<ad>75%[増加AD]</ad>だけ<heal>HPを回復</heal>する。"
         ],
         "actives": []
     },
@@ -1042,37 +1042,37 @@
     },
     "6610": {
         "passives": [
-            "<passive>ライトシールドストライク<\/passive>チャンピオンに対する最初の通常攻撃がクリティカルになり、<ad>120%[基本AD]</ad> + <hp>6%[減少体力]</hp>のだけ<hp>HP回復</hp>する。余剰の回復量は<tm>6秒間</tm><hp>増加体力</hp>として獲得する。<note>CD: チャンピオンごとに<tm>8秒</tm></note>"
+            "<passive>ライトシールドストライク<\/passive>チャンピオンに対する最初の通常攻撃がクリティカルになり、<ad>120%[基本AD]</ad> + <hp>6%[減少体力]</hp>のだけ<heal>HPを回復</heal>する。余剰の回復量は<tm>6秒間</tm><hp>増加体力</hp>として獲得する。<note>CD: チャンピオンごとに<tm>8秒</tm></note>"
         ],
         "actives": []
     },
     "6616": {
         "passives": [
-            "<passive>急流<\/passive>味方に体力回復効果またはシールドを付与すると、<tm>4秒間</tm>自身とその味方が<ap>30AP</ap>と<ms>10%のMS</ms>を得る。"
+            "<passive>急流<\/passive>味方に<heal>体力回復効果またはシールドを付与</heal>すると、<tm>4秒間</tm>自身とその味方が<ap>30AP</ap>と<ms>10%のMS</ms>を得る。"
         ],
         "actives": []
     },
     "6617": {
         "passives": [
-            "<passive>星明りの恩寵<\/passive>味方への体力回復効果またはシールドを付与すると、最も近くにいる他の味方チャンピオン1体にも一定割合連鎖する。<note>連鎖する割合: 体力回復量は<base>40%</base>、シールド耐久値は<base>45%</base>。</note><note>範囲内に他の味方がいない場合、同じ対象への体力回復を<base>30%</base>、シールド耐久値を<base>35%</base>追加する。</note>"
+            "<passive>星明りの恩寵<\/passive>味方への<heal>HP回復効果またはシールドを付与</heal>すると、最も近くにいる他の味方チャンピオン1体にも一定割合連鎖する。<note>連鎖する割合: 体力回復量は<base>40%</base>、シールド耐久値は<base>45%</base>。</note><note>範囲内に他の味方がいない場合、同じ対象への体力回復を<base>30%</base>、シールド耐久値を<base>35%</base>追加する。</note>"
         ],
         "actives": []
     },
     "6620": {
         "passives": [
-            "<passive>吸魂<\/passive>チャンピオンにダメージを与えると、<passive>「魂の断片」<\/passive>を1スタック獲得する。（最大2スタック）味方に体力回復効果またはシールドを付与するとスタックをすべて消費して、1スタックにつき<hp>75HP</hp>味方の体力を回復し、最も近くにいる敵チャンピオンには1スタックにつき<base>60</base>の<ap>魔法ダメージ</ap>を与える。"
+            "<passive>吸魂<\/passive>チャンピオンにダメージを与えると、「魂の断片」を1スタック獲得する。（最大2スタック）味方に体力回復効果またはシールドを付与するとスタックをすべて消費して、1スタックにつき<base>75[HP]</base>味方の<heal>HPを回復</heal>し、最も近くにいる敵チャンピオンには1スタックにつき<base>60</base>の<ap>魔法ダメージ</ap>を与える。"
         ],
         "actives": []
     },
     "6621": {
         "passives": [
-            "<passive>ファーストライト<\/passive><mana>基本マナ自動回復100%</mana>ごとに、<heal>体力回復量&シールド量が2%</heal>、<ap>APが10</ap>増加する。"
+            "<passive>ファーストライト<\/passive><mn>基本マナ自動回復100%</mn>ごとに、<heal>体力回復量&シールド量が2%</heal>、<ap>APが10</ap>増加する。"
         ],
         "actives": []
     },
     "6631": {
         "passives": [
-            "<passive>なぎ払い<\/passive><br>通常攻撃が命中した周囲に小さな衝撃波を生み、範囲内の敵に<melee><ad>40%[AD]</melee><ranged>20%[AD]</ranged></ad>の<ad>物理ダメージ</ad>を与える。",
+            "<passive>なぎ払い<\/passive><OnHit>通常攻撃効果</OnHit>が働いた時、その周囲に小さな衝撃波を生み、範囲内の敵に<melee><ad>40%[AD]</melee><ranged>20%[AD]</ranged></ad>の<ad>物理ダメージ</ad>を与える。",
             "<passive>短気<\/passive><ad>物理ダメージ</ad>を与えると<ms>MSが20</ms>増加する。"
         ],
         "actives": [
@@ -1094,8 +1094,8 @@
     },
     "6657": {
         "passives": [
-            "<passive>時空の超越者<\/passive><tm>60秒</tm>ごとに1スタック獲得する。（最大10スタック）1スタックごとに<hp>20[HP]</hp>, <mana>20[マナ]</mana>, <ap>4[AP]</ap>を得る。さらに10スタックになるとチャンピオンのレベルが1増加する。",
-            "<passive>久遠<\/passive>チャンピオンからダメージを受けるとダメージの7%分の<mana>マナが回復</mana>する。また、スキルを発動すると、消費したマナの25%だけ<hp>HPを回復</hp>する。（上限はスキル発動毎に<hp>20HP</hp>）"
+            "<passive>時空の超越者<\/passive><tm>60秒</tm>ごとに1スタック獲得する。（最大10スタック）1スタックごとに<hp>20[HP]</hp>, <mn>20[マナ]</mn>, <ap>4[AP]</ap>を得る。さらに10スタックになるとチャンピオンのレベルが1増加する。",
+            "<passive>久遠<\/passive>チャンピオンからダメージを受けるとダメージの7%分の<mn>マナが回復</mn>する。また、スキルを発動すると、消費したマナの25%だけ<hp>HPを回復</hp>する。（上限はスキル発動毎に<hp>20HP</hp>）"
         ],
         "actives": []
     },
@@ -1129,13 +1129,13 @@
     },
     "6672": {
         "passives": [
-            "<passive>打倒<\/passive>通常攻撃が3回ごとに、通常攻撃時効果で<ad>追加物理ダメージ<\/ad>を与える。このダメージは対象の減少体力に応じて<base>150%<\/base>まで増加する。<note>追加ダメージ: <base>140-310[レベル比例]<\/base><ranged>（遠隔は20%減）<\/ranged><\/note>"
+            "<passive>打倒<\/passive><OnHit>通常攻撃時効果</OnHit>が働く時、打倒のスタックを1つ獲得する。（最大2スタック）<note>打倒スタックが最大の時、スタックを全て消費して<melee><base>140-310[レベル比例]<\/base></melee><ranged><base>112-248[レベル比例]<\/base><\/ranged>の<ad>追加物理ダメージ<\/ad>を与える<OnHit>通常攻撃時効果</OnHit>を得る。このダメージは対象の減少体力に応じて<base>150%<\/base>まで増加する。</note><note>打倒スタックは<tm>4秒間</tm>更新されないとリセットされる。</note>"
         ],
         "actives": []
     },
     "6673": {
         "passives": [
-            "<passive>ライフライン<\/passive>体力が30%未満になるダメージを受けると、シールドを獲得する。<note>シールド耐久値: <base>400-700[レベル比例]<\/base><ranged>（遠隔は20%減）<\/ranged>／<tm>3秒間<\/tm><\/shield>"
+            "<passive>ライフライン<\/passive>体力が30%未満になるダメージを受けると、シールドを獲得する。<note>シールド耐久値: <melee><base>400-700[レベル比例]<\/base></melee><ranged><base>320-560[レベル比例]<\/base><\/ranged>／<tm>3秒間<\/tm><\/shield>"
         ],
         "actives": []
     },
@@ -1158,14 +1158,14 @@
     },
     "6692": {
         "passives": [
-            "<passive>沈まぬ月<\/passive>1.5秒以内に2つの異なる通常攻撃またはスキルでチャンピオンを攻撃すると、対象の<hp>[6%最大HP]<\/hp>の<ad>追加物理ダメージ<\/ad><ranged>（遠隔は33%減）<\/ranged>を与え、自身はシールドを獲得する。<note>シールド耐久値: <base>160<\/base> + <ad>[40%増加AD]<\/ad>／<tm>2秒間<\/tm><\/shield><note>CD: 6秒</note>"
+            "<passive>沈まぬ月<\/passive>1.5秒以内に2つの異なる通常攻撃またはスキルでチャンピオンを攻撃すると、<melee><hp>6%[対象の最大HP]<\/hp></melee><ranged><hp>4%[対象の最大HP]<\/hp><\/ranged>の<ad>追加物理ダメージ<\/ad>を与え、自身はシールドを獲得する。<note>シールド耐久値: <base>160<\/base> + <ad>[40%増加AD]<\/ad>／<tm>2秒間<\/tm><\/shield><note>CD: 6秒</note>"
         ],
         "actives": []
     },
     "6694": {
         "passives": [
-            "<passive>敵意<\/passive><arpen>物理防御貫通</arpen>が(<base>25</base>+<arpen>[11%脅威]</arpen>)%</増加する。",
-            "<passive>厳寒<\/passive><br>攻撃スキルが、体力50%未満の敵にスロウ効果を与える。<note>スロウ効果: 30%／<tm>1秒</tm>間</note>"
+            "<passive>敵意<\/passive><arpen>物理防御貫通</arpen>が(<base>25</base>+<arpen>11%[脅威]</arpen>)%</増加する。",
+            "<passive>厳寒<\/passive>攻撃スキルが、体力50%未満の敵にスロウ効果を与える。<note>スロウ効果: 30%／<tm>1秒</tm>間</note>"
         ],
         "actives": []
     },
@@ -1177,13 +1177,13 @@
     },
     "6696": {
         "passives": [
-            "<passive>流転<\/passive>ダメージを与えてから<tm>3秒</tm>以内にそのチャンピオンが倒されるたびに、アルティメットスキルの合計CDが解消される。<note>解消CD: <base>10%</base> + <arpen>[30%脅威]</arpen>が解消する。</note>"
+            "<passive>流転<\/passive>ダメージを与えてから<tm>3秒</tm>以内にそのチャンピオンが倒されるたびに、アルティメットスキルの合計CDが解消される。<note>解消CD: <base>10%</base> + <arpen>30%[脅威]</arpen>が解消する。</note>"
         ],
         "actives": []
     },
     "6697": {
         "passives": [
-            "<passive>エミネンス<\/passive>敵チャンピオンをキルすると「キルしたチャンピオン」のスタックを1獲得する。ダメージを与えた敵チャンピオンが<tm>3秒</tm>以内にデスすると、<tm>90秒</tm>間<ad>AD</ad>が<base>15</base> + [キルしたチャンピオン × 2]増加する。<note>「キルしたチャンピオン」のスタックが増えるのはヒュブリス購入以降のみ。</note><note>自身がデスするとAD上昇効果は即座に終了する。</note>"
+            "<passive>エミネンス<\/passive>敵チャンピオンをキルすると「キルしたチャンピオン」のスタックを1獲得する。ダメージを与えた敵チャンピオンが<tm>3秒</tm>以内にデスすると、<tm>90秒</tm>間<ad>AD</ad>が<base>15</base> + [スタック × 2]増加する。<note>スタックが増えるのはヒュブリス購入以降のみ。</note><note>自身がデスすると<ad>AD上昇</ad>効果は即座に終了する。</note>"
         ],
         "actives": []
     },
@@ -1198,20 +1198,20 @@
     "6699": {
         "passives": [
             "<passive>刺激<\/passive>ダッシュするかステルス状態になると、エネルギー充填状態のスタック増加量が<base>75%</base>増える。",
-            "<passive>ファーマメント<\/passive>エネルギー充填状態の通常攻撃が敵に<base>100</base>の<ad>追加物理ダメージ</ad>を与え、スロウ効果を付与する。<note>スロウ効果: (近接)99%/<ranged>(遠隔)20%</ranged>／<tm>0.75秒</tm></note>"
+            "<passive>ファーマメント<\/passive>エネルギー充填状態の通常攻撃が敵に<base>100</base>の<ad>追加物理ダメージ</ad>を与え、スロウ効果を付与する。<note>スロウ効果: <base><malee>99%</malee><ranged>20%</ranged></base>／<tm>0.75秒</tm></note>"
         ],
         "actives": []
     },
     "6701": {
         "passives": [
-            "<passive>臨戦態勢<\/passive>チャンピオンとの非戦闘状態が<tm>8秒</tm>間続くと、<adpen>脅威</adpen>が増加する。この<adpen>脅威</adpen>はチャンピオンにダメージを与えてから<tm>3秒</tm>間持続する。<note>増加脅威: <base>5-10.5[レベル比例]</base><ranged>（遠隔は40%減）</ranged></note>",
-            "<passive>採集<\/passive>ダメージを与えた敵チャンピオンが3秒以内にデスすると、<base>200</base>の<ms>増加MS</ms>を得る。この<ms>増加MS</ms>は<tm>1.5秒</tm>かけて減少する。"
+            "<passive>臨戦態勢<\/passive>チャンピオンとの非戦闘状態が<tm>8秒</tm>間続くと、<adpen>脅威</adpen>が増加する。この<adpen>脅威</adpen>はチャンピオンにダメージを与えてから<tm>3秒</tm>間持続する。<note>増加脅威: <melee><base>5-10.5[レベル比例]</base></melee><ranged><base>3-6.3[レベル比例]</base></ranged></note>",
+            "<passive>採集<\/passive>ダメージを与えた敵チャンピオンが3秒以内にデスすると、<ms>200の増加MS</ms>を得る。この<ms>増加MS</ms>は<tm>1.5秒</tm>かけて減少する。"
         ],
         "actives": []
     },
     "8020": {
         "passives": [
-            "<passive>荒廃<\/passive><br>自身の周囲にいる敵チャンピオンの<mr>MR</mr>を<base>30%</base>低下させる。この効果を与えた敵1体につき<mr>MR</mr>が<base>10</base>増加する。"
+            "<passive>荒廃<\/passive><br>自身の周囲にいる敵チャンピオンの<mr>MR</mr>を<base>30%</base>低下させる。この効果を与えた敵1体につき<mr>MRが10</mr>増加する。"
         ],
         "actives": []
     }
