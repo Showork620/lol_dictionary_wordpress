@@ -113,7 +113,7 @@ $ITEMDATA = getOriginItemData($URL);
 $DESTINATION_LIST = [];
 
 // 不要なアイテムやプロパティを削除
-foreach ($ITEMDATA as $key => &$item) {
+foreach ($ITEMDATA as $key => $item) {
 
 	// 使用不可、一覧に不要なアイテムを削除
 	if ($item['description'] === "" && isset($item['inStore']) || in_array($key, $UNAVAILABLE_ITEMS)) {

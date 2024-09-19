@@ -1779,7 +1779,8 @@
         ],
         "stats": {
             "攻撃力": "80",
-            "クリティカル率": "25%"
+            "クリティカル率": "25%",
+            "クリティカルダメージ": "40%"
         },
         "depth": 2,
         "id": 3031,
@@ -1890,7 +1891,7 @@
         "name": "ドミニク リガード",
         "description": "<mainText><stats>攻撃力<attention>45<\/attention><br>物理防御貫通<attention>35%<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><\/mainText>",
         "colloq": ";Lord Dominik's Regards;lw;らすうぃす;ラスウィス;しゅうえん;シュウエン;終焉;ゆみ;ユミ;弓;うぃすぱー;ウィスパー;かんつう;カンツウ;貫通;どみにくりがーど;ドミニク リガード;dominikuriga-do;dominikuriga-do;dominikurigado",
-        "plaintext": "体力と物理防御の高い敵を打倒する",
+        "plaintext": "敵の物理防御を大きく貫通する",
         "from": [
             "3035",
             "6670"
@@ -3325,7 +3326,7 @@
         "name": "リーライ クリスタル セプター",
         "description": "<mainText><stats>魔力<attention>75<\/attention><br>体力<attention>400<\/attention><\/stats><br><br><passive>ライムフロスト<\/passive><br>攻撃スキルが、敵に1秒間30%の<keyword>スロウ効果<\/keyword>を与える。<\/mainText>",
         "colloq": ";Rylai's Crystal Scepter;りらい;リライ;くりせぷ;クリセプ;りーらいず;リーライズ;こおり;コオリ;りーらい・くりすたるせぷたー;リーライ クリスタル セプター;りーらいくりすたるせぷたー;リーライクリスタルセプター;ri-raikurisutaruseputa-;riraikurisutaruseputa",
-        "plaintext": "アルティメットスキルを強化し、発動を早める",
+        "plaintext": "スキルによる攻撃で敵にスロウを付与",
         "from": [
             "1026",
             "1011",
@@ -3380,7 +3381,7 @@
         "name": "マリグナンス",
         "description": "<mainText><stats>魔力<attention>80<\/attention><br>マナ<attention>600<\/attention><br>スキルヘイスト<attention>25<\/attention><\/stats><br><br><passive>嘲り<\/passive><br>アルティメットスキルがスキルヘイストを獲得する。<br><br><passive>憎悪の霧<\/passive><br>アルティメットスキルでチャンピオンにダメージを与えると、対象の足元の地面が燃え上がり、ダメージを与えて、対象の魔法防御を低下させる。<br><\/mainText>",
         "colloq": ";Knight's Vow;きしのちかい;kishinochikai;kisinochikai;キシノチカイ;騎士の誓い;宇宙の;うちゅうの;utyuuno;utyu-no;uchuuno;uchu-no;Malignance;マリグナンス;marigunannsu",
-        "plaintext": "1人の味方とパートナーになってお互いを守る",
+        "plaintext": "アルティメットスキルを強化し、発動を早める",
         "from": [
             "3802",
             "3108"
