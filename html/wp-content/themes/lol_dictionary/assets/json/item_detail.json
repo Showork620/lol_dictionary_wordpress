@@ -274,7 +274,7 @@
     },
     "3002": {
         "passives": [
-            "<passive>先導<\/passive>移動中に徐々にスタックを得て、100スタックで<ms>MSが20</ms>増加する。最大速度になると軌跡が発生し、軌跡に触れた味方チャンピオンの<ms>MS</ms>を、自身の<ms>MSの15%</ms>分増加させる。<note><OnHit>通常攻撃効果</OnHit>を発生させるとスタックを消費する。<melee>近接チャンピオンはこの時、100スタックを消費すると、対象に<base>50%</base>／<tm>1秒間</tm>の<keyword>スロウ効果</keyword>を与える。</melee></note>"
+            "<passive>先導<\/passive>移動中に徐々にスタックを得て、100スタックで<ms>MSが20</ms>増加する。最大速度になると軌跡が発生し、軌跡に触れた味方チャンピオンの<ms>MS</ms>を、自身の<ms>MSの15%</ms>分増加させる。<note><keyword>通常攻撃効果</keyword>を発生させるとスタックを消費する。<melee>近接チャンピオンはこの時、100スタックを消費すると、対象に<base>50%</base>／<tm>1秒間</tm>の<keyword>スロウ効果</keyword>を与える。</melee></note>"
         ],
         "actives": []
     },
@@ -464,7 +464,7 @@
     },
     "3074": {
         "passives": [
-            "<passive>なぎ払い<\/passive><OnHit>通常攻撃効果</OnHit>が働いた時、その周囲に小さな衝撃波を生み、範囲内の敵に<ad><melee>40%</melee><ranged>20%</ranged>[AD]</ad>の<ad>物理ダメージ</ad>を与える。<note>ラヴァナス ハイドラのみ、「なぎ払い」の効果で与えたダメージにも<ls>ライフスティール</ls>が適用される。</note>"
+            "<passive>なぎ払い<\/passive><keyword>通常攻撃効果</keyword>が働いた時、その周囲に小さな衝撃波を生み、範囲内の敵に<ad><melee>40%</melee><ranged>20%</ranged>[AD]</ad>の<ad>物理ダメージ</ad>を与える。<note>ラヴァナス ハイドラのみ、「なぎ払い」の効果で与えたダメージにも<ls>ライフスティール</ls>が適用される。</note>"
         ],
         "actives": [
             "<active>貪欲な三日月<\/active>周囲の敵ユニットに<ad>100%[AD]</ad>の<ad>物理ダメージ</ad>を与える。このダメージには<ls>ライフスティール</ls>が150%適用される。<note>CD: <tm>10秒</tm></note>"
@@ -472,13 +472,13 @@
     },
     "3075": {
         "passives": [
-            "<passive>棘<\/passive>相手から<OnHit>通常攻撃効果</OnHit>を受けると、攻撃者に<base>10</base> + <ar>25%[AR]</ar>の<ap>魔法ダメージ</ap>を与える。対象がチャンピオンだった場合は<base>40%</base>の「<keyword>重傷</keyword>」を付与する。"
+            "<passive>棘<\/passive>相手から<keyword>通常攻撃効果</keyword>を受けると、攻撃者に<base>10</base> + <ar>25%[AR]</ar>の<ap>魔法ダメージ</ap>を与える。対象がチャンピオンだった場合は<base>40%</base>の「<keyword>重傷</keyword>」を付与する。"
         ],
         "actives": []
     },
     "3076": {
         "passives": [
-            "<passive>棘<\/passive>相手から<OnHit>通常攻撃効果</OnHit>を受けると、攻撃者に<base>10</base> + <ar>25%[AR]</ar>の<ap>魔法ダメージ</ap>を与える。対象がチャンピオンだった場合は<base>40%</base>の「<keyword>重傷</keyword>」を付与する。"
+            "<passive>棘<\/passive>相手から<keyword>通常攻撃効果</keyword>を受けると、攻撃者に<base>10</base> + <ar>25%[AR]</ar>の<ap>魔法ダメージ</ap>を与える。対象がチャンピオンだった場合は<base>40%</base>の「<keyword>重傷</keyword>」を付与する。"
         ],
         "actives": []
     },
@@ -492,8 +492,8 @@
     },
     "3078": {
         "passives": [
-            "<passive>追撃<\/passive>スキルを使用後、次の<OnHit>通常攻撃時効果</OnHit>が<ad>200%[基本AD]</ad>の<ad>追加物理ダメージ</ad>を付与する。",
-            "<passive>加速<\/passive><OnHit>通常攻撃時効果</OnHit>が働く時、<tm>2秒間</tm><ms>MSが20</ms>増加する。"
+            "<passive>追撃<\/passive>スキルを使用後、次の<keyword>通常攻撃時効果</keyword>が<ad>200%[基本AD]</ad>の<ad>追加物理ダメージ</ad>を付与する。",
+            "<passive>加速<\/passive><keyword>通常攻撃時効果</keyword>が働く時、<tm>2秒間</tm><ms>MSが20</ms>増加する。"
         ],
         "actives": []
     },
@@ -511,14 +511,14 @@
     },
     "3084": {
         "passives": [
-            "<passive>巨人の食欲<\/passive>敵チャンピオンの<base>700ユニット</base>以内に入ると対象をマークして、範囲内にいる間、対象へ<tm>0.5秒</tm>ごとに1スタック追加する。（最大6スタック）スタックが最大の対象へ<OnHit>通常攻撃時効果</OnHit>を与える時、全スタックを解消し、<base>80</base> + <hp>12%[アイテムによる増加HP]</hp>の<ad>追加物理ダメージ</ad>与える。更に、このダメージの<base>12%</base>分、心の鋼による<hp>増加HP</hp>が追加される。<note>効果範囲から離れて、<tm>3秒</tm>経過すると、スタックがリセットされる。</note><note>CD: 対象ごとに<tm>30秒</tm></note>",
+            "<passive>巨人の食欲<\/passive>敵チャンピオンの<base>700ユニット</base>以内に入ると対象をマークして、範囲内にいる間、対象へ<tm>0.5秒</tm>ごとに1スタック追加する。（最大6スタック）スタックが最大の対象へ<keyword>通常攻撃時効果</keyword>を与える時、全スタックを解消し、<base>80</base> + <hp>12%[アイテムによる増加HP]</hp>の<ad>追加物理ダメージ</ad>与える。更に、このダメージの<base>12%</base>分、心の鋼による<hp>増加HP</hp>が追加される。<note>効果範囲から離れて、<tm>3秒</tm>経過すると、スタックがリセットされる。</note><note>CD: 対象ごとに<tm>30秒</tm></note>",
             "<passive>ゴライアス<\/passive>自身のユニットサイズが<hp>1000[最大HP]<hp>ごとに3%増加する。（最大30%）"
         ],
         "actives": []
     },
     "3085": {
         "passives": [
-            "<passive>連撃の風<\/passive>通常攻撃時、対象の周囲にいる敵ユニット（最大2体）にも矢を放ち<ad>55%[AD</ad>の<ad>物理ダメージ</ad>を与える。矢には<OnHit>通常攻撃時効果</OnHit>が適用され、クリティカル判定がある。<note>このアイテムは遠隔チャンピオン専用。</note><\/rules>"
+            "<passive>連撃の風<\/passive>通常攻撃時、対象の周囲にいる敵ユニット（最大2体）にも矢を放ち<ad>55%[AD]</ad>の<ad>物理ダメージ</ad>を与える。矢には<keyword>通常攻撃時効果</keyword>が適用され、クリティカル判定がある。<note>このアイテムは遠隔チャンピオン専用。</note><\/rules>"
         ],
         "actives": []
     },
@@ -541,19 +541,19 @@
     },
     "3091": {
         "passives": [
-            "<passive>フレイ<\/passive><base>40-80[レベル比例]</base>の<ap>追加魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果</OnHit>を得る。"
+            "<passive>フレイ<\/passive><base>40-80[レベル比例]</base>の<ap>追加魔法ダメージ</ap>を与える<keyword>通常攻撃時効果</keyword>を得る。"
         ],
         "actives": []
     },
     "3094": {
         "passives": [
-            "<passive>心眼<\/passive><keyword>エネルギー充填状態</kewword>の時、通常攻撃の射程が<base>35%（最大150）</base>増加する。また、その攻撃には<base>60</base>の<ap>追加魔法ダメージ</ap>の<OnHit>通常攻撃時効果</OnHit>が付与される。"
+            "<passive>心眼<\/passive><keyword>エネルギー充填状態</kewword>の時、通常攻撃の射程が<base>35%（最大150）</base>増加する。また、その攻撃には<base>60</base>の<ap>追加魔法ダメージ</ap>の<keyword>通常攻撃時効果</keyword>が付与される。"
         ],
         "actives": []
     },
     "3100": {
         "passives": [
-            "<passive>追撃<\/passive>スキルを使用後、次に発動する<OnHit>通常攻撃時効果<\/OnHit>に<ad>75%[基本AD]</ad> + <ap>45%[AP]</ap>の<ap>追加魔法ダメージ</ap>を付与する。スキル使用後、追撃が発動するまで自身の<as>ASが50%</as>増加する。<note>CD: <tm>1.5秒</tm></note>"
+            "<passive>追撃<\/passive>スキルを使用後、次に発動する<keyword>通常攻撃時効果<\/keyword>に<ad>75%[基本AD]</ad> + <ap>45%[AP]</ap>の<ap>追加魔法ダメージ</ap>を付与する。スキル使用後、追撃が発動するまで自身の<as>ASが50%</as>増加する。<note>CD: <tm>1.5秒</tm></note>"
         ],
         "actives": []
     },
@@ -608,7 +608,7 @@
     },
     "3115": {
         "passives": [
-            "<passive>イカシアの牙<\/passive><base>15</base> + <ap>20%[AP]</ap>の<ap>追加魔法ダメージ</ap>を付与する<OnHit>通常攻撃時効果<\/OnHit>を得る。"
+            "<passive>イカシアの牙<\/passive><base>15</base> + <ap>20%[AP]</ap>の<ap>追加魔法ダメージ</ap>を付与する<keyword>通常攻撃時効果<\/keyword>を得る。"
         ],
         "actives": []
     },
@@ -651,8 +651,8 @@
     },
     "3124": {
         "passives": [
-            "<passive>激憤<\/passive><base>30</base>の<ap>魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る",
-            "<passive>シージングストライク<\/passive><OnHit>通常攻撃効果</OnHit>が働く時、スタックを獲得し、1スタックにつき<as>8%[AS]</as>増加する。（最大4スタック）スタックが最大の間、<OnHit>通常攻撃攻撃効果</OnHit>が3回働くごとに、追加でもう1回<OnHit>通常攻撃時効果</OnHit>が働く。"
+            "<passive>激憤<\/passive><base>30</base>の<ap>魔法ダメージ</ap>を与える<keyword>通常攻撃時効果<\/keyword>を得る",
+            "<passive>シージングストライク<\/passive><keyword>通常攻撃効果</keyword>が働く時、スタックを獲得し、1スタックにつき<as>8%[AS]</as>増加する。（最大4スタック）スタックが最大の間、<keyword>通常攻撃攻撃効果</keyword>が3回働くごとに、追加でもう1回<keyword>通常攻撃時効果</keyword>が働く。"
         ],
         "actives": []
     },
@@ -728,8 +728,8 @@
     },
     "3153": {
         "passives": [
-            "<passive>ミストエッジ<\/passive><OnHit>通常攻撃時効果</OnHit>として<hp><melee>10%</melee><ranged>6%</ranged>[対象の現在HP]</hp>にあたる<ad>物理ダメージ</ad>を追加で与える。",
-            "<passive>引き裂く影<\/passive>チャンピオンに3回<OnHit>通常攻撃効果</OnHit>を加えると、対象に<base>30%</base>／<tm>1秒</tm>の<keyword>スロウ効果</keyword>を与える。<note>CD: 15秒</note>"
+            "<passive>ミストエッジ<\/passive><keyword>通常攻撃時効果</keyword>として<hp><melee>10%</melee><ranged>6%</ranged>[対象の現在HP]</hp>にあたる<ad>物理ダメージ</ad>を追加で与える。",
+            "<passive>引き裂く影<\/passive>チャンピオンに3回<keyword>通常攻撃効果</keyword>を加えると、対象に<base>30%</base>／<tm>1秒</tm>の<keyword>スロウ効果</keyword>を与える。<note>CD: 15秒</note>"
         ],
         "actives": []
     },
@@ -772,7 +772,7 @@
     },
     "3172": {
         "passives": [
-            "<passive>風が如く<\/passive><br><speed>移動速度<\/speed><OnHit>通常攻撃時効果<\/OnHit>が6秒間5%増加する(最大で<speed>移動速度<\/speed>15%まで)。"
+            "<passive>風が如く<\/passive><br><speed>移動速度<\/speed><keyword>通常攻撃時効果<\/keyword>が6秒間5%増加する(最大で<speed>移動速度<\/speed>15%まで)。"
         ],
         "actives": []
     },
@@ -815,8 +815,8 @@
     },
     "3302": {
         "passives": [
-            "<passive>シャドウ<\/passive><base>30</base>の<ap>追加魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。",
-            "<passive>ジャクスタポジション<\/passive><OnHit>チャンピオンへの通常攻撃時</OnHit>に、通常攻撃時効果を「ライト」と「ダーク」の間で切り替える。<note>ライト: 通常攻撃効果が働くたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<ar>AR</ar>と<mr>MR</mr>が<base>6/7/8</base>[レベル1/11/14]増加する。<note>ダーク: 通常攻撃効果が働くたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<arpen>物理防御貫通</arpen>と<mrpen>魔法防御貫通</mrpen>を<base>10%</base>強化する。</note>"
+            "<passive>シャドウ<\/passive><base>30</base>の<ap>追加魔法ダメージ</ap>を与える<keyword>通常攻撃時効果<\/keyword>を得る。",
+            "<passive>ジャクスタポジション<\/passive><keyword>チャンピオンへの通常攻撃時</keyword>に、通常攻撃時効果を「ライト」と「ダーク」の間で切り替える。<note>ライト: 通常攻撃効果が働くたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<ar>AR</ar>と<mr>MR</mr>が<base>6/7/8</base>[レベル1/11/14]増加する。<note>ダーク: 通常攻撃効果が働くたびにスタックを<tm>5秒間</tm>獲得（最大3スタック）する。1スタック毎に<arpen>物理防御貫通</arpen>と<mrpen>魔法防御貫通</mrpen>を<base>10%</base>強化する。</note>"
         ],
         "actives": []
     },
@@ -840,13 +840,13 @@
     },
     "3504": {
         "passives": [
-            "<passive>サンクティファイ<\/passive>味方に<heal>体力回復効果またはシールドを付与</heal>すると、<tm>6秒</tm>間、自身とその味方の両方が強化され、<as>AS</as>が<base>25%</base>増加して、<base>20</base>の<ap>魔法ダメージ</ap>を与える<OnHit>通常攻撃時効果<\/OnHit>を得る。"
+            "<passive>サンクティファイ<\/passive>味方に<heal>体力回復効果またはシールドを付与</heal>すると、<tm>6秒</tm>間、自身とその味方の両方が強化され、<as>AS</as>が<base>25%</base>増加して、<base>20</base>の<ap>魔法ダメージ</ap>を与える<keyword>通常攻撃時効果<\/keyword>を得る。"
         ],
         "actives": []
     },
     "3508": {
         "passives": [
-            "<passive>エッセンスドレイン<\/passive><base>15</base> + <ad>10%[増加AD]</ad>の<mn>マナ</mn>を回復する<OnHit>通常攻撃時効果<\/OnHit>を得る。"
+            "<passive>エッセンスドレイン<\/passive><base>15</base> + <ad>10%[増加AD]</ad>の<mn>マナ</mn>を回復する<keyword>通常攻撃時効果<\/keyword>を得る。"
         ],
         "actives": []
     },
@@ -859,7 +859,7 @@
     },
     "3748": {
         "passives": [
-            "<passive>なぎ払い<\/passive><OnHit>通常攻撃時効果<\/OnHit>として、<hp>1.5%[最大HP]</hp>の<ad>追加物理ダメージ</ad>を与え、攻撃箇所の背後に扇状の衝撃波を発生させる。この衝撃波は範囲内の敵に<hp>3%[最大HP]</hp>の<ad>物理ダメージ</ad>を与える。<ranged>（遠隔はそれぞれ50%減）</ranged>"
+            "<passive>なぎ払い<\/passive><keyword>通常攻撃時効果<\/keyword>として、<hp>1.5%[最大HP]</hp>の<ad>追加物理ダメージ</ad>を与え、攻撃箇所の背後に扇状の衝撃波を発生させる。この衝撃波は範囲内の敵に<hp>3%[最大HP]</hp>の<ad>物理ダメージ</ad>を与える。<ranged>（遠隔はそれぞれ50%減）</ranged>"
         ],
         "actives": [
             "<active>巨大な三日月<\/active>次の通常攻撃時に「なぎ払い」の効果を強化する。通常攻撃時効果の対象へは<hp>4%[最大HP]</hp>の<ad>追加物理ダメージ</ad>、衝撃波は<hp>9%[最大HP]</hp>の<ad>追加物理ダメージ</ad>に増加する。<ranged>（遠隔はそれぞれ50%減）</ranged><note>発動時にAAタイマーをリセットする。</note><note>CD: <tm>10秒</tm></note>"
@@ -944,7 +944,7 @@
     },
     "3877": {
         "passives": [
-            "<passive>追撃<\/passive>スキルを使用後<tm>10秒</tm>以内に、<OnHit>通常攻撃時効果</OnHit>が働くと<ad>100%[基本AD]</ad>の<ad>追加物理ダメージ</ad>を与える。対象が敵チャンピオンの場合はさらに<tm>6秒</tm>間、対象の被ダメージを(近接)10%/<ranged>(遠隔)5%</ranged>増加させる。<note>CD: <tm>1.5秒</tm></note>"
+            "<passive>追撃<\/passive>スキルを使用後<tm>10秒</tm>以内に、<keyword>通常攻撃時効果</keyword>が働くと<ad>100%[基本AD]</ad>の<ad>追加物理ダメージ</ad>を与える。対象が敵チャンピオンの場合はさらに<tm>6秒</tm>間、対象の被ダメージを(近接)10%/<ranged>(遠隔)5%</ranged>増加させる。<note>CD: <tm>1.5秒</tm></note>"
         ],
         "actives": [
             "<active>ワード設置<\/active>1チャージ消費して「ステルス ワード」を設置する。ショップを訪れるたびに4チャージを得る。<note>持続時間: <tm>150秒</tm></note>"
@@ -1072,7 +1072,7 @@
     },
     "6631": {
         "passives": [
-            "<passive>なぎ払い<\/passive><OnHit>通常攻撃効果</OnHit>が働いた時、その周囲に小さな衝撃波を生み、範囲内の敵に<melee><ad>40%[AD]</melee><ranged>20%[AD]</ranged></ad>の<ad>物理ダメージ</ad>を与える。",
+            "<passive>なぎ払い<\/passive><keyword>通常攻撃効果</keyword>が働いた時、その周囲に小さな衝撃波を生み、範囲内の敵に<melee><ad>40%[AD]</melee><ranged>20%[AD]</ranged></ad>の<ad>物理ダメージ</ad>を与える。",
             "<passive>短気<\/passive><ad>物理ダメージ</ad>を与えると<ms>MSが20</ms>増加する。"
         ],
         "actives": [
@@ -1129,7 +1129,7 @@
     },
     "6672": {
         "passives": [
-            "<passive>打倒<\/passive><OnHit>通常攻撃時効果</OnHit>が働く時、打倒のスタックを1つ獲得する。（最大2スタック）<note>打倒スタックが最大の時、スタックを全て消費して<melee><base>140-310[レベル比例]<\/base></melee><ranged><base>112-248[レベル比例]<\/base><\/ranged>の<ad>追加物理ダメージ<\/ad>を与える<OnHit>通常攻撃時効果</OnHit>を得る。このダメージは対象の減少体力に応じて<base>150%<\/base>まで増加する。</note><note>打倒スタックは<tm>4秒間</tm>更新されないとリセットされる。</note>"
+            "<passive>打倒<\/passive><keyword>通常攻撃時効果</keyword>が働く時、打倒のスタックを1つ獲得する。（最大2スタック）<note>打倒スタックが最大の時、スタックを全て消費して<melee><base>140-310[レベル比例]<\/base></melee><ranged><base>112-248[レベル比例]<\/base><\/ranged>の<ad>追加物理ダメージ<\/ad>を与える<keyword>通常攻撃時効果</keyword>を得る。このダメージは対象の減少体力に応じて<base>150%<\/base>まで増加する。</note><note>打倒スタックは<tm>4秒間</tm>更新されないとリセットされる。</note>"
         ],
         "actives": []
     },
@@ -1189,7 +1189,7 @@
     },
     "6698": {
         "passives": [
-            "<passive>なぎ払い<\/passive>通常攻撃が次の<OnHit>通常攻撃時効果<\/OnHit>を与える。<note>通常攻撃時効果: 対象の周囲に<ad>50%[AD]<ad><ranged>（遠隔は50%減）</ranged>の<ad>物理ダメージ</ad>を与える。</note>"
+            "<passive>なぎ払い<\/passive>通常攻撃が次の<keyword>通常攻撃時効果<\/keyword>を与える。<note>通常攻撃時効果: 対象の周囲に<ad>50%[AD]<ad><ranged>（遠隔は50%減）</ranged>の<ad>物理ダメージ</ad>を与える。</note>"
         ],
         "actives": [
             "<active>異端の斬撃<\/active>周囲の敵に<ad>100%[AD]</ad>の<ad>物理ダメージ</ad>を与える。体力が<base>50%</base>未満の敵ユニットには<base>130%</base>に増加する。<note>CD: <tm>10秒</tm></note>"
