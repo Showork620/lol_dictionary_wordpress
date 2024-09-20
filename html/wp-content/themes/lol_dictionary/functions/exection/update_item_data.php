@@ -113,7 +113,7 @@ $ITEMDATA = getOriginItemData($URL);
 $DESTINATION_LIST = [];
 
 // 不要なアイテムやプロパティを削除
-foreach ($ITEMDATA as $key => $item) {
+foreach ($ITEMDATA as $key => &$item) {
 
 	// 使用不可、一覧に不要なアイテムを削除
 	if ($item['description'] === "" && isset($item['inStore']) || in_array($key, $UNAVAILABLE_ITEMS)) {
@@ -155,6 +155,14 @@ foreach ($ITEMDATA as $key => $item) {
 			if ($stats_key === "マナ" || $stats_key === "体力") {
 				// $second_split[0] に "自動回復" が含まれていたらスキップ
 				if (strpos($second_split[0], "自動回復") !== false) {
+					continue;
+				}
+			}
+
+			//"物理防御貫通","魔法防御貫通"の包含問題を解決
+			if ($stats_key === "物理防御" || $stats_key === "魔法防御") {
+				// $second_split[0] に "貫通" が含まれていたらスキップ
+				if (strpos($second_split[0], "貫通") !== false) {
 					continue;
 				}
 			}
@@ -226,8 +234,6 @@ foreach ($ITEMDATA as $key => $item) {
 			$translated_tags[] = $tag;
 		}
 	}
-
-	
 
 	$item['tags'] = $translated_tags;
 
