@@ -42,7 +42,6 @@
     background-color: var(--color-navy);
     transition: all 0.3s;
     max-height: 320px;
-    overflow: scroll;
 
     @mixin hoverOrActive {
         background-color: var(--color-dull-navy);
@@ -262,6 +261,7 @@
 
         note {
             display: block;
+            margin-top: 0.25lh;
         }
 
         gold {
@@ -318,6 +318,7 @@
         height: auto;
         cursor: default;
         user-select: text;
+        overflow-y: auto;
 
         &:hover {
             background-color: var(--color-navy);
@@ -460,7 +461,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(from var(--color-navy) r g b / 0.9);
+    background-color: rgb(from var(--color-navy) r g b / 0.9);
 		pointer-events: none; // クリックを貫通させる
 		opacity: 0;
 		transition: all 0.3s;

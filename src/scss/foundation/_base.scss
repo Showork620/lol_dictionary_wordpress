@@ -7,4 +7,20 @@
 body {
     background-color: var(--color-navy);
     color: var(--color-white);
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+      }
+      
+      /* スクロールバーの背景色を指定 */
+      ::-webkit-scrollbar-track {
+        background-color: var(--color-light-navy);
+      }
+      
+      /* スクロールバーのトラックの背景色を指定 */
+      ::-webkit-scrollbar-thumb {
+        background-color: var(--color-white-33);
+        border-radius: 5px;
+      }
 }
