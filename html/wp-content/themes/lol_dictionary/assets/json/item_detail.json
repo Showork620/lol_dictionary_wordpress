@@ -759,7 +759,7 @@
     },
     "3161": {
         "passives": [
-            "<passive>ドラゴンフォース<\/passive><keyword>アルティメット以外のスキル<\/keyword>が<bs>スキルヘイスト<\/bs>を<bs>15<\/bs>獲得する",
+            "<passive>ドラゴンフォース<\/passive><keyword>通常スキル<\/keyword>が<bs>スキルヘイスト<\/bs>を<bs>15<\/bs>獲得する",
             "<passive>研ぎ澄ました意志<\/passive>敵ユニットにスキルが命中するとスタックを獲得する。（最大4スタック）1スタックにつき、スキルで与えるダメージが<bs>3%<\/bs>増加する。<note>1回のスキルが複数の敵チャンピオンに命中しても、獲得は1スタック。ただし、1回のスキルによる継続ダメージでは<tm>1秒<\/tm>ごとに1スタック獲得できる。<\/note>"
         ],
         "actives": []
@@ -1141,7 +1141,7 @@
     },
     "6675": {
         "passives": [
-            "<passive>至上<\/passive><keyword>通常攻撃効果<\/keyword>が働くたびで<keyword>アルティメット以外のスキル<\/keyword>の残り<bs>クールダウン<\/bs>が<bs>15%短縮<\/bs>される。"
+            "<passive>至上<\/passive><keyword>通常攻撃効果<\/keyword>が働くたびで<keyword>通常スキル<\/keyword>の残り<bs>クールダウン<\/bs>が<bs>15%短縮<\/bs>される。"
         ],
         "actives": []
     },
