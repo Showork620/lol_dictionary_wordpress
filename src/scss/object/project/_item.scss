@@ -394,7 +394,7 @@
 .p-item-search-header {
     background-color: var(--color-navy);
     display: flex;
-    gap: 10px;
+    gap: 7px;
     flex-direction: column;
     position: sticky;
     z-index: 1000;
@@ -422,12 +422,12 @@
         // プルダウンの三角形を作成
         content: "";
         display: block;
-        width: 0.75em;
-        height: 0.75em;
+        width: 0.65em;
+        height: 0.65em;
         border-right: 2px solid var(--color-gold);
         border-bottom: 2px solid var(--color-gold);
         position: absolute;
-        right: 16px;
+        right: 8px;
         top: 40%;
         transform: translateY(-50%) rotate(45deg);
     }
@@ -439,13 +439,13 @@
 
     &__dropdown {
         width: 100%;
-        padding-block: 6px;
-        padding-inline: 10px;
+        padding-block: 3px;
+        padding-inline: 6px;
         border: 1px solid var(--color-gold);
         border-radius: 3px;
         background-color: var(--color-dull-navy);
         color: var(--color-white);
-        font-size: 14px;
+        font-size: 13px;
     }
 }
 

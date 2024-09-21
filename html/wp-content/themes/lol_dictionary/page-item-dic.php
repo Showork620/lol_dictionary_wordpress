@@ -31,15 +31,26 @@ get_header(); ?>
 				<option value="魔法防御貫通">魔法防御貫通</option>
 				<option value="体力回復効果">体力回復効果</option>
 				<option value="マナ回復効果">マナ回復効果</option>
-				<hr>
-				<option value="スロウ効果">スロウ効果</option>
+        <option value="回復効果&シールド量">回復効果&シールド量</option>
+			';
+      $item_tags_option_html_2 = '
+        <option value="All">絞り込みなし</option>
+        <hr>
+        <option value="通常攻撃時効果">通常攻撃時効果</option>
+        <option value="シールド">シールド</option>
+        <option value="アルティメットスキル">アルティメットスキル</option>
+        <hr>
+        <option value="スロウ効果">スロウ効果</option>
 				<option value="行動妨害耐性">行動妨害耐性</option>
-				<option value="通常攻撃時効果">通常攻撃時効果</option>
-				<option value="ライフスティール">ライフスティール</option>
+        <hr>
+        <option value="重傷">重傷</option>
+        <option value="ライフスティール">ライフスティール</option>
 				<option value="オムニヴァンプ">オムニヴァンプ</option>
+        <option value="体力割合ダメージ">体力割合ダメージ</option>
+        <option value="体力レシオ">体力レシオ</option>
 				<hr>
 				<option value="発動効果あり">発動効果あり</option>
-			'; 
+      ';
 			?>
 			<div class="p-item-tags-select">
 				<label class="p-item-tags-select__label" for="tags">絞り込み１：</label>
@@ -51,6 +62,12 @@ get_header(); ?>
 				<label class="p-item-tags-select__label" for="tags">絞り込み２：</label>
 				<select class="p-item-tags-select__dropdown js-tag-dropdown2" id="tags2">
 					<?php echo $item_tags_option_html; ?>
+				</select>
+			</div>
+      <div class="p-item-tags-select">
+				<label class="p-item-tags-select__label" for="tags">特殊条件：</label>
+				<select class="p-item-tags-select__dropdown js-tag-dropdown3" id="tags3">
+					<?php echo $item_tags_option_html_2; ?>
 				</select>
 			</div>
 		</div>
