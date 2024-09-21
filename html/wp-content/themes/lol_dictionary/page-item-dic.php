@@ -133,7 +133,7 @@ get_header(); ?>
 								}
 								?>
 							</div>
-							<div class="p-item-card__ability">
+							<div class="p-item-card__ability js-ability">
 								<?php
 								$passives = get_post_meta(get_the_ID(), 'passives', true);
 								$passives_list = explode(',', $passives);
@@ -159,6 +159,23 @@ get_header(); ?>
 								詳細
 								<div class="c-icon-clickable p-item-icon"></div>
 							</div>
+
+              <!-- 近接 / 遠隔切り替え -->
+              <?php
+              $has_melee_ranged = strpos($passives, '<melee>') !== false || strpos($passives, '<ranged>') !== false;
+              if ($has_melee_ranged) :
+              ?>
+                <div class="p-item-card__toggle">
+                  <div class="label">近接・遠隔で能力変更あり</div>
+                  <label class="c-button-toggle">
+                    <input type="checkbox" class="js-toggle-melee-ranged">
+                    <span class="false-side">近接</span>
+                    /
+                    <span class="true-side">遠隔</span>
+                    <div class="slider"></div>
+                  </label>
+                </div>
+              <?php endif; ?>
 						</button>
 					</li>
 					<?php endif; ?>

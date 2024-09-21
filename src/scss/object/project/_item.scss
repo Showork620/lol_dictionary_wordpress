@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 // ============================================================
 //  object/project/_item.scss
@@ -41,7 +41,6 @@
     font-size: 14px;
     background-color: var(--color-navy);
     transition: all 0.3s;
-    max-height: 320px;
 
     @mixin hoverOrActive {
         background-color: var(--color-dull-navy);
@@ -271,6 +270,26 @@
         ls {
             color: var(--color-ls);
         }
+
+				melee {
+					font-size: 12px;
+					transition: font-size 0.5s;
+					transform-origin: center left;
+				}
+
+				ranged {
+					font-size: 0;
+					transition: font-size 0.5s;
+					transform-origin: center right;
+				}
+
+				&.is-ranged melee {
+					font-size: 0px;
+				}
+
+				&.is-ranged ranged {
+					font-size: 12px;
+				}
     }
 
     &__from {
@@ -304,12 +323,30 @@
 			opacity: 0.75;
 		}
 
+		&__toggle {
+			grid-row: 5 / 6;
+			grid-column: 1 / 5;
+			border: 1px solid var(--color-white-33);
+			padding: 5px;
+			display: none; //flex
+			justify-content: end;
+			align-items: center;
+			gap: 5px;
+
+			.label {
+				display: block;
+				color: var(--color-white-67);
+				font-style: italic;
+				font-size: 12px;
+			}
+		}
+
 		// * デティールモード *
     &.is-detail-mode {
         position: fixed;
         z-index: 5000;
         transform: translateX(-50%);
-        top: 120px;
+        top: 90px;
         left: 50%;
         width: 96vw;
         max-width: calc(640px - 4vw);
@@ -346,6 +383,10 @@
             &__clickable {
                 display: none;
             }
+
+						&__toggle {
+								display: flex;
+						}
         }
     }
 }
