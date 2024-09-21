@@ -97,6 +97,32 @@ $TAGS_TRANSLATE = array(
 	"Vision" => "視界"
 );
 
+// 追加タグ
+$ADDITIONAL_TAGS = array(
+	"3748" => ["体力レシオ"],
+	"6333" => ["体力回復効果"],
+	"6610" => ["クリティカル", "体力回復効果"],
+	"6692" => ["体力割合"],
+	"3153" => ["体力割合ダメージ"],
+	"3053" => ["体力レシオ"],
+	"3068" => ["体力レシオ"],
+	"3181" => ["体力レシオ"],
+	"3302" => ["物理防御", "魔法防御"],
+	"2501" => ["体力レシオ"],
+	"4633" => ["体力レシオ"],
+	"6616" => ["魔力", "移動速度"],
+	"6653" => ["体力割合ダメージ"],
+	"6664" => ["体力レシオ"],
+	"6675" => ["スキルヘイスト"],
+	"3137" => ["体力回復効果"],
+	"3871" => ["体力割合ダメージ"],
+	"4005" => ["体力割合ダメージ", "移動速度"],
+	"3084" => ["体力レシオ"],
+	"3107" => ["体力回復効果", "体力割合ダメージ"],
+	"2502" => ["体力回復効果", "体力レシオ"],
+	"2504" => ["体力レシオ"]
+);
+
 // stats用キーワード
 $STATS_KEYWORD = ["体力", "マナ", "攻撃力", "魔力", "物理防御", "魔法防御", "移動速度", "攻撃速度", "スキルヘイスト", "クリティカル率", "クリティカルダメージ", "脅威", "物理防御貫通", "魔法防御貫通", "ライフ スティール", "基本体力自動回復", "基本マナ自動回復", "回復効果およびシールド量", "行動妨害耐性"];
 
@@ -205,6 +231,7 @@ foreach ($ITEMDATA as $key => &$item) {
 	$item['passives'] = $passive_list;
 	$item['actives'] = $active_list;
 
+
 	
 	// $ITEMS_ROLE に含まれる場合、role プロパティを追加 role プロパティは 数値の配列 で 複数持つことができる
 	foreach ($ITEMS_ROLE as $role => $items) {
@@ -217,7 +244,6 @@ foreach ($ITEMDATA as $key => &$item) {
 	$item['gold'] = $item['gold']['total'];
 	$item['normal_item'] = $item['maps']['11'];
 	$item['aram_item'] = $item['maps']['12'];
-
 
 	// tags の編集 ====================
 
@@ -232,6 +258,30 @@ foreach ($ITEMDATA as $key => &$item) {
 		} else {
 			// 翻訳が見つからない場合は元のタグを使用
 			$translated_tags[] = $tag;
+		}
+	}
+
+	// $passive_list に 以下のテキストが含まれる場合、tags に追加
+	// "重傷","シールド","アルティメット","通常攻撃時効果"
+	foreach ($passive_list as $passive) {
+		if (strpos($passive, "重傷") !== false) {
+			$translated_tags[] = "重傷";
+		}
+		if (strpos($passive, "シールド") !== false) {
+			$translated_tags[] = "シールド";
+		}
+		if (strpos($passive, "アルティメット") !== false) {
+			$translated_tags[] = "アルティメットスキル";
+		}
+		if (strpos($passive, "通常攻撃時効果") !== false) {
+			$translated_tags[] = "通常攻撃時効果";
+		}
+	}
+
+	// $ADDITIONAL_TAGS のキーに含まれる場合、tags に追加
+	if (isset($ADDITIONAL_TAGS[$key])) {
+		foreach ($ADDITIONAL_TAGS[$key] as $additional_tag) {
+			$translated_tags[] = $additional_tag;
 		}
 	}
 
