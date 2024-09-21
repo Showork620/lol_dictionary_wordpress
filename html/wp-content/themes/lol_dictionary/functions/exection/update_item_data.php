@@ -278,6 +278,11 @@ foreach ($ITEMDATA as $key => &$item) {
 		}
 	}
 
+	// $active_list に 内容があれば tags に発動効果あり を追加
+	if (!empty($active_list)) {
+		$translated_tags[] = "発動効果あり";
+	}
+
 	// $stats_list に 回復効果&シールド量 が含まれる時
 	if (isset($stats_list["回復効果&シールド量"])) {
 		$translated_tags[] = "回復効果&シールド量";
