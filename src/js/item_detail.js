@@ -42,3 +42,23 @@ modalCloseButton.addEventListener('click', function() {
     // 最後にクリックしたカードにフォーカスを戻す
     lastClickedCard.focus();
 });
+
+// 近接・遠隔の制御
+const meleeRangeToggleButtons = document.querySelectorAll('.js-toggle-melee-ranged');
+
+meleeRangeToggleButtons.forEach((button) => {
+
+    button.addEventListener('click', function() {
+
+        // この要素の親戚の .js-ability を取得
+        const parentItemCard = this.closest('.js-item-button');
+        const parentAbility = parentItemCard.querySelector('.js-ability');
+
+        // button が checked なら parentAbilityに is-ranged を追加
+        if (this.checked) {
+            parentAbility.classList.add('is-ranged');
+        } else {
+            parentAbility.classList.remove('is-ranged');
+        }
+    });
+});

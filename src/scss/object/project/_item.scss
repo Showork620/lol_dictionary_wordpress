@@ -1,4 +1,4 @@
-@charset "utf-8";
+@charset "UTF-8";
 
 // ============================================================
 //  object/project/_item.scss
@@ -41,8 +41,6 @@
     font-size: 14px;
     background-color: var(--color-navy);
     transition: all 0.3s;
-		max-height: 320px;
-		overflow: scroll;
 
     @mixin hoverOrActive {
         background-color: var(--color-dull-navy);
@@ -203,6 +201,95 @@
             content: "【発動効果】";
             color: var(--color-white-67);
         }
+
+        ad {
+            color: var(--color-ad);
+        }
+
+        ap {
+            color: var(--color-ap);
+        }
+
+        ar {
+            color: var(--color-ar);
+        }
+
+        mr {
+            color: var(--color-mr);
+        }
+
+        arpen {
+            color: var(--color-arpen);
+        }
+
+        mrpen {
+            color: var(--color-mrpen);
+        }
+
+        as {
+            color: var(--color-as);
+        }
+
+        ms {
+            color: var(--color-ms);
+        }
+
+        hp {
+            color: var(--color-hp);
+        }
+
+        mn {
+            color: var(--color-mn);
+        }
+
+        heal {
+            color: var(--color-heal);
+        }
+
+        keyword {
+            color: var(--color-keyword);
+        }
+
+        bs {
+            color: var(--color-bs);
+        }
+
+        tm {
+            color: var(--color-tm);
+        }
+
+        note {
+            display: block;
+            margin-top: 0.25lh;
+        }
+
+        gold {
+            color: var(--color-gold);
+        }
+
+        ls {
+            color: var(--color-ls);
+        }
+
+				melee {
+					font-size: 12px;
+					transition: font-size 0.5s;
+					transform-origin: center left;
+				}
+
+				ranged {
+					font-size: 0;
+					transition: font-size 0.5s;
+					transform-origin: center right;
+				}
+
+				&.is-ranged melee {
+					font-size: 0px;
+				}
+
+				&.is-ranged ranged {
+					font-size: 12px;
+				}
     }
 
     &__from {
@@ -236,12 +323,30 @@
 			opacity: 0.75;
 		}
 
+		&__toggle {
+			grid-row: 5 / 6;
+			grid-column: 1 / 5;
+			border: 1px solid var(--color-white-33);
+			padding: 5px;
+			display: none; //flex
+			justify-content: end;
+			align-items: center;
+			gap: 5px;
+
+			.label {
+				display: block;
+				color: var(--color-white-67);
+				font-style: italic;
+				font-size: 12px;
+			}
+		}
+
 		// * デティールモード *
     &.is-detail-mode {
         position: fixed;
         z-index: 5000;
         transform: translateX(-50%);
-        top: 120px;
+        top: 90px;
         left: 50%;
         width: 96vw;
         max-width: calc(640px - 4vw);
@@ -249,6 +354,8 @@
         grid-template-rows: 40px auto auto auto;
         height: auto;
         cursor: default;
+        user-select: text;
+        overflow-y: auto;
 
         &:hover {
             background-color: var(--color-navy);
@@ -273,8 +380,12 @@
                 }
             }
 
-						&__clickable {
-							display: none;
+            &__clickable {
+                display: none;
+            }
+
+						&__toggle {
+								display: flex;
 						}
         }
     }
@@ -391,7 +502,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(from var(--color-navy) r g b / 0.9);
+    background-color: rgb(from var(--color-navy) r g b / 0.9);
 		pointer-events: none; // クリックを貫通させる
 		opacity: 0;
 		transition: all 0.3s;

@@ -98,7 +98,7 @@ $TAGS_TRANSLATE = array(
 );
 
 // stats用キーワード
-$STATS_KEYWORD = ["体力", "マナ", "攻撃力", "魔力", "物理防御", "魔法防御", "移動速度", "攻撃速度", "スキルヘイスト", "クリティカル率", "脅威", "物理防御貫通", "魔法防御貫通", "ライフ スティール", "基本体力自動回復", "基本マナ自動回復", "回復効果およびシールド量", "行動妨害耐性"];
+$STATS_KEYWORD = ["体力", "マナ", "攻撃力", "魔力", "物理防御", "魔法防御", "移動速度", "攻撃速度", "スキルヘイスト", "クリティカル率", "クリティカルダメージ", "脅威", "物理防御貫通", "魔法防御貫通", "ライフ スティール", "基本体力自動回復", "基本マナ自動回復", "回復効果およびシールド量", "行動妨害耐性"];
 
 // アイテムデータを取得
 function getOriginItemData($preUrl) {
@@ -155,6 +155,14 @@ foreach ($ITEMDATA as $key => &$item) {
 			if ($stats_key === "マナ" || $stats_key === "体力") {
 				// $second_split[0] に "自動回復" が含まれていたらスキップ
 				if (strpos($second_split[0], "自動回復") !== false) {
+					continue;
+				}
+			}
+
+			//"物理防御貫通","魔法防御貫通"の包含問題を解決
+			if ($stats_key === "物理防御" || $stats_key === "魔法防御") {
+				// $second_split[0] に "貫通" が含まれていたらスキップ
+				if (strpos($second_split[0], "貫通") !== false) {
 					continue;
 				}
 			}
@@ -226,8 +234,6 @@ foreach ($ITEMDATA as $key => &$item) {
 			$translated_tags[] = $tag;
 		}
 	}
-
-	
 
 	$item['tags'] = $translated_tags;
 
