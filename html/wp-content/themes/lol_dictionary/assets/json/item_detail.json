@@ -862,7 +862,7 @@
             "<passive>なぎ払い<\/passive><keyword>通常攻撃時効果<\/keyword>として、<hp><melee>1.5<\/melee><ranged>0.75<\/ranged>%[最大HP]<\/hp>の<ad>追加物理ダメージ<\/ad>を与え、攻撃箇所の背後に扇状の衝撃波を発生させる。この衝撃波は範囲内の敵に<hp><melee>3<\/melee><ranged>1.5<\/ranged>%[最大HP]<\/hp>の<ad>物理ダメージ<\/ad>を与える。"
         ],
         "actives": [
-            "<active>巨大な三日月<\/active>次の<keyword>通常攻撃時</keyword>に「なぎ払い」の効果を強化する。<keyword>通常攻撃時効果</keyword>の対象へは<hp><melee>4<\/melee><ranged>2<\/ranged>%[最大HP]<\/hp>の<ad>追加物理ダメージ<\/ad>、衝撃波は<hp><melee>9<\/melee><ranged>4.5<\/ranged>%[最大HP]<\/hp>の<ad>追加物理ダメージ<\/ad>に増加する。<ranged>（遠隔はそれぞれ50%減）<\/ranged><note>発動時にAAタイマーをリセットする。<\/note><note>CD: <tm>10秒<\/tm><\/note>"
+            "<active>巨大な三日月<\/active>次の<keyword>通常攻撃時</keyword>に「なぎ払い」の効果を強化する。<keyword>通常攻撃時効果</keyword>の対象へは<hp><melee>4<\/melee><ranged>2<\/ranged>%[最大HP]<\/hp>の<ad>追加物理ダメージ<\/ad>、衝撃波は<hp><melee>9<\/melee><ranged>4.5<\/ranged>%[最大HP]<\/hp>の<ad>追加物理ダメージ<\/ad>に増加する。<note>発動時にAAタイマーをリセットする。<\/note><note>CD: <tm>10秒<\/tm><\/note>"
         ]
     },
     "3801": {
