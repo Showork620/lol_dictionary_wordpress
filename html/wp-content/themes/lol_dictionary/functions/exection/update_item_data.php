@@ -278,6 +278,11 @@ foreach ($ITEMDATA as $key => &$item) {
 		}
 	}
 
+	// $stats_list に 回復効果&シールド量 が含まれる時
+	if (isset($stats_list["回復効果&シールド量"])) {
+		$translated_tags[] = "回復効果&シールド量";
+	}
+
 	// $ADDITIONAL_TAGS のキーに含まれる場合、tags に追加
 	if (isset($ADDITIONAL_TAGS[$key])) {
 		foreach ($ADDITIONAL_TAGS[$key] as $additional_tag) {
