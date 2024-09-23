@@ -492,7 +492,7 @@
     },
     "3078": {
         "passives": [
-            "<passive>追撃<\/passive>スキルを使用後、次の<keyword>通常攻撃時効果<\/keyword>が<ad>200%[基本AD]<\/ad>の<ad>追加物理ダメージ<\/ad>を付与する。",
+            "<passive>追撃<\/passive>スキルを使用後、次の<keyword>通常攻撃時効果<\/keyword>が<ad>200%[基本AD]<\/ad>の<ad>追加物理ダメージ<\/ad>を付与する。<note>CD: <tm>1.5秒</tm><\/note>",
             "<passive>加速<\/passive><keyword>通常攻撃時効果<\/keyword>が働く時、<tm>2秒間<\/tm><ms>MSが20<\/ms>増加する。"
         ],
         "actives": []
@@ -553,7 +553,7 @@
     },
     "3100": {
         "passives": [
-            "<passive>追撃<\/passive>スキルを使用後、次に発動する<keyword>通常攻撃時効果<\/keyword>に(<ad>75%[基本AD]<\/ad> + <ap>45%[AP]<\/ap>)の<ap>追加魔法ダメージ<\/ap>を付与する。スキル使用後、追撃が発動するまで自身の<as>ASが50%<\/as>増加する。<note>CD: <tm>1.5秒<\/tm><\/note>"
+            "<passive>追撃<\/passive>スキルを使用後、次に発動する<keyword>通常攻撃時効果<\/keyword>に(<ad>75%[基本AD]<\/ad> + <ap>45%[AP]<\/ap>)の<ap>追加魔法ダメージ<\/ap>を付与する。スキル使用後、「追撃」が発動するまで自身の<as>ASが50%<\/as>増加する。<note>CD: <tm>1.5秒<\/tm><\/note>"
         ],
         "actives": []
     },
@@ -1107,7 +1107,7 @@
     },
     "6662": {
         "passives": [
-            "<passive>追撃<\/passive>スキル使用後、次の<keyword>通常攻撃効果<\/keyword>が<ad>100%[基本AD]<\/ad>の<ad>物理ダメージ<\/ad>を与え、<tm>2秒間<\/tm>、凍てつくゾーンを発生させる。このゾーンに入った敵は<keyword>スロウ効果<\/keyword>を受ける。<note>スロウ効果: (<melee><bs>15%<\/bs> + <hp>0.4%[最大HP]<\/hp><\/melee><ranged><bs>7.5%<\/bs> + <hp>0.2%[最大HP]<\/hp><\/ranged>)<\/note>"
+            "<passive>追撃<\/passive>スキル使用後、次の<keyword>通常攻撃効果<\/keyword>が<ad>100%[基本AD]<\/ad>の<ad>物理ダメージ<\/ad>を与え、<tm>2秒間<\/tm>、凍てつくゾーンを発生させる。このゾーンに入った敵は<keyword>スロウ効果<\/keyword>を受ける。<note>スロウ効果: (<melee><bs>15%<\/bs> + <hp>0.4%[最大HP]<\/hp><\/melee><ranged><bs>7.5%<\/bs> + <hp>0.2%[最大HP]<\/hp><\/ranged>)<\/note><note>CD: <tm>1.5秒</tm><\/note>"
         ],
         "actives": []
     },
@@ -1198,7 +1198,7 @@
     "6699": {
         "passives": [
             "<passive>刺激<\/passive><keyword>ダッシュ<\/keyword>するか<keyword>ステルス状態<\/keyword>になると、<keyword>エネルギー充填状態<\/keyword>のスタック増加量が<bs>75%<\/bs>増える。",
-            "<passive>ファーマメント<\/passive><keyword>エネルギー充填状態<\/keyword>の<keyword>通常攻撃時効果<\/keyword>が敵に<bs>100<\/bs>の<ad>追加物理ダメージ<\/ad>を与え、<keyword>スロウ効果<\/keyword>を付与する。<note>スロウ効果: <bs><malee>99%<\/malee><ranged>20%<\/ranged><\/bs>／<tm>0.75秒<\/tm><\/note>"
+            "<passive>ファーマメント<\/passive><keyword>エネルギー充填状態<\/keyword>の<keyword>通常攻撃時効果<\/keyword>が敵に<bs>100<\/bs>の<ad>追加物理ダメージ<\/ad>を与え、<keyword>スロウ効果<\/keyword>を付与する。<note>スロウ効果: <bs><melee>99%<\/melee><ranged>20%<\/ranged><\/bs>／<tm>0.75秒<\/tm><\/note>"
         ],
         "actives": []
     },
