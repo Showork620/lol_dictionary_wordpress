@@ -99,9 +99,8 @@ get_header(); ?>
 						$tags_list = implode(',', $tags);
 					?>
 					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
-						<button class="p-item-card js-item-button">
+						<a href="#<?php echo esc_html($id) ?>" id="<?php echo esc_html($id) ?>" class="p-item-card js-item-button">
 							<?php
-							$id = get_post_meta(get_the_ID(), 'id', true);
 							$image_path = get_image_path('/items/') . $id . '.webp';
 							?>
 							<img class="p-item-card__icon" src="<?php echo esc_url($image_path); ?>" alt="" width="40" height="40">
@@ -118,7 +117,7 @@ get_header(); ?>
 								<?php echo esc_html($gold) . ' G'; ?>
 							</div>
 							<div class="p-item-card__close">
-								<a class="button c-button-regular js-modal-close">×</a>
+								<button class="button c-button-regular js-modal-close" tabindex="0">×</button>
 							</div>
 							<div class="p-item-card__content">
 								<?php
@@ -179,23 +178,23 @@ get_header(); ?>
 								<div class="c-icon-clickable p-item-icon"></div>
 							</div>
 		
-					 <!-- 近接 / 遠隔切り替え -->
-					 <?php
-					 $has_melee_ranged = strpos($passives, '<melee>') !== false || strpos($passives, '<ranged>') !== false;
-					 if ($has_melee_ranged) :
-					 ?>
-					   <div class="p-item-card__toggle">
-						 <div class="label">近接・遠隔で能力変更あり</div>
-						 <label class="c-button-toggle">
-						   <input type="checkbox" class="js-toggle-melee-ranged">
-						   <span class="false-side">近接</span>
-						   /
-						   <span class="true-side">遠隔</span>
-						   <div class="slider"></div>
-						 </label>
-					   </div>
-					 <?php endif; ?>
-						</button>
+							<!-- 近接 / 遠隔切り替え -->
+							<?php
+							$has_melee_ranged = strpos($passives, '<melee>') !== false || strpos($passives, '<ranged>') !== false;
+							if ($has_melee_ranged) :
+							?>
+							<div class="p-item-card__toggle">
+								<div class="label">近接・遠隔で能力変更あり</div>
+								<label class="c-button-toggle">
+									<input type="checkbox" class="js-toggle-melee-ranged">
+									<span class="false-side">近接</span>
+									/
+									<span class="true-side">遠隔</span>
+									<div class="slider"></div>
+								</label>
+							</div>
+						<?php endif; ?>
+						</a>
 					</li>
 					<?php endif; ?>
 				<?php endwhile; ?>
