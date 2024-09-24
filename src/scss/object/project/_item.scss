@@ -42,6 +42,7 @@
     font-size: 14px;
     background-color: var(--color-navy);
     transition: all 0.3s;
+		caret-color: transparent;
 
     @mixin hoverOrActive {
         background-color: var(--color-dull-navy);
@@ -67,7 +68,6 @@
     &__icon {
         grid-row: 1 / 2;
         grid-column: 1 / 2;
-
         border: 1px solid var(--color-white-33);
         display: block;
         width: 100%;
@@ -342,6 +342,20 @@
         }
     }
 
+		&__note {
+			grid-row: 6 / 7;
+			grid-column: 1 / 6;
+			border-top: 2px dashed var(--color-gold);
+			margin-top: 10px;
+			margin-inline: 5px;
+			padding-block: 10px;
+			padding-inline: 5px;
+			display: none;
+			font-size: 12px;
+			line-height: 1.4;
+			color: var(--color-white-67);
+		}
+
     // * デティールモード *
     &.is-detail-mode {
         position: fixed;
@@ -354,9 +368,11 @@
         margin-inline: auto;
         grid-template-columns: 40px auto auto auto 40px;
         height: auto;
+				max-height: calc(100vh - 4vw);
         cursor: default;
         user-select: text;
         overflow-y: auto;
+				border: none;
 
         &:hover {
             background-color: var(--color-navy);
@@ -365,49 +381,55 @@
 
         .p-item-card {
 
-            &__close {
-                display: grid;
-                place-content: center;
+					&__close {
+						display: grid;
+						place-content: center;
+						z-index: 5000;
+						position: sticky;
+						top: 0;
 
-                .button {
-                    width: 40px;
-                    height: 40px;
-                    display: grid;
-                    place-content: center;
-                    color: var(--color-gold);
-                    font-size: 24px;
-                    cursor: pointer;
-                }
-            }
-            
-            &__ability {
-                display: flex;
-            }
+						.button {
+							display: grid;
+							width: 40px;
+							height: 40px;
+							color: var(--color-gold);
+							font-size: 24px;
+							cursor: pointer;
+						}
+					}
+					
+					&__ability {
+						display: flex;
+					}
 
-						&__content {
-							grid-column: 1 / 4;
+					&__content {
+						grid-column: 1 / 4;
+					}
+
+					&__sub {
+						grid-column: 4 / 6;
+
+						.plaintext {
+							display: none;
 						}
 
-            &__sub {
-								grid-column: 4 / 6;
+						.from {
+							opacity: 0.67;
+							display: block;
+						}
+					}
 
-                .plaintext {
-                    display: none;
-                }
-    
-                .from {
-                    opacity: 0.67;
-                    display: block;
-                }
-            }
+					&__clickable {
+						display: none;
+					}
 
-            &__clickable {
-                display: none;
-            }
+					&__toggle {
+						display: flex;
+					}
 
-            &__toggle {
-                    display: flex;
-            }
+					&__note {
+						display: block;
+					}
         }
     }
 }

@@ -115,8 +115,10 @@ get_header(); ?>
 								<?php echo esc_html($gold) . ' G'; ?>
 							</div>
 							<div class="p-item-card__close">
-								<button class="button c-button-regular js-modal-close" tabindex="0">×</button>
+								<button class="button c-button-regular js-modal-close">×</button>
 							</div>
+
+							<!-- 詳細情報 =============== -->
 							<div class="p-item-card__content">
 								<?php
 								$stats = get_post_meta(get_the_ID(), 'stats', true);
@@ -149,6 +151,8 @@ get_header(); ?>
 								}
 								?>
 							</div>
+
+							<!-- パッシブ・アクティブ詳細 =============== -->
 							<div class="p-item-card__ability js-ability">
 								<?php
 								$passives = get_post_meta(get_the_ID(), 'passives', true);
@@ -176,7 +180,7 @@ get_header(); ?>
 								<div class="c-icon-clickable p-item-icon"></div>
 							</div>
 		
-							<!-- 近接 / 遠隔切り替え -->
+							<!-- 近接 / 遠隔切り替え =============== -->
 							<?php
 							$has_melee_ranged = strpos($passives, '<melee>') !== false || strpos($passives, '<ranged>') !== false;
 							if ($has_melee_ranged) :
@@ -191,7 +195,27 @@ get_header(); ?>
 									<div class="slider"></div>
 								</label>
 							</div>
-						<?php endif; ?>
+							<?php endif; ?>
+
+							<!-- note -->
+							<div class="p-item-card__note">
+								<?php
+								// パッシブを表示
+								foreach ($passives_list as $passive) {
+									if (empty($passive)) {
+										continue;
+									}
+									echo '<p class="separate">' . ($passive) . '</p>';
+								}
+								// アクティブを表示
+								foreach ($actives_list as $active) {
+									if (empty($active)) {
+										continue;
+									}
+									echo '<p class="separate">' . ($active) . '</p>';
+								}
+								?>
+							</div>
 						</a>
 					</li>
 					<?php endif; ?>
