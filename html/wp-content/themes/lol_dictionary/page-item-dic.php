@@ -9,67 +9,65 @@
 get_header(); ?>
 
 <main id="main" class="l-main">
-	<section class="p-item-search-header">
-		<div class="l-section">
-			<?php // TODO: 別ファイルから参照する.
-			$item_tags_option_html = '
-				<option value="All">すべて</option>
-				<hr>
-				<option value="体力">体力</option>
-				<option value="マナ">マナ</option>
-				<option value="攻撃力">攻撃力</option>
-				<option value="魔力">魔力</option>
-				<option value="物理防御">物理防御</option>
-				<option value="魔法防御">魔法防御</option>
-				<hr>
-				<option value="移動速度">移動速度</option>
-				<option value="攻撃速度">攻撃速度</option>
-				<option value="スキルヘイスト">スキルヘイスト</option>
-				<option value="クリティカル">クリティカル</option>
-				<hr>
-				<option value="物理防御貫通">物理防御貫通</option>
-				<option value="魔法防御貫通">魔法防御貫通</option>
-				<option value="体力回復効果">体力回復効果</option>
-				<option value="マナ回復効果">マナ回復効果</option>
-				   <option value="回復効果&シールド量">回復効果&シールド量</option>
-			';
-			$item_tags_option_html_2 = '
-				<option value="All">絞り込みなし</option>
-				<hr>
-				<option value="通常攻撃時効果">通常攻撃時効果</option>
-				<option value="シールド">シールド</option>
-				<option value="アルティメットスキル">アルティメットスキル</option>
-				<hr>
-				<option value="スロウ効果">スロウ効果</option>
-				<option value="行動妨害耐性">行動妨害耐性</option>
-				<hr>
-				<option value="重傷">重傷</option>
-				<option value="ライフスティール">ライフスティール</option>
-				<option value="オムニヴァンプ">オムニヴァンプ</option>
-				<option value="体力割合ダメージ">体力割合ダメージ</option>
-				<option value="体力レシオ">体力レシオ</option>
-				<hr>
-				<option value="発動効果あり">発動効果あり</option>
-			';
-			?>
-			<div class="p-item-tags-select">
-				<label class="p-item-tags-select__label" for="tags">絞り込み１：</label>
-				<select class="p-item-tags-select__dropdown js-tag-dropdown1" id="tags1">
-					<?php echo $item_tags_option_html; ?>
-				</select>
-			</div>
-			<div class="p-item-tags-select">
-				<label class="p-item-tags-select__label" for="tags">絞り込み２：</label>
-				<select class="p-item-tags-select__dropdown js-tag-dropdown2" id="tags2">
-					<?php echo $item_tags_option_html; ?>
-				</select>
-			</div>
-			<div class="p-item-tags-select">
-				<label class="p-item-tags-select__label" for="tags">特殊条件：</label>
-				<select class="p-item-tags-select__dropdown js-tag-dropdown3" id="tags3">
-					<?php echo $item_tags_option_html_2; ?>
-				</select>
-			</div>
+	<section class="l-section p-item-search-header">
+		<?php // TODO: 別ファイルから参照する.
+		$item_tags_option_html = '
+			<option value="All">すべて</option>
+			<hr>
+			<option value="体力">体力</option>
+			<option value="マナ">マナ</option>
+			<option value="攻撃力">攻撃力</option>
+			<option value="魔力">魔力</option>
+			<option value="物理防御">物理防御</option>
+			<option value="魔法防御">魔法防御</option>
+			<hr>
+			<option value="移動速度">移動速度</option>
+			<option value="攻撃速度">攻撃速度</option>
+			<option value="スキルヘイスト">スキルヘイスト</option>
+			<option value="クリティカル">クリティカル</option>
+			<hr>
+			<option value="物理防御貫通">物理防御貫通</option>
+			<option value="魔法防御貫通">魔法防御貫通</option>
+			<option value="体力回復効果">体力回復効果</option>
+			<option value="マナ回復効果">マナ回復効果</option>
+			   <option value="回復効果&シールド量">回復効果&シールド量</option>
+		';
+		$item_tags_option_html_2 = '
+			<option value="All">絞り込みなし</option>
+			<hr>
+			<option value="通常攻撃時効果">通常攻撃時効果</option>
+			<option value="シールド">シールド</option>
+			<option value="アルティメットスキル">アルティメットスキル</option>
+			<hr>
+			<option value="スロウ効果">スロウ効果</option>
+			<option value="行動妨害耐性">行動妨害耐性</option>
+			<hr>
+			<option value="重傷">重傷</option>
+			<option value="ライフスティール">ライフスティール</option>
+			<option value="オムニヴァンプ">オムニヴァンプ</option>
+			<option value="体力割合ダメージ">体力割合ダメージ</option>
+			<option value="体力レシオ">体力レシオ</option>
+			<hr>
+			<option value="発動効果あり">発動効果あり</option>
+		';
+		?>
+		<div class="p-item-tags-select">
+			<label class="p-item-tags-select__label" for="tags">絞り込み１：</label>
+			<select class="p-item-tags-select__dropdown js-tag-dropdown1" id="tags1">
+				<?php echo $item_tags_option_html; ?>
+			</select>
+		</div>
+		<div class="p-item-tags-select">
+			<label class="p-item-tags-select__label" for="tags">絞り込み２：</label>
+			<select class="p-item-tags-select__dropdown js-tag-dropdown2" id="tags2">
+				<?php echo $item_tags_option_html; ?>
+			</select>
+		</div>
+		<div class="p-item-tags-select">
+			<label class="p-item-tags-select__label" for="tags">特殊条件：</label>
+			<select class="p-item-tags-select__dropdown js-tag-dropdown3" id="tags3">
+				<?php echo $item_tags_option_html_2; ?>
+			</select>
 		</div>
 	</section>
 		
@@ -205,32 +203,28 @@ get_header(); ?>
 		<?php endif; ?>
 	</section>
 
-	<section class="p-item-search-footer">
-		<div class="l-section">
-			<ul class="p-item-role-nav">
-			<?php
-			// TODO: 別ファイルから参照する.
-			$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
-			foreach ($ROLES as $role) : ?>
-				<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
-				<li class="p-item-role-nav__item">
-					<?php // TODO: 初期選択はjs側で行う. ?>
-					<button class="button js-role-button <?php echo 'All' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
-						<img class="icon" src="<?php echo esc_url($image_path); ?>">
-					</button>
-				</li>
-			<?php endforeach; ?>
-			</ul>
-		</div>
+	<section class="l-section p-item-search-footer">
+		<ul class="p-item-role-nav">
+		<?php
+		// TODO: 別ファイルから参照する.
+		$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
+		foreach ($ROLES as $role) : ?>
+			<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
+			<li class="p-item-role-nav__item">
+				<?php // TODO: 初期選択はjs側で行う. ?>
+				<button class="button js-role-button <?php echo 'All' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
+					<img class="icon" src="<?php echo esc_url($image_path); ?>">
+				</button>
+			</li>
+		<?php endforeach; ?>
+		</ul>
 	</section>
 
+
+	<?php // #モーダル ?>
 	<div class="p-item-modal js-modal" tabindex="0">
-		<button class="p-item-close c-button-regular js-modal-close">
-			閉じる
-		</button>
 	</div>
-</main><!-- #main -->
-<!-- #primary -->
+</main>
 
 <?php
 get_footer();

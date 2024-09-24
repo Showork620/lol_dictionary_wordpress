@@ -352,15 +352,11 @@
         width: 96vw;
         max-width: calc(640px - 4vw);
         margin-inline: auto;
-        grid-template-columns: 40px auto auto auto 0;
+        grid-template-columns: 40px auto auto auto 40px;
         height: auto;
         cursor: default;
         user-select: text;
         overflow-y: auto;
-
-        @include mixin.sm-h {
-            grid-template-columns: 40px auto auto auto 40px;
-        }
 
         &:hover {
             background-color: var(--color-navy);
@@ -370,7 +366,7 @@
         .p-item-card {
 
             &__close {
-                display: none;
+                display: grid;
                 place-content: center;
 
                 .button {
@@ -381,10 +377,6 @@
                     color: var(--color-gold);
                     font-size: 24px;
                     cursor: pointer;
-                }
-
-                @include mixin.sm-h {
-                    display: grid;
                 }
             }
             
@@ -434,6 +426,7 @@
     position: sticky;
     z-index: 1000;
     bottom: 0;
+		padding-block: 0;
 }
 
 .p-item-tags-select {
@@ -542,21 +535,4 @@
     margin-bottom: 1px;
     opacity: 0.6;
     transition: all 0.3s;
-}
-
-.p-item-close {
-    display: none;
-
-    .is-detail-mode & {
-        display: block;
-        position: fixed;
-        z-index: 5000;
-        transform: translateX(-50%);
-        bottom: 2vw;
-        left: 50%;
-
-        @include mixin.sm-h {
-            display: none;
-        }
-    }
 }
