@@ -61,7 +61,7 @@ get_header(); ?>
 			<option value="スロウ効果">スロウ効果</option>
 			<option value="行動妨害耐性">行動妨害耐性</option>
 			<hr>
-			<option value="重傷">重傷</option>
+			<option value="負傷">負傷</option>
 			<option value="ライフスティール">ライフスティール</option>
 			<option value="オムニヴァンプ">オムニヴァンプ</option>
 			<option value="体力割合ダメージ">体力割合ダメージ</option>
