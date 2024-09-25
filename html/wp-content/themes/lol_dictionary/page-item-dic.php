@@ -199,25 +199,32 @@ get_header(); ?>
 
 							<!-- フォーム -->
 							<div class="p-item-card__form p-item-card-admin-note">
-								<?php
-								echo do_shortcode('[contact-form-7 id="602b0cb" title="総合コンタクト"]'); ?>
+								<h3 class="p-item-card-admin-note__heading">誤りの報告／問い合わせフォーム（仮）</h3>
+								<div class="l-section-small">
+									<?php
+									echo do_shortcode('[contact-form-7 id="602b0cb" title="総合コンタクト"]'); ?>
+								</div>
 							</div>
 
 							<!-- note -->
 							<div class="p-item-card__future p-item-card-admin-note">
-								<h3>直近のアップデート予定</h3>
-								<ul>
-									<li>フリーワード検索機能の追加</li>
-									<li>アイテムの効果に合わせた用語解説を追加</li>
-									<li>他のアイテムの順次追加</li>
-								</ul>
-								<h3>さらに追加したい機能</h3>
-								<ul>
-									<li>このアイテムをよく使うチャンピオンの提示</li>
-									<li>パッチノートの履歴</li>
-									<li>アイテムに対するコメント機能</li>
-									<li>アイテム考察記事のリンクなど</li>
-								</ul>
+								<h3 class="p-item-card-admin-note__heading">直近のアップデート予定</h3>
+								<div class="l-section-small">
+									<ul class="p-item-card-admin-note__list">
+										<li>フリーワード検索機能の追加</li>
+										<li>アイテムの効果に合わせた用語解説を追加</li>
+										<li>他のアイテム順次追加</li>
+									</ul>
+								</div>
+								<h3 class="p-item-card-admin-note__heading">さらに追加したい機能</h3>
+								<div class="l-section-small">
+									<ul class="p-item-card-admin-note__list">
+										<li>このアイテムをよく使うチャンピオンの提示</li>
+										<li>パッチノートの履歴</li>
+										<li>アイテムに対するコメント機能</li>
+										<li>アイテム考察記事のリンクなど</li>
+									</ul>
+								</div>
 							</div>
 						</a>
 					</li>
