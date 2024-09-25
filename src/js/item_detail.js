@@ -46,10 +46,6 @@ itemButton.forEach((button) => {
         // bodyにスクロールを禁止
         document.body.style.overflow = 'hidden';
     });
-
-    button.addEventListener('focus', function() {
-        console.log('focus');
-    });
 });
 
 modal.addEventListener('click', function() {
@@ -86,8 +82,6 @@ const meleeRangeToggleButtons = document.querySelectorAll('.js-toggle-melee-rang
 meleeRangeToggleButtons.forEach((button) => {
 
     button.addEventListener('click', function() {
-
-        console.log('toggle');
 
         // この要素の親戚の .js-ability を取得
         const parentItemCard = this.closest('.js-item-button');
