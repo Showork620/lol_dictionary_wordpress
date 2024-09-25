@@ -16,13 +16,15 @@ itemButton.forEach((button) => {
             return;
         }
 
+        const isToggleButton = event.target.closest('.c-button-toggle');
+
         // 最後にクリックしたカードを保存
         lastClickedCard = this;
 
         // 既に詳細モードの場合は処理をスキップ
         // input[type="submit"]の場合はpreventDefaultしない
         if (this.classList.contains('is-detail-mode')) {
-            if (event.target.tagName === 'INPUT' && event.target.type === 'submit') {
+            if (event.target.tagName === 'INPUT' && event.target.type === 'submit' || isToggleButton) {
                 return;
             }
             event.preventDefault();
@@ -84,6 +86,8 @@ const meleeRangeToggleButtons = document.querySelectorAll('.js-toggle-melee-rang
 meleeRangeToggleButtons.forEach((button) => {
 
     button.addEventListener('click', function() {
+
+        console.log('toggle');
 
         // この要素の親戚の .js-ability を取得
         const parentItemCard = this.closest('.js-item-button');
