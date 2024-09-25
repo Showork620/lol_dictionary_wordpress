@@ -97,7 +97,7 @@ get_header(); ?>
 						$tags_list = implode(',', $tags);
 					?>
 					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
-						<a href="#<?php echo esc_html($id) ?>" id="<?php echo esc_html($id) ?>" class="p-item-card js-item-button">
+						<a href="#<?php echo esc_html($id) ?>" id="<?php echo esc_html($id) ?>" class="p-item-card js-item-button" data-name="<?php the_title(); ?>">
 							<?php
 							$image_path = get_image_path('/items/') . $id . '.webp';
 							?>
@@ -197,21 +197,10 @@ get_header(); ?>
 							</div>
 							<?php endif; ?>
 
-							<!-- note -->
+							<!-- フォーム -->
 							<div class="p-item-card__form p-item-card-admin-note">
-								<h3>直近のアップデート予定</h3>
-								<ul>
-									<li>フリーワード検索機能の追加</li>
-									<li>アイテムの効果に合わせた用語解説を追加</li>
-									<li>他のアイテムの順次追加</li>
-								</ul>
-								<h3>さらに追加したい機能</h3>
-								<ul>
-									<li>このアイテムをよく使うチャンピオンの提示</li>
-									<li>パッチノートの履歴</li>
-									<li>アイテムに対するコメント機能</li>
-									<li>アイテム考察記事のリンクなど</li>
-								</ul>
+								<?php
+								echo do_shortcode('[contact-form-7 id="602b0cb" title="総合コンタクト"]'); ?>
 							</div>
 
 							<!-- note -->

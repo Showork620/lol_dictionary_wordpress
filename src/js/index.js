@@ -5,6 +5,7 @@
 // JavaScriptモジュールをインポート
 import './item_filter.js';
 import './item_detail.js';
+import './contact_form.js';
 
 
 // 画像をインポート（必要な場合）

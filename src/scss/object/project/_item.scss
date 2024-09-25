@@ -342,12 +342,18 @@
         }
     }
 
-		&__future {
+		&__form {
 			grid-row: 6 / 7;
 			grid-column: 1 / 6;
+			caret-color: var(--color-gold-67);
+
+			input,textarea {
+				appearance: auto;
+				user-select: text;
+			}
 		}
 
-		&__form {
+		&__future {
 			grid-row: 7 / 8;
 			grid-column: 1 / 6;
 		}
