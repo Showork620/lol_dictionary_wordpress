@@ -225,26 +225,27 @@ get_header(); ?>
 								</div>
 							</div>
 
-							<!-- note -->
-							<div class="p-item-card__future p-item-card-admin-note">
-								<h3 class="p-item-card-admin-note__heading">直近のアップデート予定</h3>
-								<div class="l-section-small">
-									<ul class="p-item-card-admin-note__list">
-										<li>フリーワード検索機能の追加</li>
-										<li>アイテムの効果に合わせた用語解説を追加</li>
-										<li>他のアイテム順次追加</li>
-									</ul>
-								</div>
-								<h3 class="p-item-card-admin-note__heading">さらに追加したい機能</h3>
-								<div class="l-section-small">
-									<ul class="p-item-card-admin-note__list">
-										<li>このアイテムをよく使うチャンピオンの提示</li>
-										<li>パッチノートの履歴</li>
-										<li>アイテムに対するコメント機能</li>
-										<li>アイテム考察記事のリンクなど</li>
-									</ul>
-								</div>
-							</div>
+							<?php 
+							// <div class="p-item-card__future p-item-card-admin-note">
+							// 	<h3 class="p-item-card-admin-note__heading">直近のアップデート予定</h3>
+							// 	<div class="l-section-small">
+							// 		<ul class="p-item-card-admin-note__list">
+							// 			<li>フリーワード検索機能の追加</li>
+							// 			<li>アイテムの効果に合わせた用語解説を追加</li>
+							// 			<li>他のアイテム順次追加</li>
+							// 		</ul>
+							// 	</div>
+							// 	<h3 class="p-item-card-admin-note__heading">さらに追加したい機能</h3>
+							// 	<div class="l-section-small">
+							// 		<ul class="p-item-card-admin-note__list">
+							// 			<li>このアイテムをよく使うチャンピオンの提示</li>
+							// 			<li>パッチノートの履歴</li>
+							// 			<li>アイテムに対するコメント機能</li>
+							// 			<li>アイテム考察記事のリンクなど</li>
+							// 		</ul>
+							// 	</div>
+							// </div>
+							?>
 						</a>
 					</li>
 					<?php endif; ?>
