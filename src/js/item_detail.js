@@ -16,13 +16,15 @@ itemButton.forEach((button) => {
             return;
         }
 
+        const isToggleButton = event.target.closest('.c-button-toggle');
+
         // 最後にクリックしたカードを保存
         lastClickedCard = this;
 
         // 既に詳細モードの場合は処理をスキップ
         // input[type="submit"]の場合はpreventDefaultしない
         if (this.classList.contains('is-detail-mode')) {
-            if (event.target.tagName === 'INPUT' && event.target.type === 'submit') {
+            if (event.target.tagName === 'INPUT' && event.target.type === 'submit' || isToggleButton) {
                 return;
             }
             event.preventDefault();
@@ -43,10 +45,6 @@ itemButton.forEach((button) => {
 
         // bodyにスクロールを禁止
         document.body.style.overflow = 'hidden';
-    });
-
-    button.addEventListener('focus', function() {
-        console.log('focus');
     });
 });
 

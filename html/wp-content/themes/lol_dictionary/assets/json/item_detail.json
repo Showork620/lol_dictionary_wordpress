@@ -991,7 +991,7 @@
     },
     "4633": {
         "passives": [
-            "<passive>ヴォイドの邪念<\/passive>敵チャンピオンとの<keyword>戦闘状態<\/keyword>まで、自身の与えるダメージが毎秒<bs>2%<\/bs>増加する。<bs>（最大8%）<\/bs>効果が最大になっている間は<ls>オムニヴァンプが<melee>10%<\/melee><ranged>6%<\/ranged><\/ls>増加する。",
+            "<passive>ヴォイドの邪念<\/passive>敵チャンピオンとの<keyword>戦闘状態<\/keyword>の間、自身の与えるダメージが毎秒<bs>2%<\/bs>増加する。<bs>（最大8%）<\/bs>効果が最大になっている間は<ls>オムニヴァンプが<melee>10%<\/melee><ranged>6%<\/ranged><\/ls>増加する。",
             "<passive>ヴォイドの浸食<\/passive><hp>2%[増加HP]<\/hp>だけ<ap>AP<\/ap>を獲得する。"
         ],
         "actives": []

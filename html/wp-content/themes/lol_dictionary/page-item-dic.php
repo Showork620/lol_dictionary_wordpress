@@ -221,7 +221,7 @@ get_header(); ?>
 								<h3 class="p-item-card-admin-note__heading">誤りの報告／問い合わせフォーム（仮）</h3>
 								<div class="l-section-small">
 									<?php
-									echo do_shortcode('[contact-form-7 id="602b0cb" title="総合コンタクト"]'); ?>
+									echo do_shortcode('[contact-form-7 id="dd3209b" title="総合コンタクト"]'); ?>
 								</div>
 							</div>
 
