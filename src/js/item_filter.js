@@ -5,6 +5,7 @@
 let choicedRole = 'All';
 let choicedTag1 = 'All';
 let choicedTag2 = 'All';
+let choicedTag3 = 'All';
 
 // アイテムが見つからない時に表示
 const itemNotfound = document.querySelector('.js-item-notfound');
@@ -14,6 +15,7 @@ unfilterButton.addEventListener('click', () => {
     choicedRole = 'All';
     choicedTag1 = 'All';
     choicedTag2 = 'All';
+    choicedTag3 = 'All';
 
     roleButtonList.forEach((roleButton) => {
         if (roleButton.dataset.role === 'All') {
@@ -24,6 +26,7 @@ unfilterButton.addEventListener('click', () => {
     });
     tagSelect1.value = 'All';
     tagSelect2.value = 'All';
+    tagSelect3.value = 'All';
 
     itemNotfound.classList.remove('is-show');
     filterItems();
@@ -49,12 +52,17 @@ roleButtonList.forEach((roleButton) => {
 // tag ドロップダウン選択
 const tagSelect1 = document.querySelector('.js-tag-dropdown1');
 const tagSelect2 = document.querySelector('.js-tag-dropdown2');
+const tagSelect3 = document.querySelector('.js-tag-dropdown3');
 tagSelect1.addEventListener('change', () => {
     choicedTag1 = tagSelect1.value;
     filterItems();
 });
 tagSelect2.addEventListener('change', () => {
     choicedTag2 = tagSelect2.value;
+    filterItems();
+});
+tagSelect3.addEventListener('change', () => {
+    choicedTag3 = tagSelect3.value;
     filterItems();
 });
 
@@ -70,7 +78,8 @@ const filterItems = () => {
         if (
             (itemRoleList.includes(choicedRole) || choicedRole === 'All') &&
             (itemTagList.includes(choicedTag1) || choicedTag1 === 'All') &&
-            (itemTagList.includes(choicedTag2) || choicedTag2 === 'All')
+            (itemTagList.includes(choicedTag2) || choicedTag2 === 'All') &&
+            (itemTagList.includes(choicedTag3) || choicedTag3 === 'All')
         ) {
             item.classList.add('is-show');
             itemShowCount++;
