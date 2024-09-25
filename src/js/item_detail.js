@@ -9,7 +9,7 @@ let lastClickedCard;
 let closeButtonTimer;
 
 itemButton.forEach((button) => {
-    button.addEventListener('click', function() {
+    button.addEventListener('click', function(event) {
 
         // closeButtons がクリックされて 100ms 以内なら処理をスキップ
         if (closeButtonTimer && Date.now() - closeButtonTimer < 100) {
@@ -19,19 +19,34 @@ itemButton.forEach((button) => {
         // 最後にクリックしたカードを保存
         lastClickedCard = this;
 
+        // 既に詳細モードの場合は処理をスキップ
+        // input[type="submit"]の場合はpreventDefaultしない
         if (this.classList.contains('is-detail-mode')) {
-           return;
+            if (event.target.tagName === 'INPUT' && event.target.type === 'submit') {
+                return;
+            }
+            event.preventDefault();
+            return;
         }
 
+        // クリックしたアイテムを詳細モードにする
         itemButton.forEach((button) => {
             button.classList.remove('is-detail-mode');
         });
         this.classList.add('is-detail-mode');
         modal.classList.add('is-detail-mode');
 
+        // フォームにアイテム名をセット
+        //選択したアイテム名を取得（buttonのdata-nameの値）
+        const itemName = this.dataset.name;
+        this.querySelector('.js-item-name-form').value = itemName;
+
         // bodyにスクロールを禁止
         document.body.style.overflow = 'hidden';
-        modal.focus();
+    });
+
+    button.addEventListener('focus', function() {
+        console.log('focus');
     });
 });
 

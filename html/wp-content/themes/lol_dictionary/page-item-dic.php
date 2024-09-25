@@ -8,6 +8,25 @@
 
 get_header(); ?>
 
+<header class="l-header">
+	<div class="l-header__background">
+		<img src="<?php echo get_image_path('/common/header-bg.webp'); ?>" alt="">
+	</div>
+	<div class="l-header__inner">
+		<h1 class="l-header__page-title">
+			<span>軽い</span><span>LoL</span><span>辞典</span><span>(仮)</span>
+		</h1>
+		<div class="l-header__version">
+			<p>アイテム辞典 v.0.1.0</p>
+			<p>Patch 14.19 準拠</p>
+		</div>
+		<div class="l-header__description">
+			<p>現在レジェンダリーアイテムのみ掲載しています。</p>
+			<p>その他のアイテムや情報も随時追加予定です。</p>
+		</div>
+	</div>
+</header>
+
 <main id="main" class="l-main">
 	<section class="l-section p-item-search-header">
 		<?php // TODO: 別ファイルから参照する.
@@ -97,7 +116,7 @@ get_header(); ?>
 						$tags_list = implode(',', $tags);
 					?>
 					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
-						<a href="#<?php echo esc_html($id) ?>" id="<?php echo esc_html($id) ?>" class="p-item-card js-item-button">
+						<a href="#<?php echo esc_html($id) ?>" id="<?php echo esc_html($id) ?>" class="p-item-card js-item-button" data-name="<?php the_title(); ?>">
 							<?php
 							$image_path = get_image_path('/items/') . $id . '.webp';
 							?>
@@ -197,39 +216,36 @@ get_header(); ?>
 							</div>
 							<?php endif; ?>
 
-							<!-- note -->
+							<!-- フォーム -->
 							<div class="p-item-card__form p-item-card-admin-note">
-								<h3>直近のアップデート予定</h3>
-								<ul>
-									<li>フリーワード検索機能の追加</li>
-									<li>アイテムの効果に合わせた用語解説を追加</li>
-									<li>他のアイテムの順次追加</li>
-								</ul>
-								<h3>さらに追加したい機能</h3>
-								<ul>
-									<li>このアイテムをよく使うチャンピオンの提示</li>
-									<li>パッチノートの履歴</li>
-									<li>アイテムに対するコメント機能</li>
-									<li>アイテム考察記事のリンクなど</li>
-								</ul>
+								<h3 class="p-item-card-admin-note__heading">誤りの報告／問い合わせフォーム（仮）</h3>
+								<div class="l-section-small">
+									<?php
+									echo do_shortcode('[contact-form-7 id="602b0cb" title="総合コンタクト"]'); ?>
+								</div>
 							</div>
 
-							<!-- note -->
-							<div class="p-item-card__future p-item-card-admin-note">
-								<h3>直近のアップデート予定</h3>
-								<ul>
-									<li>フリーワード検索機能の追加</li>
-									<li>アイテムの効果に合わせた用語解説を追加</li>
-									<li>他のアイテムの順次追加</li>
-								</ul>
-								<h3>さらに追加したい機能</h3>
-								<ul>
-									<li>このアイテムをよく使うチャンピオンの提示</li>
-									<li>パッチノートの履歴</li>
-									<li>アイテムに対するコメント機能</li>
-									<li>アイテム考察記事のリンクなど</li>
-								</ul>
-							</div>
+							<?php 
+							// <div class="p-item-card__future p-item-card-admin-note">
+							// 	<h3 class="p-item-card-admin-note__heading">直近のアップデート予定</h3>
+							// 	<div class="l-section-small">
+							// 		<ul class="p-item-card-admin-note__list">
+							// 			<li>フリーワード検索機能の追加</li>
+							// 			<li>アイテムの効果に合わせた用語解説を追加</li>
+							// 			<li>他のアイテム順次追加</li>
+							// 		</ul>
+							// 	</div>
+							// 	<h3 class="p-item-card-admin-note__heading">さらに追加したい機能</h3>
+							// 	<div class="l-section-small">
+							// 		<ul class="p-item-card-admin-note__list">
+							// 			<li>このアイテムをよく使うチャンピオンの提示</li>
+							// 			<li>パッチノートの履歴</li>
+							// 			<li>アイテムに対するコメント機能</li>
+							// 			<li>アイテム考察記事のリンクなど</li>
+							// 		</ul>
+							// 	</div>
+							// </div>
+							?>
 						</a>
 					</li>
 					<?php endif; ?>

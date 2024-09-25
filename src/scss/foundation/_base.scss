@@ -24,3 +24,13 @@ body {
         border-radius: 5px;
       }
 }
+
+input,
+textarea,
+button,
+select {
+  border: 1px solid var(--color-gold-67);
+  border-radius: 3px;
+  padding: 3px 5px;
+  background-color: var(--color-dull-navy);
+}

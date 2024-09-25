@@ -162,3 +162,8 @@ item_plaintext.json に記載
     "6699": ["発動効果あり"]
 }
 
+
+
+// wpフォーム ID
+dev: dd3209b
+local: 602b0cb
