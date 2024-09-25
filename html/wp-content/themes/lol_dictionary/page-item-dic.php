@@ -30,7 +30,7 @@ get_header(); ?>
 			<option value="魔法防御貫通">魔法防御貫通</option>
 			<option value="体力回復効果">体力回復効果</option>
 			<option value="マナ回復効果">マナ回復効果</option>
-			   <option value="回復効果&シールド量">回復効果&シールド量</option>
+			<option value="回復効果&シールド量">回復効果&シールド量</option>
 		';
 		$item_tags_option_html_2 = '
 			<option value="All">絞り込みなし</option>
@@ -102,14 +102,14 @@ get_header(); ?>
 							$image_path = get_image_path('/items/') . $id . '.webp';
 							?>
 							<img class="p-item-card__icon" src="<?php echo esc_url($image_path); ?>" alt="" width="40" height="40">
-							<div class="p-item-card__name">
+							<h2 class="p-item-card__name">
 								<?php
 								the_title();
 		
 								// DEBUG: IDを表示
 								// echo ' [' . esc_html($id);
 								?>
-							</div>
+							</h2>
 							<div class="p-item-card__gold">
 								<?php $gold = get_post_meta(get_the_ID(), 'gold', true); ?>
 								<?php echo esc_html($gold) . ' G'; ?>
@@ -198,23 +198,37 @@ get_header(); ?>
 							<?php endif; ?>
 
 							<!-- note -->
-							<div class="p-item-card__note">
-								<?php
-								// パッシブを表示
-								foreach ($passives_list as $passive) {
-									if (empty($passive)) {
-										continue;
-									}
-									echo '<p class="separate">' . ($passive) . '</p>';
-								}
-								// アクティブを表示
-								foreach ($actives_list as $active) {
-									if (empty($active)) {
-										continue;
-									}
-									echo '<p class="separate">' . ($active) . '</p>';
-								}
-								?>
+							<div class="p-item-card__form p-item-card-admin-note">
+								<h3>直近のアップデート予定</h3>
+								<ul>
+									<li>フリーワード検索機能の追加</li>
+									<li>アイテムの効果に合わせた用語解説を追加</li>
+									<li>他のアイテムの順次追加</li>
+								</ul>
+								<h3>さらに追加したい機能</h3>
+								<ul>
+									<li>このアイテムをよく使うチャンピオンの提示</li>
+									<li>パッチノートの履歴</li>
+									<li>アイテムに対するコメント機能</li>
+									<li>アイテム考察記事のリンクなど</li>
+								</ul>
+							</div>
+
+							<!-- note -->
+							<div class="p-item-card__future p-item-card-admin-note">
+								<h3>直近のアップデート予定</h3>
+								<ul>
+									<li>フリーワード検索機能の追加</li>
+									<li>アイテムの効果に合わせた用語解説を追加</li>
+									<li>他のアイテムの順次追加</li>
+								</ul>
+								<h3>さらに追加したい機能</h3>
+								<ul>
+									<li>このアイテムをよく使うチャンピオンの提示</li>
+									<li>パッチノートの履歴</li>
+									<li>アイテムに対するコメント機能</li>
+									<li>アイテム考察記事のリンクなど</li>
+								</ul>
 							</div>
 						</a>
 					</li>
