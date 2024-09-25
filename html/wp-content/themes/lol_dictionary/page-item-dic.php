@@ -9,16 +9,21 @@
 get_header(); ?>
 
 <header class="l-header">
-	<h1 class="l-header__page-title">
-		<span>軽い</span><span>LoL</span><span>辞典</span><span>(仮)</span>
-	</h1>
-	<div class="l-header__version">
-		<p>アイテム辞典 v.0.1.0</p>
-		<p>Patch 14.19 準拠</p>
+	<div class="l-header__background">
+		<img src="<?php echo get_image_path('/common/header-bg.webp'); ?>" alt="">
 	</div>
-	<div class="l-header__description">
-		<p>現在レジェンダリーアイテムのみ掲載しています。</p>
-		<p>その他のアイテムや情報も随時追加予定です。</p>
+	<div class="l-header__inner">
+		<h1 class="l-header__page-title">
+			<span>軽い</span><span>LoL</span><span>辞典</span><span>(仮)</span>
+		</h1>
+		<div class="l-header__version">
+			<p>アイテム辞典 v.0.1.0</p>
+			<p>Patch 14.19 準拠</p>
+		</div>
+		<div class="l-header__description">
+			<p>現在レジェンダリーアイテムのみ掲載しています。</p>
+			<p>その他のアイテムや情報も随時追加予定です。</p>
+		</div>
 	</div>
 </header>
 
