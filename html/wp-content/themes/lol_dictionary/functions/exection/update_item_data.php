@@ -262,10 +262,10 @@ foreach ($ITEMDATA as $key => &$item) {
 	}
 
 	// $passive_list に 以下のテキストが含まれる場合、tags に追加
-	// "重傷","シールド","アルティメット","通常攻撃時効果"
+	// "負傷","シールド","アルティメット","通常攻撃時効果"
 	foreach ($passive_list as $passive) {
-		if (strpos($passive, "重傷") !== false) {
-			$translated_tags[] = "重傷";
+		if (strpos($passive, "負傷") !== false) {
+			$translated_tags[] = "負傷";
 		}
 		if (strpos($passive, "シールド") !== false) {
 			$translated_tags[] = "シールド";

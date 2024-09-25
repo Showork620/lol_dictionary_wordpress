@@ -1917,8 +1917,8 @@
     },
     "3033": {
         "name": "モータル リマインダー",
-        "description": "<mainText><stats>攻撃力<attention>35<\/attention><br>物理防御貫通<attention>30%<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><passive>重傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
-        "colloq": ";Mortal Reminder;lgrievous;終焉;重傷;らすうぃす;ラスウィス;うぃすぱー;ウィスパー;しゅうえん;シュウエン;じゅうしょう;ジュウショウ;もーたるりまいんだー;モータル リマインダー;mo-tarurimainnda-;motarurimainda",
+        "description": "<mainText><stats>攻撃力<attention>35<\/attention><br>物理防御貫通<attention>30%<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><passive>負傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
+        "colloq": ";Mortal Reminder;lgrievous;終焉;負傷;らすうぃす;ラスウィス;うぃすぱー;ウィスパー;しゅうえん;シュウエン;じゅうしょう;ジュウショウ;もーたるりまいんだー;モータル リマインダー;mo-tarurimainnda-;motarurimainda",
         "plaintext": "体力回復と物理防御の高い敵を打倒する",
         "from": [
             "3123",
@@ -1930,7 +1930,7 @@
             "攻撃力",
             "クリティカル",
             "物理防御貫通",
-            "重傷"
+            "負傷"
         ],
         "stats": {
             "攻撃力": "35",
@@ -1940,7 +1940,7 @@
         "depth": 3,
         "id": 3033,
         "passives": [
-            "<passive>重傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
+            "<passive>負傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
         ],
         "actives": [],
         "role": [
@@ -3595,8 +3595,8 @@
     },
     "3123": {
         "name": "エクスキューショナー コーリング",
-        "description": "<mainText><stats>攻撃力<attention>15<\/attention><\/stats><br><br><passive>重傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
-        "colloq": ";grievous;Executioner's Calling;重傷;じゅうしょう;ジュウショウ;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;ekusukyu-shona-ko-rinngu;ekusukyu-syona-ko-rinngu;ekusukyushonakoringu;juusyou;juushou",
+        "description": "<mainText><stats>攻撃力<attention>15<\/attention><\/stats><br><br><passive>負傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
+        "colloq": ";grievous;Executioner's Calling;負傷;じゅうしょう;ジュウショウ;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;ekusukyu-shona-ko-rinngu;ekusukyu-syona-ko-rinngu;ekusukyushonakoringu;juusyou;juushou",
         "plaintext": "体力回復効果の高い敵を打倒する",
         "from": [
             "1036"
@@ -3608,7 +3608,7 @@
         "gold": 800,
         "tags": [
             "攻撃力",
-            "重傷"
+            "負傷"
         ],
         "stats": {
             "攻撃力": "15"
@@ -3616,7 +3616,7 @@
         "depth": 2,
         "id": 3123,
         "passives": [
-            "<passive>重傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
+            "<passive>負傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
         ],
         "actives": [],
         "normal_item": true,
@@ -4276,8 +4276,8 @@
     },
     "3165": {
         "name": "モレロノミコン",
-        "description": "<mainText><stats>魔力<attention>75<\/attention><br>体力<attention>350<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
-        "colloq": ";Morellonomicon;重傷;じゅうしょう;ジュウショウ;もれろのみこん;モレロノミコン;moreronomikonn",
+        "description": "<mainText><stats>魔力<attention>75<\/attention><br>体力<attention>350<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>負傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
+        "colloq": ";Morellonomicon;負傷;じゅうしょう;ジュウショウ;もれろのみこん;モレロノミコン;moreronomikonn",
         "plaintext": "敵の回復を阻害する",
         "from": [
             "3916",
@@ -4289,7 +4289,7 @@
             "体力",
             "魔力",
             "スキルヘイスト",
-            "重傷"
+            "負傷"
         ],
         "stats": {
             "体力": "350",
@@ -4299,7 +4299,7 @@
         "depth": 3,
         "id": 3165,
         "passives": [
-            "<passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
+            "<passive>負傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
         ],
         "actives": [],
         "role": [
@@ -5193,7 +5193,7 @@
     },
     "3916": {
         "name": "忘却のオーブ",
-        "description": "<mainText><stats>魔力<attention>25<\/attention><\/stats><br><br><passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
+        "description": "<mainText><stats>魔力<attention>25<\/attention><\/stats><br><br><passive>負傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
         "colloq": "",
         "plaintext": "魔法ダメージが上昇",
         "stacks": 0,
@@ -5207,7 +5207,7 @@
         "gold": 800,
         "tags": [
             "魔力",
-            "重傷"
+            "負傷"
         ],
         "stats": {
             "魔力": "25"
@@ -5215,7 +5215,7 @@
         "depth": 2,
         "id": 3916,
         "passives": [
-            "<passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
+            "<passive>負傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
         ],
         "actives": [],
         "normal_item": true,
