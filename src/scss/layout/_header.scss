@@ -20,7 +20,8 @@
         img {
             display: block;
             width: 100%;
-            filter: brightness(0.5);
+            filter: brightness(0.3);
+            transform: translateY(-10%);
         }
     }
 
