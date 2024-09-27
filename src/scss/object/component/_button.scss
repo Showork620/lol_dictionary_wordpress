@@ -7,78 +7,78 @@
 @use "../../global/variables" as var;
 
 .c-button-regular {
-    display: block;
-    color: var(--color-white);
-    background-color: var(--color-dull-navy);
-    border: 1px solid var(--color-gold);
-    padding: 5px;
-    text-align: center;
-    border-radius: 3px;
-    transition: all 0.3s;
+	display: block;
+	color: var(--color-white);
+	background-color: var(--color-dull-navy);
+	border: 1px solid var(--color-gold);
+	padding: 5px;
+	text-align: center;
+	border-radius: 3px;
+	transition: all 0.3s;
 
-    &:hover {
-        background-color: var(--color-light-navy);
-        filter: drop-shadow(0 0 3px var(--color-gold));
-    }
+	&:hover {
+		background-color: var(--color-light-navy);
+		filter: drop-shadow(0 0 3px var(--color-gold));
+	}
 }
 
 .c-button-toggle {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    width: fit-content;
-    cursor: pointer;
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	width: fit-content;
+	cursor: pointer;
 
-    .slider {
-        display: block;
-        position: relative;
-        transition: all 0.3s;
-        width: 41px;
-        height: 24px;
+	.slider {
+		display: block;
+		position: relative;
+		transition: all 0.3s;
+		width: 41px;
+		height: 24px;
 
-        &::before {
-            content: "";
-            display: block;
-            width: 41px;
-            height: 24px;
-            border: 1px solid var(--color-gold);
-            border-radius: 9999px;
-        }
+		&::before {
+			content: "";
+			display: block;
+			width: 41px;
+			height: 24px;
+			border: 1px solid var(--color-gold);
+			border-radius: 9999px;
+		}
 
-        &::after {
-            content: "";
-            display: block;
-            width: 18px;
-            height: 18px;
-            background-color: var(--color-gold);
-            border-radius: 50%;
-            transition: all 0.3s;
+		&::after {
+			content: "";
+			display: block;
+			width: 18px;
+			height: 18px;
+			background-color: var(--color-gold);
+			border-radius: 50%;
+			transition: all 0.3s;
 
-            position: absolute;
-            transform: translateY(-50%);
-            top: 50%;
-            left: 3px;
-        }
-    }
+			position: absolute;
+			transform: translateY(-50%);
+			top: 50%;
+			left: 3px;
+		}
+	}
 
-    input:checked ~ .slider::after {
-        left: 19px;
-    }
+	input:checked ~ .slider::after {
+		left: 19px;
+	}
 
-    input:not(:checked) ~ .true-side {
-        color: var(--color-white-33);
-    }
+	input:not(:checked) ~ .true-side {
+		color: var(--color-white-33);
+	}
 
-    input:not(:checked) ~ .false-side {
-        color: var(--color-gold);
-    }
+	input:not(:checked) ~ .false-side {
+		color: var(--color-gold);
+	}
 
-    input:checked ~ .true-side {
-        color: var(--color-gold);
-    }
+	input:checked ~ .true-side {
+		color: var(--color-gold);
+	}
 
-    input:checked ~ .false-side {
-        color: var(--color-white-33);
-    }
+	input:checked ~ .false-side {
+		color: var(--color-white-33);
+	}
 }

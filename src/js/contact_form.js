@@ -6,7 +6,7 @@ const textAreas = document.querySelectorAll('input[type="text"], textarea', 'lab
 
 textAreas.forEach((textArea) => {
 
-    textArea.addEventListener('click', () => {
-        textArea.focus();
-    });
+	textArea.addEventListener('click', () => {
+		textArea.focus();
+	});
 });
