@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+// ----------------------------------------------------------------------
+// global/_mediaquery.scss
+// ----------------------------------------------------------------------
+
+$sm: 431px;
+$md: 768px;
+
+@mixin sm {
+
+	@media (max-width: #{$sm - 1}) {
+		@content;
+	}
+}
+
+@mixin sm-h {
+
+    @media (max-height: #{$sm - 1}) {
+        @content;
+    }
+}
+
+@mixin md {
+
+    @media (max-width: #{$md - 1}) {
+        @content;
+    }
+}

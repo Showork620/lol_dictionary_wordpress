@@ -1,0 +1,36 @@
+// ============================================================
+//  object/foundation/_base.scss
+// ============================================================
+@use "../global/mediaquery" as mixin;
+@use "../global/variables" as var;
+
+body {
+    background-color: var(--color-navy);
+    color: var(--color-white);
+
+    ::-webkit-scrollbar {
+        width: 7px;
+        height: 7px;
+      }
+      
+      /* スクロールバーの背景色を指定 */
+      ::-webkit-scrollbar-track {
+        background-color: var(--color-light-navy);
+      }
+      
+      /* スクロールバーのトラックの背景色を指定 */
+      ::-webkit-scrollbar-thumb {
+        background-color: var(--color-white-33);
+        border-radius: 5px;
+      }
+}
+
+input,
+textarea,
+button,
+select {
+  border: 1px solid var(--color-gold-67);
+  border-radius: 3px;
+  padding: 3px 5px;
+  background-color: var(--color-dull-navy);
+}

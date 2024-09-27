@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+// ----------------------------------------------------------------------
+// global/_variables.scss
+// ----------------------------------------------------------------------
+
+// color
+:root {
+    --color-gold: #c8aa6e;
+    --color-navy: #0C1427;
+    --color-dull-navy: #182032;
+    --color-light-navy: #3b4353;
+    --color-white: #fff;
+
+    --color-gold-67: rgb(from #c8aa6e r g b / 0.67);
+    --color-gold-33: rgb(from #c8aa6e r g b / 0.33);
+
+    --color-white-67: rgb(from #fff r g b / 0.67);
+    --color-white-33: rgb(from #fff r g b / 0.33);
+
+    --color-ad: #E78C36;
+    --color-ap: #8A7CF0;
+    --color-ar: #F2D448;
+    --color-mr: #79DAF8;
+    --color-arpen: #DF675B;
+    --color-mrpen: #C26EF7;
+    --color-as: #FBE589;
+    --color-ms: #FBE589;
+    --color-hp: #47B569;
+    --color-mn: #499BE1;
+    --color-heal: #A5EC9A;
+    --color-keyword: #C284B8;
+    --color-bs: #fff;
+    --color-tm: #fff;
+    --color-gold: #F2D448;
+    --color-ls: #E15899;
+}
