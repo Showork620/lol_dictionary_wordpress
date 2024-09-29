@@ -280,7 +280,7 @@
     },
     "3003": {
         "passives": [
-            "<passive>畏怖<\/passive><mn>1%[増加マナ]<\/mn>に当たる<ap>AP<\/ap>を獲得する。>",
+            "<passive>畏怖<\/passive><mn>1%[増加マナ]<\/mn>に当たる<ap>AP<\/ap>を獲得する。",
             "<passive>マナフロー<\/passive><tm>8秒<\/tm>ごとに1チャージ獲得する。（最大4チャージ）スキルが敵ユニットに命中するとチャージを1つ消費して<mn>3[マナ]<\/mn>増加する。対象がチャンピオンの場合は<mn>6[マナ]<\/mn>増加する。（最大は<mn>360マナ<\/mn>）最大までマナを獲得すると、このアイテムは「セラフ エンブレイス」に変化する。"
         ],
         "actives": []
@@ -356,8 +356,8 @@
     },
     "3040": {
         "passives": [
-            "<passive>畏怖<\/passive><mn>2.5%[最大マナ]<\/mn>に当たる<ad>増加AD<\/ad>を獲得する。",
-            "<passive>ライフライン<\/passive>(90(0秒))<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3秒間<shield>250 + 現在マナの20%の耐久値を持つシールド<\/shield>を得る。"
+            "<passive>畏怖<\/passive><mn>2%[増加マナ]<\/mn>に当たる<ap>増加AP<\/ap>を獲得する。",
+            "<passive>ライフライン<\/passive>受けたダメージにより<hp>30%[最大HP]<\/hp>未満になる場合、<tm>3秒間<\/tm>(<bs>250<\/bs> + <mn>20%[現在マナ]<\/mn>)の耐久値を持つ<heal>シールド<\/heal>>を得る。"
         ],
         "actives": []
     },
@@ -369,8 +369,8 @@
     },
     "3042": {
         "passives": [
-            "<passive>畏怖<\/passive><mn>2.5%[最大マナ]<\/mn>に当たる<ad>増加AD<\/ad>を獲得する。",
-            "<passive>ショック<\/passive><br>チャンピオンに対する通常攻撃と攻撃スキルが追加物理ダメージを与える。"
+            "<passive>畏怖<\/passive><mn>2%[最大マナ]<\/mn>に当たる<ad>増加AD<\/ad>を獲得する。",
+            "<passive>ショック<\/passive>チャンピオンに対する通常攻撃が<mn>1.2%[最大マナ]</mn>、攻撃スキルが<mn><melee>4</melee><ranged>3</ranged>%[最大マナ]</mn>の<ad>追加物理ダメージ</ad>を与える。<note>（攻撃スキルが<keyword>通常攻撃時効果</keyword>を持っていても、通常攻撃分の追加ダメージは発生しない）</note>"
         ],
         "actives": []
     },
@@ -638,7 +638,7 @@
     "3121": {
         "passives": [
             "<passive>畏怖<\/passive><mn>15%[増加マナ]<\/mn>にあたる体力を獲得する。",
-            "<passive>不朽<\/passive>敵チャンピオンに<melee><ranged><keyword>移動不能効果<\/keyword><\/ranged>または<keyword>スロウ効果<\/keyword><\/melee>を与えると、<tm>3秒間<\/tm>、耐久値(<bs>100-180[レベル比例]<\/bs> + <mn>4.5%[現在マナ]<\/mn>)の<heal>シールド<\/heal>を獲得する。周囲に敵チャンピオンが複数いる場合は、この<heal>シールドの耐久値<\/heal>が<bs>80%<\/bs>増加する。<note>CD: <tm>8秒<\/tm><\/note>"
+            "<passive>不朽<\/passive>敵チャンピオンに<keyword><melee>移動不能効果またはスロウ効果<\/melee><ranged>移動不能効果</ranged><\/keyword>を与えると、<tm>3秒間<\/tm>、耐久値(<bs>100-180[レベル比例]<\/bs> + <mn>4.5%[現在マナ]<\/mn>)の<heal>シールド<\/heal>を獲得する。周囲に敵チャンピオンが複数いる場合は、この<heal>シールドの耐久値<\/heal>が<bs>80%<\/bs>増加する。<note>CD: <tm>8秒<\/tm><\/note>"
         ],
         "actives": []
     },
