@@ -3,69 +3,72 @@
 // ============================================================
 
 const itemButton = document.querySelectorAll('.js-item-button');
-const modal = document.querySelector('.js-modal');
+
+// modal 関連
+const modal = document.querySelector('#js-modal');
 const modalCloseButtons = document.querySelectorAll('.js-modal-close');
+const modalForm = document.querySelector('#js-modal-form');
+const modalInner = document.querySelector('#js-detail');
 let lastClickedCard;
-let closeButtonTimer;
 
 itemButton.forEach((button) => {
 	button.addEventListener('click', function(event) {
-
-		// closeButtons がクリックされて 100ms 以内なら処理をスキップ
-		if (closeButtonTimer && Date.now() - closeButtonTimer < 100) {
-			return;
-		}
-
+		
+		// アイテム変数の初期化
+		lastClickedCard = this; // 最後にクリックしたカードを保存
 		const isToggleButton = event.target.closest('.c-button-toggle');
+		const iconPath = this.querySelector('.js-icon').getAttribute('src');
+		const name = this.querySelector('.js-name').innerText;
+		const gold = this.querySelector('.js-gold').innerText;
+		const statsHtml = this.querySelector('.js-stats').innerHTML;
+		const subHtml = this.querySelector('.js-sub').innerHTML;
+		const abilityHtml = this.querySelector('.js-ability').innerHTML;
+		// abilityHTML に <ranged> と <melee> が含まれているか
+		const hasToggle = abilityHtml.includes('<ranged>') || abilityHtml.includes('<melee>');
 
-		// 最後にクリックしたカードを保存
-		lastClickedCard = this;
-
-		// 既に詳細モードの場合は処理をスキップ
-		// input[type="submit"]の場合はpreventDefaultしない
-		if (this.classList.contains('is-detail-mode')) {
-			if (event.target.tagName === 'INPUT' && event.target.type === 'submit' || isToggleButton) {
-				return;
-			}
-			event.preventDefault();
-			return;
-		}
+		// モーダルの中身を書き換え
+		modal.querySelector('#js-icon').setAttribute('src', iconPath);
+		modal.querySelector('#js-name').innerText = name;
+		modal.querySelector('#js-gold').innerText = gold;
+		modal.querySelector('#js-stats').innerHTML = statsHtml;
+		modal.querySelector('#js-sub').innerHTML = subHtml;
+		modal.querySelector('#js-ability').innerHTML = abilityHtml;
+		modal.querySelector('#js-toggle').classList.toggle('is-show', hasToggle);
 
 		// クリックしたアイテムを詳細モードにする
-		itemButton.forEach((button) => {
-			button.classList.remove('is-detail-mode');
-		});
-		this.classList.add('is-detail-mode');
-		modal.classList.add('is-detail-mode');
+		modal.classList.add('is-active');
 
 		// フォームにアイテム名をセット
 		//選択したアイテム名を取得（buttonのdata-nameの値）
-		const itemName = this.dataset.name;
-		this.querySelector('.js-item-name-form').value = itemName;
+		modalForm.querySelector('.js-item-name-form').value = name;
 
 		// bodyにスクロールを禁止
 		document.body.style.overflow = 'hidden';
+		modalInner.focus();
 	});
 });
 
 modal.addEventListener('click', function() {
-	this.classList.remove('is-detail-mode');
+	this.classList.remove('is-active');
 	itemButton.forEach((button) => {
-		button.classList.remove('is-detail-mode');
+		button.classList.remove('is-active');
 	});
 
 	// bodyにスクロールを許可
 	document.body.style.overflow = '';
 });
 
+// クリックイベントのバブリングを停止
+modalInner.addEventListener('click', function(event) {
+	event.stopPropagation();
+});
+
 modalCloseButtons.forEach((modalCloseButton) => {
 	modalCloseButton.addEventListener('click', function() {
 
-		closeButtonTimer = Date.now();
-
-		modal.classList.remove('is-detail-mode');
+		modal.classList.remove('is-active');
 		itemButton.forEach((button) => {
-			button.classList.remove('is-detail-mode');
+			button.classList.remove('is-active');
 		});
 
 		// bodyにスクロールを許可
@@ -73,19 +76,19 @@ modalCloseButtons.forEach((modalCloseButton) => {
 
 		// 最後にクリックしたカードにフォーカスを戻す
 		lastClickedCard.focus();
+		console.log('close button');
 	});
 });
 
+
 // 近接・遠隔の制御
 const meleeRangeToggleButtons = document.querySelectorAll('.js-toggle-melee-ranged');
-
 meleeRangeToggleButtons.forEach((button) => {
 
 	button.addEventListener('click', function() {
 
 		// この要素の親戚の .js-ability を取得
-		const parentItemCard = this.closest('.js-item-button');
-		const parentAbility = parentItemCard.querySelector('.js-ability');
+		const parentAbility = modalInner.querySelector('#js-ability');
 
 		// button が checked なら parentAbilityに is-ranged を追加
 		if (this.checked) {

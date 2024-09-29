@@ -106,47 +106,53 @@ get_header(); ?>
 			<ul class="p-item-list">
 				<?php while ($the_query->have_posts()) : $the_query->the_post(); ?>
 					<?php
-					$id = get_post_meta(get_the_ID(), 'id', true);
+					$id = esc_html( get_post_meta(get_the_ID(), 'id', true) );
+					$name = esc_html( get_the_title() );
+					$gold = esc_html( get_post_meta(get_the_ID(), 'gold', true) );
+					$stats = esc_html( get_post_meta(get_the_ID(), 'stats', true) );
+					$stats_list = explode(',', $stats);
+					$plaintext = esc_html( get_post_meta(get_the_ID(), 'plaintext', true) );
+
 					// リスト化するアイテムの設定 * * *
 					if(empty($into) && has_term('', 'role', get_the_ID())) :
 						// タクソノミーのタームを取得
 						$roles = wp_get_post_terms(get_the_ID(), 'role', array('fields' => 'names'));
 						$roles_list = implode(',', $roles);
-						$tags = wp_get_post_terms(get_the_ID(), 'post_tag', array('fields' => 'names'));
+						$tags =  wp_get_post_terms(get_the_ID(), 'post_tag', array('fields' => 'names'));
 						$tags_list = implode(',', $tags);
 					?>
-					<li class="p-item-list__item js-item" data-role="<?php echo esc_attr($roles_list); ?>" data-tag="<?php echo esc_attr($tags_list); ?>">
-						<a href="#<?php echo esc_html($id) ?>" id="<?php echo esc_html($id) ?>" class="p-item-card js-item-button" data-name="<?php the_title(); ?>">
+
+					<li class="p-item-list__item js-item" data-role="<?php echo $roles_list; ?>" data-tag="<?php echo $tags_list; ?>">
+						<a href="#<?php echo $id ?>" id="<?php echo $id ?>" class="p-item-card js-item-button">
 							<?php
-							$image_path = get_image_path('/items/') . $id . '.webp';
+							$image_path = esc_url( get_image_path('/items/'). $id .'.webp' );
 							?>
-							<img class="p-item-card__icon" src="<?php echo esc_url($image_path); ?>" alt="" width="40" height="40">
-							<h2 class="p-item-card__name">
+							<img class="p-item-card__icon js-icon" src="<?php echo $image_path; ?>" alt="" width="40" height="40">
+							<h2 class="p-item-card__name js-name">
 								<?php
-								the_title();
-		
+								echo $name;
 								// DEBUG: IDを表示
-								// echo ' [' . esc_html($id);
+								// echo ' : ' . $id;
 								?>
 							</h2>
-							<div class="p-item-card__gold">
-								<?php $gold = get_post_meta(get_the_ID(), 'gold', true); ?>
-								<?php echo esc_html($gold) . ' G'; ?>
+							<div class="p-item-card__gold js-gold">
+								<?php echo esc_html($gold) .' G'; ?>
 							</div>
 							<div class="p-item-card__close">
 								<button class="button c-button-regular js-modal-close">×</button>
 							</div>
 
-							<!-- 詳細情報 =============== -->
-							<div class="p-item-card__content">
+							<!-- 基本情報 =============== -->
+							<div class="p-item-card__stats js-stats">
 								<?php
-								$stats = get_post_meta(get_the_ID(), 'stats', true);
-								$stats_list = explode(',', $stats);
+								$stats_html = '';
 								foreach ($stats_list as $stat) {
 									$stat_key = explode(':', $stat)[0];
 									$stat_value = explode(':', $stat)[1];
-									echo '<p>' . esc_html($stat_key) . ':<strong>' . esc_html($stat_value) . '</strong></p>';
+									$stats_html .= '<p>'. esc_html($stat_key) .': <strong>'. esc_html($stat_value) .'</strong></p>';
 								}
+								echo $stats_html;
+
 								// DEBUG: tagsを表示
 								// $tags = wp_get_post_terms(get_the_ID(), 'post_tag', array('fields' => 'names'));
 								// $tags_list = implode(', ', $tags);
@@ -155,42 +161,17 @@ get_header(); ?>
 								// }
 								?>
 							</div>
-							<div class="p-item-card__sub">
+							<div class="p-item-card__sub js-sub">
+								<p class="plaintext"><?php echo esc_html($plaintext); ?></p>
 								<?php
-								// * plaintextを表示 *
-								$plaintext = get_post_meta(get_the_ID(), 'plaintext', true);
-								echo '<p class="plaintext">' . esc_html($plaintext) . '</p>';
-								$from = get_post_meta(get_the_ID(), 'from', true);
-								$from_list = explode(', ', $from);
+								// from画像							
+								$from = esc_html( get_post_meta(get_the_ID(), 'from', true) );
+								$from_list = explode(', ', $from);	
 								if (!empty($from_list)) {
 									foreach ($from_list as $from) {
-										$image_path = get_image_path('/items/') . $from . '.webp';
-										echo '<img class="from" src="' . esc_attr($image_path) . '" alt="" width="30" height="30">';
+										$image_path = get_image_path('/items/') . $from .'.webp';
+										echo '<img class="from" src="'. esc_attr($image_path) .'" alt="" width="30" height="30">';
 									}
-								}
-								?>
-							</div>
-
-							<!-- パッシブ・アクティブ詳細 =============== -->
-							<div class="p-item-card__ability js-ability">
-								<?php
-								$passives = get_post_meta(get_the_ID(), 'passives', true);
-								$passives_list = explode(',', $passives);
-								$actives = get_post_meta(get_the_ID(), 'actives', true);
-								$actives_list = explode(',', $actives);
-								// パッシブを表示
-								foreach ($passives_list as $passive) {
-									if (empty($passive)) {
-										continue;
-									}
-									echo '<p class="separate">' . ($passive) . '</p>';
-								}
-								// アクティブを表示
-								foreach ($actives_list as $active) {
-									if (empty($active)) {
-										continue;
-									}
-									echo '<p class="separate">' . ($active) . '</p>';
 								}
 								?>
 							</div>
@@ -198,54 +179,28 @@ get_header(); ?>
 								詳細
 								<div class="c-icon-clickable p-item-icon"></div>
 							</div>
-		
-							<!-- 近接 / 遠隔切り替え =============== -->
-							<?php
-							$has_melee_ranged = strpos($passives, '<melee>') !== false || strpos($passives, '<ranged>') !== false;
-							if ($has_melee_ranged) :
-							?>
-							<div class="p-item-card__toggle">
-								<div class="label">近接・遠隔で能力変更あり</div>
-								<label class="c-button-toggle">
-									<input type="checkbox" class="js-toggle-melee-ranged">
-									<span class="false-side">近接</span>
-									/
-									<span class="true-side">遠隔</span>
-									<div class="slider"></div>
-								</label>
+							<div class="p-item-card__ability js-ability">
+								<?php
+								// パッシブを表示
+								$passives = get_post_meta(get_the_ID(), 'passives', true);
+								$passives_list = explode(',', $passives);
+								$actives = get_post_meta(get_the_ID(), 'actives', true);
+								$actives_list = explode(',', $actives);
+								foreach ($passives_list as $passive) {
+									if (empty($passive)) {
+										continue;
+									}
+									echo '<p class="separate">'. $passive .'</p>';
+								}
+								// アクティブを表示
+								foreach ($actives_list as $active) {
+									if (empty($active)) {
+										continue;
+									}
+									echo '<p class="separate">'. $active .'</p>';
+								}
+								?>
 							</div>
-							<?php endif; ?>
-
-							<!-- フォーム -->
-							<div class="p-item-card__form p-item-card-admin-note">
-								<h3 class="p-item-card-admin-note__heading">誤りの報告／問い合わせフォーム（仮）</h3>
-								<div class="l-section-small">
-									<?php
-									echo do_shortcode('[contact-form-7 id="dd3209b" title="総合コンタクト"]'); ?>
-								</div>
-							</div>
-
-							<?php 
-							// <div class="p-item-card__future p-item-card-admin-note">
-							// 	<h3 class="p-item-card-admin-note__heading">直近のアップデート予定</h3>
-							// 	<div class="l-section-small">
-							// 		<ul class="p-item-card-admin-note__list">
-							// 			<li>フリーワード検索機能の追加</li>
-							// 			<li>アイテムの効果に合わせた用語解説を追加</li>
-							// 			<li>他のアイテム順次追加</li>
-							// 		</ul>
-							// 	</div>
-							// 	<h3 class="p-item-card-admin-note__heading">さらに追加したい機能</h3>
-							// 	<div class="l-section-small">
-							// 		<ul class="p-item-card-admin-note__list">
-							// 			<li>このアイテムをよく使うチャンピオンの提示</li>
-							// 			<li>パッチノートの履歴</li>
-							// 			<li>アイテムに対するコメント機能</li>
-							// 			<li>アイテム考察記事のリンクなど</li>
-							// 		</ul>
-							// 	</div>
-							// </div>
-							?>
 						</a>
 					</li>
 					<?php endif; ?>
@@ -263,7 +218,7 @@ get_header(); ?>
 		// TODO: 別ファイルから参照する.
 		$ROLES = ['Fighter', 'Marksman', 'Assassin', 'Mage', 'Tank', 'Support', 'All'];
 		foreach ($ROLES as $role) : ?>
-			<?php $image_path = get_image_path( '/icon-role/' ) . $role . '.svg'; ?>
+			<?php $image_path = get_image_path( '/icon-role/' ). $role .'.svg'; ?>
 			<li class="p-item-role-nav__item">
 				<?php // TODO: 初期選択はjs側で行う. ?>
 				<button class="button js-role-button <?php echo 'All' === $role ? 'is-choiced' : '' ?>" data-role="<?php echo esc_attr($role); ?>">
@@ -276,7 +231,45 @@ get_header(); ?>
 
 
 	<?php // #モーダル ?>
-	<div class="p-item-modal js-modal" tabindex="0">
+	<div class="p-item-modal" id="js-modal">
+		<div class="p-item-card" id="js-detail" tabindex="0">
+			<img class="p-item-card__icon" id="js-icon" src="<?php echo esc_attr(get_image_path('/common/dummy_icon.svg')); ?>" alt="" width="40" height="40">
+			<h2 class="p-item-card__name" id="js-name">name</h2>
+			<div class="p-item-card__gold" id="js-gold">gold</div>
+			<div class="p-item-card__close">
+				<button class="button c-button-regular js-modal-close">×</button>
+			</div>
+
+			<!-- 基本情報 =============== -->
+			<div class="p-item-card__stats" id="js-stats">aa</div>
+			<div class="p-item-card__sub" id="js-sub">aa</div>
+
+			<!-- パッシブ・アクティブ詳細 =============== -->
+			<div class="p-item-card__ability" id="js-ability"></div>
+			<div class="p-item-card__clickable">
+				詳細<div class="c-icon-clickable p-item-icon"></div>
+			</div>
+
+			<!-- 近接 / 遠隔切り替え =============== -->
+			<div class="p-item-card__toggle" id="js-toggle">
+				<div class="label">近接・遠隔で能力変更あり</div>
+				<label class="c-button-toggle">
+					<input type="checkbox" class="js-toggle-melee-ranged">
+					<span class="false-side">近接</span>
+					/ <span class="true-side">遠隔</span>
+					<div class="slider"></div>
+				</label>
+			</div>
+
+			<!-- フォーム -->
+			<div class="p-item-card__form p-item-card-admin-note" id="js-modal-form">
+				<h3 class="p-item-card-admin-note__heading">誤りの報告／問い合わせフォーム（仮）</h3>
+				<div class="l-section-small">
+					<?php
+					echo do_shortcode('[contact-form-7 id="dd3209b" title="総合コンタクト"]'); ?>
+				</div>
+			</div>
+		</div>
 	</div>
 </main>
 
