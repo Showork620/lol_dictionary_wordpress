@@ -102,7 +102,7 @@
 		align-items: center;
 		gap: 5px;
 		padding-inline: 5px;
-		font-size: 12px;
+		font-size: 13px;
 		color: var(--color-white-67);
 
 		.icon {
@@ -118,7 +118,7 @@
 		padding: 5px;
 
 		color: var(--color-white-67);
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 1.4;
 		height: auto;
 
@@ -141,7 +141,7 @@
 		// * plaintextを表示 *
 		font-style: italic;
 		color: var(--color-white-67);
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 1.4;
 		height: auto;
 
@@ -169,7 +169,7 @@
 
 		border: 1px solid var(--color-white-33);
 		padding: 5px;
-		font-size: 12px;
+		font-size: 13px;
 		line-height: 1.4;
 		color: var(--color-white-67);
 		display: none; // flex
@@ -287,7 +287,7 @@
 			}
 
 			melee {
-				font-size: 12px;
+				font-size: 13px;
 				transition: font-size 0.5s;
 				transform-origin: center left;
 			}
@@ -303,7 +303,7 @@
 			}
 
 			&.is-ranged ranged {
-				font-size: 12px;
+				font-size: 13px;
 			}
 	}
 
@@ -335,7 +335,7 @@
 			display: block;
 			color: var(--color-white-67);
 			font-style: italic;
-			font-size: 12px;
+			font-size: 13px;
 		}
 
 		input {
@@ -594,7 +594,7 @@
 	padding-top: 1.5lh;
 	padding-inline: 5px;
 	display: none;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 1.4;
 	color: var(--color-white-67);
 
