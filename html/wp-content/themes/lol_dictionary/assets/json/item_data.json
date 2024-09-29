@@ -2034,6 +2034,9 @@
             "<passive>ライフライン<\/passive> (0秒)<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3秒間<shield>200 + 現在マナの20%の耐久値を持つシールド<\/shield>を得る。"
         ],
         "actives": [],
+        "role": [
+            "Mage"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -2094,6 +2097,11 @@
             "<passive>ショック<\/passive><br>チャンピオンに対する通常攻撃が<physicalDamage>0の追加物理ダメージ<\/physicalDamage><OnHit>通常攻撃時効果<\/OnHit>を与える。<br>チャンピオンに対するダメージスキルは<physicalDamage>{{ Item_Melee_Ranged_Split }}の追加物理ダメージ<\/physicalDamage>を与える。"
         ],
         "actives": [],
+        "role": [
+            "Fighter",
+            "Marksman",
+            "Assassin"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -3592,6 +3600,9 @@
             "<passive>不朽<\/passive> (0秒)<br><keyword>敵チャンピオンに移動不能効果<\/keyword>または<keyword>スロウ効果<\/keyword>(近接のみ)を与えると、3秒間、<shield>シールド<\/shield>を獲得する。<br>周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が80%増加する。"
         ],
         "actives": [],
+        "role": [
+            "Tank"
+        ],
         "normal_item": true,
         "aram_item": true
     },

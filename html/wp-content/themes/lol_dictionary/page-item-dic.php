@@ -114,7 +114,7 @@ get_header(); ?>
 					$plaintext = esc_html( get_post_meta(get_the_ID(), 'plaintext', true) );
 
 					// リスト化するアイテムの設定 * * *
-					if(empty($into) && has_term('', 'role', get_the_ID())) :
+					if(has_term('', 'role', get_the_ID())) :
 						// タクソノミーのタームを取得
 						$roles = wp_get_post_terms(get_the_ID(), 'role', array('fields' => 'names'));
 						$roles_list = implode(',', $roles);
@@ -123,7 +123,7 @@ get_header(); ?>
 					?>
 
 					<li class="p-item-list__item js-item" data-role="<?php echo $roles_list; ?>" data-tag="<?php echo $tags_list; ?>">
-						<a href="#<?php echo $id ?>" id="<?php echo $id ?>" class="p-item-card js-item-button">
+						<a href="#detail?id=<?php echo $id ?>" id="<?php echo $id ?>" class="p-item-card js-item-button">
 							<?php
 							$image_path = esc_url( get_image_path('/items/'). $id .'.webp' );
 							?>
@@ -166,12 +166,20 @@ get_header(); ?>
 								<?php
 								// from画像							
 								$from = esc_html( get_post_meta(get_the_ID(), 'from', true) );
+								$specialRecipe = esc_html( get_post_meta(get_the_ID(), 'specialRecipe', true) );
 								$from_list = explode(', ', $from);	
-								if (!empty($from_list)) {
-									foreach ($from_list as $from) {
-										$image_path = get_image_path('/items/') . $from .'.webp';
-										echo '<img class="from" src="'. esc_attr($image_path) .'" alt="" width="30" height="30">';
+
+								foreach ($from_list as $from) {
+									if (empty($from)) {
+										continue;
 									}
+									$image_path = get_image_path('/items/') . $from .'.webp';
+									echo '<img class="from" src="'. esc_attr($image_path) .'" alt="" width="30" height="30">';
+								}
+
+								if (!empty($specialRecipe)) {
+									$image_path = get_image_path('/items/') . $specialRecipe .'.webp';
+									echo '<img class="from" src="'. esc_attr($image_path) .'" alt="" width="30" height="30">';
 								}
 								?>
 							</div>
@@ -231,7 +239,7 @@ get_header(); ?>
 
 
 	<?php // #モーダル ?>
-	<div class="p-item-modal" id="js-modal">
+	<div class="p-item-modal" id="js-modal" name="detail">
 		<div class="p-item-card" id="js-detail" tabindex="0">
 			<img class="p-item-card__icon" id="js-icon" src="<?php echo esc_attr(get_image_path('/common/dummy_icon.svg')); ?>" alt="" width="40" height="40">
 			<h2 class="p-item-card__name" id="js-name">name</h2>
