@@ -1917,8 +1917,8 @@
     },
     "3033": {
         "name": "モータル リマインダー",
-        "description": "<mainText><stats>攻撃力<attention>35<\/attention><br>物理防御貫通<attention>30%<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><passive>負傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
-        "colloq": ";Mortal Reminder;lgrievous;終焉;負傷;らすうぃす;ラスウィス;うぃすぱー;ウィスパー;しゅうえん;シュウエン;じゅうしょう;ジュウショウ;もーたるりまいんだー;モータル リマインダー;mo-tarurimainnda-;motarurimainda",
+        "description": "<mainText><stats>攻撃力<attention>35<\/attention><br>物理防御貫通<attention>30%<\/attention><br>クリティカル率<attention>25%<\/attention><\/stats><br><br><passive>重傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
+        "colloq": ";Mortal Reminder;lgrievous;終焉;重傷;らすうぃす;ラスウィス;うぃすぱー;ウィスパー;しゅうえん;シュウエン;じゅうしょう;ジュウショウ;もーたるりまいんだー;モータル リマインダー;mo-tarurimainnda-;motarurimainda",
         "plaintext": "体力回復と物理防御の高い敵を打倒する",
         "from": [
             "3123",
@@ -1940,7 +1940,7 @@
         "depth": 3,
         "id": 3033,
         "passives": [
-            "<passive>負傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
+            "<passive>重傷<\/passive><br>敵チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
         ],
         "actives": [],
         "role": [
@@ -2034,6 +2034,9 @@
             "<passive>ライフライン<\/passive> (0秒)<br>ダメージを受け、そのダメージにより体力が最大値の30%未満になる場合、3秒間<shield>200 + 現在マナの20%の耐久値を持つシールド<\/shield>を得る。"
         ],
         "actives": [],
+        "role": [
+            "Mage"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -2094,6 +2097,11 @@
             "<passive>ショック<\/passive><br>チャンピオンに対する通常攻撃が<physicalDamage>0の追加物理ダメージ<\/physicalDamage><OnHit>通常攻撃時効果<\/OnHit>を与える。<br>チャンピオンに対するダメージスキルは<physicalDamage>{{ Item_Melee_Ranged_Split }}の追加物理ダメージ<\/physicalDamage>を与える。"
         ],
         "actives": [],
+        "role": [
+            "Fighter",
+            "Marksman",
+            "Assassin"
+        ],
         "normal_item": true,
         "aram_item": true
     },
@@ -2659,7 +2667,8 @@
         "gold": 2450,
         "tags": [
             "体力",
-            "物理防御"
+            "物理防御",
+            "負傷"
         ],
         "stats": {
             "体力": "150",
@@ -2692,7 +2701,8 @@
         ],
         "gold": 800,
         "tags": [
-            "物理防御"
+            "物理防御",
+            "負傷"
         ],
         "stats": {
             "物理防御": "30"
@@ -3590,13 +3600,16 @@
             "<passive>不朽<\/passive> (0秒)<br><keyword>敵チャンピオンに移動不能効果<\/keyword>または<keyword>スロウ効果<\/keyword>(近接のみ)を与えると、3秒間、<shield>シールド<\/shield>を獲得する。<br>周囲に敵チャンピオンが複数いる場合は、このシールドの耐久値が80%増加する。"
         ],
         "actives": [],
+        "role": [
+            "Tank"
+        ],
         "normal_item": true,
         "aram_item": true
     },
     "3123": {
         "name": "エクスキューショナー コーリング",
-        "description": "<mainText><stats>攻撃力<attention>15<\/attention><\/stats><br><br><passive>負傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
-        "colloq": ";grievous;Executioner's Calling;負傷;じゅうしょう;ジュウショウ;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;ekusukyu-shona-ko-rinngu;ekusukyu-syona-ko-rinngu;ekusukyushonakoringu;juusyou;juushou",
+        "description": "<mainText><stats>攻撃力<attention>15<\/attention><\/stats><br><br><passive>重傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
+        "colloq": ";grievous;Executioner's Calling;重傷;じゅうしょう;ジュウショウ;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;えくすきゅーしょなー こーりんぐ;エクスキューショナー コーリング;ekusukyu-shona-ko-rinngu;ekusukyu-syona-ko-rinngu;ekusukyushonakoringu;juusyou;juushou",
         "plaintext": "体力回復効果の高い敵を打倒する",
         "from": [
             "1036"
@@ -3616,7 +3629,7 @@
         "depth": 2,
         "id": 3123,
         "passives": [
-            "<passive>負傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
+            "<passive>重傷<\/passive><br>チャンピオンに物理ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
         ],
         "actives": [],
         "normal_item": true,
@@ -4276,8 +4289,8 @@
     },
     "3165": {
         "name": "モレロノミコン",
-        "description": "<mainText><stats>魔力<attention>75<\/attention><br>体力<attention>350<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>負傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
-        "colloq": ";Morellonomicon;負傷;じゅうしょう;ジュウショウ;もれろのみこん;モレロノミコン;moreronomikonn",
+        "description": "<mainText><stats>魔力<attention>75<\/attention><br>体力<attention>350<\/attention><br>スキルヘイスト<attention>15<\/attention><\/stats><br><br><passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
+        "colloq": ";Morellonomicon;重傷;じゅうしょう;ジュウショウ;もれろのみこん;モレロノミコン;moreronomikonn",
         "plaintext": "敵の回復を阻害する",
         "from": [
             "3916",
@@ -4299,7 +4312,7 @@
         "depth": 3,
         "id": 3165,
         "passives": [
-            "<passive>負傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
+            "<passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
         ],
         "actives": [],
         "role": [
@@ -5193,7 +5206,7 @@
     },
     "3916": {
         "name": "忘却のオーブ",
-        "description": "<mainText><stats>魔力<attention>25<\/attention><\/stats><br><br><passive>負傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
+        "description": "<mainText><stats>魔力<attention>25<\/attention><\/stats><br><br><passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。<\/mainText>",
         "colloq": "",
         "plaintext": "魔法ダメージが上昇",
         "stacks": 0,
@@ -5215,7 +5228,7 @@
         "depth": 2,
         "id": 3916,
         "passives": [
-            "<passive>負傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
+            "<passive>重傷<\/passive><br>チャンピオンに魔法ダメージを与えると、3秒間<keyword>40%の「負傷」<\/keyword>を付与する。"
         ],
         "actives": [],
         "normal_item": true,
@@ -5235,8 +5248,7 @@
             "魔力",
             "マナ回復効果",
             "スキルヘイスト",
-            "体力割合ダメージ",
-            "移動速度"
+            "体力割合ダメージ"
         ],
         "stats": {
             "魔力": "60",
@@ -5668,7 +5680,8 @@
         "tags": [
             "体力",
             "攻撃力",
-            "スキルヘイスト"
+            "スキルヘイスト",
+            "負傷"
         ],
         "stats": {
             "体力": "450",
@@ -5740,8 +5753,7 @@
             "スキルヘイスト",
             "シールド",
             "回復効果&シールド量",
-            "魔力",
-            "移動速度"
+            "魔力"
         ],
         "stats": {
             "魔力": "35",
