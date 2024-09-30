@@ -71,19 +71,19 @@ get_header(); ?>
 		';
 		?>
 		<div class="p-item-tags-select">
-			<label class="p-item-tags-select__label" for="tags">絞り込み１：</label>
+			<span class="p-item-tags-select__label" for="tags">絞り込み１：</span>
 			<select class="p-item-tags-select__dropdown js-tag-dropdown1" id="tags1">
 				<?php echo $item_tags_option_html; ?>
 			</select>
 		</div>
 		<div class="p-item-tags-select">
-			<label class="p-item-tags-select__label" for="tags">絞り込み２：</label>
+			<span class="p-item-tags-select__label" for="tags">絞り込み２：</span>
 			<select class="p-item-tags-select__dropdown js-tag-dropdown2" id="tags2">
 				<?php echo $item_tags_option_html; ?>
 			</select>
 		</div>
 		<div class="p-item-tags-select">
-			<label class="p-item-tags-select__label" for="tags">特殊条件：</label>
+			<span class="p-item-tags-select__label" for="tags">特殊条件：</span>
 			<select class="p-item-tags-select__dropdown js-tag-dropdown3" id="tags3">
 				<?php echo $item_tags_option_html_2; ?>
 			</select>
