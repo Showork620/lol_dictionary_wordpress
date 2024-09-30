@@ -17,7 +17,7 @@ get_header(); ?>
 			<span>軽い</span><span>LoL</span><span>辞典</span><span>(仮)</span>
 		</h1>
 		<div class="l-header__version">
-			<p>アイテム辞典 v.0.1.0</p>
+			<p>アイテム辞典 v.0.2.0</p>
 			<p>Patch 14.19 準拠</p>
 		</div>
 		<div class="l-header__description">
