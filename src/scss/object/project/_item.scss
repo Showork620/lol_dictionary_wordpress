@@ -305,6 +305,16 @@
 			&.is-ranged ranged {
 				font-size: 13px;
 			}
+
+			em[data-destination] {
+				cursor: pointer;
+				text-decoration: underline;
+				color: rgb(from var(--color-gold) r g b / 0.8);
+
+				&:hover {
+					color: var(--color-gold);
+				}
+			}
 	}
 
 	&__clickable {

@@ -91,25 +91,33 @@ function modalClick(modal) {
 	document.body.style.overflow = '';
 }
 
-modal.addEventListener('click', function() {
-	modalClick(this);
-
-	// bodyにスクロールを許可
-	document.body.style.overflow = '';
-});
-
 modalCloseButtons.forEach((modalCloseButton) => {
 	modalCloseButton.addEventListener('click', function() {
 		modalClick(modal);
 
 		// 最後にクリックしたカードにフォーカスを戻す
-		lastClickedCard.focus();
+		if (lastClickedCard) {
+			lastClickedCard.focus();
+		}
 	});
 });
 
-// クリックイベントのバブリングを停止
-modalInner.addEventListener('click', function(event) {
-	event.stopPropagation();
+// 詳細テキスト内のアイテムリンク
+const itemAnchor = document.querySelectorAll('em[data-destination]');
+itemAnchor.forEach((anchor) => {
+	console.log(anchor);
+	anchor.addEventListener('click', function(event) {
+		event.stopPropagation();
+		console.log('click');
+
+		const itemId = this.dataset.destination;
+		const item = document.getElementById(itemId);
+		if (item) {
+			displayDetail(item);
+		} else {
+			console.error('指定されたIDのアイテムが見つかりませません');
+		}
+	});
 });
 
 // 近接・遠隔の制御
