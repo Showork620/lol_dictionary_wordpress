@@ -306,8 +306,8 @@
 				font-size: 13px;
 			}
 
-			em[data-destination] {
-				cursor: pointer;
+			a {
+				font-style: italic;
 				text-decoration: underline;
 				color: rgb(from var(--color-gold) r g b / 0.8);
 

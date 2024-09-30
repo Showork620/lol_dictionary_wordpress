@@ -18,7 +18,8 @@ function displayDetail(item) {
 		const gold = item.querySelector('.js-gold').innerText;
 		const statsHtml = item.querySelector('.js-stats').innerHTML;
 		const subHtml = item.querySelector('.js-sub').innerHTML;
-		const abilityHtml = item.querySelector('.js-ability').innerHTML;
+		const abilityHtml = item.querySelector('.js-ability').dataset.html;
+		console.log(abilityHtml);
 		// abilityHTML に <ranged> と <melee> が含まれているか
 		const hasToggle = abilityHtml.includes('<ranged>') || abilityHtml.includes('<melee>');
 
@@ -98,24 +99,6 @@ modalCloseButtons.forEach((modalCloseButton) => {
 		// 最後にクリックしたカードにフォーカスを戻す
 		if (lastClickedCard) {
 			lastClickedCard.focus();
-		}
-	});
-});
-
-// 詳細テキスト内のアイテムリンク
-const itemAnchor = document.querySelectorAll('em[data-destination]');
-itemAnchor.forEach((anchor) => {
-	console.log(anchor);
-	anchor.addEventListener('click', function(event) {
-		event.stopPropagation();
-		console.log('click');
-
-		const itemId = this.dataset.destination;
-		const item = document.getElementById(itemId);
-		if (item) {
-			displayDetail(item);
-		} else {
-			console.error('指定されたIDのアイテムが見つかりませません');
 		}
 	});
 });

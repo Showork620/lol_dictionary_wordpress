@@ -187,27 +187,30 @@ get_header(); ?>
 								詳細
 								<div class="c-icon-clickable p-item-icon"></div>
 							</div>
-							<div class="p-item-card__ability js-ability">
-								<?php
+							<?php
 								// パッシブを表示
 								$passives = get_post_meta(get_the_ID(), 'passives', true);
 								$passives_list = explode(',', $passives);
 								$actives = get_post_meta(get_the_ID(), 'actives', true);
 								$actives_list = explode(',', $actives);
+								
+								// パッシブとアクティブのhtmlを生成
+								$ability_html = '';
 								foreach ($passives_list as $passive) {
 									if (empty($passive)) {
 										continue;
 									}
-									echo '<p class="separate">'. $passive .'</p>';
+									$ability_html .= '<p class=&quot;separate&quot;>'. $passive .'</p>';
 								}
 								// アクティブを表示
 								foreach ($actives_list as $active) {
 									if (empty($active)) {
 										continue;
 									}
-									echo '<p class="separate">'. $active .'</p>';
+									$ability_html .= '<p class=&quot;separate&quot;>'. $active .'</p>';
 								}
-								?>
+							?>
+							<div class="p-item-card__ability js-ability" data-html="<?php echo $ability_html; ?>">
 							</div>
 						</a>
 					</li>
