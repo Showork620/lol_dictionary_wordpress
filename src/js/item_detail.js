@@ -11,18 +11,14 @@ const modalForm = document.querySelector('#js-modal-form');
 const modalInner = document.querySelector('#js-detail');
 let lastClickedCard;
 
-itemButton.forEach((button) => {
-	button.addEventListener('click', function(event) {
-		
+function displayDetail(item) {
 		// アイテム変数の初期化
-		lastClickedCard = this; // 最後にクリックしたカードを保存
-		const isToggleButton = event.target.closest('.c-button-toggle');
-		const iconPath = this.querySelector('.js-icon').getAttribute('src');
-		const name = this.querySelector('.js-name').innerText;
-		const gold = this.querySelector('.js-gold').innerText;
-		const statsHtml = this.querySelector('.js-stats').innerHTML;
-		const subHtml = this.querySelector('.js-sub').innerHTML;
-		const abilityHtml = this.querySelector('.js-ability').innerHTML;
+		const iconPath = item.querySelector('.js-icon').getAttribute('src');
+		const name = item.querySelector('.js-name').innerText;
+		const gold = item.querySelector('.js-gold').innerText;
+		const statsHtml = item.querySelector('.js-stats').innerHTML;
+		const subHtml = item.querySelector('.js-sub').innerHTML;
+		const abilityHtml = item.querySelector('.js-ability').innerHTML;
 		// abilityHTML に <ranged> と <melee> が含まれているか
 		const hasToggle = abilityHtml.includes('<ranged>') || abilityHtml.includes('<melee>');
 
@@ -44,42 +40,77 @@ itemButton.forEach((button) => {
 
 		// bodyにスクロールを禁止
 		document.body.style.overflow = 'hidden';
+}
+
+// ページ読み込み時
+window.addEventListener('DOMContentLoaded', function() {
+	// URLのクエリパラメータがあれば
+	const url = new URL(window.location.href);
+	const itemId = url.searchParams.get('item');
+	if (itemId) {
+		// アイテム一覧の中から該当するアイテムを取得
+		const item = document.getElementById(itemId);
+		if (item) {
+			displayDetail(item);
+		} else {
+			console.error('指定されたIDのアイテムが見つかりません');
+		}
+	}
+});
+
+// アイテム一覧からのクリックイベント
+itemButton.forEach((button) => {
+	button.addEventListener('click', function(event) {
+		
+		event.preventDefault(); // デフォルトのイベントをキャンセル
+		lastClickedCard = this; // 最後にクリックしたカードを保存
+
+		// urlにクエリパラメータを追加（アイテム毎のURL共有のため）
+		const itemId = this.id;
+		const url = new URL(window.location.href);
+		url.searchParams.set('item', itemId);
+		window.history.pushState({}, '', url);
+
+		displayDetail(this);
 		modalInner.focus();
 	});
 });
 
-modal.addEventListener('click', function() {
-	this.classList.remove('is-active');
+function modalClick(modal) {
+	modal.classList.remove('is-active');
 	itemButton.forEach((button) => {
 		button.classList.remove('is-active');
 	});
 
+	// urlのクエリパラメータを削除
+	const url = new URL(window.location.href);
+	url.searchParams.delete('item');
+	window.history.pushState({}, '', url);
+
 	// bodyにスクロールを許可
 	document.body.style.overflow = '';
+}
+
+modal.addEventListener('click', function() {
+	modalClick(this);
+
+	// bodyにスクロールを許可
+	document.body.style.overflow = '';
+});
+
+modalCloseButtons.forEach((modalCloseButton) => {
+	modalCloseButton.addEventListener('click', function() {
+		modalClick(modal);
+
+		// 最後にクリックしたカードにフォーカスを戻す
+		lastClickedCard.focus();
+	});
 });
 
 // クリックイベントのバブリングを停止
 modalInner.addEventListener('click', function(event) {
 	event.stopPropagation();
 });
-
-modalCloseButtons.forEach((modalCloseButton) => {
-	modalCloseButton.addEventListener('click', function() {
-
-		modal.classList.remove('is-active');
-		itemButton.forEach((button) => {
-			button.classList.remove('is-active');
-		});
-
-		// bodyにスクロールを許可
-		document.body.style.overflow = '';
-
-		// 最後にクリックしたカードにフォーカスを戻す
-		lastClickedCard.focus();
-		console.log('close button');
-	});
-});
-
 
 // 近接・遠隔の制御
 const meleeRangeToggleButtons = document.querySelectorAll('.js-toggle-melee-ranged');

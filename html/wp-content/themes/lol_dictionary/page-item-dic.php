@@ -123,7 +123,7 @@ get_header(); ?>
 					?>
 
 					<li class="p-item-list__item js-item" data-role="<?php echo $roles_list; ?>" data-tag="<?php echo $tags_list; ?>">
-						<a href="#detail?id=<?php echo $id ?>" id="<?php echo $id ?>" class="p-item-card js-item-button">
+						<a href="#default" id="<?php echo $id ?>" class="p-item-card js-item-button">
 							<?php
 							$image_path = esc_url( get_image_path('/items/'). $id .'.webp' );
 							?>
