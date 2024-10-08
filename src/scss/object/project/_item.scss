@@ -7,585 +7,594 @@
 @use "../../global/variables" as var;
 
 .p-item-list {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 5px;
-    margin-inline: auto;
-    width: 100%;
-    padding-block: 15px;
+	position: relative;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5px;
+	margin-inline: auto;
+	width: 100%;
+	padding-block: 15px;
 
-    @include mixin.md {
-        grid-template-columns: repeat(1, 1fr);
-    }
+	@include mixin.md {
+		grid-template-columns: repeat(1, 1fr);
+	}
 
-    &__item {
-        display: none;
+	&__item {
+		display: none;
 
-        &.is-show {
-            display: block;
-        }
-    }
+		&.is-show {
+			display: block;
+		}
+	}
 }
 
 .p-item-card {
-    width: 100%;
-    height: 100%;
-    max-height: 360px;
-    display: grid;
-    grid-template-columns: 40px 1fr 40px 5em 0;
-    grid-template-rows: 40px 1fr;
-    gap: 1px;
-    border: 1px solid var(--color-gold);
-    border-radius: 3px;
-    padding: 2px;
-    font-size: 14px;
-    background-color: var(--color-navy);
-    transition: all 0.3s;
-		caret-color: transparent;
+	width: 100%;
+	height: 100%;
+	max-height: 360px;
+	display: grid;
+	grid-template-columns: 40px 1fr 40px 5em 0;
+	grid-template-rows: 40px 1fr 20px;
+	gap: 1px;
+	border: 1px solid var(--color-gold);
+	border-radius: 3px;
+	padding: 2px;
+	font-size: 14px;
+	background-color: var(--color-navy);
+	transition: all 0.3s;
+	caret-color: transparent;
 
-    @mixin hoverOrActive {
-        background-color: var(--color-dull-navy);
-        filter: drop-shadow(0 0 5px var(--color-gold));
+	@mixin hoverOrActive {
+		background-color: var(--color-dull-navy);
+		filter: drop-shadow(0 0 5px var(--color-gold));
 
-        .p-item-card__clickable {
-            opacity: 1;
-        }
-    }
+		.p-item-card__clickable {
+			opacity: 1;
+		}
+	}
 
-    @media (hover: hover) {
-        &:hover {
-            @include hoverOrActive;
-        }
-    }
+	@media (hover: hover) {
+		&:hover {
+			@include hoverOrActive;
+		}
+	}
 
-    @media (hover: none) {
-        &:active {
-            @include hoverOrActive;
-        }
-    }
+	@media (hover: none) {
+		&:active {
+			@include hoverOrActive;
+		}
+	}
 
-    &__icon {
-        grid-row: 1 / 2;
-        grid-column: 1 / 2;
-        border: 1px solid var(--color-white-33);
-        display: block;
-        width: 100%;
-        height: auto;
-    }
+	&__icon {
+		grid-row: 1 / 2;
+		grid-column: 1 / 2;
+		border: 1px solid var(--color-white-33);
+		display: block;
+		width: 100%;
+		height: auto;
+	}
 
-    &__name {
-        grid-row: 1 / 2;
-        grid-column: 2 / 4;
-        height: 100%;
+	&__name {
+		grid-row: 1 / 2;
+		grid-column: 2 / 4;
+		height: 100%;
+		letter-spacing: -0.1em;
+		border: 1px solid var(--color-white-33);
+		display: flex;
+		align-items: center;
+		padding-inline: 5px;
+	}
 
-        letter-spacing: -0.1em;
-        border: 1px solid var(--color-white-33);
-        display: flex;
-        align-items: center;
-        padding-inline: 5px;
-    }
+	&__gold {
+		grid-row: 1 / 2;
+		grid-column: 4 / 5;
+		height: 100%;
+		border: 1px solid var(--color-white-33);
+		display: grid;
+		place-items: center;
+	}
 
-    &__gold {
-        grid-row: 1 / 2;
-        grid-column: 4 / 5;
-        height: 100%;
+	&__close {
+		grid-row: 1 / 2;
+		grid-column: 5 / 6;
+		display: none;
+		justify-content: end;
+		align-items: center;
+		gap: 5px;
+		padding-inline: 5px;
+		font-size: 13px;
+		color: var(--color-white-67);
 
-        border: 1px solid var(--color-white-33);
-        display: grid;
-        place-items: center;
-    }
+		.icon {
+			width: 20px;
+			height: auto;
+		}
+	}
 
-    &__close {
-        grid-row: 1 / 2;
-        grid-column: 5 / 6;
-        display: none;
-        justify-content: end;
-        align-items: center;
-        gap: 5px;
-        padding-inline: 5px;
-        font-size: 12px;
-        color: var(--color-white-67);
+	&__stats {
+		grid-row: 2 / 3;
+		grid-column: 1 / 3;
+		border: 1px solid var(--color-white-33);
+		padding: 5px;
 
-        .icon {
-            width: 20px;
-            height: auto;
-        }
-    }
+		color: var(--color-white-67);
+		font-size: 13px;
+		line-height: 1.4;
+		height: auto;
 
-    &__content {
-        grid-row: 2 / 3;
-        grid-column: 1 / 3;
-        height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
 
-        border: 1px solid var(--color-white-33);
-        padding: 5px;
-        font-size: 12px;
-        line-height: 1.4;
-        color: var(--color-white-67);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+		strong {
+			font-weight: 500;
+			color: var(--color-white);
+		}
+	}
 
-        strong {
-            font-weight: 500;
-            color: var(--color-white);
-        }
-    }
+	&__sub {
+		grid-row: 2 / 3;
+		grid-column: 3 / 6;
+		border: 1px solid var(--color-white-33);
+		padding: 5px;
 
-    &__sub {
-        grid-row: 2 / 3;
-        grid-column: 3 / 6;
-        height: 100%;
+		// * plaintextを表示 *
+		font-style: italic;
+		color: var(--color-white-67);
+		font-size: 13px;
+		line-height: 1.4;
+		height: auto;
 
-        border: 1px solid var(--color-white-33);
-        padding: 5px;
+		// * 素材アイテムのサムネイルを表示 *
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		gap: 5px;
 
-        // * plaintextを表示 *
-        font-style: italic;
-        color: var(--color-white-67);
-        font-size: 12px;
-        line-height: 1.2;
+		.plaintext {
+			display: block;
+		}
 
-        // * 素材アイテムのサムネイルを表示 *
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 5px;
+		.from {
+			opacity: 0.67;
+			display: none;
+		}
+	}
 
-        .plaintext {
-            display: block;
-        }
+	&__ability {
+		grid-row: 3 / 4;
+		grid-column: 1 / 6;
+		height: auto;
 
-        .from {
-            opacity: 0.67;
-            display: none;
-        }
-    }
+		border: 1px solid var(--color-white-33);
+		padding: 5px;
+		font-size: 13px;
+		line-height: 1.4;
+		color: var(--color-white-67);
+		display: none; // flex
+		flex-direction: column;
+		justify-content: center;
 
-    &__ability {
-        grid-row: 3 / 4;
-        grid-column: 1 / 6;
-        height: 100%;
-
-        border: 1px solid var(--color-white-33);
-        padding: 5px;
-        font-size: 12px;
-        line-height: 1.4;
-        color: var(--color-white-67);
-        display: none; // flex
-        flex-direction: column;
-        justify-content: center;
-
-        strong {
-            font-weight: 500;
-            color: var(--color-white);
-        }
-
-        .separate {
-            padding-block: 0.5lh;
-
-            &:not(:first-child) {
-                border-top: 1px dashed var(--color-white-33);
-            }
-        }
-
-        // デフォルト表示の上書き
-        br {
-            display: none;
-        }
-
-        // デフォルト表示の上書き
-        passive,
-        active {
-            display: inline-block;
-            font-style: italic;
-            color: var(--color-white);
-
-            &:first-child {
-                display: block;
-                margin-bottom: 0.25lh;
-            }
-        }
-
-        passive:first-child::after {
-            content: "【自動効果】";
-            color: var(--color-white-67);
-        }
-
-        active:first-child::after {
-            content: "【発動効果】";
-            color: var(--color-white-67);
-        }
-
-        ad {
-            color: var(--color-ad);
-        }
-
-        ap {
-            color: var(--color-ap);
-        }
-
-        ar {
-            color: var(--color-ar);
-        }
-
-        mr {
-            color: var(--color-mr);
-        }
-
-        arpen {
-            color: var(--color-arpen);
-        }
-
-        mrpen {
-            color: var(--color-mrpen);
-        }
-
-        as {
-            color: var(--color-as);
-        }
-
-        ms {
-            color: var(--color-ms);
-        }
-
-        hp {
-            color: var(--color-hp);
-        }
-
-        mn {
-            color: var(--color-mn);
-        }
-
-        heal {
-            color: var(--color-heal);
-        }
-
-        keyword {
-            color: var(--color-keyword);
-        }
-
-        bs {
-            color: var(--color-bs);
-        }
-
-        tm {
-            color: var(--color-tm);
-        }
-
-        note {
-            display: block;
-            margin-top: 0.25lh;
-        }
-
-        gold {
-            color: var(--color-gold);
-        }
-
-        ls {
-            color: var(--color-ls);
-        }
-
-        melee {
-            font-size: 12px;
-            transition: font-size 0.5s;
-            transform-origin: center left;
-        }
-
-        ranged {
-            font-size: 0;
-            transition: font-size 0.5s;
-            transform-origin: center right;
-        }
-
-        &.is-ranged melee {
-            font-size: 0px;
-        }
-
-        &.is-ranged ranged {
-            font-size: 12px;
-        }
-    }
-
-    &__clickable {
-        grid-column: 1 / 6;
-        height: 20px;
-        padding-right: 11px;
-        display: flex; // none
-        gap: 5px;
-        justify-content: end;
-        align-items: center;
-        color: var(--color-gold);
-        font-size: 11px;
-        margin-right: 3px;
-        opacity: 0.75;
-    }
-
-    &__toggle {
-        grid-row: 5 / 6;
-        grid-column: 1 / 6;
-        border: 1px solid var(--color-white-33);
-        padding: 5px;
-        display: none; //flex
-        justify-content: end;
-        align-items: center;
-        gap: 5px;
-
-        .label {
-            display: block;
-            color: var(--color-white-67);
-            font-style: italic;
-            font-size: 12px;
-        }
-
-        input {
-            display: none;
-        }
-    }
-
-		&__form {
-			grid-row: 7 / 8;
-			grid-column: 1 / 6;
-			caret-color: var(--color-gold-67);
-
-			form {
-				display: flex;
-				flex-direction: column;
-				row-gap: 0.5lh;
-				font-size: 13px;
+			strong {
+				font-weight: 500;
 				color: var(--color-white);
-				line-height: 1.75;
 			}
 
-			input[type="text"],
-			textarea {
-				width: 90%;
-				max-width: 90%;
-				min-width: 330px;
-				user-select: text;
+			.separate {
+				padding-block: 0.5lh;
+
+				&:not(:first-child) {
+					border-top: 1px dashed var(--color-white-33);
+				}
+			}
+
+			// デフォルト表示の上書き
+			br {
+				display: none;
+			}
+
+			// デフォルト表示の上書き
+			passive,
+			active {
+				display: inline-block;
+				font-style: italic;
+				color: var(--color-white);
+
+				&:first-child {
+					display: block;
+					margin-bottom: 0.25lh;
+				}
+			}
+
+			passive:first-child::after {
+				content: "【自動効果】";
 				color: var(--color-white-67);
-				line-height: 1.5;
-				min-height: 1.5lh;
-				max-height: 4lh;
+			}
+
+			active:first-child::after {
+				content: "【発動効果】";
+				color: var(--color-white-67);
+			}
+
+			ad {
+				color: var(--color-ad);
+			}
+
+			ap {
+				color: var(--color-ap);
+			}
+
+			ar {
+				color: var(--color-ar);
+			}
+
+			mr {
+				color: var(--color-mr);
+			}
+
+			arpen {
+				color: var(--color-arpen);
+			}
+
+			mrpen {
+				color: var(--color-mrpen);
+			}
+
+			as {
+				color: var(--color-as);
+			}
+
+			ms {
+				color: var(--color-ms);
+			}
+
+			hp {
+				color: var(--color-hp);
+			}
+
+			mn {
+				color: var(--color-mn);
+			}
+
+			heal {
+				color: var(--color-heal);
+			}
+
+			keyword {
+				color: var(--color-keyword);
+			}
+
+			bs {
+				color: var(--color-bs);
+			}
+
+			tm {
+				color: var(--color-tm);
+			}
+
+			note {
+				display: block;
+				margin-top: 0.25lh;
+			}
+
+			gold {
+				color: var(--color-gold);
+			}
+
+			ls {
+				color: var(--color-ls);
+			}
+
+			melee {
+				font-size: 13px;
+				transition: font-size 0.5s;
+				transform-origin: center left;
+			}
+
+			ranged {
+				font-size: 0;
+				transition: font-size 0.5s;
+				transform-origin: center right;
+			}
+
+			&.is-ranged melee {
+				font-size: 0px;
+			}
+
+			&.is-ranged ranged {
+				font-size: 13px;
+			}
+
+			a {
+				font-style: italic;
+				text-decoration: underline;
+				color: rgb(from var(--color-gold) r g b / 0.8);
+
+				&:hover {
+					color: var(--color-gold);
+				}
+			}
+	}
+
+	&__clickable {
+		grid-column: 1 / 6;
+		height: 20px;
+		padding-right: 11px;
+		display: flex; // none
+		gap: 5px;
+		justify-content: end;
+		align-items: center;
+		color: var(--color-gold);
+		font-size: 11px;
+		margin-right: 3px;
+		opacity: 0.75;
+	}
+
+	&__toggle {
+		grid-row: 5 / 6;
+		grid-column: 1 / 6;
+		border: 1px solid var(--color-white-33);
+		padding: 5px;
+		display: none; //flex
+		justify-content: end;
+		align-items: center;
+		gap: 5px;
+
+		.label {
+			display: block;
+			color: var(--color-white-67);
+			font-style: italic;
+			font-size: 13px;
+		}
+
+		input {
+			display: none;
+		}
+	}
+
+	&__form {
+		grid-row: 7 / 8;
+		grid-column: 1 / 6;
+		caret-color: var(--color-gold-67);
+
+		form {
+			display: flex;
+			flex-direction: column;
+			row-gap: 0.5lh;
+			font-size: 13px;
+			color: var(--color-white);
+			line-height: 1.75;
+		}
+
+		input[type="text"],
+		textarea {
+			width: 90%;
+			max-width: 90%;
+			min-width: 330px;
+			user-select: text;
+			color: var(--color-white-67);
+			line-height: 1.5;
+			min-height: 1.5lh;
+			max-height: 4lh;
+		}
+	}
+
+	&__future {
+		grid-row: 6 / 7;
+		grid-column: 1 / 6;
+	}
+
+	// * デティールモード *
+	.is-active & {
+		width: 96vw;
+		max-width: calc(640px - 4vw);
+		margin-inline: auto;
+		margin-top: 2vw;
+		padding-inline: 1vw;
+		padding-bottom: 3lh;
+
+		grid-template-columns: 40px auto auto auto 40px;
+		grid-template-rows: 40px 1fr;
+		height: auto;
+		max-height: calc(100vh - 4vw);
+		cursor: default;
+		user-select: text;
+		overflow-y: auto;
+		border: none;
+
+		&:hover {
+				background-color: var(--color-navy);
+				filter: none;
+		}
+
+		&__close {
+			display: grid;
+			place-content: center;
+			z-index: 5000;
+			position: sticky;
+			top: 0;
+
+			.button {
+				display: grid;
+				width: 40px;
+				height: 40px;
+				color: var(--color-gold);
+				font-size: 24px;
+				cursor: pointer;
+			}
+		}
+		
+		&__ability {
+			display: flex;
+		}
+
+		&__stats {
+			grid-column: 1 / 4;
+		}
+
+		&__sub {
+			grid-column: 4 / 6;
+
+			.plaintext {
+				display: none;
+			}
+
+			.from {
+				opacity: 0.67;
+				display: block;
 			}
 		}
 
-		&__future {
-			grid-row: 6 / 7;
-			grid-column: 1 / 6;
+		&__clickable {
+			display: none;
 		}
 
-    // * デティールモード *
-    &.is-detail-mode {
-        position: fixed;
-        z-index: 5000;
-        transform: translateX(-50%);
-        top: 2vw;
-        left: 50%;
-        width: 96vw;
-        max-width: calc(640px - 4vw);
-        margin-inline: auto;
-        grid-template-columns: 40px auto auto auto 40px;
-        height: auto;
-				max-height: calc(100vh - 4vw);
-        cursor: default;
-        user-select: text;
-        overflow-y: auto;
-				border: none;
-				padding-bottom: 3lh;
+		&__toggle {
+			display: none;
 
-        &:hover {
-            background-color: var(--color-navy);
-            filter: none;
-        }
+			&.is-show {
+				display: flex;
+			}
+		}
 
-        .p-item-card {
+		&__form, &__future {
+			display: block;
+		}
 
-					&__close {
-						display: grid;
-						place-content: center;
-						z-index: 5000;
-						position: sticky;
-						top: 0;
-
-						.button {
-							display: grid;
-							width: 40px;
-							height: 40px;
-							color: var(--color-gold);
-							font-size: 24px;
-							cursor: pointer;
-						}
-					}
-					
-					&__ability {
-						display: flex;
-					}
-
-					&__content {
-						grid-column: 1 / 4;
-					}
-
-					&__sub {
-						grid-column: 4 / 6;
-
-						.plaintext {
-							display: none;
-						}
-
-						.from {
-							opacity: 0.67;
-							display: block;
-						}
-					}
-
-					&__clickable {
-						display: none;
-					}
-
-					&__toggle {
-						display: flex;
-					}
-
-					&__form, &__future {
-						display: block;
-					}
-        }
-    }
+	}
 }
 
 .p-item-search-header {
-    background-color: var(--color-navy);
-    display: flex;
-    gap: 7px;
-    flex-direction: column;
-    position: sticky;
-    z-index: 1000;
-    top: 0;
-    padding-block: 10px;
+	background-color: var(--color-navy);
+	display: flex;
+	gap: 7px;
+	flex-direction: column;
+	position: sticky;
+	z-index: 1000;
+	top: 0;
+	padding-block: 10px;
 }
 
 .p-item-search-footer {
-    background-color: var(--color-navy);
-    display: flex;
-    gap: 10px;
-    flex-direction: column;
-    position: sticky;
-    z-index: 1000;
-    bottom: 0;
-		padding-block: 0;
+	background-color: var(--color-navy);
+	display: flex;
+	gap: 10px;
+	flex-direction: column;
+	position: sticky;
+	z-index: 1000;
+	bottom: 0;
+	padding-block: 0;
 }
 
 .p-item-tags-select {
-    position: relative;
-    display: grid;
-    grid-template-columns: 6em 1fr;
-    align-items: center;
-    
-    &::after {
-        // プルダウンの三角形を作成
-        content: "";
-        display: block;
-        width: 0.65em;
-        height: 0.65em;
-        border-right: 2px solid var(--color-gold);
-        border-bottom: 2px solid var(--color-gold);
-        position: absolute;
-        right: 8px;
-        top: 40%;
-        transform: translateY(-50%) rotate(45deg);
-    }
+	position: relative;
+	display: grid;
+	grid-template-columns: 6em 1fr;
+	align-items: center;
+	
+	&::after {
+			// プルダウンの三角形を作成
+			content: "";
+			display: block;
+			width: 0.65em;
+			height: 0.65em;
+			border-right: 2px solid var(--color-gold);
+			border-bottom: 2px solid var(--color-gold);
+			position: absolute;
+			right: 8px;
+			top: 40%;
+			transform: translateY(-50%) rotate(45deg);
+	}
 
-    &__label {
-        font-size: 14px;
-        color: var(--color-white);
-    }
+	&__label {
+			font-size: 14px;
+			color: var(--color-white);
+	}
 
-    &__dropdown {
-        width: 100%;
-        padding-block: 3px;
-        padding-inline: 6px;
-        border: 1px solid var(--color-gold);
-        border-radius: 3px;
-        background-color: var(--color-dull-navy);
-        color: var(--color-white);
-        font-size: 13px;
-    }
+	&__dropdown {
+		width: 100%;
+		padding-block: 3px;
+		padding-inline: 6px;
+		border: 1px solid var(--color-gold);
+		border-radius: 3px;
+		background-color: var(--color-dull-navy);
+		color: var(--color-white);
+		font-size: 13px;
+	}
 }
 
 .p-item-role-nav {
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    justify-content: space-around;
-    gap: 3px;
-    margin-top: 10px;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	justify-content: space-around;
+	gap: 3px;
+	margin-top: 10px;
 
-    &__item {
-        width: 80%;
-        margin-inline: auto;
-        --bottom-line-height: 4px;
-        padding-bottom: calc(var(--bottom-line-height) + 5px);
+	&__item {
+		width: 80%;
+		margin-inline: auto;
+		--bottom-line-height: 4px;
+		padding-bottom: calc(var(--bottom-line-height) + 5px);
 
-        .button {
-            width: 100%;
-            display: grid;
-            place-items: center;
-            padding-block: 5px 10px;
-            opacity: 0.5;
-            transition: all 0.3s;
-						border: none;
-						background-color: transparent;
+		.button {
+			width: 100%;
+			display: grid;
+			place-items: center;
+			padding-block: 5px 10px;
+			opacity: 0.5;
+			transition: all 0.3s;
+			border: none;
+			background-color: transparent;
 
-            &.is-choiced {
-                border-bottom: var(--bottom-line-height) solid var(--color-gold);
-                opacity: 1;
-            }
-        }
-        .icon {
-            width: 24px;
-            height: auto;
-        }
-    }
+			&.is-choiced {
+				border-bottom: var(--bottom-line-height) solid var(--color-gold);
+				opacity: 1;
+			}
+		}
+		.icon {
+			width: 24px;
+			height: auto;
+		}
+	}
 }
 
 .p-item-notfound {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    font-size: 16px;
-    color: var(--color-white-67);
-    padding-block: 20px;
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	font-size: 16px;
+	color: var(--color-white-67);
+	padding-block: 20px;
 
-    &.is-show {
-        display: flex;
-    }
+	&.is-show {
+		display: flex;
+	}
 }
 
 .p-item-modal {
-    position: fixed;
-    z-index: 2000;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(from var(--color-navy) r g b / 0.9);
-    pointer-events: none; // クリックを貫通させる
-    opacity: 0;
-    transition: all 0.3s;
+	position: fixed;
+	z-index: 2000;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgb(from var(--color-navy) r g b / 0.9);
+	pointer-events: none; // クリックを貫通させる
+	opacity: 0;
+	transition: all 0.3s;
 
-    &.is-detail-mode {
-        display: flex;
-        opacity: 1;
-        pointer-events: all; // クリックを貫通させない
-    }
+	&.is-active {
+		display: flex;
+		opacity: 1;
+		pointer-events: all; // クリックを貫通させない
+	}
 }
 
 .p-item-icon {
-    margin-bottom: 1px;
-    opacity: 0.6;
-    transition: all 0.3s;
+	margin-bottom: 1px;
+	opacity: 0.6;
+	transition: all 0.3s;
 }
 
 .p-item-card-admin-note {
@@ -595,7 +604,7 @@
 	padding-top: 1.5lh;
 	padding-inline: 5px;
 	display: none;
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 1.4;
 	color: var(--color-white-67);
 
