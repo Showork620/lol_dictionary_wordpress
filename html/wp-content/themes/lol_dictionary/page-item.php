@@ -18,7 +18,7 @@ get_header(); ?>
 		</h1>
 		<div class="l-header__version">
 			<p>アイテム辞典 v.0.2.0</p>
-			<p>Patch 14.19 準拠</p>
+			<p>Patch 14.20 準拠</p>
 		</div>
 		<div class="l-header__description">
 			<p>現在レジェンダリーアイテムのみ掲載しています。</p>
