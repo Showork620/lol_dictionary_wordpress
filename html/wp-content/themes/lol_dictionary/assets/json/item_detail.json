@@ -336,7 +336,7 @@
     },
     "3032": {
         "passives": [
-            "<passive>鋸刃<\/passive><keyword>クリティカル<\/keyword>時に<keyword>「出血」</keyword>を付与し、<tm>2秒<\/tm>かけて<bs>60<\/bs>の<ad>追加物理ダメージ<\/ad>を与える。"
+            "<passive>訓練を積めば脅威となる<\/passive><keyword>通常攻撃時効果</keyword>が働くたび、<keyword>クリティカル率</keyword>が<bs>0.2%</bs>恒久的に増加する。<bs>最大25%</bs>まで。","<passive>疾風</passive>敵チャンピオンに通常攻撃を行うと、<tm>4秒間</tm>、<as>ASが30%</as>増加する。<note>CD: <tm>40秒</tm>（通常攻撃ごとに<tm>1秒</tm>、クリティカルなら<tm>2秒</tm>短縮）</note>"
         ],
         "actives": []
     },
@@ -528,8 +528,8 @@
     },
     "3087": {
         "passives": [
-            "<passive>電気スパーク<\/passive>チャンピオン以外のユニットをキルすると連鎖する電撃を放ち、最大6対の敵ユニットに<bs>120<\/bs>の<ap>魔法ダメージ<\/ap>を与える。<note>CD: <tm>3秒<\/tm><\/note>",
-            "<passive>電気ショック<\/passive>チャンピオンからキルまたはアシストを奪うと連鎖する電撃を放ち、敵ユニットに<bs>270<\/bs>の<ap>魔法ダメージ<\/ap>を与える。"
+            "<passive>電気スパーク<\/passive><tm>8秒</tm>以内の最初に与える3回の<keyword>通常攻撃時効果</keyword>で、連鎖する電撃を放ち、範囲内にいる通常攻撃対象を含む最大5体の敵ユニットに<bs>60</bs>の<ap>魔法ダメージ</ap>を与える。このダメージはミニオン/モンスターに対しては<bs>85</bs>に増加する。<note>CD: <tm>25-10秒</tm>[レベル（7-12）比例]</note>",
+            "<passive>電気ショック<\/passive>チャンピオンからキルまたはアシストを奪うと<keyword>「電気スパーク」</keyword>のクールダウンをリセットする。"
         ],
         "actives": []
     },
@@ -1201,7 +1201,7 @@
     },
     "6701": {
         "passives": [
-            "<passive>戦闘準備<\/passive>チャンピオンとの非戦闘状態が<tm>8秒<\/tm>間続くと、<arpen>脅威<\/arpen>が増加する。この<arpen>脅威<\/arpen>はチャンピオンにダメージを与えてから<tm>3秒<\/tm>間持続する。<note>増加脅威: <bs><melee>10<\/melee><ranged>6<\/ranged><\/bs><\/note>",
+            "<passive>戦闘準備<\/passive>チャンピオンとの非戦闘状態が<tm>8秒<\/tm>間続くと、<arpen>脅威<\/arpen>が増加する。この<arpen>脅威<\/arpen>はチャンピオンにダメージを与えてから<tm>3秒<\/tm>間持続する。<note>増加脅威: <bs><melee>11<\/melee><ranged>7<\/ranged><\/bs><\/note>",
             "<passive>採集<\/passive>ダメージを与えた敵チャンピオンが<tm>3秒<\/tm>以内にデスすると、<ms>200の増加MS<\/ms>を得る。この<ms>増加MS<\/ms>は<tm>1.5秒<\/tm>かけて減少する。"
         ],
         "actives": []
