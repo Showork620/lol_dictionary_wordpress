@@ -727,7 +727,7 @@
     },
     "3153": {
         "passives": [
-            "<passive>ミストエッジ<\/passive><keyword>通常攻撃時効果<\/keyword>として<hp><melee>10%<\/melee><ranged>6%<\/ranged>[対象の現在HP]<\/hp>にあたる<ad>物理ダメージ<\/ad>を追加で与える。",
+            "<passive>ミストエッジ<\/passive><keyword>通常攻撃時効果<\/keyword>として<hp><melee>8%<\/melee><ranged>5%<\/ranged>[対象の現在HP]<\/hp>にあたる<ad>物理ダメージ<\/ad>を追加で与える。",
             "<passive>引き裂く影<\/passive>チャンピオンに3回<keyword>通常攻撃効果<\/keyword>を加えると、対象に<bs>30%<\/bs>／<tm>1秒<\/tm>の<keyword>スロウ効果<\/keyword>を与える。<note>CD: 15秒<\/note>"
         ],
         "actives": []
